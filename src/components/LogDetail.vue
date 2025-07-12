@@ -1,6 +1,6 @@
 <!-- src/components/LogDetail.vue -->
 <template>
-  <div class="log-detail">
+  <div class="log-detail" v-if="log">
     <!-- メタ情報 -->
     <div class="meta">
       <span>ブロック: {{ log.block || '-' }}</span>
@@ -26,6 +26,8 @@
               <th>重量(kg)</th>
               <th>回数</th>
               <th>RPE</th>
+              <th>1RM</th>
+              <th>e1RM</th>
               <th>コメント</th>
             </tr>
           </thead>
@@ -34,6 +36,8 @@
               <td>{{ set.weight }}</td>
               <td>{{ set.reps }}</td>
               <td>{{ set.rpe }}</td>
+              <td>{{ set['1RM'] ?? '-' }}</td>
+              <td>{{ set.e1RM ?? '-' }}</td>
               <td class="comment">{{ set.comment }}</td>
             </tr>
           </tbody>
@@ -54,72 +58,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.log-detail {
-  padding: 1rem;
-  background: #fafafa;
-  border-radius: 8px;
-  margin-bottom: 1rem;
-}
-
-/* メタ情報 */
-.meta {
-  font-size: 0.9rem;
-  color: #555;
-  margin-bottom: 0.5rem;
-}
-.meta span + span {
-  margin-left: 1rem;
-}
-
-/* ノート */
-.notes {
-  font-style: italic;
-  margin-bottom: 1rem;
-}
-
-/* セッションタイトル */
-.session {
-  margin-bottom: 1.5rem;
-}
-.session-title {
-  font-size: 1.1rem;
-  margin-bottom: 0.5rem;
-}
-
-/* テーブルのラッパーで横スクロール許可 */
-.table-wrapper {
-  overflow-x: auto;
-}
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-th,
-td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: center;
-}
-th {
-  background: #f4f4f4;
-  font-weight: 600;
-}
-.comment {
-  text-align: left;
-  white-space: pre-wrap;
-}
-
-/* モバイル時の文字サイズ調整 */
-@media (max-width: 600px) {
-  th,
-  td {
-    padding: 6px;
-    font-size: 0.85rem;
-  }
-  .session-title {
-    font-size: 1rem;
-  }
-}
-</style>
