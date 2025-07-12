@@ -14,8 +14,8 @@ function computeSdE1RM(w, r, rpe) {
   return w * (r + 10 - rpe) / 33.3 + w;
 }
 
-function round2(n) {
-  return Math.round(n * 100) / 100;
+function floorInt(n) {
+  return Math.floor(n);
 }
 
 const payload = process.env.JSON_PAYLOAD;
@@ -61,11 +61,11 @@ for (const session of data.sessions || []) {
     const r = set.reps;
     const rpe = set.rpe;
     if (type.includes('ベンチ')) {
-      set['1RM'] = round2(computeBench1RM(w, r));
-      set.e1RM = round2(computeBenchE1RM(w, r, rpe));
+      set['1RM'] = floorInt(computeBench1RM(w, r));
+      set.e1RM = floorInt(computeBenchE1RM(w, r, rpe));
     } else {
-      set['1RM'] = round2(computeSd1RM(w, r));
-      set.e1RM = round2(computeSdE1RM(w, r, rpe));
+      set['1RM'] = floorInt(computeSd1RM(w, r));
+      set.e1RM = floorInt(computeSdE1RM(w, r, rpe));
     }
   }
 }
