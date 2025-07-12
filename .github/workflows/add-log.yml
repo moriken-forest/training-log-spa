@@ -10,7 +10,7 @@ on:
 
 jobs:
   add-log:
-    if: contains(github.event.issue.labels.*.name, 'training-log')
+    if: "contains(github.event.issue.labels.*.name, 'training-log')"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
