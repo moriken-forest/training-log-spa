@@ -1,5 +1,6 @@
 name: "Training Log"
 description: "Register a daily training log in JSON format"
+title: "Training Log"
 labels: ["training-log"]
 body:
   - type: textarea
