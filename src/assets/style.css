@@ -434,3 +434,7 @@ main {
   color: var(--primary-dark);
   font-weight: 600;
 }
+
+#register-section .copy-btn {
+  margin-bottom: 8px;
+}
