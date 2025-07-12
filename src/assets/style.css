@@ -130,7 +130,8 @@ main {
   transition: transform 0.1s, box-shadow 0.2s;
 }
 .day-cell.disabled {
-  color: var(--border, #e5e7eb);
+  /* 色が薄すぎるため、やや濃いめの --muted を使用 */
+  color: var(--muted);
   background: var(--bg);
   cursor: default;
   box-shadow: none;
