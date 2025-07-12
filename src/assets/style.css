@@ -178,7 +178,7 @@ main {
 .meta span {
   display: inline-block;
   background: var(--primary-light);
-  color: var(--primary-dark);
+  color: var(--text);
   font-size: 0.875rem;
   font-weight: 600;
   padding: 4px 8px;
