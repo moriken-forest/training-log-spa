@@ -63,6 +63,10 @@ nav a {
 nav a:hover {
   color: #fff;
 }
+nav .material-icons {
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
 
 /* メインコンテナ */
 main {
@@ -167,16 +171,17 @@ main {
   margin-bottom: var(--spacing);
 }
 .meta {
-  font-weight: 500;
-  color: var(--muted);
+  font-weight: 600;
+  color: var(--text);
   margin-bottom: var(--spacing);
 }
 .meta span {
   display: inline-block;
   background: var(--primary-light);
   color: var(--primary-dark);
-  font-size: 0.75rem;
-  padding: 2px 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 4px 8px;
   border-radius: var(--radius);
   margin-right: 6px;
 }
