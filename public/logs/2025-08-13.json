@@ -1,0 +1,113 @@
+{
+  "date": "2025-08-13",
+  "block": "Acc",
+  "week": 1,
+  "day": 3,
+  "notes": "ブロック1 Week1 Day3のトレーニング",
+  "sessions": [
+    {
+      "type": "スクワット（サブ）",
+      "lift": "SSBボトムアップスクワット",
+      "sets": [
+        {
+          "weight": 60,
+          "reps": 4,
+          "rpe": 5,
+          "comment": "ちょっと狭めのスタンス、ボトムから一気に出る練習として有効そう",
+          "1RM": 67,
+          "e1RM": 76
+        },
+        {
+          "weight": 70,
+          "reps": 4,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 78,
+          "e1RM": 88
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（メイン）",
+      "lift": "フルデッドリフト",
+      "sets": [
+        {
+          "weight": 160,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "コントロールよくあげられた",
+          "1RM": 174,
+          "e1RM": 193
+        },
+        {
+          "weight": 160,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 174,
+          "e1RM": 193
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（サブ）",
+      "lift": "ワイドスタンスデッドリフト",
+      "sets": [
+        {
+          "weight": 100,
+          "reps": 6,
+          "rpe": 6,
+          "comment": "外旋と内転意識を丁寧にできた",
+          "1RM": 118,
+          "e1RM": 130
+        },
+        {
+          "weight": 100,
+          "reps": 6,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 118,
+          "e1RM": 130
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "インクラインダンベルシールロウ",
+      "sets": [
+        {
+          "weight": 20,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 20,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 24,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 24,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
