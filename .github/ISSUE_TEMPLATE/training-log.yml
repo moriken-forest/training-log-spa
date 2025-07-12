@@ -4,6 +4,7 @@ title: "Training Log"
 labels: ["training-log"]
 body:
   - type: textarea
+    id: log
     attributes:
       label: "Training Log JSON"
       description: "Paste the day's training log in JSON format"
