@@ -1,11 +1,13 @@
 <!-- src/components/LogDetail.vue -->
 <template>
   <div class="log-detail" v-if="log">
-    <!-- メタ情報 -->
-    <div class="meta">
-      <span>ブロック: {{ log.block || '-' }}</span>
-      <span>Week: {{ log.week || '-' }}</span>
-      <span>Day: {{ log.day || '-' }}</span>
+    <div class="log-title">
+      <h2>{{ log.date }}</h2>
+      <div class="meta">
+        <span>ブロック: {{ log.block || '-' }}</span>
+        <span>Week: {{ log.week || '-' }}</span>
+        <span>Day: {{ log.day || '-' }}</span>
+      </div>
     </div>
     <p v-if="log.notes" class="notes">{{ log.notes }}</p>
 
