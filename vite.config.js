@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  base: './',
+  base: '/training-log-spa/',
   test: {
     globals: true,
     environment: 'jsdom'
