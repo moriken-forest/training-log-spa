@@ -5,7 +5,7 @@
       <h2>{{ log.date }}</h2>
       <div class="meta">
         <span>ブロック: {{ log.block || '-' }}</span>
-        <span>Week-Day: {{ log.week != null && log.day != null ? `${log.week}-${log.day}` : '-' }}</span>
+        <span>{{ log.week != null && log.day != null ? `Week${log.week}-${log.day}` : '-' }}</span>
       </div>
     </div>
     <p v-if="log.notes" class="notes">{{ log.notes }}</p>
