@@ -5,7 +5,9 @@
         <nav>
           <router-link to="/calendar"><span class="material-icons">calendar_month</span></router-link>
           <router-link to="/list"><span class="material-icons">list</span></router-link>
-          <router-link to="/register"><span class="material-icons">note_add</span></router-link>
+          <a
+            href="https://github.com/moriken-forest/training-log-spa/issues/new?template=training-log.yml"
+          ><span class="material-icons">note_add</span></a>
         </nav>
     </header>
     <main>
