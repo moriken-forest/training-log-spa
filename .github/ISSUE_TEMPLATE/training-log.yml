@@ -1,0 +1,10 @@
+name: "Training Log"
+description: "Register a daily training log in JSON format"
+labels: ["training-log"]
+body:
+  - type: textarea
+    attributes:
+      label: "Training Log JSON"
+      description: "Paste the day's training log in JSON format"
+    validations:
+      required: true

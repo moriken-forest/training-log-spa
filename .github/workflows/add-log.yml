@@ -1,0 +1,28 @@
+name: Add or Update Training Log
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  add-log:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - name: Update log files
+        env:
+          JSON_PAYLOAD: ${{ github.event.issue.body }}
+        run: node scripts/updateLog.js
+      - name: Commit changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          if ! git diff --quiet; then
+            git add public/logs
+            git commit -m "Update training log" && git push
+          fi
