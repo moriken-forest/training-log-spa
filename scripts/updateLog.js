@@ -23,9 +23,24 @@ if (!payload) {
   console.error('JSON_PAYLOAD env var is required');
   process.exit(1);
 }
+
+let jsonString = payload.trim();
+if (!jsonString.startsWith('{')) {
+  // try to extract JSON block from issue body
+  // remove common code fences
+  jsonString = jsonString.replace(/```(?:json)?/gi, '').replace(/```/g, '');
+  const match = jsonString.match(/\{[\s\S]*\}/);
+  if (match) {
+    jsonString = match[0];
+  } else {
+    console.error('Invalid JSON payload');
+    process.exit(1);
+  }
+}
+
 let data;
 try {
-  data = JSON.parse(payload);
+  data = JSON.parse(jsonString);
 } catch (e) {
   console.error('Invalid JSON payload');
   throw e;
