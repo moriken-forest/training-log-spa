@@ -1,0 +1,109 @@
+{
+  "date": "2025-08-12",
+  "block": "Acc",
+  "week": 1,
+  "day": 2,
+  "notes": "ブロック1開始前の慣らし練習",
+  "sessions": [
+    {
+      "lift": "ブロックベンチプレス",
+      "sets": [
+        {
+          "weight": 92.5,
+          "reps": 3,
+          "rpe": 4,
+          "comment": "ブロックの厚さは3インチ。ちょうど良かった",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 102.5,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "可動域が短くて高重量に適している感触",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 122.5,
+          "reps": 3,
+          "rpe": 6.5,
+          "comment": "この重さでもまあいける。高重量向き",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "lift": "ポーズスクワット",
+      "sets": [
+        {
+          "weight": 90,
+          "reps": 4,
+          "rpe": 5,
+          "comment": "しっかり止めて、一番力が入る位置を探して押す",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 90,
+          "reps": 4,
+          "rpe": 5,
+          "comment": "きつかったが丁寧にやれた",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "lift": "フロントスクワット",
+      "sets": [
+        {
+          "weight": 90,
+          "reps": 6,
+          "rpe": 5,
+          "comment": "丁寧に、足の力で上げることを意識して実施",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 90,
+          "reps": 6,
+          "rpe": 5,
+          "comment": "軽くやれた、整った",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "lift": "ポーズデッドリフト",
+      "sets": [
+        {
+          "weight": 90,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "とにかく足の力で上げる意識。丁寧に仕上げた",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 90,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "とにかく足の力で上げる意識。丁寧に仕上げた",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 90,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "とにかく足の力で上げる意識。丁寧に仕上げた",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
