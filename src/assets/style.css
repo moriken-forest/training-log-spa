@@ -185,6 +185,15 @@ main {
   margin-bottom: 0.5rem;
   color: var(--text);
 }
+.type-tag {
+  display: inline-block;
+  background: var(--primary-light);
+  color: var(--primary-dark);
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: var(--radius);
+  margin-left: 6px;
+}
 .session .table-wrapper {
   overflow-x: auto;
   margin-bottom: var(--spacing);

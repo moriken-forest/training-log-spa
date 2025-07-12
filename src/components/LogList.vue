@@ -13,7 +13,11 @@
       </div>
       <div class="details">
         <div v-for="session in log.sessions" :key="session.lift" class="session">
-          <h2>{{ session.lift }}<span v-if="session.variation"> ({{ session.variation }})</span></h2>
+          <h2>
+            {{ session.lift }}
+            <span v-if="session.variation"> ({{ session.variation }})</span>
+            <span v-if="session.type" class="type-tag">{{ session.type }}</span>
+          </h2>
           <div class="table-wrapper">
             <table>
               <tr>
