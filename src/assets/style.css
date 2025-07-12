@@ -372,6 +372,25 @@ main {
   color: var(--primary-dark);
 }
 
+#register-section .prompt-note {
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+#register-section details {
+  margin-bottom: var(--spacing);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 8px;
+  background: var(--bg);
+}
+
+#register-section details summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
 #register-section textarea {
   width: 100%;
   padding: var(--spacing);
