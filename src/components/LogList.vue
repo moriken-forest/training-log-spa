@@ -12,6 +12,10 @@
         <span class="note">{{ log.notes || '' }}</span>
       </div>
       <div class="details">
+        <div class="meta" v-if="log.block != null || (log.week != null && log.day != null)">
+          <span v-if="log.block != null">ブロック: {{ log.block }}</span>
+          <span v-if="log.week != null && log.day != null">Week{{ log.week }}-{{ log.day }}</span>
+        </div>
         <div v-for="session in log.sessions" :key="session.lift" class="session">
           <h2>
             {{ session.lift }}
