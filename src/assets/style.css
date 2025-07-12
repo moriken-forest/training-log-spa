@@ -171,6 +171,18 @@ main {
   color: var(--muted);
   margin-bottom: var(--spacing);
 }
+.meta span {
+  display: inline-block;
+  background: var(--primary-light);
+  color: var(--primary-dark);
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: var(--radius);
+  margin-right: 6px;
+}
+.meta span:last-child {
+  margin-right: 0;
+}
 .notes {
   font-style: italic;
   margin-bottom: var(--spacing);
