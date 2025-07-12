@@ -20,10 +20,11 @@ export default {
     return { logs: [], pageSize: 10 }
   },
     created() {
-      fetch('/logs/index.json')
+      const base = import.meta.env.BASE_URL
+      fetch(`${base}logs/index.json`)
         .then(r => r.json())
         .then(dates =>
-            Promise.all(dates.map(d => fetch(`/logs/${d}.json`).then(r => r.json())))
+            Promise.all(dates.map(d => fetch(`${base}logs/${d}.json`).then(r => r.json())))
         )
         .then(arr => this.logs = arr)
   }
