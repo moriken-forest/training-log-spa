@@ -1,8 +1,12 @@
 <template>
   <section id="register-section">
     <h2>トレーニングログ登録</h2>
-    <textarea v-model="jsonInput" rows="15" style="width:100%" placeholder="JSONを貼り付け"></textarea>
-    <div>
+    <textarea
+      v-model="jsonInput"
+      rows="15"
+      placeholder="JSONを貼り付け"
+    ></textarea>
+    <div class="actions">
       <button @click="register">登録</button>
       <span class="message">{{ message }}</span>
     </div>
