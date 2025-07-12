@@ -18,6 +18,7 @@
       <h3 class="session-title">
         {{ session.lift }}
         <small v-if="session.variation">({{ session.variation }})</small>
+        <span v-if="session.type" class="type-tag">{{ session.type }}</span>
       </h3>
       <div class="table-wrapper">
         <table>
