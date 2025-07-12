@@ -5,8 +5,8 @@
       <h2>{{ log.date }}</h2>
       <button class="delete-btn" @click="confirmDelete">削除</button>
       <div class="meta">
-        <span>ブロック: {{ log.block || '-' }}</span>
-        <span>{{ log.week != null && log.day != null ? `Week${log.week}-${log.day}` : '-' }}</span>
+        <span v-if="log.block != null">ブロック: {{ log.block }}</span>
+        <span v-if="log.week != null && log.day != null">Week{{ log.week }}-{{ log.day }}</span>
       </div>
     </div>
     <p v-if="log.notes" class="notes">{{ log.notes }}</p>
