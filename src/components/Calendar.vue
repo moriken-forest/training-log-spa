@@ -10,7 +10,7 @@
     <!-- カレンダー本体 -->
     <div id="calendar">
       <!-- 曜日ヘッダー -->
-      <div v-for="w in weekdays" :key="w" class="day-cell" style="font-weight:600; color:var(--muted);">
+      <div v-for="w in weekdays" :key="w" class="weekday">
         {{ w }}
       </div>
       <!-- 空セル -->

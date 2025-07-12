@@ -1,7 +1,10 @@
 <template>
-  <section>
+  <section id="calendar-section">
     <Calendar :available-dates="dates" @select-date="fetchLog" />
-    <LogDetail :log="selectedLog" />
+    <section id="logContainer">
+      <p v-if="!selectedLog">カレンダーの日付をクリックして、詳細を表示してください。</p>
+      <LogDetail v-else :log="selectedLog" />
+    </section>
   </section>
 </template>
 
