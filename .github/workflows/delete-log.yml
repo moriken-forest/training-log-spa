@@ -1,4 +1,4 @@
-name: Add or Update Training Log
+name: Delete Training Log
 
 permissions:
   contents: write
@@ -9,8 +9,8 @@ on:
     types: [opened, edited]
 
 jobs:
-  add-log:
-    if: contains(github.event.issue.labels.*.name, 'training-log')
+  delete-log:
+    if: contains(github.event.issue.labels.*.name, 'delete-log')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -19,17 +19,17 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '16'
-      - name: Update log files
+      - name: Delete log files
         env:
           JSON_PAYLOAD: ${{ github.event.issue.body }}
-        run: node scripts/updateLog.js
+        run: node scripts/deleteLog.js
       - name: Commit changes
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           if ! git diff --quiet; then
             git add public/logs
-            git commit -m "Update training log" && git push
+            git commit -m "Delete training log" && git push
           fi
       - name: Close issue
         uses: actions/github-script@v6

@@ -4,3 +4,7 @@ This repository manages daily training logs using GitHub Issues. To add or updat
 
 Computed `1RM` and `e1RM` values are rounded down to the nearest whole number when the log is processed.
 
+To delete an existing log, open an issue with the `Delete Training Log` template
+and supply a JSON object such as `{ "date": "YYYY-MM-DD" }`. The workflow will
+remove the corresponding file from `public/logs/` and update `index.json`.
+
