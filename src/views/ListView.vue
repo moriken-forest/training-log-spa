@@ -20,10 +20,10 @@ export default {
     return { logs: [], pageSize: 10 }
   },
     created() {
-      fetch('/index.json')
+      fetch('./index.json')
         .then(r => r.json())
         .then(dates =>
-          Promise.all(dates.map(d => fetch(`/${d}.json`).then(r => r.json())))
+            Promise.all(dates.map(d => fetch(`./${d}.json`).then(r => r.json())))
         )
         .then(arr => this.logs = arr)
   }
