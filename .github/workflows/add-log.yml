@@ -3,6 +3,7 @@ name: Add or Update Training Log
 permissions:
   contents: write
   issues: write
+  workflow: write
 
 on:
   issues:
