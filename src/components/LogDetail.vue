@@ -46,7 +46,6 @@
         </table>
       </div>
     </div>
-    <button class="delete-btn" @click="confirmDelete">削除</button>
   </div>
 </template>
 
