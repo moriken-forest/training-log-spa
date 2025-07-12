@@ -391,6 +391,12 @@ main {
   font-weight: 600;
 }
 
+#register-section pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-x: auto;
+}
+
 #register-section textarea {
   width: 100%;
   padding: var(--spacing);
