@@ -23,12 +23,14 @@ jobs:
         env:
           JSON_PAYLOAD: ${{ github.event.issue.body }}
         run: node scripts/updateLog.js
+      - name: Update delete-log template
+        run: node scripts/generateDeleteTemplate.js
       - name: Commit changes
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           if ! git diff --quiet; then
-            git add public/logs
+            git add public/logs .github/ISSUE_TEMPLATE/delete-log.yml
             git commit -m "Update training log" && git push
           fi
       - name: Close issue

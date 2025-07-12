@@ -3,9 +3,15 @@ description: "Remove an existing training log by date"
 title: "Delete Training Log"
 labels: ["delete-log"]
 body:
-  - type: textarea
+  - type: dropdown
+    id: dates
     attributes:
-      label: "Deletion JSON"
-      description: "Provide a JSON object like `{ \"date\": \"YYYY-MM-DD\" }` or `{ \"dates\": [\"2025-01-01\"] }`"
+      label: "Select log dates to delete"
+      description: "Choose one or more dates"
+      multiple: true
+      options:
+        - 2025-07-12
+        - 2025-08-12
+        - 2025-09-29
     validations:
       required: true

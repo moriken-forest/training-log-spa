@@ -7,37 +7,41 @@ if (!payload) {
   process.exit(1);
 }
 
+let dates = [];
+
 let jsonString = payload.trim();
-if (!jsonString.startsWith('{')) {
+if (!jsonString.startsWith('{') && !jsonString.startsWith('[')) {
   jsonString = jsonString.replace(/```(?:json)?/gi, '').replace(/```/g, '');
   const match = jsonString.match(/\{[\s\S]*\}/);
   if (match) {
     jsonString = match[0];
-  } else {
-    console.error('Invalid JSON payload');
-    process.exit(1);
   }
 }
 
-let data;
-try {
-  data = JSON.parse(jsonString);
-} catch (e) {
-  console.error('Invalid JSON payload');
-  throw e;
-}
-
-let dates = [];
-if (Array.isArray(data)) {
-  dates = data;
-} else if (Array.isArray(data.dates)) {
-  dates = data.dates;
-} else if (data.date) {
-  dates = [data.date];
+if (jsonString.startsWith('{') || jsonString.startsWith('[')) {
+  try {
+    const data = JSON.parse(jsonString);
+    if (Array.isArray(data)) {
+      dates = data;
+    } else if (Array.isArray(data.dates)) {
+      dates = data.dates;
+    } else if (data.date) {
+      dates = [data.date];
+    }
+  } catch (e) {
+    // fallback to pattern extraction below
+  }
 }
 
 if (!dates.length) {
-  console.error('date or dates field is required');
+  const matches = payload.match(/\d{4}-\d{2}-\d{2}/g);
+  if (matches) {
+    dates = Array.from(new Set(matches));
+  }
+}
+
+if (!dates.length) {
+  console.error('No valid dates found in issue body');
   process.exit(1);
 }
 
