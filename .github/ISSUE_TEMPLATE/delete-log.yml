@@ -12,5 +12,6 @@ body:
       options:
         - 2025-07-12
         - 2025-08-13
+        - 2025-08-15
     validations:
       required: true
