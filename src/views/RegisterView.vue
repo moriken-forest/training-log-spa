@@ -4,7 +4,8 @@
     <p class="prompt-note">ChatGPTに下記プロンプトを入力してJSONを生成できます。</p>
     <details>
       <summary>プロンプトを表示</summary>
-      <pre>
+      <button class="copy-btn" @click="copyPrompt">コピー</button>
+      <pre ref="promptText">
 あなたはパワーリフティング競技者のトレーニング記録を支援するAIコーチです。
 
 以下のルールに従って、トレーニングログをJSON形式で正確に出力してください。  
@@ -140,6 +141,11 @@ export default {
       saveLog(obj)
       this.jsonInput = ''
       this.message = '登録しました'
+    },
+    copyPrompt() {
+      const text = this.$refs.promptText.textContent
+      navigator.clipboard.writeText(text)
+      this.message = 'プロンプトをコピーしました'
     }
   }
 }
