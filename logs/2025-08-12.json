@@ -6,6 +6,7 @@
   "notes": "ブロック1開始前の慣らし練習",
   "sessions": [
     {
+      "type": "ベンチ（サブ）",
       "lift": "ブロックベンチプレス",
       "sets": [
         {
@@ -35,6 +36,7 @@
       ]
     },
     {
+      "type": "スクワット（サブ）",
       "lift": "ポーズスクワット",
       "sets": [
         {
@@ -56,6 +58,7 @@
       ]
     },
     {
+      "type": "スクワット（サブ）",
       "lift": "フロントスクワット",
       "sets": [
         {
@@ -77,6 +80,7 @@
       ]
     },
     {
+      "type": "デッドリフト（サブ）",
       "lift": "ポーズデッドリフト",
       "sets": [
         {
@@ -100,6 +104,44 @@
           "reps": 3,
           "rpe": 5,
           "comment": "とにかく足の力で上げる意識。丁寧に仕上げた",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "インクラインダンベルシールロウ",
+      "sets": [
+        {
+          "weight": 20,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 20,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 24,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 24,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
           "1RM": null,
           "e1RM": null
         }
