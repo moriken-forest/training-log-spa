@@ -2,7 +2,7 @@ name: Add or Update Training Log
 
 permissions:
   contents: write
-  issues: read
+  issues: write
 
 on:
   issues:
@@ -30,3 +30,14 @@ jobs:
             git add public/logs
             git commit -m "Update training log" && git push
           fi
+      - name: Close issue
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed'
+            });
