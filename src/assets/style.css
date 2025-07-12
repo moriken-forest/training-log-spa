@@ -2,15 +2,16 @@
 
 /* カラーパレットと共通変数 */
 :root {
-  --primary: #3b82f6;
-  --primary-dark: #2563eb;
-  --bg: #f3f4f6;
+  --primary: #6366f1;       /* indigo */
+  --primary-dark: #4f46e5;
+  --primary-light: #a5b4fc;
+  --bg: #f9fafb;
   --card-bg: #ffffff;
-  --text: #1f2937;
-  --muted: #6b7280;
+  --text: #374151;
+  --muted: #9ca3af;
   --border: #e5e7eb;
-  --shadow: rgba(0,0,0,0.1);
-  --radius: 8px;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --radius: 12px;
   --spacing: 16px;
 }
 
@@ -27,11 +28,13 @@ body {
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
+  min-height: 100vh;
 }
 
 /* ヘッダー */
 header {
-  background: var(--card-bg);
+  background: linear-gradient(90deg, var(--primary), var(--primary-dark));
+  color: #fff;
   box-shadow: 0 2px 4px var(--shadow);
   position: sticky;
   top: 0;
@@ -48,17 +51,17 @@ header {
 .logo {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--primary);
+  color: #fff;
 }
 nav a {
   margin-left: var(--spacing);
   text-decoration: none;
   font-weight: 500;
-  color: var(--muted);
+  color: rgba(255, 255, 255, 0.8);
   transition: color 0.2s;
 }
 nav a:hover {
-  color: var(--text);
+  color: #fff;
 }
 
 /* メインコンテナ */
@@ -130,17 +133,19 @@ main {
 }
 .day-cell.has-log {
   border-color: var(--primary);
-  background: rgba(59, 130, 246, 0.15);
+  background: var(--primary-light);
+  color: var(--primary-dark);
 }
 .day-cell:hover:not(.disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 4px 6px var(--shadow);
+  box-shadow: 0 4px 8px var(--shadow);
 }
 .day-cell.selected {
   background: var(--primary);
   color: #fff;
   font-weight: 600;
   border-color: var(--primary-dark);
+  box-shadow: 0 4px 8px var(--shadow);
 }
 
 /* ログ詳細コンテナ */
@@ -258,8 +263,13 @@ main {
 .log-card {
   background: var(--card-bg);
   border-radius: var(--radius);
-  box-shadow: 0 1px 3px var(--shadow);
+  box-shadow: 0 2px 6px var(--shadow);
   overflow: hidden;
+  transition: transform 0.1s, box-shadow 0.2s;
+}
+.log-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px var(--shadow);
 }
 .summary {
   display: flex;
