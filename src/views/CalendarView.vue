@@ -18,13 +18,15 @@ export default {
     return { dates: [], selectedLog: null }
   },
     created() {
-      fetch('/logs/index.json')
+      const base = import.meta.env.BASE_URL
+      fetch(`${base}logs/index.json`)
         .then(r => r.json())
         .then(d => { this.dates = d })
   },
   methods: {
     fetchLog(date) {
-      fetch(`/logs/${date}.json`)
+      const base = import.meta.env.BASE_URL
+      fetch(`${base}logs/${date}.json`)
         .then(r => r.json())
         .then(j => this.selectedLog = j)
     }
