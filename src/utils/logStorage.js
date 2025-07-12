@@ -28,6 +28,12 @@ export function saveLog(log) {
   localStorage.setItem(`log:${log.date}`, JSON.stringify(log));
 }
 
+export function deleteLog(date) {
+  const dates = getStoredDates().filter(d => d !== date);
+  localStorage.setItem(INDEX_KEY, JSON.stringify(dates));
+  localStorage.removeItem(`log:${date}`);
+}
+
 function bench1RM(w, r) {
   return w * r / 40 + w;
 }

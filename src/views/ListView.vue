@@ -7,20 +7,20 @@
         </select> 件
       </label>
     </div>
-    <LogList :logs="logs" :page-size="pageSize" />
+    <LogList :logs="logs" :page-size="pageSize" @delete-log="deleteLogEntry" />
   </div>
 </template>
 
 <script>
 import LogList from '../components/LogList.vue'
-import { getStoredDates, getStoredLog } from '../utils/logStorage'
+import { getStoredDates, getStoredLog, deleteLog } from '../utils/logStorage'
 
 export default {
   components: { LogList },
   data() {
     return { logs: [], pageSize: 10 }
   },
-    created() {
+  created() {
       const base = import.meta.env.BASE_URL
       fetch(`${base}logs/index.json`)
         .then(r => r.json())
@@ -37,6 +37,12 @@ export default {
           arr.sort((a, b) => a.date.localeCompare(b.date))
           this.logs = arr
         })
+  },
+  methods: {
+    deleteLogEntry(date) {
+      deleteLog(date)
+      this.logs = this.logs.filter(l => l.date !== date)
+    }
   }
 }
 </script>

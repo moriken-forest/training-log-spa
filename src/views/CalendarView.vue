@@ -3,7 +3,7 @@
     <Calendar :available-dates="dates" @select-date="fetchLog" />
     <section id="logContainer">
       <p v-if="!selectedLog">カレンダーの日付をクリックして、詳細を表示してください。</p>
-      <LogDetail v-else :log="selectedLog" />
+      <LogDetail v-else :log="selectedLog" @delete-log="handleDelete" />
     </section>
   </section>
 </template>
@@ -11,7 +11,7 @@
 <script>
 import Calendar from '../components/Calendar.vue'
 import LogDetail from '../components/LogDetail.vue'
-import { getStoredDates, getStoredLog } from '../utils/logStorage'
+import { getStoredDates, getStoredLog, deleteLog } from '../utils/logStorage'
 
 export default {
   components: { Calendar, LogDetail },
@@ -38,6 +38,13 @@ export default {
       fetch(`${base}logs/${date}.json`)
         .then(r => r.json())
         .then(j => this.selectedLog = j)
+    },
+    handleDelete(date) {
+      deleteLog(date)
+      this.dates = this.dates.filter(d => d !== date)
+      if (this.selectedLog && this.selectedLog.date === date) {
+        this.selectedLog = null
+      }
     }
   }
 }

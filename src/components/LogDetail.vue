@@ -3,6 +3,7 @@
   <div class="log-detail" v-if="log">
     <div class="log-title">
       <h2>{{ log.date }}</h2>
+      <button class="delete-btn" @click="confirmDelete">削除</button>
       <div class="meta">
         <span>ブロック: {{ log.block || '-' }}</span>
         <span>{{ log.week != null && log.day != null ? `Week${log.week}-${log.day}` : '-' }}</span>
@@ -52,10 +53,18 @@
 <script>
 export default {
   name: 'LogDetail',
+  emits: ['delete-log'],
   props: {
     log: {
       type: Object,
       required: true
+    }
+  },
+  methods: {
+    confirmDelete() {
+      if (confirm('本当に削除しますか？')) {
+        this.$emit('delete-log', this.log.date)
+      }
     }
   }
 }
