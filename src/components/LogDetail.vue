@@ -1,15 +1,14 @@
 <!-- src/components/LogDetail.vue -->
 <template>
   <div class="log-detail" v-if="log">
-    <div class="log-title">
-      <h2>{{ log.date }}</h2>
-      <button class="delete-btn" @click="confirmDelete">削除</button>
-      <div class="meta">
-        <span v-if="log.block != null">ブロック: {{ log.block }}</span>
-        <span v-if="log.week != null && log.day != null">Week{{ log.week }}-{{ log.day }}</span>
+      <div class="log-title">
+        <h2>{{ log.date }}</h2>
+        <div class="meta">
+          <span v-if="log.block != null">ブロック: {{ log.block }}</span>
+          <span v-if="log.week != null && log.day != null">Week{{ log.week }}-{{ log.day }}</span>
+        </div>
       </div>
-    </div>
-    <p v-if="log.notes" class="notes">{{ log.notes }}</p>
+      <p v-if="log.notes" class="notes">{{ log.notes }}</p>
 
     <!-- セッションごとにテーブル -->
     <div
@@ -47,6 +46,7 @@
         </table>
       </div>
     </div>
+    <button class="delete-btn" @click="confirmDelete">削除</button>
   </div>
 </template>
 

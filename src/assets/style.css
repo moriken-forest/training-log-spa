@@ -329,7 +329,7 @@ main {
 }
 
 .delete-btn {
-  background: #ef4444;
+  background: #f87171;
   color: #fff;
   border: none;
   border-radius: var(--radius);
@@ -338,7 +338,7 @@ main {
   margin-top: var(--spacing);
 }
 .delete-btn:hover {
-  background: #dc2626;
+  background: #ef4444;
 }
 @media (max-width: 600px) {
   #controls {
