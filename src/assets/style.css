@@ -68,22 +68,6 @@ main {
 }
 
 /* ヒーローバナー */
-#hero {
-  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-  color: #fff;
-  padding: calc(var(--spacing) * 2);
-  border-radius: var(--radius);
-  text-align: center;
-  margin-bottom: var(--spacing);
-}
-#hero h1 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
-#hero p {
-  font-size: 1rem;
-  opacity: 0.9;
-}
 
 /* カレンダーヘッダー */
 #calendarHeader {
