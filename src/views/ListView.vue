@@ -13,6 +13,7 @@
 
 <script>
 import LogList from '../components/LogList.vue'
+import { getStoredDates, getStoredLog } from '../utils/logStorage'
 
 export default {
   components: { LogList },
@@ -23,10 +24,20 @@ export default {
       const base = import.meta.env.BASE_URL
       fetch(`${base}logs/index.json`)
         .then(r => r.json())
-        .then(dates =>
-            Promise.all(dates.map(d => fetch(`${base}logs/${d}.json`).then(r => r.json())))
-        )
-        .then(arr => this.logs = arr)
+        .then(dates => {
+          const extra = getStoredDates()
+          const allDates = Array.from(new Set([...dates, ...extra])).sort()
+          return Promise.all(allDates.map(d => {
+            const stored = getStoredLog(d)
+            if (stored) return Promise.resolve(stored)
+            return fetch(`${base}logs/${d}.json`).then(r => r.json())
+          }))
+        })
+        .then(arr => {
+          arr.sort((a, b) => a.date.localeCompare(b.date))
+          this.logs = arr
+        })
   }
 }
 </script>
+
