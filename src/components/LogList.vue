@@ -35,6 +35,7 @@
             </table>
           </div>
         </div>
+        <button class="delete-btn" @click="confirmDelete(log.date)">削除</button>
       </div>
     </div>
 
@@ -50,6 +51,7 @@
 <script>
 export default {
   name: 'LogList',
+  emits: ['delete-log'],
   props: {
     logs: {
       type: Array,
@@ -97,6 +99,11 @@ export default {
       if (this.currentPage < this.totalPages) {
         this.currentPage++;
         this.openDates = [];
+      }
+    },
+    confirmDelete(date) {
+      if (confirm('本当に削除しますか？')) {
+        this.$emit('delete-log', date)
       }
     }
   }
