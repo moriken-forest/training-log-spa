@@ -19,13 +19,13 @@ export default {
   data() {
     return { logs: [], pageSize: 10 }
   },
-  created() {
-    fetch('/logs/index.json')
-      .then(r => r.json())
-      .then(dates =>
-        Promise.all(dates.map(d => fetch(`/logs/${d}.json`).then(r => r.json())))
-      )
-      .then(arr => this.logs = arr)
+    created() {
+      fetch('/index.json')
+        .then(r => r.json())
+        .then(dates =>
+          Promise.all(dates.map(d => fetch(`/${d}.json`).then(r => r.json())))
+        )
+        .then(arr => this.logs = arr)
   }
 }
 </script>

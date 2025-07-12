@@ -14,14 +14,14 @@ export default {
   data() {
     return { dates: [], selectedLog: null }
   },
-  created() {
-    fetch('/logs/index.json')
-      .then(r => r.json())
-      .then(d => { this.dates = d })
+    created() {
+      fetch('/index.json')
+        .then(r => r.json())
+        .then(d => { this.dates = d })
   },
   methods: {
     fetchLog(date) {
-      fetch(`/logs/${date}.json`)
+      fetch(`/${date}.json`)
         .then(r => r.json())
         .then(j => this.selectedLog = j)
     }
