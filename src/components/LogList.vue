@@ -39,7 +39,6 @@
             </table>
           </div>
         </div>
-        <button class="delete-btn" @click="confirmDelete(log.date)">削除</button>
       </div>
     </div>
 

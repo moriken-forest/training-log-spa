@@ -328,18 +328,6 @@ main {
   display: block;
 }
 
-.delete-btn {
-  background: #f87171;
-  color: #fff;
-  border: none;
-  border-radius: var(--radius);
-  padding: 6px 12px;
-  cursor: pointer;
-  margin-top: var(--spacing);
-}
-.delete-btn:hover {
-  background: #ef4444;
-}
 @media (max-width: 600px) {
   #controls {
     flex-direction: column;
