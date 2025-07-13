@@ -1,13 +1,13 @@
 <template>
-  <div id="listContainer">
+  <div id="listContainer" :class="{ expanded }">
     <!-- ログカードリスト -->
     <div
       v-for="log in pagedLogs"
       :key="log.date"
       class="log-card"
-      :class="{ open: openDates.includes(log.date) }"
-    >
-      <div class="summary" @click="toggle(log.date)">
+      :class="{ open: expanded || openDates.includes(log.date) }"
+      >
+      <div class="summary" @click="expanded ? null : toggle(log.date)">
         <span class="date">{{ log.date }}</span>
         <span class="note">{{ log.notes || '' }}</span>
       </div>
@@ -63,6 +63,10 @@ export default {
     pageSize: {
       type: Number,
       default: 10
+    },
+    expanded: {
+      type: Boolean,
+      default: false
     }
   },
   data() {

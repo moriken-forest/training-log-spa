@@ -434,3 +434,80 @@ main {
 #register-section .copy-btn {
   margin-bottom: 8px;
 }
+
+/* トグルやスイッチの配置 */
+.switch-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* 汎用トグルスイッチ */
+.toggle-switch {
+  position: relative;
+  width: 48px;
+  height: 24px;
+}
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.toggle-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--border);
+  border-radius: 999px;
+  transition: background 0.2s;
+}
+.toggle-slider:before {
+  position: absolute;
+  content: '';
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background: var(--card-bg);
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+.toggle-switch input:checked + .toggle-slider {
+  background: var(--primary);
+}
+.toggle-switch input:checked + .toggle-slider:before {
+  transform: translateX(24px);
+}
+
+/* セグメントボタン */
+.segmented-control {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.segmented-control button {
+  flex: 1;
+  padding: 6px 12px;
+  background: var(--card-bg);
+  border: none;
+  color: var(--text);
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.segmented-control button + button {
+  border-left: 1px solid var(--border);
+}
+.segmented-control button.active {
+  background: var(--primary);
+  color: #fff;
+}
+
+/* 一覧表示モード */
+#listContainer.expanded .summary {
+  cursor: default;
+}

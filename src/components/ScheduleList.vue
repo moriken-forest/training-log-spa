@@ -1,12 +1,12 @@
 <template>
-  <div id="listContainer">
+  <div id="listContainer" :class="{ expanded }">
     <div
       v-for="plan in pagedPlans"
       :key="plan.date"
       class="log-card"
-      :class="{ open: openDates.includes(plan.date) }"
-    >
-      <div class="summary" @click="toggle(plan.date)">
+      :class="{ open: expanded || openDates.includes(plan.date) }"
+      >
+      <div class="summary" @click="expanded ? null : toggle(plan.date)">
         <span class="date">{{ plan.date }}</span>
         <span class="note">{{ plan.block }} Week{{ plan.week }} Day{{ plan.day }}</span>
       </div>
@@ -29,16 +29,20 @@ import ScheduleDetail from './ScheduleDetail.vue'
 export default {
   name: 'ScheduleList',
   components: { ScheduleDetail },
-  props: {
-    plans: {
-      type: Array,
-      default: () => []
+    props: {
+      plans: {
+        type: Array,
+        default: () => []
+      },
+      pageSize: {
+        type: Number,
+        default: 10
+      },
+      expanded: {
+        type: Boolean,
+        default: false
+      }
     },
-    pageSize: {
-      type: Number,
-      default: 10
-    }
-  },
   data() {
     return {
       currentPage: 1,

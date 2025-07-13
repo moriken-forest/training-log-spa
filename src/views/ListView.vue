@@ -11,19 +11,30 @@
         />
         <span>{{ pageSize }}</span> 件
       </label>
-      <label><input type="checkbox" v-model="showLogs" />ログ</label>
-      <label><input type="checkbox" v-model="showSchedule" />スケジュール</label>
+      <div class="segmented-control">
+        <button :class="{ active: view === 'logs' }" @click="view = 'logs'">ログ</button>
+        <button :class="{ active: view === 'schedule' }" @click="view = 'schedule'">スケジュール</button>
+      </div>
+      <div class="switch-group">
+        <span>一覧表示</span>
+        <label class="toggle-switch">
+          <input type="checkbox" v-model="expanded" />
+          <span class="toggle-slider"></span>
+        </label>
+      </div>
     </div>
     <LogList
-      v-if="showLogs"
+      v-if="view === 'logs'"
       :logs="logs"
       :page-size="pageSize"
+      :expanded="expanded"
       @delete-log="deleteLogEntry"
     />
     <ScheduleList
-      v-if="showSchedule"
+      v-if="view === 'schedule'"
       :plans="plans"
       :page-size="pageSize"
+      :expanded="expanded"
     />
   </div>
 </template>
@@ -40,8 +51,8 @@ export default {
       logs: [],
       plans: [],
       pageSize: 10,
-      showLogs: true,
-      showSchedule: true
+      view: 'logs',
+      expanded: false
     }
   },
   created() {
