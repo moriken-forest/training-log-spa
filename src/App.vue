@@ -8,6 +8,7 @@
           <a
             href="https://github.com/moriken-forest/training-log-spa/issues/new?template=training-log.yml"
           ><span class="material-icons">note_add</span></a>
+          <a href="#" @click.prevent="clearCache"><span class="material-icons">refresh</span></a>
         </nav>
     </header>
     <main>
@@ -17,6 +18,14 @@
 </template>
 
 <script>
-export default { name: 'App' }
+export default {
+  name: 'App',
+  methods: {
+    clearCache() {
+      localStorage.clear()
+      location.reload()
+    }
+  }
+}
 </script>
 
