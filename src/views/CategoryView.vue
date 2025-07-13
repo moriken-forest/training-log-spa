@@ -13,17 +13,17 @@
         </select>
       </label>
     </div>
-    <LogList :logs="filteredLogs" :page-size="pageSize" />
+    <SessionList :sessions="filteredSessions" :page-size="pageSize" />
   </div>
 </template>
 
 <script>
-import LogList from '../components/LogList.vue'
+import SessionList from '../components/SessionList.vue'
 import { getStoredDates, getStoredLog } from '../utils/logStorage'
 import { parseCategory } from '../utils/category'
 
 export default {
-  components: { LogList },
+  components: { SessionList },
   data() {
     return {
       logs: [],
@@ -53,21 +53,27 @@ export default {
       }
       return Array.from(set)
     },
-    filteredLogs() {
+    filteredSessions() {
       const variant = this.variantModel
       const base = this.base
       const out = []
       for (const log of this.logs) {
-        const sessions = (log.sessions || []).filter(s => {
-          const pc = parseCategory(s.type || '')
-          if (pc.base !== base) return false
-          if (variant && pc.variant !== variant) return false
-          return true
-        })
-        if (sessions.length) {
-          out.push({ ...log, sessions })
+        for (const session of log.sessions || []) {
+          const pc = parseCategory(session.type || '')
+          if (pc.base !== base) continue
+          if (variant && pc.variant !== variant) continue
+          out.push({
+            id: `${log.date}-${session.lift}-${session.variation || ''}`,
+            date: log.date,
+            notes: log.notes,
+            block: log.block,
+            week: log.week,
+            day: log.day,
+            session
+          })
         }
       }
+      out.sort((a, b) => b.date.localeCompare(a.date))
       return out
     }
   },
