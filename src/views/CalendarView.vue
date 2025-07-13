@@ -65,8 +65,7 @@ export default {
               block: block.block,
               week: week.week,
               day: Number(String(day.day).replace('Day','')),
-              sessions: day.sessions,
-              notes: block.notes
+              sessions: day.sessions
             })
           }
         }
