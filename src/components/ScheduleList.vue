@@ -67,6 +67,7 @@
 
 <script>
 import ScheduleDetail from './ScheduleDetail.vue'
+import { parseCategory } from '../utils/category'
 
 export default {
   name: 'ScheduleList',
@@ -142,7 +143,10 @@ export default {
       return Array.from(new Set(tags))
     },
     goCategory(cat) {
-      this.$router.push({ path: '/list', query: { category: cat } })
+      const { base, variant } = parseCategory(cat)
+      const query = {}
+      if (variant) query.variant = variant
+      this.$router.push({ path: `/category/${encodeURIComponent(base)}`, query })
     }
   }
 }

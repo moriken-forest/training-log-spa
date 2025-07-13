@@ -61,6 +61,7 @@
 </template>
 
 <script>
+import { parseCategory } from '../utils/category'
 export default {
   name: 'LogList',
   emits: ['delete-log'],
@@ -128,7 +129,10 @@ export default {
       alert('JSONをコピーしました');
     },
     goCategory(cat) {
-      this.$router.push({ path: '/list', query: { category: cat } })
+      const { base, variant } = parseCategory(cat)
+      const query = {}
+      if (variant) query.variant = variant
+      this.$router.push({ path: `/category/${encodeURIComponent(base)}`, query })
     },
     confirmDelete(date) {
       if (confirm('本当に削除しますか？')) {
