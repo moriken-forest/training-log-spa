@@ -434,3 +434,52 @@ main {
 #register-section .copy-btn {
   margin-bottom: 8px;
 }
+
+/* トグルスイッチ */
+.toggle-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.toggle-wrapper .active {
+  color: var(--primary-dark);
+  font-weight: 600;
+}
+.toggle-switch {
+  position: relative;
+  width: 48px;
+  height: 24px;
+}
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.toggle-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--border);
+  border-radius: 999px;
+  transition: background 0.2s;
+}
+.toggle-slider:before {
+  position: absolute;
+  content: '';
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background: var(--card-bg);
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+.toggle-switch input:checked + .toggle-slider {
+  background: var(--primary);
+}
+.toggle-switch input:checked + .toggle-slider:before {
+  transform: translateX(24px);
+}

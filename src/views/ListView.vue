@@ -11,17 +11,28 @@
         />
         <span>{{ pageSize }}</span> 件
       </label>
-      <label><input type="checkbox" v-model="showLogs" />ログ</label>
-      <label><input type="checkbox" v-model="showSchedule" />スケジュール</label>
+      <div class="toggle-wrapper">
+        <span :class="{ active: view === 'logs' }">ログ</span>
+        <label class="toggle-switch">
+          <input
+            type="checkbox"
+            v-model="view"
+            true-value="schedule"
+            false-value="logs"
+          />
+          <span class="toggle-slider"></span>
+        </label>
+        <span :class="{ active: view === 'schedule' }">スケジュール</span>
+      </div>
     </div>
     <LogList
-      v-if="showLogs"
+      v-if="view === 'logs'"
       :logs="logs"
       :page-size="pageSize"
       @delete-log="deleteLogEntry"
     />
     <ScheduleList
-      v-if="showSchedule"
+      v-if="view === 'schedule'"
       :plans="plans"
       :page-size="pageSize"
     />
@@ -40,8 +51,7 @@ export default {
       logs: [],
       plans: [],
       pageSize: 10,
-      showLogs: true,
-      showSchedule: true
+      view: 'logs'
     }
   },
   created() {
