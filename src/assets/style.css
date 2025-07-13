@@ -538,7 +538,7 @@ main {
   background: var(--bg);
 }
 .flat-table tbody tr:nth-child(even) {
-  background: var(--schedule-light);
+  background: var(--bg);
 }
 .flat-session-list {
   list-style: disc;
@@ -550,6 +550,14 @@ main {
 }
 .flat-tags {
   margin-top: 4px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 4px;
+}
+.flat-tags .type-tag {
+  font-size: 0.65rem;
+  padding: 1px 4px;
+  margin-left: 0;
 }
 .flat-session + .flat-session {
   margin-top: 4px;
