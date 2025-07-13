@@ -256,6 +256,10 @@ main {
   white-space: pre-wrap;
 }
 
+.schedule-detail .session table {
+  min-width: 0;
+}
+
 @media (max-width: 600px) {
   .session th,
   .session td {
