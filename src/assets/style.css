@@ -257,6 +257,7 @@ main {
   white-space: pre-wrap;
 }
 
+
 @media (max-width: 600px) {
   .session th,
   .session td {
