@@ -7,7 +7,6 @@
         <span v-if="plan.week && plan.day">Week{{ plan.week }}-{{ plan.day }}</span>
       </div>
     </div>
-    <p v-if="plan.notes" class="notes">{{ plan.notes }}</p>
     <div v-for="(session, idx) in plan.sessions" :key="idx" class="session">
       <h3 class="session-title">
         {{ session.lift }}
