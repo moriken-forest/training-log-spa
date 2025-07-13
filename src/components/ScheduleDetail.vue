@@ -1,5 +1,5 @@
 <template>
-  <div class="log-detail" v-if="plan">
+  <div class="log-detail schedule-detail" v-if="plan">
     <div class="log-title">
       <h2>{{ plan.date }}</h2>
       <div class="meta">
