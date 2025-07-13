@@ -21,6 +21,12 @@
           <input type="checkbox" v-model="flatView" />
           <span class="toggle-slider"></span>
         </label>
+        <a :href="scheduleUrl" download class="icon-button">
+          <span class="material-icons">download</span>
+        </a>
+        <button class="copy-btn icon-button" @click="copySchedule">
+          <span class="material-icons">content_copy</span>
+        </button>
       </div>
     </div>
     <LogList
@@ -51,13 +57,15 @@ export default {
       plans: [],
       pageSize: 10,
       view: 'logs',
-      flatView: false
+      flatView: false,
+      scheduleData: null,
+      scheduleUrl: import.meta.env.BASE_URL + 'schedule/training-schedule.json'
     }
   },
   created() {
     const base = import.meta.env.BASE_URL
     const indexReq = fetch(`${base}logs/index.json`).then(r => r.json())
-    const schedReq = fetch(`${base}schedule/training-schedule.json`).then(r => r.json())
+    const schedReq = fetch(this.scheduleUrl).then(r => r.json())
 
     indexReq
       .then(dates => {
@@ -75,6 +83,7 @@ export default {
         return schedReq
       })
       .then(sched => {
+        this.scheduleData = sched
         this.processSchedule(sched)
       })
   },
@@ -101,6 +110,12 @@ export default {
       const within30 = (a,b) => Math.abs(new Date(a) - new Date(b)) <= 30*86400000
       this.plans = plans.filter(p => !this.logs.some(l => l.block === p.block && l.week == p.week && l.day == p.day && within30(l.date, p.date)))
       this.plans.sort((a,b) => a.date.localeCompare(b.date))
+    },
+    copySchedule() {
+      if (!this.scheduleData) return
+      const text = JSON.stringify(this.scheduleData, null, 2)
+      navigator.clipboard.writeText(text)
+      alert('JSONをコピーしました')
     }
   }
 }

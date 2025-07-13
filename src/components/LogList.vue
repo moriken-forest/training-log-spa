@@ -34,7 +34,7 @@
                 <td>{{ s.rpe }}</td>
                 <td>{{ s['1RM'] ?? '-' }}</td>
                 <td>{{ s.e1RM ?? '-' }}</td>
-                <td>{{ s.comment }}</td>
+                <td class="comment">{{ s.comment }}</td>
               </tr>
             </table>
           </div>
