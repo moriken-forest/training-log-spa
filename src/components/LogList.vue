@@ -40,6 +40,11 @@
           </div>
         </div>
       </div>
+      <div class="actions">
+        <button class="copy-btn" @click.stop="copyLog(log)">
+          <span class="material-icons">content_copy</span>
+        </button>
+      </div>
     </div>
 
     <!-- ページネーション -->
@@ -112,6 +117,11 @@ export default {
         this.currentPage++;
         this.openDates = [];
       }
+    },
+    copyLog(log) {
+      const text = JSON.stringify(log, null, 2);
+      navigator.clipboard.writeText(text);
+      alert('JSONをコピーしました');
     },
     confirmDelete(date) {
       if (confirm('本当に削除しますか？')) {
