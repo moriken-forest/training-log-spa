@@ -28,6 +28,13 @@
           <span class="material-icons">content_copy</span>
         </button>
       </div>
+      <label v-if="view === 'logs'" class="category-select">
+        カテゴリー:
+        <select v-model="categoryModel">
+          <option value="">すべて</option>
+          <option v-for="c in categories" :key="c" :value="c">{{ c }}</option>
+        </select>
+      </label>
     </div>
     <p v-if="view === 'logs' && $route.query.category" class="filter-info">
       カテゴリー: {{ $route.query.category }}
@@ -66,8 +73,26 @@ export default {
     }
   },
   computed: {
+    categoryModel: {
+      get() { return this.$route.query.category || '' },
+      set(v) {
+        const q = { ...this.$route.query }
+        if (v) q.category = v
+        else delete q.category
+        this.$router.replace({ query: q })
+      }
+    },
+    categories() {
+      const set = new Set()
+      for (const log of this.logs) {
+        for (const s of log.sessions || []) {
+          if (s.type) set.add(s.type)
+        }
+      }
+      return Array.from(set)
+    },
     filteredLogs() {
-      const category = this.$route.query.category
+      const category = this.categoryModel
       if (!category) return this.logs
       return this.logs.filter(l =>
         l.sessions.some(s => s.type === category)
