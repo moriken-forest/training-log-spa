@@ -28,7 +28,12 @@
                 </li>
               </ul>
               <div class="flat-tags" v-if="planTags(plan).length">
-                <span class="type-tag" v-for="t in planTags(plan)" :key="t">{{ t }}</span>
+                <span
+                  class="type-tag"
+                  v-for="t in planTags(plan)"
+                  :key="t"
+                  @click.stop="goCategory(t)"
+                >{{ t }}</span>
               </div>
             </td>
           </tr>
@@ -135,6 +140,9 @@ export default {
         .map(s => s.type)
         .filter(t => t)
       return Array.from(new Set(tags))
+    },
+    goCategory(cat) {
+      this.$router.push({ path: '/list', query: { category: cat } })
     }
   }
 }

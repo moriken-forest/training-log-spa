@@ -19,7 +19,11 @@
       <h3 class="session-title">
         {{ session.lift }}
         <small v-if="session.variation">({{ session.variation }})</small>
-        <span v-if="session.type" class="type-tag">{{ session.type }}</span>
+        <span
+          v-if="session.type"
+          class="type-tag"
+          @click.stop="goCategory(session.type)"
+        >{{ session.type }}</span>
       </h3>
       <div class="table-wrapper">
         <table>
@@ -64,6 +68,9 @@ export default {
       if (confirm('本当に削除しますか？')) {
         this.$emit('delete-log', this.log.date)
       }
+    },
+    goCategory(cat) {
+      this.$router.push({ path: '/list', query: { category: cat } })
     }
   }
 }

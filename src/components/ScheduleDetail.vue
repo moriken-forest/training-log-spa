@@ -10,7 +10,11 @@
     <div v-for="(session, idx) in plan.sessions" :key="idx" class="session">
       <h3 class="session-title">
         {{ session.lift }}
-        <span v-if="session.type" class="type-tag">{{ session.type }}</span>
+        <span
+          v-if="session.type"
+          class="type-tag"
+          @click.stop="goCategory(session.type)"
+        >{{ session.type }}</span>
       </h3>
       <div class="table-wrapper">
         <table>
@@ -43,6 +47,11 @@ export default {
     plan: {
       type: Object,
       required: true
+    }
+  },
+  methods: {
+    goCategory(cat) {
+      this.$router.push({ path: '/list', query: { category: cat } })
     }
   }
 }

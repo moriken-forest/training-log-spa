@@ -230,6 +230,7 @@ main {
   border-radius: var(--radius);
   margin-left: 6px;
   white-space: nowrap;
+  cursor: pointer;
 }
 .session .table-wrapper {
   overflow-x: auto;
@@ -560,6 +561,7 @@ main {
   font-size: 0.65rem;
   padding: 1px 4px;
   margin-left: 0;
+  cursor: pointer;
 }
 .flat-session + .flat-session {
   margin-top: 4px;
@@ -601,4 +603,10 @@ main {
 }
 .icon-button .material-icons {
   font-size: 20px;
+}
+
+/* List filter info */
+.filter-info {
+  margin: var(--spacing) 0;
+  font-weight: bold;
 }

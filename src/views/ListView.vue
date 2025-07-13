@@ -29,9 +29,12 @@
         </button>
       </div>
     </div>
+    <p v-if="view === 'logs' && $route.query.category" class="filter-info">
+      カテゴリー: {{ $route.query.category }}
+    </p>
     <LogList
       v-if="view === 'logs'"
-      :logs="logs"
+      :logs="filteredLogs"
       :page-size="pageSize"
       @delete-log="deleteLogEntry"
     />
@@ -60,6 +63,20 @@ export default {
       flatView: false,
       scheduleData: null,
       scheduleUrl: import.meta.env.BASE_URL + 'schedule/training-schedule.json'
+    }
+  },
+  computed: {
+    filteredLogs() {
+      const category = this.$route.query.category
+      if (!category) return this.logs
+      return this.logs.filter(l =>
+        l.sessions.some(s => s.type === category)
+      )
+    }
+  },
+  watch: {
+    '$route.query.category'(val) {
+      if (val) this.view = 'logs'
     }
   },
   created() {

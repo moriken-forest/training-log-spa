@@ -20,7 +20,11 @@
           <h2>
             {{ session.lift }}
             <span v-if="session.variation"> ({{ session.variation }})</span>
-            <span v-if="session.type" class="type-tag">{{ session.type }}</span>
+            <span
+              v-if="session.type"
+              class="type-tag"
+              @click.stop="goCategory(session.type)"
+            >{{ session.type }}</span>
           </h2>
           <div class="table-wrapper">
             <table>
@@ -122,6 +126,9 @@ export default {
       const text = JSON.stringify(log, null, 2);
       navigator.clipboard.writeText(text);
       alert('JSONをコピーしました');
+    },
+    goCategory(cat) {
+      this.$router.push({ path: '/list', query: { category: cat } })
     },
     confirmDelete(date) {
       if (confirm('本当に削除しますか？')) {
