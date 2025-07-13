@@ -237,7 +237,6 @@ main {
 .session table {
   width: 100%;
   border-collapse: collapse;
-  min-width: 600px;
 }
 .session th,
 .session td {
