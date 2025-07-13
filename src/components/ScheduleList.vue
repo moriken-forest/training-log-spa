@@ -1,12 +1,12 @@
 <template>
-  <div id="listContainer">
+  <div id="listContainer" :class="{ 'flat-grid': expanded }">
     <div
-      v-for="plan in pagedPlans"
+      v-for="plan in displayPlans"
       :key="plan.date"
       class="log-card"
-      :class="{ open: openDates.includes(plan.date) }"
+      :class="{ open: expanded || openDates.includes(plan.date) }"
     >
-      <div class="summary" @click="toggle(plan.date)">
+      <div class="summary" :class="{ clickable: !expanded }" @click="expanded || toggle(plan.date)">
         <span class="date">{{ plan.date }}</span>
         <span class="note">{{ plan.block }} Week{{ plan.week }} Day{{ plan.day }}</span>
       </div>
@@ -15,7 +15,7 @@
       </div>
     </div>
 
-    <div id="pagination">
+    <div id="pagination" v-if="!expanded">
       <button @click="prevPage" :disabled="currentPage===1">前へ</button>
       <span>{{ currentPage }} / {{ totalPages }} ページ ({{ plans.length }} 件中 {{ rangeStart }}-{{ rangeEnd }})</span>
       <button @click="nextPage" :disabled="currentPage===totalPages">次へ</button>
@@ -37,6 +37,10 @@ export default {
     pageSize: {
       type: Number,
       default: 10
+    },
+    expanded: {
+      type: Boolean,
+      default: false
     }
   },
   data() {
@@ -45,11 +49,17 @@ export default {
       openDates: []
     }
   },
+  watch: {
+    expanded(val) {
+      if (val) this.openDates = []
+    }
+  },
   computed: {
     totalPages() {
       return Math.ceil(this.plans.length / this.pageSize) || 1
     },
-    pagedPlans() {
+    displayPlans() {
+      if (this.expanded) return this.plans
       const start = (this.currentPage - 1) * this.pageSize
       return this.plans.slice(start, start + this.pageSize)
     },

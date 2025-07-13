@@ -309,6 +309,11 @@ main {
   flex-direction: column;
   gap: var(--spacing);
 }
+.flat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: var(--spacing);
+}
 .log-card {
   background: var(--card-bg);
   border-radius: var(--radius);
@@ -324,6 +329,8 @@ main {
   display: flex;
   justify-content: space-between;
   padding: var(--spacing);
+}
+.summary.clickable {
   cursor: pointer;
 }
 .summary .date {
@@ -445,8 +452,7 @@ main {
   align-items: center;
   gap: 8px;
 }
-.toggle-wrapper .active {
-  color: var(--primary-dark);
+.toggle-wrapper .label {
   font-weight: 600;
 }
 .toggle-switch {
@@ -486,4 +492,27 @@ main {
 }
 .toggle-switch input:checked + .toggle-slider:before {
   transform: translateX(24px);
+}
+
+/* セグメントコントロール */
+.segmented-control {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.segmented-control button {
+  background: var(--card-bg);
+  border: none;
+  padding: 4px 12px;
+  cursor: pointer;
+  color: var(--text);
+  transition: background 0.2s;
+}
+.segmented-control button.active {
+  background: var(--primary);
+  color: #fff;
+}
+.segmented-control button:not(:last-child) {
+  border-right: 1px solid var(--border);
 }
