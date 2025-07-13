@@ -78,7 +78,8 @@ export default {
         }))
       })
       .then(arr => {
-        arr.sort((a, b) => a.date.localeCompare(b.date))
+        // sort logs in descending order so the newest appears first
+        arr.sort((a, b) => b.date.localeCompare(a.date))
         this.logs = arr
         return schedReq
       })
