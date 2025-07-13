@@ -21,7 +21,7 @@
         :key="day"
         :class="[
           'day-cell',
-          isAvailable(day) ? 'has-log' : 'disabled',
+          isLog(day) ? 'has-log' : (isSchedule(day) ? 'has-schedule' : 'disabled'),
           selectedDay === day ? 'selected' : ''
         ]"
         @click="selectDate(day)"
@@ -36,7 +36,11 @@
 export default {
   name: 'Calendar',
   props: {
-    availableDates: {
+    logDates: {
+      type: Array,
+      default: () => []
+    },
+    scheduleDates: {
       type: Array,
       default: () => []
     }
@@ -62,9 +66,17 @@ export default {
     }
   },
   methods: {
+    format(day) {
+      return `${this.viewYear}-${String(this.viewMonth+1).padStart(2,'0')}-${String(day).padStart(2,'0')}`;
+    },
+    isLog(day) {
+      return this.logDates.includes(this.format(day));
+    },
+    isSchedule(day) {
+      return this.scheduleDates.includes(this.format(day));
+    },
     isAvailable(day) {
-      const d = `${this.viewYear}-${String(this.viewMonth+1).padStart(2,'0')}-${String(day).padStart(2,'0')}`;
-      return this.availableDates.includes(d);
+      return this.isLog(day) || this.isSchedule(day);
     },
     prevMonth() {
       this.viewMonth--;

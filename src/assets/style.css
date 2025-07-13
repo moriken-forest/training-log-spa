@@ -13,6 +13,9 @@
   --shadow: rgba(0, 0, 0, 0.1);
   --radius: 12px;
   --spacing: 16px;
+  --schedule: #34d399;
+  --schedule-dark: #059669;
+  --schedule-light: #a7f3d0;
 }
 
 /* リセット＆ボックスモデル */
@@ -140,6 +143,11 @@ main {
   border-color: var(--primary);
   background: var(--primary-light);
   color: var(--primary-dark);
+}
+.day-cell.has-schedule {
+  border-color: var(--schedule-dark);
+  background: var(--schedule-light);
+  color: var(--schedule-dark);
 }
 .day-cell:hover:not(.disabled) {
   transform: translateY(-2px);
