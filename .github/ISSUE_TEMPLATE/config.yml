@@ -1,1 +1,12 @@
 blank_issues_enabled: false
+issue_templates:
+  - name: "Training Log"
+    description: "Register a daily training log in JSON format"
+    title: "Training Log"
+    labels: ["training-log"]
+    template: training-log.yml
+  - name: "Delete Training Log"
+    description: "Remove an existing training log by date"
+    title: "Delete Training Log"
+    labels: ["delete-log"]
+    template: delete-log.yml
