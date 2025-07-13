@@ -5,22 +5,14 @@
         <thead>
           <tr>
             <th>日付</th>
-            <th>ブロック/週/日</th>
-            <th>セッション</th>
+            <th>内容</th>
           </tr>
         </thead>
         <tbody>
           <tr v-for="plan in pagedPlans" :key="plan.date">
             <td>{{ plan.date }}</td>
-            <td>{{ plan.block }} Week{{ plan.week }} Day{{ plan.day }}</td>
-            <td>
-              <div v-for="(session, idx) in plan.sessions" :key="idx" class="flat-session">
-                {{ session.lift }}
-                <span v-if="session.type" class="type-tag">{{ session.type }}</span>
-                <template v-for="(set, si) in session.sets" :key="si">
-                  {{ set.weight }}x{{ set.reps }}x{{ set.sets }}@{{ set.percent }}<span v-if="si < session.sets.length-1">, </span>
-                </template>
-              </div>
+            <td class="md-cell">
+              <pre>{{ formatPlan(plan) }}</pre>
             </td>
           </tr>
         </tbody>
@@ -113,6 +105,19 @@ export default {
         this.currentPage++
         this.openDates = []
       }
+    },
+    formatPlan(plan) {
+      const header = `${plan.block} Week${plan.week} Day${plan.day}`
+      const sessions = plan.sessions || []
+      const lines = sessions.map(session => {
+        const sets = (session.sets || []).map((set, si) => {
+          const w = set.weight ?? ''
+          const pct = set.percent != null ? `@${set.percent}` : ''
+          return `${w}x${set.reps}x${set.sets}${pct}`
+        }).join(', ')
+        return `- ${session.lift} ${sets}`
+      })
+      return [header, ...lines].join('\n')
     }
   }
 }

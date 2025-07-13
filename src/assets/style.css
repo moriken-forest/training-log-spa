@@ -535,3 +535,8 @@ main {
 .flat-session + .flat-session {
   margin-top: 4px;
 }
+.md-cell pre {
+  white-space: pre-wrap;
+  font-family: 'Courier New', monospace;
+  margin: 0;
+}
