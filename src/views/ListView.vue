@@ -2,9 +2,14 @@
   <div>
     <div id="controls">
       <label>表示件数:
-        <select v-model.number="pageSize">
-          <option v-for="n in [10,50,100]" :key="n" :value="n">{{ n }}</option>
-        </select> 件
+        <input
+          type="range"
+          v-model.number="pageSize"
+          min="10"
+          max="100"
+          step="10"
+        />
+        <span>{{ pageSize }}</span> 件
       </label>
     </div>
     <LogList :logs="logs" :page-size="pageSize" @delete-log="deleteLogEntry" />
