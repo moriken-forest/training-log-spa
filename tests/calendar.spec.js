@@ -17,3 +17,19 @@ describe('Calendar daysInMonth', () => {
     expect(wrapper.vm.daysInMonth).toBe(28);
   });
 });
+
+describe('Calendar firstDay (Monday start)', () => {
+  it('returns 0 when the month starts on Monday', () => {
+    const wrapper = mount(Calendar);
+    wrapper.vm.viewYear = 2024;
+    wrapper.vm.viewMonth = 0; // January 2024 starts on Monday
+    expect(wrapper.vm.firstDay).toBe(0);
+  });
+
+  it('returns 3 when February 2024 starts on Thursday', () => {
+    const wrapper = mount(Calendar);
+    wrapper.vm.viewYear = 2024;
+    wrapper.vm.viewMonth = 1; // February 2024
+    expect(wrapper.vm.firstDay).toBe(3);
+  });
+});

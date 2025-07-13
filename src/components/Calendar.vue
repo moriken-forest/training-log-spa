@@ -56,10 +56,13 @@ export default {
   },
   computed: {
     weekdays() {
-      return ['日','月','火','水','木','金','土'];
+      // Display weekdays starting from Monday
+      return ['月','火','水','木','金','土','日'];
     },
     firstDay() {
-      return new Date(this.viewYear, this.viewMonth, 1).getDay();
+      // Adjust so that Monday is treated as the first day of the week
+      const day = new Date(this.viewYear, this.viewMonth, 1).getDay();
+      return (day + 6) % 7;
     },
     daysInMonth() {
       return new Date(this.viewYear, this.viewMonth + 1, 0).getDate();
