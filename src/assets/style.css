@@ -235,7 +235,9 @@ main {
   margin-bottom: var(--spacing);
 }
 .session table {
-  width: 100%;
+  /* Expand based on content to enable horizontal scrolling */
+  width: max-content;
+  min-width: 100%;
   border-collapse: collapse;
 }
 .session th,
@@ -254,6 +256,8 @@ main {
 .comment {
   text-align: left;
   white-space: pre-wrap;
+  /* Keep each line at a reasonable length */
+  max-width: 40ch;
 }
 
 
