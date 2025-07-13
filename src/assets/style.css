@@ -531,8 +531,25 @@ main {
   font-size: 0.9rem;
 }
 .flat-table th {
+  background: var(--primary);
+  color: #fff;
+}
+.flat-table tbody tr:nth-child(odd) {
   background: var(--bg);
-  color: var(--text);
+}
+.flat-table tbody tr:nth-child(even) {
+  background: var(--schedule-light);
+}
+.flat-session-list {
+  list-style: disc;
+  margin: 0;
+  padding-left: 1em;
+}
+.flat-session {
+  margin-bottom: 4px;
+}
+.flat-tags {
+  margin-top: 4px;
 }
 .flat-session + .flat-session {
   margin-top: 4px;
