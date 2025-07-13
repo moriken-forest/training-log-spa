@@ -1,16 +1,28 @@
 const fs = require('fs');
 const path = require('path');
 
+// Resolve paths relative to the repository root
 const repoRoot = path.join(__dirname, '..');
 const indexPath = path.join(repoRoot, 'public', 'logs', 'index.json');
-const templatePath = path.join(repoRoot, '.github', 'ISSUE_TEMPLATE', 'delete-log.yml');
+const templateDir = path.join(repoRoot, '.github', 'ISSUE_TEMPLATE');
+const templatePath = path.join(templateDir, 'delete-log.yml');
 
+// Read available log dates
 let dates = [];
-if (fs.existsSync(indexPath)) {
+try {
   dates = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
+} catch (e) {
+  // If index.json does not exist or is invalid, leave dates empty
 }
 
-dates.sort();
+// Ensure unique dates sorted newest first
+dates = Array.from(new Set(dates));
+dates.sort().reverse();
+
+// Ensure the template directory exists
+if (!fs.existsSync(templateDir)) {
+  fs.mkdirSync(templateDir, { recursive: true });
+}
 
 const yamlLines = [
   'name: "Delete Training Log"',
