@@ -15,26 +15,25 @@
         <button :class="{ active: view === 'logs' }" @click="view = 'logs'">ログ</button>
         <button :class="{ active: view === 'schedule' }" @click="view = 'schedule'">スケジュール</button>
       </div>
-      <div class="toggle-wrapper">
+      <div class="toggle-wrapper" v-if="view === 'schedule'">
         <span :class="{ active: flatView }">一覧</span>
         <label class="toggle-switch">
           <input type="checkbox" v-model="flatView" />
           <span class="toggle-slider"></span>
         </label>
-        <span :class="{ active: !flatView }">アコーディオン</span>
       </div>
     </div>
     <LogList
       v-if="view === 'logs'"
       :logs="logs"
       :page-size="pageSize"
-      :expanded="flatView"
       @delete-log="deleteLogEntry"
     />
     <ScheduleList
       v-if="view === 'schedule'"
       :plans="plans"
       :page-size="pageSize"
+      :flat="flatView"
     />
   </div>
 </template>

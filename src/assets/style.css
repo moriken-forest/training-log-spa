@@ -518,3 +518,20 @@ main {
 .segmented-control button:not(:last-child) {
   border-right: 1px solid var(--border);
 }
+
+/* 一覧表示テーブル */
+.flat-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.flat-table th,
+.flat-table td {
+  border: 1px solid var(--border);
+  padding: 4px 8px;
+}
+.flat-table th {
+  background: var(--card-bg);
+}
+.flat-session + .flat-session {
+  margin-top: 4px;
+}
