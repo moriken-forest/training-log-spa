@@ -11,7 +11,39 @@
         <tbody>
           <tr v-for="plan in pagedPlans" :key="plan.date">
             <td>{{ plan.date }}</td>
-            <td><pre class="flat-md">{{ planMarkdown(plan) }}</pre></td>
+            <td>
+              <ul class="flat-session-list">
+                <li
+                  v-for="(session, i) in plan.sessions"
+                  :key="i"
+                  class="flat-session"
+                >
+                  <strong>{{ session.lift }}</strong>
+                  <span class="set-detail">
+                    <template v-for="(set, si) in session.sets" :key="si">
+                      <span>
+                        <template v-if="set.weight != null">
+                          {{ set.weight }}kg
+                        </template>
+                        <template v-if="set.reps != null">
+                          ×{{ set.reps }}rep
+                        </template>
+                        <template v-if="set.sets != null">
+                          ×{{ set.sets }}set
+                        </template>
+                        <template v-if="set.percent != null">
+                          @{{ set.percent }}%
+                        </template>
+                      </span>
+                      <span v-if="si < session.sets.length - 1">, </span>
+                    </template>
+                  </span>
+                </li>
+              </ul>
+              <div class="flat-tags" v-if="planTags(plan).length">
+                <span class="type-tag" v-for="t in planTags(plan)" :key="t">{{ t }}</span>
+              </div>
+            </td>
           </tr>
         </tbody>
       </table>
@@ -104,18 +136,11 @@ export default {
         this.openDates = []
       }
     },
-    planMarkdown(plan) {
-      const lines = [`${plan.block} Week${plan.week} Day${plan.day}`]
-      for (const session of plan.sessions) {
-        let line = `- ${session.lift}`
-        if (session.type) line += ` [${session.type}]`
-        const sets = session.sets
-          .map(s => `${s.weight}x${s.reps}x${s.sets}@${s.percent}`)
-          .join(', ')
-        if (sets) line += ` ${sets}`
-        lines.push(line)
-      }
-      return lines.join('\n')
+    planTags(plan) {
+      const tags = plan.sessions
+        .map(s => s.type)
+        .filter(t => t)
+      return Array.from(new Set(tags))
     }
   }
 }
