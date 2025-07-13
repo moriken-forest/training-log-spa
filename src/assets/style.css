@@ -275,7 +275,8 @@ main {
 #controls label {
   font-weight: 500;
 }
-#controls select {
+#controls select,
+#controls input[type="range"] {
   margin-left: 8px;
   padding: 4px 8px;
   border-radius: var(--radius);
