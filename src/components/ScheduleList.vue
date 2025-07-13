@@ -21,20 +21,7 @@
                   <strong>{{ session.lift }}</strong>
                   <span class="set-detail">
                     <template v-for="(set, si) in session.sets" :key="si">
-                      <span>
-                        <template v-if="set.weight != null">
-                          {{ set.weight }}kg
-                        </template>
-                        <template v-if="set.reps != null">
-                          ×{{ set.reps }}rep
-                        </template>
-                        <template v-if="set.sets != null">
-                          ×{{ set.sets }}set
-                        </template>
-                        <template v-if="set.percent != null">
-                          @{{ set.percent }}%
-                        </template>
-                      </span>
+                      <span>{{ formatSet(set) }}</span>
                       <span v-if="si < session.sets.length - 1">, </span>
                     </template>
                   </span>
@@ -135,6 +122,13 @@ export default {
         this.currentPage++
         this.openDates = []
       }
+    },
+    formatSet(set) {
+      const parts = []
+      if (set.weight != null) parts.push(`${set.weight}kg`)
+      if (set.reps != null) parts.push(`${set.reps}rep`)
+      if (set.sets != null) parts.push(`${set.sets}set`)
+      return parts.join('×')
     },
     planTags(plan) {
       const tags = plan.sessions
