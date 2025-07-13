@@ -11,42 +11,86 @@
         />
         <span>{{ pageSize }}</span> 件
       </label>
+      <label><input type="checkbox" v-model="showLogs" />ログ</label>
+      <label><input type="checkbox" v-model="showSchedule" />スケジュール</label>
     </div>
-    <LogList :logs="logs" :page-size="pageSize" @delete-log="deleteLogEntry" />
+    <LogList
+      v-if="showLogs"
+      :logs="logs"
+      :page-size="pageSize"
+      @delete-log="deleteLogEntry"
+    />
+    <ScheduleList
+      v-if="showSchedule"
+      :plans="plans"
+      :page-size="pageSize"
+    />
   </div>
 </template>
 
 <script>
 import LogList from '../components/LogList.vue'
+import ScheduleList from '../components/ScheduleList.vue'
 import { getStoredDates, getStoredLog, deleteLog } from '../utils/logStorage'
 
 export default {
-  components: { LogList },
+  components: { LogList, ScheduleList },
   data() {
-    return { logs: [], pageSize: 10 }
+    return {
+      logs: [],
+      plans: [],
+      pageSize: 10,
+      showLogs: true,
+      showSchedule: true
+    }
   },
   created() {
-      const base = import.meta.env.BASE_URL
-      fetch(`${base}logs/index.json`)
-        .then(r => r.json())
-        .then(dates => {
-          const extra = getStoredDates()
-          const allDates = Array.from(new Set([...dates, ...extra])).sort()
-          return Promise.all(allDates.map(d => {
-            const stored = getStoredLog(d)
-            if (stored) return Promise.resolve(stored)
-            return fetch(`${base}logs/${d}.json`).then(r => r.json())
-          }))
-        })
-        .then(arr => {
-          arr.sort((a, b) => a.date.localeCompare(b.date))
-          this.logs = arr
-        })
+    const base = import.meta.env.BASE_URL
+    const indexReq = fetch(`${base}logs/index.json`).then(r => r.json())
+    const schedReq = fetch(`${base}schedule/training-schedule.json`).then(r => r.json())
+
+    indexReq
+      .then(dates => {
+        const extra = getStoredDates()
+        const allDates = Array.from(new Set([...dates, ...extra])).sort()
+        return Promise.all(allDates.map(d => {
+          const stored = getStoredLog(d)
+          if (stored) return Promise.resolve(stored)
+          return fetch(`${base}logs/${d}.json`).then(r => r.json())
+        }))
+      })
+      .then(arr => {
+        arr.sort((a, b) => a.date.localeCompare(b.date))
+        this.logs = arr
+        return schedReq
+      })
+      .then(sched => {
+        this.processSchedule(sched)
+      })
   },
   methods: {
     deleteLogEntry(date) {
       deleteLog(date)
       this.logs = this.logs.filter(l => l.date !== date)
+    },
+    processSchedule(sched) {
+      const plans = []
+      for (const block of sched.blocks || []) {
+        for (const week of block.weeks || []) {
+          for (const day of week.days || []) {
+            plans.push({
+              date: day.date,
+              block: block.block,
+              week: week.week,
+              day: Number(String(day.day).replace('Day','')),
+              sessions: day.sessions
+            })
+          }
+        }
+      }
+      const within30 = (a,b) => Math.abs(new Date(a) - new Date(b)) <= 30*86400000
+      this.plans = plans.filter(p => !this.logs.some(l => l.block === p.block && l.week == p.week && l.day == p.day && within30(l.date, p.date)))
+      this.plans.sort((a,b) => a.date.localeCompare(b.date))
     }
   }
 }
