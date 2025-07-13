@@ -535,6 +535,11 @@ main {
 .flat-session + .flat-session {
   margin-top: 4px;
 }
+.flat-md {
+  white-space: pre-wrap;
+  margin: 0;
+  font-family: inherit;
+}
 
 /* ログコピー */
 .log-card .actions {
