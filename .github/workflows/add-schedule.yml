@@ -1,0 +1,45 @@
+name: Add or Update Training Schedule
+
+permissions:
+  contents: write
+  issues: write
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  add-schedule:
+    if: "contains(github.event.issue.labels.*.name, 'training-schedule')"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - name: Update training schedule
+        env:
+          JSON_PAYLOAD: ${{ github.event.issue.body }}
+        run: node scripts/updateSchedule.js
+      - name: Commit changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          if ! git diff --quiet; then
+            git add public/schedule
+            git commit -m "Update training schedule" && git push
+          fi
+      - name: Close issue
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed'
+            });
+
