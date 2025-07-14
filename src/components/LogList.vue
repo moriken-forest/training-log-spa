@@ -8,16 +8,15 @@
       :class="{ open: expanded || openDates.includes(log.date) }"
     >
       <div class="summary" :class="{ clickable: !expanded }" @click="expanded || toggle(log.date)">
-        <span class="date">{{ log.date }}</span>
-        <span class="meta" v-if="log.block || (log.week && log.day)">
-          {{ summaryMeta(log) }}
-        </span>
+        <div class="top-line">
+          <span class="date">{{ log.date }}</span>
+          <span class="meta" v-if="log.block || (log.week && log.day)">
+            {{ summaryMeta(log) }}
+          </span>
+        </div>
+        <span class="note">{{ summaryLifts(log).join(', ') }}</span>
       </div>
       <div class="details">
-        <div class="meta" v-if="log.block != null || (log.week != null && log.day != null)">
-          <span v-if="log.block != null">ブロック: {{ log.block }}</span>
-          <span v-if="log.week != null && log.day != null">Week{{ log.week }}-{{ log.day }}</span>
-        </div>
         <div v-for="session in log.sessions" :key="session.lift" class="session">
           <h2>
             {{ session.lift }}
