@@ -15,14 +15,24 @@
                   "type": "スクワット（メイン）",
                   "lift": "ハイバースクワット",
                   "sets": [
-                    { "weight": 100.0, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 10000,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 },
                 {
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
-                    { "weight": 80.0, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 80,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 }
               ]
@@ -35,7 +45,12 @@
                   "type": "ベンチプレス（サブ）",
                   "lift": "ポーズベンチ",
                   "sets": [
-                    { "weight": 70.0, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 70,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 }
               ]
@@ -48,14 +63,24 @@
                   "type": "デッドリフト（メイン）",
                   "lift": "ルーマニアンデッドリフト",
                   "sets": [
-                    { "weight": 120.0, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 120,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 },
                 {
                   "type": "アクセサリー種目",
                   "lift": "懸垂",
                   "sets": [
-                    { "weight": null, "reps": 8, "sets": 1, "percent": null }
+                    {
+                      "weight": null,
+                      "reps": 8,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 }
               ]
@@ -68,7 +93,12 @@
                   "type": "スクワット（サブ）",
                   "lift": "フロントスクワット",
                   "sets": [
-                    { "weight": 90.0, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 90,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 }
               ]
@@ -81,7 +111,12 @@
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
-                    { "weight": 82.5, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 82.5,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 }
               ]
@@ -99,14 +134,24 @@
                   "type": "スクワット（メイン）",
                   "lift": "ハイバースクワット",
                   "sets": [
-                    { "weight": 102.5, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 102.5,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 },
                 {
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
-                    { "weight": 80.0, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 80,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 }
               ]
@@ -119,7 +164,12 @@
                   "type": "ベンチプレス（サブ）",
                   "lift": "ポーズベンチ",
                   "sets": [
-                    { "weight": 72.5, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 72.5,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 }
               ]
@@ -132,14 +182,24 @@
                   "type": "デッドリフト（メイン）",
                   "lift": "ルーマニアンデッドリフト",
                   "sets": [
-                    { "weight": 122.5, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 122.5,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 },
                 {
                   "type": "アクセサリー種目",
                   "lift": "懸垂",
                   "sets": [
-                    { "weight": null, "reps": 8, "sets": 1, "percent": null }
+                    {
+                      "weight": null,
+                      "reps": 8,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 }
               ]
@@ -152,7 +212,12 @@
                   "type": "スクワット（サブ）",
                   "lift": "フロントスクワット",
                   "sets": [
-                    { "weight": 92.5, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 92.5,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 }
               ]
@@ -165,7 +230,12 @@
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
-                    { "weight": 85.0, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 85,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 }
               ]
@@ -183,14 +253,24 @@
                   "type": "スクワット（メイン）",
                   "lift": "ハイバースクワット",
                   "sets": [
-                    { "weight": 105.0, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 105,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 },
                 {
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
-                    { "weight": 82.5, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 82.5,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 }
               ]
@@ -203,7 +283,12 @@
                   "type": "ベンチプレス（サブ）",
                   "lift": "ポーズベンチ",
                   "sets": [
-                    { "weight": 75.0, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 75,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 }
               ]
@@ -216,14 +301,24 @@
                   "type": "デッドリフト（メイン）",
                   "lift": "ルーマニアンデッドリフト",
                   "sets": [
-                    { "weight": 125.0, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 125,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 },
                 {
                   "type": "アクセサリー種目",
                   "lift": "懸垂",
                   "sets": [
-                    { "weight": null, "reps": 8, "sets": 1, "percent": null }
+                    {
+                      "weight": null,
+                      "reps": 8,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 }
               ]
@@ -236,7 +331,12 @@
                   "type": "スクワット（サブ）",
                   "lift": "フロントスクワット",
                   "sets": [
-                    { "weight": 95.0, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 95,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 }
               ]
@@ -249,7 +349,12 @@
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
-                    { "weight": 87.5, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 87.5,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 }
               ]
@@ -267,14 +372,24 @@
                   "type": "スクワット（メイン）",
                   "lift": "ハイバースクワット",
                   "sets": [
-                    { "weight": 107.5, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 107.5,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 },
                 {
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
-                    { "weight": 85.0, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 85,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 }
               ]
@@ -287,7 +402,12 @@
                   "type": "ベンチプレス（サブ）",
                   "lift": "ポーズベンチ",
                   "sets": [
-                    { "weight": 77.5, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 77.5,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 }
               ]
@@ -300,14 +420,24 @@
                   "type": "デッドリフト（メイン）",
                   "lift": "ルーマニアンデッドリフト",
                   "sets": [
-                    { "weight": 127.5, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 127.5,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 },
                 {
                   "type": "アクセサリー種目",
                   "lift": "懸垂",
                   "sets": [
-                    { "weight": null, "reps": 8, "sets": 1, "percent": null }
+                    {
+                      "weight": null,
+                      "reps": 8,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 }
               ]
@@ -320,7 +450,12 @@
                   "type": "スクワット（サブ）",
                   "lift": "フロントスクワット",
                   "sets": [
-                    { "weight": 97.5, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 97.5,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 }
               ]
@@ -333,7 +468,12 @@
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
-                    { "weight": 90.0, "reps": 5, "sets": 1, "percent": null }
+                    {
+                      "weight": 90,
+                      "reps": 5,
+                      "sets": 1,
+                      "percent": null
+                    }
                   ]
                 }
               ]
