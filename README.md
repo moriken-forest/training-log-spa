@@ -6,12 +6,12 @@ https://moriken-forest.github.io/training-log-spa/#/calendar
 This repository manages daily training logs using GitHub Issues.
 
 Open the **Issues** tab and click **New issue**. Choose **Training Log** to add or update a log.
-To delete a log, create an issue with the label `delete-training-log` and include the username and date in the body:
+To delete a log, create an issue with the label `delete-training-log` and include the username followed by the date:
 
 ```
-username: kenta
-date: 2025-08-20
+test-user2025/09/01 13:52
 ```
+The date portion can use `/` or `-` as separators and any time segment is ignored.
 When adding a log, prefix the JSON with the username like `kenta{...}` in the description.
 
 The automation workflow extracts the username and JSON block and saves it under `public/logs/<user>/`.
