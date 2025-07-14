@@ -19,6 +19,8 @@ import LogDetail from '../components/LogDetail.vue'
 import ScheduleDetail from '../components/ScheduleDetail.vue'
 import { getStoredDates, getStoredLog, deleteLog } from '../utils/logStorage'
 
+const user = import.meta.env.VITE_LOG_USER || 'demo-user'
+
 export default {
   components: { Calendar, LogDetail, ScheduleDetail },
   data() {
@@ -33,7 +35,7 @@ export default {
   },
   created() {
     const base = import.meta.env.BASE_URL
-    const indexReq = fetch(`${base}logs/index.json`).then(r => r.json())
+    const indexReq = fetch(`${base}logs/${user}/index.json`).then(r => r.json())
     const schedReq = fetch(`${base}schedule/training-schedule.json`).then(r => r.json())
 
     indexReq
@@ -43,7 +45,7 @@ export default {
         return Promise.all(this.logDates.map(dt => {
           const stored = getStoredLog(dt)
           if (stored) return Promise.resolve(stored)
-          return fetch(`${base}logs/${dt}.json`).then(r => r.json())
+          return fetch(`${base}logs/${user}/${dt}.json`).then(r => r.json())
         }))
       })
       .then(arr => {
@@ -88,7 +90,7 @@ export default {
           return
         }
         const base = import.meta.env.BASE_URL
-        fetch(`${base}logs/${date}.json`)
+        fetch(`${base}logs/${user}/${date}.json`)
           .then(r => r.json())
           .then(j => this.selectedLog = j)
       } else if (this.scheduleMap[date]) {

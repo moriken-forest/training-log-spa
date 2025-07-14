@@ -3,7 +3,8 @@ const path = require('path');
 
 // Resolve paths relative to the repository root
 const repoRoot = path.join(__dirname, '..');
-const indexPath = path.join(repoRoot, 'public', 'logs', 'index.json');
+const user = process.env.LOG_USER || 'demo-user';
+const indexPath = path.join(repoRoot, 'public', 'logs', user, 'index.json');
 const templateDir = path.join(repoRoot, '.github', 'ISSUE_TEMPLATE');
 const templatePath = path.join(templateDir, 'delete-log.yml');
 

@@ -46,7 +46,8 @@ if (!dates.length) {
 }
 
 const repoRoot = path.join(__dirname, '..');
-const logDir = path.join(repoRoot, 'public', 'logs');
+const user = process.env.LOG_USER || 'demo-user';
+const logDir = path.join(repoRoot, 'public', 'logs', user);
 const indexPath = path.join(logDir, 'index.json');
 let index = [];
 if (fs.existsSync(indexPath)) {

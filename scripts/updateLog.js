@@ -71,7 +71,8 @@ for (const session of data.sessions || []) {
 }
 
 const repoRoot = path.join(__dirname, '..');
-const logDir = path.join(repoRoot, 'public', 'logs');
+const user = process.env.LOG_USER || 'demo-user';
+const logDir = path.join(repoRoot, 'public', 'logs', user);
 if (!fs.existsSync(logDir)) {
   fs.mkdirSync(logDir, { recursive: true });
 }
