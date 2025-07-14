@@ -1,0 +1,23 @@
+{
+  "date": "2025-09-05",
+  "block": "Intro",
+  "week": 1,
+  "day": 3,
+  "notes": "軽めの調整日",
+  "sessions": [
+    {
+      "type": "デッドリフト（メイン）",
+      "lift": "ルーマニアンデッドリフト",
+      "sets": [
+        { "weight": 120, "reps": 5, "rpe": 6, "comment": "", "1RM": 139, "e1RM": 144 }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "懸垂",
+      "sets": [
+        { "weight": null, "reps": 8, "rpe": 7, "comment": "", "1RM": null, "e1RM": null }
+      ]
+    }
+  ]
+}
