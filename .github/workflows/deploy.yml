@@ -8,7 +8,7 @@ on:
     branches:
       - main
   workflow_run:
-    workflows: ["Add or Update Training Log", "Delete Training Log"]
+    workflows: ["Add or Update Training Log", "Delete Training Log", "Add or Update Training Schedule"]
     types:
       - completed
 
