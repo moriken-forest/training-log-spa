@@ -58,6 +58,7 @@
 import LogList from '../components/LogList.vue'
 import ScheduleList from '../components/ScheduleList.vue'
 import { getStoredDates, getStoredLog, deleteLog } from '../utils/logStorage'
+import { sortCategories } from '../utils/category'
 
 export default {
   components: { LogList, ScheduleList },
@@ -89,7 +90,7 @@ export default {
           if (s.type) set.add(s.type)
         }
       }
-      return Array.from(set)
+      return sortCategories(Array.from(set))
     },
     filteredLogs() {
       const category = this.categoryModel
