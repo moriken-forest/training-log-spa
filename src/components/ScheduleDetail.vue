@@ -1,12 +1,5 @@
 <template>
   <div class="log-detail schedule-detail" v-if="plan">
-    <div class="log-title">
-      <h2>{{ plan.date }}</h2>
-      <div class="meta">
-        <span v-if="plan.block">ブロック: {{ plan.block }}</span>
-        <span v-if="plan.week && plan.day">Week{{ plan.week }}-{{ plan.day }}</span>
-      </div>
-    </div>
     <div v-for="(session, idx) in plan.sessions" :key="idx" class="session">
       <h3 class="session-title">
         {{ session.lift }}
