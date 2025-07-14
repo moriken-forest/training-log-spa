@@ -2,20 +2,20 @@
 
 /* カラーパレットと共通変数 */
 :root {
-  --primary: #58a6ff;
-  --primary-dark: #1f6feb;
-  --primary-light: #79c0ff;
-  --bg: #0d1117;
-  --card-bg: #161b22;
-  --text: #c9d1d9;
-  --muted: #8b949e;
-  --border: #30363d;
+  --primary: #ff6b6b;
+  --primary-dark: #c0392b;
+  --primary-light: #ffb3b3;
+  --bg: #000000;
+  --card-bg: #1a1a1a;
+  --text: #e0e0e0;
+  --muted: #888888;
+  --border: #333333;
   --shadow: rgba(0, 0, 0, 0.6);
   --radius: 12px;
   --spacing: 16px;
-  --schedule: #3fb950;
-  --schedule-dark: #238636;
-  --schedule-light: #aff5b4;
+  --schedule: #f4e285;
+  --schedule-dark: #c2a14d;
+  --schedule-light: #fbf4c0;
 }
 
 /* リセット＆ボックスモデル */
@@ -37,7 +37,7 @@ body {
 /* ヘッダー */
 header {
   background: linear-gradient(90deg, var(--primary), var(--primary-dark));
-  color: #fff;
+  color: var(--text);
   box-shadow: 0 2px 4px var(--shadow);
   position: sticky;
   top: 0;
@@ -54,7 +54,7 @@ header {
 .logo {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--text);
 }
 nav a {
   margin-left: var(--spacing);
@@ -64,7 +64,7 @@ nav a {
   transition: color 0.2s;
 }
 nav a:hover {
-  color: #fff;
+  color: var(--text);
 }
 nav .material-icons {
   font-size: 1.5rem;
@@ -89,7 +89,7 @@ main {
 }
 #calendarHeader button {
   background: var(--primary);
-  color: #fff;
+  color: var(--bg);
   border: none;
   border-radius: var(--radius);
   padding: 8px 12px;
@@ -125,7 +125,7 @@ main {
 .day-cell {
   background: var(--card-bg);
   border-radius: var(--radius);
-  border: 1px solid var(--border, #e5e7eb);
+  border: 1px solid var(--border);
   padding: 10px;
   text-align: center;
   cursor: pointer;
@@ -155,7 +155,7 @@ main {
 }
 .day-cell.selected {
   background: var(--primary);
-  color: #fff;
+  color: var(--bg);
   font-weight: 600;
   border-color: var(--primary-dark);
   box-shadow: 0 4px 8px var(--shadow);
@@ -261,7 +261,7 @@ main {
 }
 .session th,
 .session td {
-  border-bottom: 1px solid var(--border, #e5e7eb);
+  border-bottom: 1px solid var(--border);
   padding: 12px;
   text-align: center;
 }
@@ -340,7 +340,7 @@ main {
 }
 #pagination button {
   background: var(--primary);
-  color: #fff;
+  color: var(--bg);
   border: none;
   border-radius: var(--radius);
   padding: 6px 12px;
@@ -492,7 +492,7 @@ main {
 
 #register-section button {
   background: var(--primary);
-  color: #fff;
+  color: var(--bg);
   border: none;
   border-radius: var(--radius);
   padding: 8px 16px;
@@ -583,7 +583,7 @@ main {
 }
 .segmented-control button.active {
   background: var(--primary);
-  color: #fff;
+  color: var(--bg);
 }
 .segmented-control button:not(:last-child) {
   border-right: 1px solid var(--border);
@@ -602,7 +602,7 @@ main {
 }
 .flat-table th {
   background: var(--primary);
-  color: #fff;
+  color: var(--bg);
 }
 .flat-table tbody tr:nth-child(odd) {
   background: var(--bg);
