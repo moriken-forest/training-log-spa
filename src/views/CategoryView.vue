@@ -5,6 +5,14 @@
         <input type="range" v-model.number="pageSize" min="10" max="100" step="10" />
         <span>{{ pageSize }}</span> 件
       </label>
+      <div class="segmented-control category-tabs">
+        <button
+          v-for="b in bases"
+          :key="b"
+          :class="{ active: baseModel === b }"
+          @click="baseModel = b"
+        >{{ b }}</button>
+      </div>
       <label v-if="variants.length" class="category-select">
         種別:
         <select v-model="variantModel">
@@ -13,17 +21,17 @@
         </select>
       </label>
     </div>
-    <SessionList :sessions="filteredSessions" :page-size="pageSize" />
+    <LogList :logs="filteredLogs" :page-size="pageSize" />
   </div>
 </template>
 
 <script>
-import SessionList from '../components/SessionList.vue'
+import LogList from '../components/LogList.vue'
 import { getStoredDates, getStoredLog } from '../utils/logStorage'
 import { parseCategory } from '../utils/category'
 
 export default {
-  components: { SessionList },
+  components: { LogList },
   data() {
     return {
       logs: [],
@@ -31,8 +39,11 @@ export default {
     }
   },
   computed: {
-    base() {
-      return this.$route.params.base
+    baseModel: {
+      get() { return this.$route.params.base },
+      set(v) {
+        this.$router.replace({ path: `/category/${encodeURIComponent(v)}`, query: this.$route.query })
+      }
     },
     variantModel: {
       get() { return this.$route.query.variant || '' },
@@ -43,33 +54,42 @@ export default {
         this.$router.replace({ query: q })
       }
     },
+    bases() {
+      const set = new Set()
+      for (const log of this.logs) {
+        for (const s of log.sessions || []) {
+          const { base } = parseCategory(s.type || '')
+          if (base) set.add(base)
+        }
+      }
+      return Array.from(set)
+    },
     variants() {
       const set = new Set()
       for (const log of this.logs) {
         for (const s of log.sessions || []) {
           const { base, variant } = parseCategory(s.type || '')
-          if (base === this.base && variant) set.add(variant)
+          if (base === this.baseModel && variant) set.add(variant)
         }
       }
       return Array.from(set)
     },
-    filteredSessions() {
+    filteredLogs() {
       const variant = this.variantModel
-      const base = this.base
+      const base = this.baseModel
       const out = []
       for (const log of this.logs) {
+        const sessions = []
         for (const session of log.sessions || []) {
           const pc = parseCategory(session.type || '')
           if (pc.base !== base) continue
           if (variant && pc.variant !== variant) continue
+          sessions.push(session)
+        }
+        if (sessions.length) {
           out.push({
-            id: `${log.date}-${session.lift}-${session.variation || ''}`,
-            date: log.date,
-            notes: log.notes,
-            block: log.block,
-            week: log.week,
-            day: log.day,
-            session
+            ...log,
+            sessions
           })
         }
       }
@@ -77,9 +97,18 @@ export default {
       return out
     }
   },
+  watch: {
+    baseModel() {
+      if (!this.variants.includes(this.variantModel)) {
+        const q = { ...this.$route.query }
+        delete q.variant
+        this.$router.replace({ query: q })
+      }
+    }
+  },
   methods: {
     categoryLabel(v) {
-      return v ? `${this.base}（${v}）` : this.base
+      return v ? `${this.baseModel}（${v}）` : this.baseModel
     }
   },
   created() {
