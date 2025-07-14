@@ -5,12 +5,12 @@ import { mount } from '@vue/test-utils'
 
 describe('ユーザー切り替え', () => {
   it('clearCache後も選択したユーザーを保持する', async () => {
-    // set user to test-user
-    setUser('test-user')
+    // set user to tomoki
+    setUser('tomoki')
     const wrapper = mount(App)
     // call clearCache
     vi.spyOn(window.location, 'reload').mockImplementation(() => {})
     await wrapper.vm.clearCache()
-    expect(getUser()).toBe('test-user')
+    expect(getUser()).toBe('tomoki')
   })
 })

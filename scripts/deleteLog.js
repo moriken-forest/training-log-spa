@@ -46,7 +46,7 @@ if (!dates.length) {
 }
 
 const repoRoot = path.join(__dirname, '..');
-const user = process.env.LOG_USER || 'demo-user';
+const user = process.env.LOG_USER || 'kenta';
 const logDir = path.join(repoRoot, 'public', 'logs', user);
 const indexPath = path.join(logDir, 'index.json');
 let index = [];
