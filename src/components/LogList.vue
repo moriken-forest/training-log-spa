@@ -111,7 +111,7 @@ export default {
       const lifts = (log.sessions || []).map(s => {
         return s.variation ? `${s.lift} (${s.variation})` : s.lift
       })
-      return lifts.slice(0, 2)
+      return lifts
     },
     summaryMeta(log) {
       const parts = []

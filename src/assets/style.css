@@ -362,6 +362,7 @@ main {
 .summary .note {
   color: var(--muted);
   white-space: pre-line;
+  font-size: 0.875rem;
 }
 .summary .meta {
   color: var(--muted);
