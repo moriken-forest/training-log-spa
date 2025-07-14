@@ -357,6 +357,7 @@ main {
 }
 .summary .note {
   color: var(--muted);
+  white-space: pre-line;
 }
 .summary .meta {
   color: var(--muted);
@@ -371,6 +372,7 @@ main {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding-right: 32px; /* make room for copy icon */
 }
 .log-card.open .summary .top-line {
   flex-direction: column;
@@ -379,6 +381,9 @@ main {
 .log-card.open .summary .meta {
   margin-left: 0;
   margin-top: 4px;
+}
+.log-card.open .summary .note {
+  display: none;
 }
 .details {
   display: none;
