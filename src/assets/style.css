@@ -2,9 +2,9 @@
 
 /* カラーパレットと共通変数 */
 :root {
-  --primary: #ff6b6b;
-  --primary-dark: #c0392b;
-  --primary-light: #ffb3b3;
+  --primary: #b40e0e;
+  --primary-dark: #7a0000;
+  --primary-light: #f2b6b6;
   --bg: #000000;
   --card-bg: #1a1a1a;
   --text: #e0e0e0;
@@ -13,9 +13,9 @@
   --shadow: rgba(0, 0, 0, 0.6);
   --radius: 12px;
   --spacing: 16px;
-  --schedule: #f4e285;
-  --schedule-dark: #c2a14d;
-  --schedule-light: #fbf4c0;
+  --schedule: #d66a6a;
+  --schedule-dark: #8b3232;
+  --schedule-light: #f9dede;
 }
 
 /* リセット＆ボックスモデル */
@@ -140,9 +140,9 @@ main {
   box-shadow: none;
 }
 .day-cell.has-log {
-  border-color: var(--primary);
-  background: var(--primary-light);
-  color: var(--primary-dark);
+  border-color: var(--primary-dark);
+  background: var(--primary-dark);
+  color: #ffffff;
 }
 .day-cell.has-schedule {
   border-color: var(--schedule-dark);
@@ -154,8 +154,8 @@ main {
   box-shadow: 0 4px 8px var(--shadow);
 }
 .day-cell.selected {
-  background: var(--primary);
-  color: var(--bg);
+  background: #ffffff;
+  color: var(--primary-dark);
   font-weight: 600;
   border-color: var(--primary-dark);
   box-shadow: 0 4px 8px var(--shadow);
