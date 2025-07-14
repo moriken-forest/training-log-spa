@@ -5,25 +5,31 @@
         <input type="range" v-model.number="pageSize" min="10" max="100" step="10" />
         <span>{{ pageSize }}</span> 件
       </label>
-      <label v-if="variants.length" class="category-select">
+      <label v-if="bases.length" class="category-select modern-select">
+        種目:
+        <select v-model="baseModel">
+          <option v-for="b in bases" :key="b" :value="b">{{ b }}</option>
+        </select>
+      </label>
+      <label v-if="variants.length" class="category-select modern-select">
         種別:
         <select v-model="variantModel">
           <option value="">すべて</option>
-          <option v-for="v in variants" :key="v" :value="v">{{ v }}</option>
+          <option v-for="v in variants" :key="v" :value="v">{{ categoryLabel(v) }}</option>
         </select>
       </label>
     </div>
-    <LogList :logs="filteredLogs" :page-size="pageSize" />
+    <SessionList :sessions="filteredSessions" :page-size="pageSize" />
   </div>
 </template>
 
 <script>
-import LogList from '../components/LogList.vue'
+import SessionList from '../components/SessionList.vue'
 import { getStoredDates, getStoredLog } from '../utils/logStorage'
 import { parseCategory } from '../utils/category'
 
 export default {
-  components: { LogList },
+  components: { SessionList },
   data() {
     return {
       logs: [],
@@ -31,8 +37,21 @@ export default {
     }
   },
   computed: {
-    base() {
-      return this.$route.params.base
+    baseModel: {
+      get() { return this.$route.params.base },
+      set(v) {
+        this.$router.push({ path: `/category/${encodeURIComponent(v)}`, query: { ...this.$route.query } })
+      }
+    },
+    bases() {
+      const set = new Set()
+      for (const log of this.logs) {
+        for (const s of log.sessions || []) {
+          const { base } = parseCategory(s.type || '')
+          set.add(base)
+        }
+      }
+      return Array.from(set)
     },
     variantModel: {
       get() { return this.$route.query.variant || '' },
@@ -48,27 +67,53 @@ export default {
       for (const log of this.logs) {
         for (const s of log.sessions || []) {
           const { base, variant } = parseCategory(s.type || '')
-          if (base === this.base && variant) set.add(variant)
+          if (base === this.baseModel && variant) set.add(variant)
         }
       }
       return Array.from(set)
     },
-    filteredLogs() {
+    filteredSessions() {
       const variant = this.variantModel
-      const base = this.base
-      const out = []
+      const base = this.baseModel
+      const groups = {}
       for (const log of this.logs) {
-        const sessions = (log.sessions || []).filter(s => {
-          const pc = parseCategory(s.type || '')
-          if (pc.base !== base) return false
-          if (variant && pc.variant !== variant) return false
-          return true
-        })
-        if (sessions.length) {
-          out.push({ ...log, sessions })
+        for (const session of log.sessions || []) {
+          const pc = parseCategory(session.type || '')
+          if (pc.base !== base) continue
+          if (variant && pc.variant !== variant) continue
+          const key = `${log.date}:${session.type || ''}`
+          if (!groups[key]) {
+            groups[key] = {
+              id: key,
+              date: log.date,
+              notes: log.notes,
+              block: log.block,
+              week: log.week,
+              day: log.day,
+              session: {
+                ...session,
+                sets: []
+              }
+            }
+          }
+          groups[key].session.sets.push(...(session.sets || []))
         }
       }
+      const out = Object.values(groups)
+      out.sort((a, b) => b.date.localeCompare(a.date))
       return out
+    }
+  },
+  watch: {
+    baseModel() {
+      if (!this.variants.includes(this.variantModel)) {
+        this.variantModel = ''
+      }
+    }
+  },
+  methods: {
+    categoryLabel(v) {
+      return v ? `${this.baseModel}（${v}）` : this.baseModel
     }
   },
   created() {
