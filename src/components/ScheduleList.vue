@@ -67,7 +67,7 @@
 
 <script>
 import ScheduleDetail from './ScheduleDetail.vue'
-import { parseCategory } from '../utils/category'
+import { parseCategory, sortCategories } from '../utils/category'
 
 export default {
   name: 'ScheduleList',
@@ -140,7 +140,7 @@ export default {
       const tags = plan.sessions
         .map(s => s.type)
         .filter(t => t)
-      return Array.from(new Set(tags))
+      return sortCategories(Array.from(new Set(tags)))
     },
     goCategory(cat) {
       const { base, variant } = parseCategory(cat)

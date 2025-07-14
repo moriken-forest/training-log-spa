@@ -33,7 +33,7 @@
 <script>
 import LogList from '../components/LogList.vue'
 import { getStoredDates, getStoredLog } from '../utils/logStorage'
-import { parseCategory } from '../utils/category'
+import { parseCategory, sortBases, sortVariants } from '../utils/category'
 
 export default {
   components: { LogList },
@@ -67,7 +67,7 @@ export default {
           if (base) set.add(base)
         }
       }
-      return Array.from(set)
+      return sortBases(Array.from(set))
     },
     variants() {
       const set = new Set()
@@ -77,7 +77,7 @@ export default {
           if (base === this.baseModel && variant) set.add(variant)
         }
       }
-      return Array.from(set)
+      return sortVariants(Array.from(set))
     },
     filteredLogs() {
       const variant = this.variantModel
