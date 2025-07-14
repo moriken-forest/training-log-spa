@@ -346,8 +346,9 @@ main {
 }
 .summary {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   padding: var(--spacing);
+  gap: 4px;
 }
 .summary.clickable {
   cursor: pointer;
@@ -358,9 +359,25 @@ main {
 .summary .note {
   color: var(--muted);
 }
+.summary .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.summary .meta {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
 .summary .lifts {
   color: var(--muted);
   line-height: 1.2;
+}
+.log-card.open .summary .header {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.log-card.open .summary .meta {
+  margin-top: 4px;
 }
 .details {
   display: none;
@@ -377,7 +394,6 @@ main {
     gap: 8px;
   }
   .summary {
-    flex-direction: column;
     gap: 4px;
   }
   .session h2 {
