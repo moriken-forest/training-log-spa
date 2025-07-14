@@ -294,6 +294,26 @@ main {
   border: 1px solid var(--border);
   background: var(--card-bg);
 }
+
+/* モダンなセレクトボックス */
+#controls .modern-select {
+  position: relative;
+  display: inline-block;
+}
+#controls .modern-select select {
+  appearance: none;
+  padding-right: 2em;
+}
+#controls .modern-select::after {
+  content: 'arrow_drop_down';
+  font-family: 'Material Icons';
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: var(--muted);
+}
 #pagination {
   display: flex;
   align-items: center;
