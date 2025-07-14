@@ -231,14 +231,21 @@ main {
   white-space: nowrap;
   overflow-x: auto;
 }
+
+/* スケジュールのセッションタイトルは横スクロールさせない */
+.schedule-detail .session-title {
+  overflow-x: visible;
+  flex-wrap: wrap;
+}
 .type-tag {
   display: inline-block;
   background: var(--primary-light);
   color: var(--primary-dark);
-  font-size: 0.75rem;
-  padding: 2px 6px;
+  font-size: 0.65rem;
+  padding: 1px 4px;
   border-radius: var(--radius);
-  margin-left: 6px;
+  margin-left: 4px;
+  line-height: 1;
   white-space: nowrap;
   cursor: pointer;
 }
