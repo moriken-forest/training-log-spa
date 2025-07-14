@@ -28,8 +28,21 @@
               ]
             },
             {
+              "day": "Day2",
+              "date": "2025-09-02",
+              "sessions": [
+                {
+                  "type": "ベンチプレス（サブ）",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    { "weight": 70.0, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                }
+              ]
+            },
+            {
               "day": "Day3",
-              "date": "2025-09-05",
+              "date": "2025-09-03",
               "sessions": [
                 {
                   "type": "デッドリフト（メイン）",
@@ -43,6 +56,284 @@
                   "lift": "懸垂",
                   "sets": [
                     { "weight": null, "reps": 8, "sets": 1, "percent": null }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day4",
+              "date": "2025-09-04",
+              "sessions": [
+                {
+                  "type": "スクワット（サブ）",
+                  "lift": "フロントスクワット",
+                  "sets": [
+                    { "weight": 90.0, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day5",
+              "date": "2025-09-05",
+              "sessions": [
+                {
+                  "type": "ベンチプレス（メイン）",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    { "weight": 82.5, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-09-08",
+              "sessions": [
+                {
+                  "type": "スクワット（メイン）",
+                  "lift": "ハイバースクワット",
+                  "sets": [
+                    { "weight": 102.5, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                },
+                {
+                  "type": "ベンチプレス（メイン）",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    { "weight": 80.0, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day2",
+              "date": "2025-09-09",
+              "sessions": [
+                {
+                  "type": "ベンチプレス（サブ）",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    { "weight": 72.5, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-09-10",
+              "sessions": [
+                {
+                  "type": "デッドリフト（メイン）",
+                  "lift": "ルーマニアンデッドリフト",
+                  "sets": [
+                    { "weight": 122.5, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                },
+                {
+                  "type": "アクセサリー種目",
+                  "lift": "懸垂",
+                  "sets": [
+                    { "weight": null, "reps": 8, "sets": 1, "percent": null }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day4",
+              "date": "2025-09-11",
+              "sessions": [
+                {
+                  "type": "スクワット（サブ）",
+                  "lift": "フロントスクワット",
+                  "sets": [
+                    { "weight": 92.5, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day5",
+              "date": "2025-09-12",
+              "sessions": [
+                {
+                  "type": "ベンチプレス（メイン）",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    { "weight": 85.0, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-09-15",
+              "sessions": [
+                {
+                  "type": "スクワット（メイン）",
+                  "lift": "ハイバースクワット",
+                  "sets": [
+                    { "weight": 105.0, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                },
+                {
+                  "type": "ベンチプレス（メイン）",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    { "weight": 82.5, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day2",
+              "date": "2025-09-16",
+              "sessions": [
+                {
+                  "type": "ベンチプレス（サブ）",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    { "weight": 75.0, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-09-17",
+              "sessions": [
+                {
+                  "type": "デッドリフト（メイン）",
+                  "lift": "ルーマニアンデッドリフト",
+                  "sets": [
+                    { "weight": 125.0, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                },
+                {
+                  "type": "アクセサリー種目",
+                  "lift": "懸垂",
+                  "sets": [
+                    { "weight": null, "reps": 8, "sets": 1, "percent": null }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day4",
+              "date": "2025-09-18",
+              "sessions": [
+                {
+                  "type": "スクワット（サブ）",
+                  "lift": "フロントスクワット",
+                  "sets": [
+                    { "weight": 95.0, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day5",
+              "date": "2025-09-19",
+              "sessions": [
+                {
+                  "type": "ベンチプレス（メイン）",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    { "weight": 87.5, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-09-22",
+              "sessions": [
+                {
+                  "type": "スクワット（メイン）",
+                  "lift": "ハイバースクワット",
+                  "sets": [
+                    { "weight": 107.5, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                },
+                {
+                  "type": "ベンチプレス（メイン）",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    { "weight": 85.0, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day2",
+              "date": "2025-09-23",
+              "sessions": [
+                {
+                  "type": "ベンチプレス（サブ）",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    { "weight": 77.5, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-09-24",
+              "sessions": [
+                {
+                  "type": "デッドリフト（メイン）",
+                  "lift": "ルーマニアンデッドリフト",
+                  "sets": [
+                    { "weight": 127.5, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                },
+                {
+                  "type": "アクセサリー種目",
+                  "lift": "懸垂",
+                  "sets": [
+                    { "weight": null, "reps": 8, "sets": 1, "percent": null }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day4",
+              "date": "2025-09-25",
+              "sessions": [
+                {
+                  "type": "スクワット（サブ）",
+                  "lift": "フロントスクワット",
+                  "sets": [
+                    { "weight": 97.5, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day5",
+              "date": "2025-09-26",
+              "sessions": [
+                {
+                  "type": "ベンチプレス（メイン）",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    { "weight": 90.0, "reps": 5, "sets": 1, "percent": null }
                   ]
                 }
               ]
