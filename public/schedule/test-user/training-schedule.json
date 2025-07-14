@@ -1,0 +1,55 @@
+{
+  "blocks": [
+    {
+      "block": "Intro",
+      "notes": "テストユーザー向けの短期導入フェーズ。",
+      "weeks": [
+        {
+          "week": 1,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-09-01",
+              "sessions": [
+                {
+                  "type": "スクワット（メイン）",
+                  "lift": "ハイバースクワット",
+                  "sets": [
+                    { "weight": 100.0, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                },
+                {
+                  "type": "ベンチプレス（メイン）",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    { "weight": 80.0, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-09-05",
+              "sessions": [
+                {
+                  "type": "デッドリフト（メイン）",
+                  "lift": "ルーマニアンデッドリフト",
+                  "sets": [
+                    { "weight": 120.0, "reps": 5, "sets": 1, "percent": null }
+                  ]
+                },
+                {
+                  "type": "アクセサリー種目",
+                  "lift": "懸垂",
+                  "sets": [
+                    { "weight": null, "reps": 8, "sets": 1, "percent": null }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

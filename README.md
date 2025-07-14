@@ -9,6 +9,7 @@ Open the **Issues** tab and click **New issue**. Choose **Training Log** to add 
 When adding a log, paste the log JSON in the description.
 
 The automation workflow extracts the JSON block and saves it under `public/logs/<user>/`.
+Training schedules are organized the same way and live under `public/schedule/<user>/`.
 
 Computed `1RM` and `e1RM` values are rounded down to the nearest whole number when the log is processed.
 
