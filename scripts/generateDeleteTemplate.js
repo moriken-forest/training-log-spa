@@ -29,7 +29,7 @@ const yamlLines = [
   'name: "Delete Training Log"',
   'description: "Remove an existing training log by date"',
   'title: "Delete Training Log"',
-  'labels: ["delete-log"]',
+  'labels: ["delete-training-log"]',
   'body:',
   '  - type: dropdown',
   '    id: dates',
