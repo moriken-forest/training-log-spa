@@ -7,6 +7,6 @@ body:
     id: log
     attributes:
       label: "Training Log JSON"
-      description: "Paste the day's training log in JSON format"
+      description: "Paste the username followed by the log JSON, e.g. `kenta{...}`"
     validations:
       required: true

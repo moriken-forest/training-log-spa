@@ -24,12 +24,18 @@ if (!payload) {
   process.exit(1);
 }
 
-let jsonString = payload.trim();
-if (!jsonString.startsWith('{')) {
-  // try to extract JSON block from issue body
-  // remove common code fences
-  jsonString = jsonString.replace(/```(?:json)?/gi, '').replace(/```/g, '');
-  const match = jsonString.match(/\{[\s\S]*\}/);
+let body = payload.trim();
+body = body.replace(/```(?:json)?/gi, '').replace(/```/g, '');
+
+let username = null;
+let jsonString = body;
+
+const userJsonMatch = body.match(/^([A-Za-z0-9_-]+)\s*(\{[\s\S]*\})/);
+if (userJsonMatch) {
+  username = userJsonMatch[1];
+  jsonString = userJsonMatch[2];
+} else if (!body.startsWith('{')) {
+  const match = body.match(/\{[\s\S]*\}/);
   if (match) {
     jsonString = match[0];
   } else {
@@ -71,7 +77,7 @@ for (const session of data.sessions || []) {
 }
 
 const repoRoot = path.join(__dirname, '..');
-const user = process.env.LOG_USER || 'kenta';
+const user = username || process.env.LOG_USER || 'kenta';
 const logDir = path.join(repoRoot, 'public', 'logs', user);
 if (!fs.existsSync(logDir)) {
   fs.mkdirSync(logDir, { recursive: true });
