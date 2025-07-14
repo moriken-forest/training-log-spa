@@ -228,6 +228,22 @@ main {
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
   color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.session-title .session-name {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.session-title .type-tag {
+  flex-shrink: 0;
+  font-size: 0.65rem;
+  padding: 1px 4px;
+  margin-left: 0;
 }
 .type-tag {
   display: inline-block;

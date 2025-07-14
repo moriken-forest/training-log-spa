@@ -17,7 +17,7 @@
       class="session"
     >
       <h3 class="session-title">
-        {{ session.lift }}
+        <span class="session-name">{{ session.lift }}</span>
         <small v-if="session.variation">({{ session.variation }})</small>
         <span
           v-if="session.type"

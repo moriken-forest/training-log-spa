@@ -2,7 +2,7 @@
   <div class="log-detail schedule-detail" v-if="plan">
     <div v-for="(session, idx) in plan.sessions" :key="idx" class="session">
       <h3 class="session-title">
-        {{ session.lift }}
+        <span class="session-name">{{ session.lift }}</span>
         <span
           v-if="session.type"
           class="type-tag"
