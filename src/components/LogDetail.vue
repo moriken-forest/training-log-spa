@@ -54,6 +54,7 @@
 </template>
 
 <script>
+import { parseCategory } from '../utils/category'
 export default {
   name: 'LogDetail',
   emits: ['delete-log'],
@@ -70,7 +71,10 @@ export default {
       }
     },
     goCategory(cat) {
-      this.$router.push({ path: '/list', query: { category: cat } })
+      const { base, variant } = parseCategory(cat)
+      const query = {}
+      if (variant) query.variant = variant
+      this.$router.push({ path: `/category/${encodeURIComponent(base)}`, query })
     }
   }
 }
