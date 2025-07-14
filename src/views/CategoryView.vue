@@ -35,6 +35,8 @@ import LogList from '../components/LogList.vue'
 import { getStoredDates, getStoredLog } from '../utils/logStorage'
 import { parseCategory, sortBases, sortVariants } from '../utils/category'
 
+const user = import.meta.env.VITE_LOG_USER || 'demo-user'
+
 export default {
   components: { LogList },
   data() {
@@ -118,14 +120,14 @@ export default {
   },
   created() {
     const base = import.meta.env.BASE_URL
-    fetch(`${base}logs/index.json`).then(r => r.json())
+    fetch(`${base}logs/${user}/index.json`).then(r => r.json())
       .then(dates => {
         const extra = getStoredDates()
         const allDates = Array.from(new Set([...dates, ...extra])).sort()
         return Promise.all(allDates.map(d => {
           const stored = getStoredLog(d)
           if (stored) return Promise.resolve(stored)
-          return fetch(`${base}logs/${d}.json`).then(r => r.json())
+          return fetch(`${base}logs/${user}/${d}.json`).then(r => r.json())
         }))
       })
       .then(arr => {

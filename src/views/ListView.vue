@@ -60,6 +60,8 @@ import ScheduleList from '../components/ScheduleList.vue'
 import { getStoredDates, getStoredLog, deleteLog } from '../utils/logStorage'
 import { sortCategories } from '../utils/category'
 
+const user = import.meta.env.VITE_LOG_USER || 'demo-user'
+
 export default {
   components: { LogList, ScheduleList },
   data() {
@@ -107,7 +109,7 @@ export default {
   },
   created() {
     const base = import.meta.env.BASE_URL
-    const indexReq = fetch(`${base}logs/index.json`).then(r => r.json())
+    const indexReq = fetch(`${base}logs/${user}/index.json`).then(r => r.json())
     const schedReq = fetch(this.scheduleUrl).then(r => r.json())
 
     indexReq
@@ -117,7 +119,7 @@ export default {
         return Promise.all(allDates.map(d => {
           const stored = getStoredLog(d)
           if (stored) return Promise.resolve(stored)
-          return fetch(`${base}logs/${d}.json`).then(r => r.json())
+          return fetch(`${base}logs/${user}/${d}.json`).then(r => r.json())
         }))
       })
       .then(arr => {
