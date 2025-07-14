@@ -14,7 +14,7 @@
             {{ summaryMeta(log) }}
           </span>
         </div>
-        <span class="note">{{ summaryLifts(log).join(', ') }}</span>
+        <span class="note">{{ summaryLifts(log).join('\n') }}</span>
       </div>
       <div class="details">
         <div v-for="session in log.sessions" :key="session.lift" class="session">
