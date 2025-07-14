@@ -228,6 +228,8 @@ main {
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
   color: var(--text);
+  white-space: nowrap;
+  overflow-x: auto;
 }
 .type-tag {
   display: inline-block;
