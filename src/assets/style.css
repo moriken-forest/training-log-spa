@@ -2,20 +2,20 @@
 
 /* カラーパレットと共通変数 */
 :root {
-  --primary: #b40e0e;
-  --primary-dark: #7a0000;
-  --primary-light: #f2b6b6;
-  --bg: #000000;
-  --card-bg: #1a1a1a;
-  --text: #e0e0e0;
-  --muted: #888888;
+  --primary: #00bcd4;
+  --primary-dark: #0097a7;
+  --primary-light: #b2ebf2;
+  --bg: #0d0d0d;
+  --card-bg: #1e1e1e;
+  --text: #ffffff;
+  --muted: #aaaaaa;
   --border: #333333;
-  --shadow: rgba(0, 0, 0, 0.6);
+  --shadow: rgba(0, 0, 0, 0.7);
   --radius: 12px;
   --spacing: 16px;
-  --schedule: #d66a6a;
-  --schedule-dark: #8b3232;
-  --schedule-light: #f9dede;
+  --schedule: #9c27b0;
+  --schedule-dark: #7b1fa2;
+  --schedule-light: #f3e5f5;
 }
 
 /* リセット＆ボックスモデル */
@@ -27,7 +27,7 @@
 
 /* ベースフォント＆背景 */
 body {
-  font-family: 'JetBrains Mono', 'Inter', sans-serif;
+  font-family: 'Inter', 'Helvetica', sans-serif;
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
