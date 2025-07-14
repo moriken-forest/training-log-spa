@@ -140,8 +140,8 @@ main {
   box-shadow: none;
 }
 .day-cell.has-log {
-  border-color: #ff66cc;
-  background: #ff66cc;
+  border-color: #ff9999;
+  background: #ff9999;
   color: #ffffff;
 }
 .day-cell.has-schedule {
@@ -170,7 +170,7 @@ main {
 }
 #logContainer h2 {
   font-size: 1.5rem;
-  color: #ff66cc;
+  color: #ff9999;
   margin-bottom: 0.5rem;
 }
 .log-title {
@@ -240,7 +240,7 @@ main {
 .type-tag {
   display: inline-block;
   background: var(--primary-light);
-  color: #ff66cc;
+  color: #ff9999;
   font-size: 0.65rem;
   padding: 1px 4px;
   border-radius: var(--radius);
@@ -382,7 +382,7 @@ main {
 }
 .summary .date {
   font-weight: 600;
-  color: #ff66cc;
+  color: #ff9999;
 }
 .summary .note {
   color: var(--muted);
