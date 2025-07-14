@@ -13,13 +13,18 @@
           @click="baseModel = b"
         >{{ b }}</button>
       </div>
-      <label v-if="variants.length" class="category-select">
-        種別:
-        <select v-model="variantModel">
-          <option value="">すべて</option>
-          <option v-for="v in variants" :key="v" :value="v">{{ categoryLabel(v) }}</option>
-        </select>
-      </label>
+      <div v-if="variants.length" class="segmented-control variant-tabs">
+        <button
+          :class="{ active: variantModel === '' }"
+          @click="variantModel = ''"
+        >すべて</button>
+        <button
+          v-for="v in variants"
+          :key="v"
+          :class="{ active: variantModel === v }"
+          @click="variantModel = v"
+        >{{ categoryLabel(v) }}</button>
+      </div>
     </div>
     <LogList :logs="filteredLogs" :page-size="pageSize" />
   </div>

@@ -297,6 +297,9 @@ main {
 #controls .category-tabs {
   margin-left: 8px;
 }
+#controls .variant-tabs {
+  margin-left: 8px;
+}
 .category-select select {
   -webkit-appearance: none;
   -moz-appearance: none;
