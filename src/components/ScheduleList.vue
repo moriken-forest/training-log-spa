@@ -48,8 +48,13 @@
         :class="{ open: openDates.includes(plan.date) }"
       >
         <div class="summary" @click="toggle(plan.date)">
-          <span class="date">{{ plan.date }}</span>
-          <span class="note">{{ plan.block }} Week{{ plan.week }} Day{{ plan.day }}</span>
+          <div class="top-line">
+            <span class="date">{{ plan.date }}</span>
+            <span class="meta" v-if="plan.block || (plan.week && plan.day)">
+              {{ summaryMeta(plan) }}
+            </span>
+          </div>
+          <span class="note">{{ summaryLifts(plan).join('\n') }}</span>
         </div>
         <div class="details">
           <ScheduleDetail :plan="plan" />
@@ -135,6 +140,16 @@ export default {
       if (set.reps != null) parts.push(`${set.reps}rep`)
       if (set.sets != null) parts.push(`${set.sets}set`)
       return parts.join('×')
+    },
+    summaryLifts(plan) {
+      const lifts = (plan.sessions || []).map(s => s.lift)
+      return lifts.slice(0, 2)
+    },
+    summaryMeta(plan) {
+      const parts = []
+      if (plan.block) parts.push(plan.block)
+      if (plan.week != null && plan.day != null) parts.push(`Week${plan.week}-${plan.day}`)
+      return parts.join(' ')
     },
     planTags(plan) {
       const tags = plan.sessions
