@@ -297,6 +297,10 @@ main {
 #controls .category-tabs {
   margin-left: 8px;
 }
+#controls .category-tabs button {
+  flex: 1;
+  white-space: nowrap;
+}
 #controls .variant-tabs {
   margin-left: 8px;
 }
