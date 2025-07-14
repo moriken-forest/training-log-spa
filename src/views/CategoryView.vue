@@ -34,8 +34,9 @@
 import LogList from '../components/LogList.vue'
 import { getStoredDates, getStoredLog } from '../utils/logStorage'
 import { parseCategory, sortBases, sortVariants } from '../utils/category'
+import { getUser } from '../utils/user'
 
-const user = import.meta.env.VITE_LOG_USER || 'demo-user'
+const user = getUser()
 
 export default {
   components: { LogList },
