@@ -242,7 +242,7 @@
           "days": [
             {
               "day": "Day1",
-              "date": null,
+              "date": "2025-07-30",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -296,7 +296,7 @@
             },
             {
               "day": "Day2",
-              "date": null,
+              "date": "2025-07-31",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -362,7 +362,7 @@
             },
             {
               "day": "Day3",
-              "date": null,
+              "date": "2025-08-02",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -404,7 +404,7 @@
             },
             {
               "day": "Day4",
-              "date": null,
+              "date": "2025-08-03",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -475,7 +475,7 @@
           "days": [
             {
               "day": "Day1",
-              "date": null,
+              "date": "2025-08-06",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -529,7 +529,7 @@
             },
             {
               "day": "Day2",
-              "date": null,
+              "date": "2025-08-07",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -595,7 +595,7 @@
             },
             {
               "day": "Day3",
-              "date": null,
+              "date": "2025-08-09",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -637,7 +637,7 @@
             },
             {
               "day": "Day4",
-              "date": null,
+              "date": "2025-08-10",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -708,7 +708,7 @@
           "days": [
             {
               "day": "Day1",
-              "date": null,
+              "date": "2025-08-13",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -762,7 +762,7 @@
             },
             {
               "day": "Day2",
-              "date": null,
+              "date": "2025-08-14",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -828,7 +828,7 @@
             },
             {
               "day": "Day3",
-              "date": null,
+              "date": "2025-08-16",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -870,7 +870,7 @@
             },
             {
               "day": "Day4",
-              "date": null,
+              "date": "2025-08-17",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
