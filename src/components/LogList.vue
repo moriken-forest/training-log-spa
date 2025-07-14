@@ -9,10 +9,8 @@
     >
       <div class="summary" :class="{ clickable: !expanded }" @click="expanded || toggle(log.date)">
         <span class="date">{{ log.date }}</span>
-        <span class="lifts">
-          <template v-for="(lift, i) in summaryLifts(log)" :key="i">
-            {{ lift }}<br v-if="i < summaryLifts(log).length - 1" />
-          </template>
+        <span class="meta" v-if="log.block || (log.week && log.day)">
+          {{ summaryMeta(log) }}
         </span>
       </div>
       <div class="details">
@@ -115,6 +113,12 @@ export default {
         return s.variation ? `${s.lift} (${s.variation})` : s.lift
       })
       return lifts.slice(0, 2)
+    },
+    summaryMeta(log) {
+      const parts = []
+      if (log.block) parts.push(log.block)
+      if (log.week != null && log.day != null) parts.push(`${log.week}-${log.day}`)
+      return parts.join(" ")
     },
     toggle(date) {
       const i = this.openDates.indexOf(date);

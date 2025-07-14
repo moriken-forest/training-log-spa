@@ -358,9 +358,18 @@ main {
 .summary .note {
   color: var(--muted);
 }
-.summary .lifts {
+.summary .meta {
   color: var(--muted);
-  line-height: 1.2;
+  font-size: 0.875rem;
+  margin-left: var(--spacing);
+}
+.log-card.open .summary {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.log-card.open .summary .meta {
+  margin-left: 0;
+  margin-top: 4px;
 }
 .details {
   display: none;
