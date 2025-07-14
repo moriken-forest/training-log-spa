@@ -72,7 +72,7 @@ export default {
       view: 'logs',
       flatView: false,
       scheduleData: null,
-      scheduleUrl: import.meta.env.BASE_URL + 'schedule/training-schedule.json'
+      scheduleUrl: import.meta.env.BASE_URL + `schedule/${user}/training-schedule.json`
     }
   },
   computed: {
