@@ -9,7 +9,7 @@
         種別:
         <select v-model="variantModel">
           <option value="">すべて</option>
-          <option v-for="v in variants" :key="v" :value="v">{{ v }}</option>
+          <option v-for="v in variants" :key="v" :value="v">{{ categoryLabel(v) }}</option>
         </select>
       </label>
     </div>
@@ -75,6 +75,11 @@ export default {
       }
       out.sort((a, b) => b.date.localeCompare(a.date))
       return out
+    }
+  },
+  methods: {
+    categoryLabel(v) {
+      return v ? `${this.base}（${v}）` : this.base
     }
   },
   created() {
