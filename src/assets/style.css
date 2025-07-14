@@ -272,8 +272,11 @@ main {
 .session tr:last-child td {
   border-bottom: none;
 }
-.comment {
+.session td.comment {
   text-align: left;
+}
+
+.comment {
   white-space: pre-wrap;
   /* Keep each line at a reasonable length */
   max-width: 40ch;
