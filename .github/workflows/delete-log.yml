@@ -10,7 +10,7 @@ on:
 
 jobs:
   delete-log:
-    if: "contains(github.event.issue.labels.*.name, 'delete-log')"
+    if: "contains(github.event.issue.labels.*.name, 'delete-training-log')"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -31,7 +31,7 @@ jobs:
           git config user.email github-actions@github.com
           if ! git diff --quiet; then
             git add public/logs .github/ISSUE_TEMPLATE/delete-log.yml
-            git commit -m "Delete training log" && git push
+            git commit -m "トレーニングログ削除" && git push
           fi
       - name: Close issue
         uses: actions/github-script@v6

@@ -41,12 +41,26 @@ if (!dates.length) {
 }
 
 if (!dates.length) {
-  console.error('No valid dates found in issue body');
-  process.exit(1);
+  console.log('no valid dates found, skipping');
+  process.exit(0);
 }
 
 const repoRoot = path.join(__dirname, '..');
-const user = process.env.LOG_USER || 'kenta';
+
+// extract username from issue body
+let user = null;
+const userMatch = payload.match(/username\s*[:=]\s*([A-Za-z0-9_-]+)/i);
+if (userMatch) {
+  user = userMatch[1];
+} else if (process.env.LOG_USER) {
+  user = process.env.LOG_USER;
+}
+
+if (!user) {
+  console.log('username not found, skipping');
+  process.exit(0);
+}
+
 const logDir = path.join(repoRoot, 'public', 'logs', user);
 const indexPath = path.join(logDir, 'index.json');
 let index = [];
