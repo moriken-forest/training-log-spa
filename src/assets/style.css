@@ -358,6 +358,10 @@ main {
 .summary .note {
   color: var(--muted);
 }
+.summary .lifts {
+  color: var(--muted);
+  line-height: 1.2;
+}
 .details {
   display: none;
   padding: 0 var(--spacing) var(--spacing);
