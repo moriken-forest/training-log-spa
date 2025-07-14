@@ -24,7 +24,20 @@ if (!payload) {
   process.exit(1);
 }
 
-let jsonString = payload.trim();
+let raw = payload.trim();
+let userFromBody = '';
+let jsonString = raw;
+
+const newlineIndex = raw.indexOf('\n');
+if (newlineIndex !== -1) {
+  const firstLine = raw.slice(0, newlineIndex).trim();
+  const rest = raw.slice(newlineIndex + 1).trim();
+  if (firstLine && !firstLine.startsWith('{') && !firstLine.startsWith('```')) {
+    userFromBody = firstLine;
+    jsonString = rest;
+  }
+}
+
 if (!jsonString.startsWith('{')) {
   // try to extract JSON block from issue body
   // remove common code fences
@@ -71,7 +84,7 @@ for (const session of data.sessions || []) {
 }
 
 const repoRoot = path.join(__dirname, '..');
-const user = process.env.LOG_USER || 'demo-user';
+const user = userFromBody || process.env.LOG_USER || 'demo-user';
 const logDir = path.join(repoRoot, 'public', 'logs', user);
 if (!fs.existsSync(logDir)) {
   fs.mkdirSync(logDir, { recursive: true });

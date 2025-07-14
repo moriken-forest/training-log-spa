@@ -6,7 +6,7 @@ https://moriken-forest.github.io/training-log-spa/#/calendar
 This repository manages daily training logs using GitHub Issues.
 
 Open the **Issues** tab and click **New issue**. Choose **Training Log** to add or update a log or **Delete Training Log** to remove one.
-When adding a log, paste the log JSON in the description.
+When adding a log, write the username on the first line and paste the log JSON on the following lines.
 
 The automation workflow extracts the JSON block and saves it under `public/logs/<user>/`.
 Training schedules are organized the same way and live under `public/schedule/<user>/`.
