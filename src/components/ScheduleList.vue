@@ -143,7 +143,7 @@ export default {
     },
     summaryLifts(plan) {
       const lifts = (plan.sessions || []).map(s => s.lift)
-      return lifts.slice(0, 2)
+      return lifts
     },
     summaryMeta(plan) {
       const parts = []
