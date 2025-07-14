@@ -110,7 +110,9 @@ export default {
   },
   created() {
     const base = import.meta.env.BASE_URL
-    const indexReq = fetch(`${base}logs/${user}/index.json`).then(r => r.json())
+    const indexReq = fetch(`${base}logs/${user}/index.json`)
+      .then(r => (r.ok ? r.json() : []))
+      .catch(() => [])
     const schedReq = fetch(this.scheduleUrl).then(r => r.json())
 
     indexReq
