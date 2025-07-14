@@ -18,8 +18,9 @@ import Calendar from '../components/Calendar.vue'
 import LogDetail from '../components/LogDetail.vue'
 import ScheduleDetail from '../components/ScheduleDetail.vue'
 import { getStoredDates, getStoredLog, deleteLog } from '../utils/logStorage'
+import { getUser } from '../utils/user'
 
-const user = import.meta.env.VITE_LOG_USER || 'demo-user'
+const user = getUser()
 
 export default {
   components: { Calendar, LogDetail, ScheduleDetail },
