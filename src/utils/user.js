@@ -1,4 +1,4 @@
-export const USERS = ['kenta', 'tomoki']
+export const USERS = ['kenta', 'tomoki', 'test-user']
 
 export function getUser() {
   return localStorage.getItem('log-user') || import.meta.env.VITE_LOG_USER || USERS[0]
