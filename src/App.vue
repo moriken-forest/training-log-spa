@@ -33,7 +33,11 @@ export default {
   },
   methods: {
     clearCache() {
+      const user = localStorage.getItem('log-user')
       localStorage.clear()
+      if (user) {
+        localStorage.setItem('log-user', user)
+      }
       location.reload()
     },
     toggleUserMenu() {
