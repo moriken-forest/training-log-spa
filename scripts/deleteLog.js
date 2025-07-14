@@ -34,9 +34,9 @@ if (jsonString.startsWith('{') || jsonString.startsWith('[')) {
 }
 
 if (!dates.length) {
-  const matches = payload.match(/\d{4}-\d{2}-\d{2}/g);
+  const matches = payload.match(/\d{4}[/-]\d{2}[/-]\d{2}/g);
   if (matches) {
-    dates = Array.from(new Set(matches));
+    dates = Array.from(new Set(matches.map(d => d.replace(/\//g, '-'))));
   }
 }
 
@@ -52,8 +52,13 @@ let user = null;
 const userMatch = payload.match(/username\s*[:=]\s*([A-Za-z0-9_-]+)/i);
 if (userMatch) {
   user = userMatch[1];
-} else if (process.env.LOG_USER) {
-  user = process.env.LOG_USER;
+} else {
+  const simple = payload.trim().match(/^([A-Za-z0-9_-]+)[^\d]*(\d{4}[/-]\d{2}[/-]\d{2})/);
+  if (simple) {
+    user = simple[1];
+  } else if (process.env.LOG_USER) {
+    user = process.env.LOG_USER;
+  }
 }
 
 if (!user) {
