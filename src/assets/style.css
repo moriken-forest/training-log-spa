@@ -677,3 +677,30 @@ main {
   margin: var(--spacing) 0;
   font-weight: bold;
 }
+
+/* User select menu */
+.user-menu {
+  position: absolute;
+  right: var(--spacing);
+  top: 56px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 2px 4px var(--shadow);
+  padding: 8px;
+  z-index: 200;
+}
+
+.user-menu button {
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 4px 8px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.user-menu button:hover {
+  background: var(--primary-light);
+}
