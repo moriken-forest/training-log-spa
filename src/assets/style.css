@@ -2,20 +2,20 @@
 
 /* カラーパレットと共通変数 */
 :root {
-  --primary: #00bcd4;
-  --primary-dark: #0097a7;
-  --primary-light: #b2ebf2;
-  --bg: #0d0d0d;
+  --primary: #666666;
+  --primary-dark: #333333;
+  --primary-light: #bbbbbb;
+  --bg: #000000;
   --card-bg: #1e1e1e;
   --text: #ffffff;
   --muted: #aaaaaa;
-  --border: #333333;
+  --border: #444444;
   --shadow: rgba(0, 0, 0, 0.7);
   --radius: 12px;
   --spacing: 16px;
-  --schedule: #9c27b0;
-  --schedule-dark: #7b1fa2;
-  --schedule-light: #f3e5f5;
+  --schedule: #888888;
+  --schedule-dark: #555555;
+  --schedule-light: #dddddd;
 }
 
 /* リセット＆ボックスモデル */
@@ -266,7 +266,7 @@ main {
   text-align: center;
 }
 .session th {
-  background: var(--bg);
+  background: var(--card-bg);
   font-weight: 600;
 }
 .session tr:last-child td {
@@ -274,6 +274,10 @@ main {
 }
 .session td.comment {
   text-align: left;
+}
+
+.session tbody tr:nth-child(even) {
+  background: var(--card-bg);
 }
 
 .comment {
@@ -601,14 +605,14 @@ main {
   font-size: 0.9rem;
 }
 .flat-table th {
-  background: var(--primary);
-  color: var(--bg);
+  background: var(--card-bg);
+  color: var(--text);
 }
 .flat-table tbody tr:nth-child(odd) {
   background: var(--bg);
 }
 .flat-table tbody tr:nth-child(even) {
-  background: var(--bg);
+  background: var(--card-bg);
 }
 .flat-session-list {
   list-style: disc;
