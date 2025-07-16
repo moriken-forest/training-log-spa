@@ -1,0 +1,83 @@
+{
+  "date": "2025-07-16",
+  "block": "",
+  "week": null,
+  "day": null,
+  "notes": "マックス測定日",
+  "sessions": [
+    {
+      "type": "ベンチ（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 70,
+          "reps": 1,
+          "rpe": null,
+          "comment": "",
+          "1RM": 71,
+          "e1RM": 89
+        },
+        {
+          "weight": 72.5,
+          "reps": 1,
+          "rpe": 9.5,
+          "comment": "ちょいギリやった",
+          "1RM": 74,
+          "e1RM": 75
+        },
+        {
+          "weight": 75,
+          "reps": 1,
+          "rpe": 10,
+          "comment": "",
+          "1RM": 76,
+          "e1RM": 76
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 135,
+          "reps": 1,
+          "rpe": 10,
+          "comment": "体勢のふらつきはなかったけど、かなりギリギリだった",
+          "1RM": 139,
+          "e1RM": 139
+        },
+        {
+          "weight": 140,
+          "reps": 1,
+          "rpe": 10,
+          "comment": "体勢次第では上がらなかったかも。かがみ込んで止まる余裕はなし",
+          "1RM": 144,
+          "e1RM": 144
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "ライイングエクステンション",
+      "sets": [
+        {
+          "weight": 30,
+          "reps": 8,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 30,
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
