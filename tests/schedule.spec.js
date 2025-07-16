@@ -27,10 +27,10 @@ const sample = {
 }
 
 describe('addScheduleCalcFields', () => {
-  it('calculates 1RM from percent', () => {
+  it('calculates 1RM from reps even when percent given', () => {
     addScheduleCalcFields(sample)
     const set = sample.blocks[0].weeks[0].days[0].sessions[0].sets[0]
-    expect(set['1RM']).toBe(125)
+    expect(set['1RM']).toBe(115)
   })
 
   it('ignores accessory session', () => {
