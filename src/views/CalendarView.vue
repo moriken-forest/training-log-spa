@@ -18,6 +18,7 @@ import Calendar from '../components/Calendar.vue'
 import LogDetail from '../components/LogDetail.vue'
 import ScheduleDetail from '../components/ScheduleDetail.vue'
 import { getStoredDates, getStoredLog, deleteLog } from '../utils/logStorage'
+import { addScheduleCalcFields } from '../utils/schedule'
 import { getUser } from '../utils/user'
 
 const user = getUser()
@@ -61,6 +62,7 @@ export default {
   },
   methods: {
     processSchedule(sched) {
+      addScheduleCalcFields(sched)
       const plans = []
       for (const block of sched.blocks || []) {
         for (const week of block.weeks || []) {

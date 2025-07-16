@@ -116,6 +116,7 @@
 
 <script>
 import { getUser } from '../utils/user'
+import { addScheduleCalcFields } from '../utils/schedule'
 
 export default {
   data() {
@@ -129,6 +130,7 @@ export default {
     fetch(`${base}schedule/${user}/training-schedule.json`)
       .then(r => r.json())
       .then(sched => {
+        addScheduleCalcFields(sched)
         this.todayPlan = this.findTodayPlan(sched)
       })
   },
