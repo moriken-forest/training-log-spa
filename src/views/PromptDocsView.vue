@@ -1,24 +1,25 @@
 <template>
   <section id="prompt-docs">
     <h2>ChatGPTでトレーニングログJSONを生成する方法</h2>
-    <pre>{{ text }}</pre>
+    <div v-html="html" class="markdown"></div>
   </section>
 </template>
 
 <script>
 import { ref, onMounted } from 'vue'
+import parseMarkdown from '../utils/markdown'
 
 export default {
   setup() {
-    const text = ref('')
+    const html = ref('')
     onMounted(() => {
       fetch(`${import.meta.env.BASE_URL}CHATGPT_JSON_PROMPT.md`)
         .then(r => r.text())
         .then(t => {
-          text.value = t
+          html.value = parseMarkdown(t)
         })
     })
-    return { text }
+    return { html }
   }
 }
 </script>
@@ -38,8 +39,8 @@ export default {
   font-size: 1.5rem;
   color: var(--primary-dark);
 }
-#prompt-docs pre {
-  white-space: pre-wrap;
-  word-break: break-word;
+.markdown {
+  white-space: normal;
+  line-height: 1.5;
 }
 </style>
