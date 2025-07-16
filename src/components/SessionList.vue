@@ -31,14 +31,16 @@
             <table>
               <tr>
                 <th>重量(kg)</th><th>回数</th><th>RPE</th>
-                <th>1RM</th><th>e1RM</th><th>コメント</th>
+                <th v-if="!isAccessoryType(s.session.type)">1RM</th>
+                <th v-if="!isAccessoryType(s.session.type)">e1RM</th>
+                <th>コメント</th>
               </tr>
               <tr v-for="(set, i) in s.session.sets" :key="i">
                 <td>{{ set.weight }}</td>
                 <td>{{ set.reps }}</td>
                 <td>{{ set.rpe }}</td>
-                <td>{{ set['1RM'] ?? '-' }}</td>
-                <td>{{ set.e1RM ?? '-' }}</td>
+                <td v-if="!isAccessoryType(s.session.type)">{{ set['1RM'] ?? '-' }}</td>
+                <td v-if="!isAccessoryType(s.session.type)">{{ set.e1RM ?? '-' }}</td>
                 <td class="comment">{{ set.comment }}</td>
               </tr>
             </table>
@@ -61,7 +63,7 @@
 </template>
 
 <script>
-import { parseCategory } from '../utils/category'
+import { parseCategory, isAccessoryType } from '../utils/category'
 export default {
   name: 'SessionList',
   props: {
@@ -132,7 +134,8 @@ export default {
       const query = {}
       if (variant) query.variant = variant
       this.$router.push({ path: `/category/${encodeURIComponent(base)}`, query })
-    }
+    },
+    isAccessoryType
   }
 }
 </script>
