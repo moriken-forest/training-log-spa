@@ -1,5 +1,12 @@
 <template>
   <div class="log-detail schedule-detail" v-if="plan">
+    <div v-if="showMeta" class="log-title">
+      <h2>{{ plan.date }}</h2>
+      <div class="meta" v-if="plan.block || (plan.week && plan.day)">
+        <span v-if="plan.block != null">ブロック: {{ plan.block }}</span>
+        <span v-if="plan.week != null && plan.day != null">Week{{ plan.week }}-{{ plan.day }}</span>
+      </div>
+    </div>
     <div v-for="(session, idx) in plan.sessions" :key="idx" class="session">
       <h3 class="session-title">
         {{ session.lift }}
@@ -43,6 +50,10 @@ export default {
     plan: {
       type: Object,
       required: true
+    },
+    showMeta: {
+      type: Boolean,
+      default: false
     }
   },
   methods: {

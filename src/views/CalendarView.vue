@@ -8,7 +8,7 @@
     <section id="logContainer">
       <p v-if="!selectedLog && !selectedPlan">カレンダーの日付をクリックして、詳細を表示してください。</p>
       <LogDetail v-if="selectedLog" :log="selectedLog" @delete-log="handleDelete" />
-      <ScheduleDetail v-else-if="selectedPlan" :plan="selectedPlan" />
+      <ScheduleDetail v-else-if="selectedPlan" :plan="selectedPlan" show-meta />
     </section>
   </section>
 </template>
