@@ -10,6 +10,7 @@ body:
       description: "Choose one or more dates"
       multiple: true
       options:
+        - 2025-07-16
         - 2025-07-12
     validations:
       required: true
