@@ -1,13 +1,13 @@
 {
   "date": "2025-07-16",
-  "block": "Block 1",
+  "block": "Accumulation",
   "week": 1,
   "day": 1,
   "notes": "ブロック1 Week1 Day1のトレーニング",
   "sessions": [
     {
       "type": "ベンチ（メイン）",
-      "lift": "ベンチプレス",
+      "lift": "ベンチプレス（メイン）",
       "sets": [
         {
           "weight": 72.5,
@@ -45,7 +45,7 @@
     },
     {
       "type": "スクワット（メイン）",
-      "lift": "スクワット",
+      "lift": "スクワット（メイン）",
       "sets": [
         {
           "weight": 110,
