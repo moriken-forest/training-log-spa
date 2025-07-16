@@ -22,7 +22,8 @@
         :class="[
           'day-cell',
           isLog(day) ? 'has-log' : (isSchedule(day) ? 'has-schedule' : 'disabled'),
-          selectedDay === day ? 'selected' : ''
+          selectedDay === day ? 'selected' : '',
+          isToday(day) ? 'today' : ''
         ]"
         @click="selectDate(day)"
       >
@@ -51,7 +52,10 @@ export default {
     return {
       viewYear: today.getFullYear(),
       viewMonth: today.getMonth(), // 0-based
-      selectedDay: null
+      selectedDay: null,
+      todayYear: today.getFullYear(),
+      todayMonth: today.getMonth(),
+      todayDate: today.getDate()
     };
   },
   computed: {
@@ -77,6 +81,13 @@ export default {
     },
     isSchedule(day) {
       return this.scheduleDates.includes(this.format(day));
+    },
+    isToday(day) {
+      return (
+        this.todayYear === this.viewYear &&
+        this.todayMonth === this.viewMonth &&
+        this.todayDate === day
+      );
     },
     isAvailable(day) {
       return this.isLog(day) || this.isSchedule(day);
