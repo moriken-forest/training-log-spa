@@ -11,6 +11,7 @@
     </ol>
     <p class="prompt-note">下記テキストをコピーしてChatGPTに入力します。</p>
     <button class="copy-btn" @click="copyPrompt">コピー</button>
+    <button class="copy-btn" @click="copyTodayPrompt">今日のプロンプトを作る</button>
     <pre ref="promptText">
 あなたはパワーリフティング競技者のトレーニング記録を支援するAIコーチです。
 
@@ -114,10 +115,56 @@
 </template>
 
 <script>
+import { getUser } from '../utils/user'
+
 export default {
+  data() {
+    return {
+      todayPlan: null
+    }
+  },
+  created() {
+    const user = getUser()
+    const base = import.meta.env.BASE_URL
+    fetch(`${base}schedule/${user}/training-schedule.json`)
+      .then(r => r.json())
+      .then(sched => {
+        this.todayPlan = this.findTodayPlan(sched)
+      })
+  },
   methods: {
     copyPrompt() {
       const text = this.$refs.promptText.textContent
+      navigator.clipboard.writeText(text)
+      alert('プロンプトをコピーしました')
+    },
+    findTodayPlan(sched) {
+      const today = new Date().toISOString().slice(0, 10)
+      for (const block of sched.blocks || []) {
+        for (const week of block.weeks || []) {
+          for (const day of week.days || []) {
+            if (day.date === today) {
+              return {
+                date: day.date,
+                block: block.block,
+                week: week.week,
+                day: Number(String(day.day).replace('Day', '')),
+                sessions: day.sessions
+              }
+            }
+          }
+        }
+      }
+      return null
+    },
+    copyTodayPrompt() {
+      const baseText = this.$refs.promptText.textContent
+      const today = new Date().toISOString().slice(0, 10)
+      let text = `${baseText}\n\n今日は${today}です。`
+      if (this.todayPlan) {
+        const menu = JSON.stringify(this.todayPlan, null, 2)
+        text += `\n本日のメニュー:\n${menu}`
+      }
       navigator.clipboard.writeText(text)
       alert('プロンプトをコピーしました')
     }
