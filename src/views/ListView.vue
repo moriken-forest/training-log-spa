@@ -59,6 +59,7 @@ import LogList from '../components/LogList.vue'
 import ScheduleList from '../components/ScheduleList.vue'
 import { getStoredDates, getStoredLog, deleteLog } from '../utils/logStorage'
 import { sortCategories } from '../utils/category'
+import { addScheduleCalcFields } from '../utils/schedule'
 import { getUser } from '../utils/user'
 
 const user = getUser()
@@ -132,6 +133,7 @@ export default {
         return schedReq
       })
       .then(sched => {
+        addScheduleCalcFields(sched)
         this.scheduleData = sched
         this.processSchedule(sched)
       })

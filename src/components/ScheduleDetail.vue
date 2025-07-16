@@ -23,8 +23,8 @@
               <th>重量(kg)</th>
               <th>回数</th>
               <th>セット</th>
-              <th>%1RM</th>
-              <th>1RM</th>
+<th>%1RM</th>
+<th v-if="!isAccessoryType(session.type)">1RM</th>
             </tr>
           </thead>
           <tbody>
@@ -33,7 +33,7 @@
               <td>{{ set.reps }}</td>
               <td>{{ set.sets }}</td>
               <td>{{ set.percent }}</td>
-              <td>{{ set['1RM'] ?? '-' }}</td>
+              <td v-if="!isAccessoryType(session.type)">{{ set['1RM'] ?? '-' }}</td>
             </tr>
           </tbody>
         </table>
@@ -43,7 +43,7 @@
 </template>
 
 <script>
-import { parseCategory } from '../utils/category'
+import { parseCategory, isAccessoryType } from '../utils/category'
 export default {
   name: 'ScheduleDetail',
   props: {
@@ -62,7 +62,8 @@ export default {
       const query = {}
       if (variant) query.variant = variant
       this.$router.push({ path: `/category/${encodeURIComponent(base)}`, query })
-    }
+    },
+    isAccessoryType
   }
 }
 </script>
