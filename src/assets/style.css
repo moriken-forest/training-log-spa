@@ -541,7 +541,7 @@ main {
   margin-bottom: var(--spacing);
   font-size: 1.5rem;
   text-align: center;
-  color: var(--primary-dark);
+  color: var(--text);
 }
 
 #guide-section .prompt-note {
@@ -554,16 +554,19 @@ main {
   white-space: pre-wrap;
   word-break: break-word;
   overflow-x: auto;
+  background: var(--bg);
+  padding: var(--spacing);
+  border-radius: var(--radius);
 }
 
 #guide-section button {
   background: var(--primary);
-  color: var(--bg);
+  color: var(--text);
   border: none;
   border-radius: var(--radius);
-  padding: 8px 16px;
+  padding: 6px 12px;
   cursor: pointer;
-  margin-bottom: 8px;
+  margin-bottom: var(--spacing);
   transition: background 0.2s, transform 0.1s;
 }
 
