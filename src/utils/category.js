@@ -4,6 +4,10 @@ export function parseCategory(type = '') {
   return { base: type, variant: null }
 }
 
+export function isAccessoryType(type = '') {
+  return type.includes('アクセサリー')
+}
+
 export const BASE_ORDER = [
   'スクワット',
   'ベンチプレス',

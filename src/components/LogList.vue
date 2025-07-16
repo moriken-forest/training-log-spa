@@ -31,14 +31,16 @@
             <table>
               <tr>
                 <th>重量(kg)</th><th>回数</th><th>RPE</th>
-                <th>1RM</th><th>e1RM</th><th>コメント</th>
+                <th v-if="!isAccessoryType(session.type)">1RM</th>
+                <th v-if="!isAccessoryType(session.type)">e1RM</th>
+                <th>コメント</th>
               </tr>
               <tr v-for="(s, i) in session.sets" :key="i">
                 <td>{{ s.weight }}</td>
                 <td>{{ s.reps }}</td>
                 <td>{{ s.rpe }}</td>
-                <td>{{ s['1RM'] ?? '-' }}</td>
-                <td>{{ s.e1RM ?? '-' }}</td>
+                <td v-if="!isAccessoryType(session.type)">{{ s['1RM'] ?? '-' }}</td>
+                <td v-if="!isAccessoryType(session.type)">{{ s.e1RM ?? '-' }}</td>
                 <td class="comment">{{ s.comment }}</td>
               </tr>
             </table>
@@ -62,7 +64,7 @@
 </template>
 
 <script>
-import { parseCategory } from '../utils/category'
+import { parseCategory, isAccessoryType } from '../utils/category'
 export default {
   name: 'LogList',
   emits: ['delete-log'],
@@ -151,7 +153,8 @@ export default {
       if (confirm('本当に削除しますか？')) {
         this.$emit('delete-log', date)
       }
-    }
+    },
+    isAccessoryType
   }
 };
 </script>
