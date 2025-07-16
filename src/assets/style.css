@@ -527,6 +527,54 @@ main {
   margin-bottom: 8px;
 }
 
+/* ガイドビュー */
+#guide-section {
+  max-width: 600px;
+  margin: 0 auto;
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: var(--spacing);
+  box-shadow: 0 2px 6px var(--shadow);
+}
+
+#guide-section h2 {
+  margin-bottom: var(--spacing);
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--primary-dark);
+}
+
+#guide-section .prompt-note {
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+#guide-section pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-x: auto;
+}
+
+#guide-section button {
+  background: var(--primary);
+  color: var(--bg);
+  border: none;
+  border-radius: var(--radius);
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  transition: background 0.2s, transform 0.1s;
+}
+
+#guide-section button:hover {
+  background: var(--primary-dark);
+}
+
+#guide-section button:active {
+  transform: translateY(1px);
+}
+
 /* トグルスイッチ */
 .toggle-wrapper {
   display: flex;
