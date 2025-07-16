@@ -558,6 +558,14 @@ main {
   padding: var(--spacing);
   border-radius: var(--radius);
 }
+#guide-section ol {
+  margin-left: 1em;
+  padding-left: 1em;
+}
+#guide-section li {
+  margin-bottom: 4px;
+  word-break: break-word;
+}
 
 #guide-section button {
   background: var(--primary);
