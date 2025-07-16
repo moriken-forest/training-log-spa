@@ -16,5 +16,6 @@
     "@vitejs/plugin-vue": "^4.0.0",
     "vitest": "^0.34.6",
     "@vue/test-utils": "^2.4.1"
-  }
+  },
+  "license": "MIT"
 }
