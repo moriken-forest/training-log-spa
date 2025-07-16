@@ -158,7 +158,8 @@ main {
   color: var(--primary-dark);
   font-weight: 600;
   border-color: var(--primary-dark);
-  box-shadow: 0 4px 8px var(--shadow);
+  /* Add a white shadow to highlight the selected day */
+  box-shadow: 0 0 8px 2px #ffffff;
 }
 
 /* ログ詳細コンテナ */
