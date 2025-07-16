@@ -9,15 +9,8 @@ export function addScheduleCalcFields(sched) {
           for (const set of session.sets || []) {
             const w = set.weight
             const r = set.reps
-            const percent = set.percent
             let calc = null
-            if (w != null && percent != null) {
-              const pct = Number(percent)
-              if (!Number.isNaN(pct) && pct !== 0) {
-                calc = w / (pct / 100)
-              }
-            }
-            if (calc == null && w != null && r != null) {
+            if (w != null && r != null) {
               if (type.includes('ベンチ')) {
                 calc = w * r / 40 + w
               } else {
