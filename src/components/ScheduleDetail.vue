@@ -17,6 +17,7 @@
               <th>回数</th>
               <th>セット</th>
               <th>%1RM</th>
+              <th>1RM</th>
             </tr>
           </thead>
           <tbody>
@@ -25,6 +26,7 @@
               <td>{{ set.reps }}</td>
               <td>{{ set.sets }}</td>
               <td>{{ set.percent }}</td>
+              <td>{{ set['1RM'] ?? '-' }}</td>
             </tr>
           </tbody>
         </table>
