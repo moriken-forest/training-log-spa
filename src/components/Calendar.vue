@@ -9,7 +9,8 @@
 
     <!-- カレンダー本体 -->
     <div id="calendarContainer">
-      <transition :name="'slide-' + slideDirection" mode="in-out">
+      <transition :name="'slide-' + slideDirection" mode="in-out"
+                  @before-leave="onBeforeLeave">
         <div
           :key="viewYear + '-' + viewMonth"
           id="calendar"
@@ -67,7 +68,8 @@ export default {
       touchStartX: null,
       slideDirection: 'left',
       dragOffset: 0,
-      dragging: false
+      dragging: false,
+      releaseOffset: null
     };
   },
   computed: {
@@ -140,13 +142,22 @@ export default {
       const endX = e.changedTouches[0].screenX;
       const diff = endX - this.touchStartX;
       if (diff > 50) {
+        this.releaseOffset = diff;
         this.prevMonth();
+        setTimeout(() => this.releaseOffset = null, 300);
       } else if (diff < -50) {
+        this.releaseOffset = diff;
         this.nextMonth();
+        setTimeout(() => this.releaseOffset = null, 300);
       }
       this.dragOffset = 0;
       this.dragging = false;
       this.touchStartX = null;
+    },
+    onBeforeLeave(el) {
+      if (this.releaseOffset !== null) {
+        el.style.transform = `translateX(${this.releaseOffset}px)`;
+      }
     }
   }
 };
