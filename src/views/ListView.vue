@@ -28,17 +28,30 @@
           <span class="material-icons">content_copy</span>
         </button>
       </div>
-      <label v-if="view === 'logs'" class="category-select">
-        カテゴリー:
-        <select v-model="categoryModel">
-          <option value="">すべて</option>
-          <option v-for="c in categories" :key="c" :value="c">{{ c }}</option>
-        </select>
-      </label>
+      <div class="segmented-control category-tabs" v-if="view === 'logs'">
+        <button
+          v-for="opt in bases"
+          :key="opt.value || 'all'"
+          :class="{ active: baseModel === opt.value, all: opt.value === '' }"
+          @click="baseModel = opt.value"
+        >{{ opt.label }}</button>
+      </div>
+      <div class="segmented-control variant-tabs" v-if="view === 'logs' && showVariant">
+        <button
+          :class="{ active: variantModel === '' }"
+          @click="variantModel = ''"
+        >全て</button>
+        <button
+          :class="{ active: variantModel === 'メイン' }"
+          @click="variantModel = 'メイン'"
+        >メイン</button>
+        <button
+          :class="{ active: variantModel === 'サブ' }"
+          @click="variantModel = 'サブ'"
+        >サブ</button>
+      </div>
     </div>
-    <p v-if="view === 'logs' && $route.query.category" class="filter-info">
-      カテゴリー: {{ $route.query.category }}
-    </p>
+    
     <LogList
       v-if="view === 'logs'"
       :logs="filteredLogs"
@@ -58,7 +71,7 @@
 import LogList from '../components/LogList.vue'
 import ScheduleList from '../components/ScheduleList.vue'
 import { getStoredDates, getStoredLog, deleteLog } from '../utils/logStorage'
-import { sortCategories } from '../utils/category'
+import { parseCategory } from '../utils/category'
 import { addScheduleCalcFields } from '../utils/schedule'
 import { getUser } from '../utils/user'
 
@@ -78,35 +91,68 @@ export default {
     }
   },
   computed: {
-    categoryModel: {
-      get() { return this.$route.query.category || '' },
+    baseModel: {
+      get() { return this.$route.params.base || '' },
+      set(v) {
+        const path = v ? `/list/${encodeURIComponent(v)}` : '/list'
+        this.$router.replace({ path, query: this.$route.query })
+      }
+    },
+    variantModel: {
+      get() { return this.$route.query.variant || '' },
       set(v) {
         const q = { ...this.$route.query }
-        if (v) q.category = v
-        else delete q.category
+        if (v) q.variant = v
+        else delete q.variant
         this.$router.replace({ query: q })
       }
     },
-    categories() {
-      const set = new Set()
-      for (const log of this.logs) {
-        for (const s of log.sessions || []) {
-          if (s.type) set.add(s.type)
-        }
-      }
-      return sortCategories(Array.from(set))
+    bases() {
+      return [
+        { value: '', label: 'All' },
+        { value: 'スクワット', label: 'Squat' },
+        { value: 'ベンチプレス', label: 'Bench' },
+        { value: 'デッドリフト', label: 'Dead' },
+        { value: 'アクセサリー種目', label: 'Accessory' }
+      ]
+    },
+    showVariant() {
+      return this.baseModel &&
+        !['アクセサリー種目', 'アクセサリー'].includes(this.baseModel)
+    },
+    variants() {
+      return ['メイン', 'サブ']
     },
     filteredLogs() {
-      const category = this.categoryModel
-      if (!category) return this.logs
-      return this.logs.filter(l =>
-        l.sessions.some(s => s.type === category)
-      )
+      const variant = this.variantModel
+      const base = this.baseModel
+      const out = []
+      for (const log of this.logs) {
+        const sessions = []
+        for (const session of log.sessions || []) {
+          const pc = parseCategory(session.type || '')
+          if (base && pc.base !== base) continue
+          if (variant && pc.variant !== variant) continue
+          sessions.push(session)
+        }
+        if (sessions.length) {
+          out.push({
+            ...log,
+            sessions
+          })
+        }
+      }
+      out.sort((a, b) => b.date.localeCompare(a.date))
+      return out
     }
   },
   watch: {
-    '$route.query.category'(val) {
-      if (val) this.view = 'logs'
+    baseModel() {
+      const q = { ...this.$route.query }
+      if (!this.showVariant || !this.variants.includes(this.variantModel)) {
+        delete q.variant
+        this.$router.replace({ query: q })
+      }
     }
   },
   created() {
