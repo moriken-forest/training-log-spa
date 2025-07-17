@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div @touchstart="onTouchStart" @touchend="onTouchEnd">
     <!-- ナビゲーション -->
     <div id="calendarHeader">
       <button @click="prevMonth">◀︎</button>
@@ -55,7 +55,8 @@ export default {
       selectedDay: null,
       todayYear: today.getFullYear(),
       todayMonth: today.getMonth(),
-      todayDate: today.getDate()
+      todayDate: today.getDate(),
+      touchStartX: null
     };
   },
   computed: {
@@ -113,6 +114,19 @@ export default {
       this.selectedDay = day;
       const dateStr = `${this.viewYear}-${String(this.viewMonth+1).padStart(2,'0')}-${String(day).padStart(2,'0')}`;
       this.$emit('select-date', dateStr);
+    },
+    onTouchStart(e) {
+      this.touchStartX = e.changedTouches[0].screenX;
+    },
+    onTouchEnd(e) {
+      const endX = e.changedTouches[0].screenX;
+      const diff = endX - this.touchStartX;
+      if (diff > 50) {
+        this.prevMonth();
+      } else if (diff < -50) {
+        this.nextMonth();
+      }
+      this.touchStartX = null;
     }
   }
 };
