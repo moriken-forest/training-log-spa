@@ -38,8 +38,7 @@
           @click="baseModel = opt.value"
         >{{ opt.label }}</button>
       </div>
-      <div class="segmented-pill variant-tabs" v-if="view === 'logs' && showVariant">
-        <div class="slider" :style="variantSliderStyle"></div>
+      <div class="segmented-control variant-tabs" v-if="view === 'logs' && showVariant">
         <button
           :class="{ active: variantModel === '' }"
           @click="variantModel = ''"
@@ -129,12 +128,6 @@ export default {
     viewSliderStyle() {
       const idx = this.view === 'logs' ? 0 : 1
       return { transform: `translateX(${idx * 100}%)` }
-    },
-    variantSliderStyle() {
-      const opts = ['', 'メイン', 'サブ']
-      const idx = opts.indexOf(this.variantModel)
-      const w = 100 / opts.length
-      return { width: `${w}%`, transform: `translateX(${idx * w}%)` }
     },
     filteredLogs() {
       const variant = this.variantModel
