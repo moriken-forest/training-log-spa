@@ -9,7 +9,7 @@ const routes = [
   { path: '/',        redirect: '/calendar' },
   { path: '/calendar', component: CalendarView },
   { path: '/list',     component: ListView },
-  { path: '/category/:base', component: CategoryView },
+  { path: '/category/:base?', component: CategoryView },
   { path: '/register', component: RegisterView },
   { path: '/guide', component: ChatGPTGuideView },
 ]
