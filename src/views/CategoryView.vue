@@ -13,17 +13,19 @@
           @click="baseModel = b"
         >{{ b }}</button>
       </div>
-      <div v-if="variants.length" class="segmented-control variant-tabs">
+      <div class="segmented-control variant-tabs">
         <button
           :class="{ active: variantModel === '' }"
           @click="variantModel = ''"
-        >すべて</button>
+        >全て</button>
         <button
-          v-for="v in variants"
-          :key="v"
-          :class="{ active: variantModel === v }"
-          @click="variantModel = v"
-        >{{ categoryLabel(v) }}</button>
+          :class="{ active: variantModel === 'メイン' }"
+          @click="variantModel = 'メイン'"
+        >メイン</button>
+        <button
+          :class="{ active: variantModel === 'サブ' }"
+          @click="variantModel = 'サブ'"
+        >サブ</button>
       </div>
     </div>
     <LogList :logs="filteredLogs" :page-size="pageSize" />
@@ -33,7 +35,7 @@
 <script>
 import LogList from '../components/LogList.vue'
 import { getStoredDates, getStoredLog } from '../utils/logStorage'
-import { parseCategory, sortBases, sortVariants } from '../utils/category'
+import { parseCategory, sortBases } from '../utils/category'
 import { getUser } from '../utils/user'
 
 const user = getUser()
@@ -48,9 +50,10 @@ export default {
   },
   computed: {
     baseModel: {
-      get() { return this.$route.params.base },
+      get() { return this.$route.params.base || '' },
       set(v) {
-        this.$router.replace({ path: `/category/${encodeURIComponent(v)}`, query: this.$route.query })
+        const path = v ? `/category/${encodeURIComponent(v)}` : '/category'
+        this.$router.replace({ path, query: this.$route.query })
       }
     },
     variantModel: {
@@ -70,17 +73,12 @@ export default {
           if (base) set.add(base)
         }
       }
-      return sortBases(Array.from(set))
+      const arr = sortBases(Array.from(set))
+      arr.unshift('全て')
+      return arr
     },
     variants() {
-      const set = new Set()
-      for (const log of this.logs) {
-        for (const s of log.sessions || []) {
-          const { base, variant } = parseCategory(s.type || '')
-          if (base === this.baseModel && variant) set.add(variant)
-        }
-      }
-      return sortVariants(Array.from(set))
+      return ['メイン', 'サブ']
     },
     filteredLogs() {
       const variant = this.variantModel
@@ -90,7 +88,7 @@ export default {
         const sessions = []
         for (const session of log.sessions || []) {
           const pc = parseCategory(session.type || '')
-          if (pc.base !== base) continue
+          if (base && pc.base !== base) continue
           if (variant && pc.variant !== variant) continue
           sessions.push(session)
         }
