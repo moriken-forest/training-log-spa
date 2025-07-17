@@ -72,6 +72,44 @@
           "e1RM": null
         }
       ]
+    },
+    {
+      "type": "ベンチ（メイン）",
+      "lift": "ブロックベンチ",
+      "sets": [
+        {
+          "weight": 70,
+          "reps": 3,
+          "rpe": null,
+          "comment": "",
+          "1RM": 75,
+          "e1RM": 92
+        },
+        {
+          "weight": 70,
+          "reps": 3,
+          "rpe": null,
+          "comment": "",
+          "1RM": 75,
+          "e1RM": 92
+        },
+        {
+          "weight": 70,
+          "reps": 3,
+          "rpe": null,
+          "comment": "",
+          "1RM": 75,
+          "e1RM": 92
+        },
+        {
+          "weight": 70,
+          "reps": 3,
+          "rpe": null,
+          "comment": "",
+          "1RM": 75,
+          "e1RM": 92
+        }
+      ]
     }
   ]
 }
