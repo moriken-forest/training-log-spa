@@ -1,5 +1,5 @@
 <template>
-  <div @touchstart="onTouchStart" @touchmove="onTouchMove" @touchend="onTouchEnd">
+  <div @touchstart="onTouchStart" @touchend="onTouchEnd">
     <!-- ナビゲーション -->
     <div id="calendarHeader">
       <button @click="prevMonth">◀︎</button>
@@ -13,8 +13,6 @@
         <div
           :key="viewYear + '-' + viewMonth"
           id="calendar"
-          :style="{ transform: `translateX(${translateX}px)` }"
-          :class="{ dragging: isDragging }"
         >
           <!-- 曜日ヘッダー -->
           <div v-for="w in weekdays" :key="w" class="weekday">
@@ -66,9 +64,7 @@ export default {
       todayMonth: today.getMonth(),
       todayDate: today.getDate(),
       touchStartX: null,
-      slideDirection: 'left',
-      translateX: 0,
-      isDragging: false
+      slideDirection: 'left'
     };
   },
   computed: {
@@ -131,18 +127,10 @@ export default {
     },
     onTouchStart(e) {
       this.touchStartX = e.touches[0].screenX;
-      this.isDragging = true;
-    },
-    onTouchMove(e) {
-      if (!this.isDragging) return;
-      this.translateX = e.touches[0].screenX - this.touchStartX;
     },
     onTouchEnd(e) {
-      if (!this.isDragging) return;
       const endX = e.changedTouches[0].screenX;
       const diff = endX - this.touchStartX;
-      this.isDragging = false;
-      this.translateX = 0;
       if (diff > 50) {
         this.prevMonth();
       } else if (diff < -50) {
@@ -177,9 +165,5 @@ export default {
 
 #calendar {
   transition: transform 0.3s cubic-bezier(0.33, 1, 0.68, 1);
-}
-
-.dragging {
-  transition: none !important;
 }
 </style>
