@@ -7,13 +7,13 @@
       </label>
       <div class="segmented-control category-tabs">
         <button
-          v-for="b in bases"
-          :key="b"
-          :class="{ active: baseModel === b }"
-          @click="baseModel = b"
-        >{{ b }}</button>
+          v-for="opt in bases"
+          :key="opt.value || 'all'"
+          :class="{ active: baseModel === opt.value }"
+          @click="baseModel = opt.value"
+        >{{ opt.label }}</button>
       </div>
-      <div class="segmented-control variant-tabs">
+      <div class="segmented-control variant-tabs" v-if="showVariant">
         <button
           :class="{ active: variantModel === '' }"
           @click="variantModel = ''"
@@ -35,7 +35,7 @@
 <script>
 import LogList from '../components/LogList.vue'
 import { getStoredDates, getStoredLog } from '../utils/logStorage'
-import { parseCategory, sortBases } from '../utils/category'
+import { parseCategory } from '../utils/category'
 import { getUser } from '../utils/user'
 
 const user = getUser()
@@ -66,16 +66,17 @@ export default {
       }
     },
     bases() {
-      const set = new Set()
-      for (const log of this.logs) {
-        for (const s of log.sessions || []) {
-          const { base } = parseCategory(s.type || '')
-          if (base) set.add(base)
-        }
-      }
-      const arr = sortBases(Array.from(set))
-      arr.unshift('全て')
-      return arr
+      return [
+        { value: '', label: 'All' },
+        { value: 'スクワット', label: 'Squat' },
+        { value: 'ベンチプレス', label: 'Bench' },
+        { value: 'デッドリフト', label: 'Dead' },
+        { value: 'アクセサリー種目', label: 'Accessory' }
+      ]
+    },
+    showVariant() {
+      return this.baseModel &&
+        !['アクセサリー種目', 'アクセサリー'].includes(this.baseModel)
     },
     variants() {
       return ['メイン', 'サブ']
@@ -105,8 +106,8 @@ export default {
   },
   watch: {
     baseModel() {
-      if (!this.variants.includes(this.variantModel)) {
-        const q = { ...this.$route.query }
+      const q = { ...this.$route.query }
+      if (!this.showVariant || !this.variants.includes(this.variantModel)) {
         delete q.variant
         this.$router.replace({ query: q })
       }
