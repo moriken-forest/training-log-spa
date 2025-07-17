@@ -9,7 +9,7 @@
 
     <!-- カレンダー本体 -->
     <div id="calendarContainer">
-      <transition :name="'slide-' + slideDirection">
+      <transition :name="'slide-' + slideDirection" mode="in-out">
         <div
           :key="viewYear + '-' + viewMonth"
           id="calendar"
