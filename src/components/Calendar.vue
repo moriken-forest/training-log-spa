@@ -8,27 +8,31 @@
     </div>
 
     <!-- カレンダー本体 -->
-    <div id="calendar">
-      <!-- 曜日ヘッダー -->
-      <div v-for="w in weekdays" :key="w" class="weekday">
-        {{ w }}
-      </div>
-      <!-- 空セル -->
-      <div v-for="n in firstDay" :key="'e'+n" class="day-cell disabled"></div>
-      <!-- 日セル -->
-      <div
-        v-for="day in daysInMonth"
-        :key="day"
-        :class="[
-          'day-cell',
-          isLog(day) ? 'has-log' : (isSchedule(day) ? 'has-schedule' : 'disabled'),
-          selectedDay === day ? 'selected' : '',
-          isToday(day) ? 'today' : ''
-        ]"
-        @click="selectDate(day)"
-      >
-        {{ day }}
-      </div>
+    <div id="calendarContainer">
+      <transition :name="'slide-' + slideDirection" mode="out-in">
+        <div :key="viewYear + '-' + viewMonth" id="calendar">
+          <!-- 曜日ヘッダー -->
+          <div v-for="w in weekdays" :key="w" class="weekday">
+            {{ w }}
+          </div>
+          <!-- 空セル -->
+          <div v-for="n in firstDay" :key="'e'+n" class="day-cell disabled"></div>
+          <!-- 日セル -->
+          <div
+            v-for="day in daysInMonth"
+            :key="day"
+            :class="[
+              'day-cell',
+              isLog(day) ? 'has-log' : (isSchedule(day) ? 'has-schedule' : 'disabled'),
+              selectedDay === day ? 'selected' : '',
+              isToday(day) ? 'today' : ''
+            ]"
+            @click="selectDate(day)"
+          >
+            {{ day }}
+          </div>
+        </div>
+      </transition>
     </div>
   </div>
 </template>
@@ -56,7 +60,8 @@ export default {
       todayYear: today.getFullYear(),
       todayMonth: today.getMonth(),
       todayDate: today.getDate(),
-      touchStartX: null
+      touchStartX: null,
+      slideDirection: 'left'
     };
   },
   computed: {
@@ -94,6 +99,7 @@ export default {
       return this.isLog(day) || this.isSchedule(day);
     },
     prevMonth() {
+      this.slideDirection = 'right';
       this.viewMonth--;
       if (this.viewMonth < 0) {
         this.viewMonth = 11;
@@ -102,6 +108,7 @@ export default {
       this.selectedDay = null;
     },
     nextMonth() {
+      this.slideDirection = 'left';
       this.viewMonth++;
       if (this.viewMonth > 11) {
         this.viewMonth = 0;
@@ -131,3 +138,25 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+#calendarContainer {
+  position: relative;
+  overflow: hidden;
+}
+
+.slide-left-enter-active,
+.slide-left-leave-active,
+.slide-right-enter-active,
+.slide-right-leave-active {
+  transition: transform 0.3s cubic-bezier(0.33, 1, 0.68, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.slide-left-enter-from { transform: translateX(100%); }
+.slide-left-leave-to   { transform: translateX(-100%); }
+.slide-right-enter-from { transform: translateX(-100%); }
+.slide-right-leave-to   { transform: translateX(100%); }
+</style>
