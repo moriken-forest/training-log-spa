@@ -147,7 +147,7 @@ export default {
       const { base, variant } = parseCategory(cat)
       const query = {}
       if (variant) query.variant = variant
-      this.$router.push({ path: `/category/${encodeURIComponent(base)}`, query })
+      this.$router.push({ path: `/list/${encodeURIComponent(base)}`, query })
     },
     confirmDelete(date) {
       if (confirm('本当に削除しますか？')) {
