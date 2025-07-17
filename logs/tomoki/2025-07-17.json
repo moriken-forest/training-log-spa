@@ -1,0 +1,77 @@
+{
+  "date": "2025-07-17",
+  "block": null,
+  "week": null,
+  "day": null,
+  "notes": "ブロック間のつなぎの日",
+  "sessions": [
+    {
+      "type": "デッドリフト（メイン）",
+      "lift": "デッドリフト",
+      "sets": [
+        {
+          "weight": 60,
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": 69,
+          "e1RM": 87
+        },
+        {
+          "weight": 70,
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": 80,
+          "e1RM": 101
+        },
+        {
+          "weight": 85,
+          "reps": 3,
+          "rpe": null,
+          "comment": "",
+          "1RM": 92,
+          "e1RM": 118
+        },
+        {
+          "weight": 100,
+          "reps": 3,
+          "rpe": null,
+          "comment": "握力がギリギリだった。お尻のあげる位置、股関節の使い方がまだまだ甘い。100キロあと上げれて3回くらいだった",
+          "1RM": 109,
+          "e1RM": 139
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "ラットプルダウン",
+      "sets": [
+        {
+          "weight": 47,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 47,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 54,
+          "reps": 10,
+          "rpe": null,
+          "comment": "正直きつかった、最後胸につけ切るのがギリギリ",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
