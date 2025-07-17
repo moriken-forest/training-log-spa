@@ -243,7 +243,9 @@ main {
   flex-wrap: wrap;
 }
 .type-tag {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
   background: #F0566E;
   color: #b22d35;
   font-size: 0.65rem;
@@ -253,6 +255,17 @@ main {
   line-height: 1;
   white-space: nowrap;
   cursor: pointer;
+}
+.type-tag .material-icons {
+  font-size: 1rem;
+}
+.tag-main {
+  background: #ff9800;
+  color: #ffffff;
+}
+.tag-sub {
+  background: #2196f3;
+  color: #ffffff;
 }
 .session .table-wrapper {
   overflow-x: auto;
@@ -747,6 +760,9 @@ main {
   padding: 1px 4px;
   margin-left: 0;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
 }
 .flat-session + .flat-session {
   margin-top: 4px;
