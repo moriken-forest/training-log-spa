@@ -1,5 +1,5 @@
 <template>
-  <div @touchstart="onTouchStart" @touchend="onTouchEnd">
+  <div @touchstart="onTouchStart" @touchmove="onTouchMove" @touchend="onTouchEnd">
     <!-- ナビゲーション -->
     <div id="calendarHeader">
       <button @click="prevMonth">◀︎</button>
@@ -13,6 +13,7 @@
         <div
           :key="viewYear + '-' + viewMonth"
           id="calendar"
+          :style="dragging ? { transform: `translateX(${dragOffset}px)`, transition: 'none' } : {}"
         >
           <!-- 曜日ヘッダー -->
           <div v-for="w in weekdays" :key="w" class="weekday">
@@ -64,7 +65,9 @@ export default {
       todayMonth: today.getMonth(),
       todayDate: today.getDate(),
       touchStartX: null,
-      slideDirection: 'left'
+      slideDirection: 'left',
+      dragOffset: 0,
+      dragging: false
     };
   },
   computed: {
@@ -127,6 +130,11 @@ export default {
     },
     onTouchStart(e) {
       this.touchStartX = e.touches[0].screenX;
+      this.dragging = true;
+    },
+    onTouchMove(e) {
+      if (!this.dragging) return;
+      this.dragOffset = e.touches[0].screenX - this.touchStartX;
     },
     onTouchEnd(e) {
       const endX = e.changedTouches[0].screenX;
@@ -136,6 +144,8 @@ export default {
       } else if (diff < -50) {
         this.nextMonth();
       }
+      this.dragOffset = 0;
+      this.dragging = false;
       this.touchStartX = null;
     }
   }
