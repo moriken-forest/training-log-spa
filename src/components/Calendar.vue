@@ -1,5 +1,5 @@
 <template>
-  <div @touchstart="onTouchStart" @touchend="onTouchEnd">
+  <div @touchstart="onTouchStart" @touchmove="onTouchMove" @touchend="onTouchEnd">
     <!-- ナビゲーション -->
     <div id="calendarHeader">
       <button @click="prevMonth">◀︎</button>
@@ -10,7 +10,12 @@
     <!-- カレンダー本体 -->
     <div id="calendarContainer">
       <transition :name="'slide-' + slideDirection" mode="out-in">
-        <div :key="viewYear + '-' + viewMonth" id="calendar">
+        <div
+          :key="viewYear + '-' + viewMonth"
+          id="calendar"
+          :style="{ transform: `translateX(${translateX}px)` }"
+          :class="{ dragging: isDragging }"
+        >
           <!-- 曜日ヘッダー -->
           <div v-for="w in weekdays" :key="w" class="weekday">
             {{ w }}
@@ -61,7 +66,9 @@ export default {
       todayMonth: today.getMonth(),
       todayDate: today.getDate(),
       touchStartX: null,
-      slideDirection: 'left'
+      slideDirection: 'left',
+      translateX: 0,
+      isDragging: false
     };
   },
   computed: {
@@ -123,11 +130,19 @@ export default {
       this.$emit('select-date', dateStr);
     },
     onTouchStart(e) {
-      this.touchStartX = e.changedTouches[0].screenX;
+      this.touchStartX = e.touches[0].screenX;
+      this.isDragging = true;
+    },
+    onTouchMove(e) {
+      if (!this.isDragging) return;
+      this.translateX = e.touches[0].screenX - this.touchStartX;
     },
     onTouchEnd(e) {
+      if (!this.isDragging) return;
       const endX = e.changedTouches[0].screenX;
       const diff = endX - this.touchStartX;
+      this.isDragging = false;
+      this.translateX = 0;
       if (diff > 50) {
         this.prevMonth();
       } else if (diff < -50) {
@@ -159,4 +174,12 @@ export default {
 .slide-left-leave-to   { transform: translateX(-100%); }
 .slide-right-enter-from { transform: translateX(-100%); }
 .slide-right-leave-to   { transform: translateX(100%); }
+
+#calendar {
+  transition: transform 0.3s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.dragging {
+  transition: none !important;
+}
 </style>
