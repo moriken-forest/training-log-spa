@@ -9,7 +9,7 @@
         <button
           v-for="opt in bases"
           :key="opt.value || 'all'"
-          :class="{ active: baseModel === opt.value }"
+          :class="{ active: baseModel === opt.value, all: opt.value === '' }"
           @click="baseModel = opt.value"
         >{{ opt.label }}</button>
       </div>
