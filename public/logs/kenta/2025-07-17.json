@@ -1,0 +1,153 @@
+{
+  "date": "2025-07-17",
+  "block": "Accumulation",
+  "week": 1,
+  "day": 2,
+  "notes": "ブロックAccumulation Week1 Day2のトレーニング",
+  "sessions": [
+    {
+      "type": "デッドリフト（サブ）",
+      "lift": "ポーズデッドリフト",
+      "sets": [
+        {
+          "weight": 95,
+          "reps": 5,
+          "rpe": 4,
+          "comment": "若干腕で引いてたから、しっかり下半身で浮かすこと意識",
+          "1RM": 109,
+          "e1RM": 126
+        },
+        {
+          "weight": 95,
+          "reps": 3,
+          "rpe": 4,
+          "comment": "しっかり股関節で押した",
+          "1RM": 103,
+          "e1RM": 120
+        },
+        {
+          "weight": 95,
+          "reps": 3,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 103,
+          "e1RM": 120
+        },
+        {
+          "weight": 95,
+          "reps": 3,
+          "rpe": 4,
+          "comment": "股関節に乗せる意識",
+          "1RM": 103,
+          "e1RM": 120
+        },
+        {
+          "weight": 95,
+          "reps": 3,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 103,
+          "e1RM": 120
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "ダンベルシールロー",
+      "sets": [
+        {
+          "weight": 26,
+          "reps": 10,
+          "rpe": 6.5,
+          "comment": "ダンベルシールロー",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 26,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "割と余裕。肩甲骨から動かせるようになってる",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 26,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチ",
+      "sets": [
+        {
+          "weight": 70,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "リストストラップなし。乗せるべきところをさぐる",
+          "1RM": 78,
+          "e1RM": 87
+        },
+        {
+          "weight": 70,
+          "reps": 5,
+          "rpe": 4,
+          "comment": "安定してきた",
+          "1RM": 78,
+          "e1RM": 89
+        },
+        {
+          "weight": 70,
+          "reps": 5,
+          "rpe": 4,
+          "comment": "軽いから抜けてるとこある。しっかり圧パンパンにする",
+          "1RM": 78,
+          "e1RM": 89
+        },
+        {
+          "weight": 70,
+          "reps": 5,
+          "rpe": 3.5,
+          "comment": "パンパンにしてやった。これが大事",
+          "1RM": 78,
+          "e1RM": 90
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足上げベンチ",
+      "sets": [
+        {
+          "weight": 70,
+          "reps": 6,
+          "rpe": 5,
+          "comment": "スパスパあげた",
+          "1RM": 80,
+          "e1RM": 89
+        },
+        {
+          "weight": 70,
+          "reps": 6,
+          "rpe": 5,
+          "comment": "にぎりきらずにやった。良き感覚",
+          "1RM": 80,
+          "e1RM": 89
+        },
+        {
+          "weight": 70,
+          "reps": 6,
+          "rpe": 4,
+          "comment": "安定してる",
+          "1RM": 80,
+          "e1RM": 91
+        }
+      ]
+    }
+  ]
+}
