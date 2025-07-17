@@ -1,7 +1,8 @@
 <template>
   <div>
     <div id="controls">
-      <label>表示件数:
+      <label class="page-size">
+        <span class="material-icons">format_list_numbered</span>
         <input
           type="range"
           v-model.number="pageSize"
@@ -9,7 +10,7 @@
           max="100"
           step="10"
         />
-        <span>{{ pageSize }}</span> 件
+        <span class="current">{{ pageSize }}</span>
       </label>
       <div class="segmented-control">
         <button :class="{ active: view === 'logs' }" @click="view = 'logs'">ログ</button>
