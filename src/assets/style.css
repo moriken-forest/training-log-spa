@@ -362,6 +362,16 @@ main {
 }
 #controls .variant-tabs {
   margin-left: 8px;
+  border-color: var(--primary);
+}
+
+#controls .variant-tabs button {
+  color: var(--primary);
+}
+
+#controls .variant-tabs button.active {
+  background: var(--primary);
+  color: var(--bg);
 }
 .category-select select {
   -webkit-appearance: none;
