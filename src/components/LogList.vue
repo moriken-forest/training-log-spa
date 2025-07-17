@@ -23,9 +23,12 @@
             <span v-if="session.variation"> ({{ session.variation }})</span>
             <span
               v-if="session.type"
-              class="type-tag"
+              :class="['type-tag', variantClass(session.type)]"
               @click.stop="goCategory(session.type)"
-            >{{ session.type }}</span>
+            >
+              <span class="material-icons">{{ variantIcon(session.type) }}</span>
+              {{ session.type }}
+            </span>
           </h2>
           <div class="table-wrapper">
             <table>
@@ -153,6 +156,18 @@ export default {
       if (confirm('本当に削除しますか？')) {
         this.$emit('delete-log', date)
       }
+    },
+    variantClass(type) {
+      const { variant } = parseCategory(type)
+      if (variant === 'メイン') return 'tag-main'
+      if (variant === 'サブ') return 'tag-sub'
+      return ''
+    },
+    variantIcon(type) {
+      const { variant } = parseCategory(type)
+      if (variant === 'メイン') return 'fitness_center'
+      if (variant === 'サブ') return 'construction'
+      return 'label'
     },
     isAccessoryType
   }
