@@ -6,7 +6,7 @@
         <button class="close-btn" @click="close">×</button>
       </header>
       <div v-for="(s, i) in state.sessions" :key="i" class="session">
-        <h4 class="date">{{ s.date }}</h4>
+        <h4 class="date" @click="goDate(s.date)">{{ s.date }}</h4>
         <div class="table-wrapper">
           <table>
             <thead>
@@ -37,12 +37,18 @@
 <script>
 import { useLiftModal, hideLiftModal } from '../utils/liftModal'
 import { isAccessoryType } from '../utils/category'
+import { useRouter } from 'vue-router'
 export default {
   name: 'PastLogsModal',
   setup() {
     const state = useLiftModal()
+    const router = useRouter()
     const close = () => hideLiftModal()
-    return { state, close, isAccessoryType }
+    const goDate = (date) => {
+      hideLiftModal()
+      router.push({ path: '/calendar', query: { date } })
+    }
+    return { state, close, goDate, isAccessoryType }
   }
 }
 </script>
@@ -86,5 +92,13 @@ export default {
   color: var(--text);
   font-size: 1.2rem;
   cursor: pointer;
+}
+.session .date {
+  cursor: pointer;
+  text-decoration: underline;
+  margin-bottom: 4px;
+}
+.session .date:hover {
+  color: var(--primary-light);
 }
 </style>

@@ -3,6 +3,7 @@
     <Calendar
       :log-dates="logDates"
       :schedule-dates="scheduleDates"
+      :selected-date="selectedDate"
       @select-date="selectEntry"
     />
     <section id="logContainer">
@@ -32,7 +33,13 @@ export default {
       logs: [],
       scheduleMap: {},
       selectedLog: null,
-      selectedPlan: null
+      selectedPlan: null,
+      selectedDate: null
+    }
+  },
+  watch: {
+    '$route.query.date'(v) {
+      this.selectedDate = v
     }
   },
   created() {
@@ -58,6 +65,13 @@ export default {
       })
       .then(sched => {
         this.processSchedule(sched)
+      })
+      .then(() => {
+        const q = this.$route.query.date
+        if (q) {
+          this.selectedDate = q
+          this.selectEntry(q)
+        }
       })
   },
   methods: {
@@ -86,6 +100,8 @@ export default {
       })
     },
     selectEntry(date) {
+      this.selectedDate = date
+      this.$router.replace({ query: { ...this.$route.query, date } })
       this.selectedPlan = null
       this.selectedLog = null
       if (this.logDates.includes(date)) {

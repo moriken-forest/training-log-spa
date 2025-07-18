@@ -56,6 +56,10 @@ export default {
     scheduleDates: {
       type: Array,
       default: () => []
+    },
+    selectedDate: {
+      type: String,
+      default: ''
     }
   },
   emits: ['select-date'],
@@ -87,6 +91,19 @@ export default {
     },
     daysInMonth() {
       return new Date(this.viewYear, this.viewMonth + 1, 0).getDate();
+    }
+  },
+  watch: {
+    selectedDate: {
+      immediate: true,
+      handler(val) {
+        if (!val) return;
+        const d = new Date(val);
+        if (isNaN(d)) return;
+        this.viewYear = d.getFullYear();
+        this.viewMonth = d.getMonth();
+        this.selectedDay = d.getDate();
+      }
     }
   },
   methods: {
