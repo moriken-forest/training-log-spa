@@ -1,0 +1,139 @@
+{
+  "date": "2025-07-18",
+  "block": "Accumulation",
+  "week": 1,
+  "day": 3,
+  "notes": "ブロックAccumulation Week1 Day3のトレーニング",
+  "sessions": [
+    {
+      "type": "ベンチ（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 75,
+          "reps": 10,
+          "rpe": 4,
+          "comment": "背中で受ける。リストストラップなしで押すべきとこに押す",
+          "1RM": 93,
+          "e1RM": 105
+        },
+        {
+          "weight": 75,
+          "reps": 10,
+          "rpe": 4.5,
+          "comment": "",
+          "1RM": 93,
+          "e1RM": 104
+        },
+        {
+          "weight": 75,
+          "reps": 10,
+          "rpe": 5,
+          "comment": "足を頭側に少し寄せた。腰に負担ある気もする",
+          "1RM": 93,
+          "e1RM": 103
+        },
+        {
+          "weight": 75,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "シンプルに回数こなすと疲れるな",
+          "1RM": 93,
+          "e1RM": 99
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（メイン）",
+      "lift": "デッドリフト",
+      "sets": [
+        {
+          "weight": 145,
+          "reps": 6,
+          "rpe": 6,
+          "comment": "昨日のポーズデッドの足で挙げる感覚。素手でやった。",
+          "1RM": 171,
+          "e1RM": 188
+        },
+        {
+          "weight": 145,
+          "reps": 6,
+          "rpe": 5,
+          "comment": "パワーグリップつけた。楽やね",
+          "1RM": 171,
+          "e1RM": 192
+        },
+        {
+          "weight": 145,
+          "reps": 6,
+          "rpe": 4.5,
+          "comment": "股関節に乗るように気持ち前重心、ケツも上げるとかなり楽にあがった。これまでけつしたすぎたかも",
+          "1RM": 171,
+          "e1RM": 195
+        },
+        {
+          "weight": 145,
+          "reps": 6,
+          "rpe": 5.5,
+          "comment": "さっきのが感覚はよかったな。",
+          "1RM": 171,
+          "e1RM": 190
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "ワンハンドダンベルロー",
+      "sets": [
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "パワーグリップ必須やね。少し前におろしてのばす",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "普通にきついし。",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "背中バチバチに伸ばされる",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 9.5,
+          "comment": "普通にこれが一番きつかったわ",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
