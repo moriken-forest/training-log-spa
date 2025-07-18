@@ -1,0 +1,63 @@
+{
+  "date": "2025-05-03",
+  "block": "Test Block",
+  "week": 5,
+  "day": 2,
+  "notes": "自動生成ログ",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 113,
+          "reps": 5,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 127,
+          "e1RM": 135
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "ハイバースクワット",
+      "sets": [
+        {
+          "weight": 153,
+          "reps": 5,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 175,
+          "e1RM": 189
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（メイン）",
+      "lift": "デッドリフト",
+      "sets": [
+        {
+          "weight": 193,
+          "reps": 5,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 221,
+          "e1RM": 239
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "アームカール",
+      "sets": [
+        {
+          "weight": 23,
+          "reps": 10,
+          "rpe": 7,
+          "comment": ""
+        }
+      ]
+    }
+  ]
+}
