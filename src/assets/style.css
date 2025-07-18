@@ -148,14 +148,14 @@ main {
   box-shadow: none;
 }
 .day-cell.has-log {
-  border-color: #b22d35;
-  background: #b22d35;
-  color: #ffffff;
+  border-color: #F0566E;
+  background: #F0566E;
+  color: #b22d35;
 }
 .day-cell.has-schedule {
-  border-color: var(--schedule-dark);
-  background: var(--schedule-light);
-  color: var(--schedule-dark);
+  border-color: #2196f3;
+  background: #2196f3;
+  color: #ffffff;
 }
 .day-cell:hover:not(.disabled) {
   transform: translateY(-2px);
