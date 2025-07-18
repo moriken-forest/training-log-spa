@@ -16,7 +16,7 @@
 
     <!-- カレンダー本体 -->
     <div id="calendarContainer">
-      <transition :name="'slide-' + slideDirection" mode="in-out"
+      <transition :name="'slide-' + slideDirection"
                   @before-leave="onBeforeLeave" @before-enter="onBeforeEnter">
         <div
           :key="viewYear + '-' + viewMonth"
@@ -194,13 +194,14 @@ export default {
 #calendarContainer {
   position: relative;
   overflow: hidden;
+  touch-action: pan-x;
 }
 
 .slide-left-enter-active,
 .slide-left-leave-active,
 .slide-right-enter-active,
 .slide-right-leave-active {
-  transition: transform 0.3s cubic-bezier(0.33, 1, 0.68, 1);
+  transition: transform 0.25s cubic-bezier(0.33, 1, 0.68, 1);
   position: absolute;
   top: 0;
   left: 0;
@@ -212,6 +213,6 @@ export default {
 .slide-right-leave-to   { transform: translateX(100%); }
 
 #calendar {
-  transition: transform 0.3s cubic-bezier(0.33, 1, 0.68, 1);
+  transition: transform 0.25s cubic-bezier(0.33, 1, 0.68, 1);
 }
 </style>
