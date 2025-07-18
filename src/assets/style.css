@@ -244,6 +244,13 @@ main {
   white-space: nowrap;
   overflow-x: auto;
 }
+.lift-link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.lift-link:hover {
+  color: var(--primary-light);
+}
 
 /* スケジュールのセッションタイトルは横スクロールさせない */
 .schedule-detail .session-title {
