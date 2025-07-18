@@ -18,7 +18,7 @@
                   :key="i"
                   class="flat-session"
                 >
-                  <strong>{{ session.lift }}</strong>
+                  <strong class="lift-link" @click.stop="showHistory(session.lift)">{{ session.lift }}</strong>
                   <span class="set-detail">
                     <template v-for="(set, si) in session.sets" :key="si">
                       <span>{{ formatSet(set) }}</span>
@@ -57,7 +57,7 @@
           <span class="note">{{ summaryLifts(plan).join('\n') }}</span>
         </div>
         <div class="details">
-          <ScheduleDetail :plan="plan" />
+          <ScheduleDetail :plan="plan" :all-logs="allLogs" />
         </div>
       </div>
 
@@ -73,6 +73,7 @@
 <script>
 import ScheduleDetail from './ScheduleDetail.vue'
 import { parseCategory, sortCategories } from '../utils/category'
+import { showLiftModal } from '../utils/liftModal'
 
 export default {
   name: 'ScheduleList',
@@ -89,6 +90,10 @@ export default {
     flat: {
       type: Boolean,
       default: false
+    },
+    allLogs: {
+      type: Array,
+      default: () => []
     }
   },
   data() {
@@ -162,6 +167,9 @@ export default {
       const query = {}
       if (variant) query.variant = variant
       this.$router.push({ path: `/list/${encodeURIComponent(base)}`, query })
+    },
+    showHistory(lift) {
+      showLiftModal(lift, this.allLogs)
     }
   }
 }

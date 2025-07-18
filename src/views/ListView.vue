@@ -57,12 +57,14 @@
     <LogList
       v-if="view === 'logs'"
       :logs="filteredLogs"
+      :all-logs="logs"
       :page-size="pageSize"
       @delete-log="deleteLogEntry"
     />
     <ScheduleList
       v-if="view === 'schedule'"
       :plans="plans"
+      :all-logs="logs"
       :page-size="pageSize"
       :flat="flatView"
     />
