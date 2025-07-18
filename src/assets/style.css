@@ -115,6 +115,14 @@ main {
   text-align: center;
 }
 
+/* 固定曜日ヘッダー用グリッド */
+#weekdayHeader {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  margin-bottom: var(--spacing);
+}
+
 /* カレンダーグリッド */
 #calendar {
   display: grid;
