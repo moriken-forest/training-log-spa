@@ -7,6 +7,13 @@
       <button @click="nextMonth">▶︎</button>
     </div>
 
+    <!-- 曜日ヘッダー -->
+    <div id="weekdayHeader">
+      <div v-for="w in weekdays" :key="w" class="weekday">
+        {{ w }}
+      </div>
+    </div>
+
     <!-- カレンダー本体 -->
     <div id="calendarContainer">
       <transition :name="'slide-' + slideDirection" mode="in-out"
@@ -16,10 +23,6 @@
           id="calendar"
           :style="dragging ? { transform: `translateX(${dragOffset}px)`, transition: 'none' } : {}"
         >
-          <!-- 曜日ヘッダー -->
-          <div v-for="w in weekdays" :key="w" class="weekday">
-            {{ w }}
-          </div>
           <!-- 空セル -->
           <div v-for="n in firstDay" :key="'e'+n" class="day-cell disabled"></div>
           <!-- 日セル -->
