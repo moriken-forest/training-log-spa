@@ -17,7 +17,7 @@
       class="session"
     >
       <h3 class="session-title">
-        {{ session.lift }}
+        <span class="lift-link" @click="showHistory(session.lift)">{{ session.lift }}</span>
         <small v-if="session.variation">({{ session.variation }})</small>
         <span
           v-if="session.type"
@@ -55,6 +55,7 @@
 
 <script>
 import { parseCategory, isAccessoryType } from '../utils/category'
+import { showLiftModal } from '../utils/liftModal'
 export default {
   name: 'LogDetail',
   emits: ['delete-log'],
@@ -62,6 +63,10 @@ export default {
     log: {
       type: Object,
       required: true
+    },
+    allLogs: {
+      type: Array,
+      default: () => []
     }
   },
   methods: {
@@ -75,6 +80,9 @@ export default {
       const query = {}
       if (variant) query.variant = variant
       this.$router.push({ path: `/list/${encodeURIComponent(base)}`, query })
+    },
+    showHistory(lift) {
+      showLiftModal(lift, this.allLogs)
     },
     isAccessoryType
   }

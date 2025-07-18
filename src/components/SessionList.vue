@@ -9,7 +9,7 @@
       <div class="summary" :class="{ clickable: !expanded }" @click="expanded || toggle(s.id)">
         <span class="date">{{ s.date }}</span>
         <span class="note">
-          {{ s.session.lift }}<span v-if="s.session.variation"> ({{ s.session.variation }})</span>
+          <span class="lift-link" @click.stop="showHistory(s.session.lift)">{{ s.session.lift }}</span><span v-if="s.session.variation"> ({{ s.session.variation }})</span>
         </span>
       </div>
       <div class="details">
@@ -19,7 +19,7 @@
         </div>
         <div class="session">
           <h2>
-            {{ s.session.lift }}
+            <span class="lift-link" @click="showHistory(s.session.lift)">{{ s.session.lift }}</span>
             <span v-if="s.session.variation"> ({{ s.session.variation }})</span>
             <span
               v-if="s.session.type"
@@ -64,10 +64,15 @@
 
 <script>
 import { parseCategory, isAccessoryType } from '../utils/category'
+import { showLiftModal } from '../utils/liftModal'
 export default {
   name: 'SessionList',
   props: {
     sessions: {
+      type: Array,
+      default: () => []
+    },
+    allLogs: {
       type: Array,
       default: () => []
     },
@@ -134,6 +139,9 @@ export default {
       const query = {}
       if (variant) query.variant = variant
       this.$router.push({ path: `/list/${encodeURIComponent(base)}`, query })
+    },
+    showHistory(lift) {
+      showLiftModal(lift, this.allLogs)
     },
     isAccessoryType
   }

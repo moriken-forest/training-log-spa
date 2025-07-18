@@ -9,7 +9,7 @@
     </div>
     <div v-for="(session, idx) in plan.sessions" :key="idx" class="session">
       <h3 class="session-title">
-        {{ session.lift }}
+        <span class="lift-link" @click="showHistory(session.lift)">{{ session.lift }}</span>
         <span
           v-if="session.type"
           class="type-tag"
@@ -44,6 +44,7 @@
 
 <script>
 import { parseCategory, isAccessoryType } from '../utils/category'
+import { showLiftModal } from '../utils/liftModal'
 export default {
   name: 'ScheduleDetail',
   props: {
@@ -54,6 +55,10 @@ export default {
     showMeta: {
       type: Boolean,
       default: false
+    },
+    allLogs: {
+      type: Array,
+      default: () => []
     }
   },
   methods: {
@@ -62,6 +67,9 @@ export default {
       const query = {}
       if (variant) query.variant = variant
       this.$router.push({ path: `/list/${encodeURIComponent(base)}`, query })
+    },
+    showHistory(lift) {
+      showLiftModal(lift, this.allLogs)
     },
     isAccessoryType
   }

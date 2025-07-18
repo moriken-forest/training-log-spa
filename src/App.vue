@@ -18,14 +18,17 @@
     <main>
       <router-view />
     </main>
+    <PastLogsModal />
   </div>
 </template>
 
 <script>
 import { getUsers, setUser } from './utils/user'
+import PastLogsModal from './components/PastLogsModal.vue'
 
 export default {
   name: 'App',
+  components: { PastLogsModal },
   data() {
     return {
       userMenu: false,
