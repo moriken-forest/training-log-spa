@@ -16,7 +16,7 @@
 
     <!-- カレンダー本体 -->
     <div id="calendarContainer">
-      <transition :name="'slide-' + slideDirection" mode="in-out"
+      <transition :name="'slide-' + slideDirection"
                   @before-leave="onBeforeLeave">
         <div
           :key="viewYear + '-' + viewMonth"
