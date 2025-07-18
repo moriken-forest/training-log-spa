@@ -17,11 +17,13 @@
     <!-- カレンダー本体 -->
     <div id="calendarContainer">
       <transition :name="'slide-' + slideDirection" mode="in-out"
-                  @before-leave="onBeforeLeave">
+                  @before-leave="onBeforeLeave" @before-enter="onBeforeEnter">
         <div
           :key="viewYear + '-' + viewMonth"
           id="calendar"
-          :style="dragging ? { transform: `translateX(${dragOffset}px)`, transition: 'none' } : {}"
+          :style="dragging
+            ? { transform: `translateX(${dragOffset}px)`, transition: 'none' }
+            : (releaseOffset !== null ? { transform: `translateX(${releaseOffset}px)` } : {})"
         >
           <!-- 空セル -->
           <div v-for="n in firstDay" :key="'e'+n" class="day-cell disabled"></div>
@@ -177,6 +179,11 @@ export default {
     onBeforeLeave(el) {
       if (this.releaseOffset !== null) {
         el.style.transform = `translateX(${this.releaseOffset}px)`;
+      }
+    },
+    onBeforeEnter(el) {
+      if (this.releaseOffset !== null) {
+        el.style.transform = '';
       }
     }
   }
