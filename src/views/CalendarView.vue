@@ -39,7 +39,13 @@ export default {
   },
   watch: {
     '$route.query.date'(v) {
-      this.selectedDate = v
+      if (!v) {
+        this.selectedDate = null
+        this.selectedLog = null
+        this.selectedPlan = null
+      } else if (v !== this.selectedDate) {
+        this.selectEntry(v)
+      }
     }
   },
   created() {
