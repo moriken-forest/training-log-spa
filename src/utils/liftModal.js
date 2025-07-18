@@ -11,7 +11,11 @@ export function showLiftModal(lift, logs = []) {
   for (const log of logs) {
     for (const sess of log.sessions || []) {
       if (sess.lift === lift) {
-        sessions.push({ date: log.date, sets: sess.sets })
+        sessions.push({
+          date: log.date,
+          type: sess.type,
+          sets: sess.sets
+        })
       }
     }
   }
