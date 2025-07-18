@@ -19,7 +19,7 @@
       <div class="details">
         <div v-for="session in log.sessions" :key="session.lift" class="session">
           <h2>
-            {{ session.lift }}
+            <span class="lift-link" @click="showHistory(session.lift)">{{ session.lift }}</span>
             <span v-if="session.variation"> ({{ session.variation }})</span>
             <span
               v-if="session.type"
@@ -68,11 +68,16 @@
 
 <script>
 import { parseCategory, isAccessoryType } from '../utils/category'
+import { showLiftModal } from '../utils/liftModal'
 export default {
   name: 'LogList',
   emits: ['delete-log'],
   props: {
     logs: {
+      type: Array,
+      default: () => []
+    },
+    allLogs: {
       type: Array,
       default: () => []
     },
@@ -151,6 +156,9 @@ export default {
       const query = {}
       if (variant) query.variant = variant
       this.$router.push({ path: `/list/${encodeURIComponent(base)}`, query })
+    },
+    showHistory(lift) {
+      showLiftModal(lift, this.allLogs)
     },
     confirmDelete(date) {
       if (confirm('本当に削除しますか？')) {
