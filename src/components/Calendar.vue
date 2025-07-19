@@ -268,5 +268,7 @@ export default {
 
 .month {
   width: 100%;
+  padding: 0 var(--spacing);
+  box-sizing: border-box;
 }
 </style>
