@@ -2,7 +2,7 @@
   <div v-if="state.visible" class="modal-overlay" @click.self="close">
     <div class="modal">
       <header>
-        <h3>{{ state.lift }}</h3>
+        <h3>{{ header }}</h3>
         <button class="close-btn" @click="close">×</button>
       </header>
       <div v-for="(s, i) in state.sessions" :key="i" class="session">
@@ -38,6 +38,7 @@
 import { useLiftModal, hideLiftModal } from '../utils/liftModal'
 import { isAccessoryType } from '../utils/category'
 import { useRouter } from 'vue-router'
+import { computed } from 'vue'
 export default {
   name: 'PastLogsModal',
   setup() {
@@ -48,7 +49,14 @@ export default {
       hideLiftModal()
       router.push({ path: '/calendar', query: { date } })
     }
-    return { state, close, goDate, isAccessoryType }
+    const header = computed(() => {
+      if (state.maxWeight == null && state.max1RM == null) return state.lift
+      const parts = []
+      if (state.maxWeight != null) parts.push(`Max重量:${state.maxWeight}kg`)
+      if (state.max1RM != null) parts.push(`Max1RM:${state.max1RM}kg`)
+      return `${state.lift}(${parts.join('  ')})`
+    })
+    return { state, close, goDate, header, isAccessoryType }
   }
 }
 </script>
