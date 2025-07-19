@@ -154,6 +154,11 @@ main {
   display: block;
   color: #b22d35;
 }
+.schedule-icon {
+  font-size: 1rem;
+  display: block;
+  color: var(--schedule);
+}
 .day-cell.today .day-number {
   text-decoration: underline;
 }
