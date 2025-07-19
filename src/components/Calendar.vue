@@ -24,12 +24,13 @@
             :key="'p'+day"
             :class="[
               'day-cell',
-              isLogOf(prevYear, prevMonthIndex, day) ? 'has-log' : (isScheduleOf(prevYear, prevMonthIndex, day) ? 'has-schedule' : 'disabled'),
-              isTodayOf(prevYear, prevMonthIndex, day) ? 'today' : ''
+              isTodayOf(prevYear, prevMonthIndex, day) ? 'today' : '',
+              isLogOf(prevYear, prevMonthIndex, day) ? 'has-log' : (isScheduleOf(prevYear, prevMonthIndex, day) ? 'has-schedule' : 'disabled')
             ]"
             @click="selectDateOf(prevYear, prevMonthIndex, day)"
           >
-            {{ day }}
+            <span class="day-number">{{ day }}</span>
+            <span v-if="isLogOf(prevYear, prevMonthIndex, day)" class="material-icons barbell">fitness_center</span>
           </div>
         </div>
         <div class="month" :key="viewYear + '-' + viewMonth">
@@ -39,13 +40,14 @@
             :key="'c'+day"
             :class="[
               'day-cell',
+              isToday(day) ? 'today' : '',
               isLog(day) ? 'has-log' : (isSchedule(day) ? 'has-schedule' : 'disabled'),
-              selectedDay === day ? 'selected' : '',
-              isToday(day) ? 'today' : ''
+              selectedDay === day ? 'selected' : ''
             ]"
             @click="selectDate(day)"
           >
-            {{ day }}
+            <span class="day-number">{{ day }}</span>
+            <span v-if="isLog(day)" class="material-icons barbell">fitness_center</span>
           </div>
         </div>
         <div class="month" :key="nextYear + '-' + nextMonthIndex">
@@ -55,12 +57,13 @@
             :key="'n'+day"
             :class="[
               'day-cell',
-              isLogOf(nextYear, nextMonthIndex, day) ? 'has-log' : (isScheduleOf(nextYear, nextMonthIndex, day) ? 'has-schedule' : 'disabled'),
-              isTodayOf(nextYear, nextMonthIndex, day) ? 'today' : ''
+              isTodayOf(nextYear, nextMonthIndex, day) ? 'today' : '',
+              isLogOf(nextYear, nextMonthIndex, day) ? 'has-log' : (isScheduleOf(nextYear, nextMonthIndex, day) ? 'has-schedule' : 'disabled')
             ]"
             @click="selectDateOf(nextYear, nextMonthIndex, day)"
           >
-            {{ day }}
+            <span class="day-number">{{ day }}</span>
+            <span v-if="isLogOf(nextYear, nextMonthIndex, day)" class="material-icons barbell">fitness_center</span>
           </div>
         </div>
       </div>
