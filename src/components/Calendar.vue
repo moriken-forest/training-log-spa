@@ -2,9 +2,9 @@
   <div @touchstart="onTouchStart" @touchmove="onTouchMove" @touchend="onTouchEnd">
     <!-- ナビゲーション -->
     <div id="calendarHeader">
-      <button @click="prevMonth">◀︎</button>
+      <button @click="prevMonthButton">◀︎</button>
       <h2 id="currentMonth">{{ viewYear }}年 {{ viewMonth + 1 }}月</h2>
-      <button @click="nextMonth">▶︎</button>
+      <button @click="nextMonthButton">▶︎</button>
     </div>
 
     <!-- 曜日ヘッダー -->
@@ -15,22 +15,28 @@
     </div>
 
     <!-- カレンダー本体 -->
-    <div id="calendarContainer">
-      <transition :name="'slide-' + slideDirection"
-                  @before-leave="onBeforeLeave" @before-enter="onBeforeEnter">
-        <div
-          :key="viewYear + '-' + viewMonth"
-          id="calendar"
-          :style="dragging
-            ? { transform: `translateX(${dragOffset}px)`, transition: 'none' }
-            : (releaseOffset !== null ? { transform: `translateX(${releaseOffset}px)` } : {})"
-        >
-          <!-- 空セル -->
-          <div v-for="n in firstDay" :key="'e'+n" class="day-cell disabled"></div>
-          <!-- 日セル -->
+    <div id="calendarContainer" ref="container">
+      <div id="calendarWrapper" :style="wrapperStyle" @transitionend="onTransitionEnd">
+        <div class="month" :key="prevYear + '-' + prevMonthIndex">
+          <div v-for="n in firstDayOf(prevYear, prevMonthIndex)" :key="'pe'+n" class="day-cell disabled"></div>
+          <div
+            v-for="day in daysInMonthOf(prevYear, prevMonthIndex)"
+            :key="'p'+day"
+            :class="[
+              'day-cell',
+              isLogOf(prevYear, prevMonthIndex, day) ? 'has-log' : (isScheduleOf(prevYear, prevMonthIndex, day) ? 'has-schedule' : 'disabled'),
+              isTodayOf(prevYear, prevMonthIndex, day) ? 'today' : ''
+            ]"
+            @click="selectDateOf(prevYear, prevMonthIndex, day)"
+          >
+            {{ day }}
+          </div>
+        </div>
+        <div class="month" :key="viewYear + '-' + viewMonth">
+          <div v-for="n in firstDay" :key="'ce'+n" class="day-cell disabled"></div>
           <div
             v-for="day in daysInMonth"
-            :key="day"
+            :key="'c'+day"
             :class="[
               'day-cell',
               isLog(day) ? 'has-log' : (isSchedule(day) ? 'has-schedule' : 'disabled'),
@@ -42,7 +48,22 @@
             {{ day }}
           </div>
         </div>
-      </transition>
+        <div class="month" :key="nextYear + '-' + nextMonthIndex">
+          <div v-for="n in firstDayOf(nextYear, nextMonthIndex)" :key="'ne'+n" class="day-cell disabled"></div>
+          <div
+            v-for="day in daysInMonthOf(nextYear, nextMonthIndex)"
+            :key="'n'+day"
+            :class="[
+              'day-cell',
+              isLogOf(nextYear, nextMonthIndex, day) ? 'has-log' : (isScheduleOf(nextYear, nextMonthIndex, day) ? 'has-schedule' : 'disabled'),
+              isTodayOf(nextYear, nextMonthIndex, day) ? 'today' : ''
+            ]"
+            @click="selectDateOf(nextYear, nextMonthIndex, day)"
+          >
+            {{ day }}
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -75,10 +96,12 @@ export default {
       todayMonth: today.getMonth(),
       todayDate: today.getDate(),
       touchStartX: null,
-      slideDirection: 'left',
       dragOffset: 0,
       dragging: false,
-      releaseOffset: null
+      containerWidth: 0,
+      currentTranslate: 0,
+      slideTarget: null,
+      animating: false
     };
   },
   computed: {
@@ -93,6 +116,27 @@ export default {
     },
     daysInMonth() {
       return new Date(this.viewYear, this.viewMonth + 1, 0).getDate();
+    },
+    prevMonthIndex() {
+      return (this.viewMonth + 11) % 12;
+    },
+    prevYear() {
+      return this.viewMonth === 0 ? this.viewYear - 1 : this.viewYear;
+    },
+    nextMonthIndex() {
+      return (this.viewMonth + 1) % 12;
+    },
+    nextYear() {
+      return this.viewMonth === 11 ? this.viewYear + 1 : this.viewYear;
+    },
+    wrapperStyle() {
+      const translate = this.currentTranslate + (this.dragging ? this.dragOffset : 0);
+      return {
+        transform: `translateX(${translate}px)`,
+        transition: this.animating ? 'transform 0.25s cubic-bezier(0.33, 1, 0.68, 1)' : 'none',
+        display: 'flex',
+        width: '300%'
+      };
     }
   },
   watch: {
@@ -109,27 +153,31 @@ export default {
     }
   },
   methods: {
-    format(day) {
-      return `${this.viewYear}-${String(this.viewMonth+1).padStart(2,'0')}-${String(day).padStart(2,'0')}`;
+    formatYMD(y, m, d) {
+      return `${y}-${String(m + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
     },
-    isLog(day) {
-      return this.logDates.includes(this.format(day));
+    isLogOf(y, m, d) {
+      return this.logDates.includes(this.formatYMD(y, m, d));
     },
-    isSchedule(day) {
-      return this.scheduleDates.includes(this.format(day));
+    isScheduleOf(y, m, d) {
+      return this.scheduleDates.includes(this.formatYMD(y, m, d));
     },
-    isToday(day) {
-      return (
-        this.todayYear === this.viewYear &&
-        this.todayMonth === this.viewMonth &&
-        this.todayDate === day
-      );
+    isTodayOf(y, m, d) {
+      return this.todayYear === y && this.todayMonth === m && this.todayDate === d;
     },
-    isAvailable(day) {
-      return this.isLog(day) || this.isSchedule(day);
+    selectDateOf(y, m, d) {
+      if (!this.isLogOf(y, m, d) && !this.isScheduleOf(y, m, d)) return;
+      this.viewYear = y;
+      this.viewMonth = m;
+      this.selectedDay = d;
+      this.$emit('select-date', this.formatYMD(y, m, d));
     },
-    prevMonth() {
-      this.slideDirection = 'right';
+    // shortcuts for current month
+    isLog(day) { return this.isLogOf(this.viewYear, this.viewMonth, day); },
+    isSchedule(day) { return this.isScheduleOf(this.viewYear, this.viewMonth, day); },
+    isToday(day) { return this.isTodayOf(this.viewYear, this.viewMonth, day); },
+    // month adjustments
+    prevMonthInternal() {
       this.viewMonth--;
       if (this.viewMonth < 0) {
         this.viewMonth = 11;
@@ -137,8 +185,7 @@ export default {
       }
       this.selectedDay = null;
     },
-    nextMonth() {
-      this.slideDirection = 'left';
+    nextMonthInternal() {
       this.viewMonth++;
       if (this.viewMonth > 11) {
         this.viewMonth = 0;
@@ -146,45 +193,62 @@ export default {
       }
       this.selectedDay = null;
     },
-    selectDate(day) {
-      if (!this.isAvailable(day)) return;
-      this.selectedDay = day;
-      const dateStr = `${this.viewYear}-${String(this.viewMonth+1).padStart(2,'0')}-${String(day).padStart(2,'0')}`;
-      this.$emit('select-date', dateStr);
+    startAnimation(dir) {
+      this.containerWidth = this.$refs.container.clientWidth;
+      this.slideTarget = dir;
+      this.animating = true;
+      if (dir === 'prev') {
+        this.currentTranslate = 0;
+      } else if (dir === 'next') {
+        this.currentTranslate = -2 * this.containerWidth;
+      } else {
+        this.currentTranslate = -this.containerWidth;
+      }
     },
+    prevMonthButton() { this.startAnimation('prev'); },
+    nextMonthButton() { this.startAnimation('next'); },
+    selectDate(day) { this.selectDateOf(this.viewYear, this.viewMonth, day); },
     onTouchStart(e) {
       this.touchStartX = e.touches[0].screenX;
       this.dragging = true;
+      this.containerWidth = this.$refs.container.clientWidth;
     },
     onTouchMove(e) {
       if (!this.dragging) return;
       this.dragOffset = e.touches[0].screenX - this.touchStartX;
     },
     onTouchEnd(e) {
-      const endX = e.changedTouches[0].screenX;
-      const diff = endX - this.touchStartX;
+      if (!this.dragging) return;
+      const diff = e.changedTouches[0].screenX - this.touchStartX;
       if (diff > 50) {
-        this.releaseOffset = diff;
-        this.prevMonth();
-        setTimeout(() => this.releaseOffset = null, 300);
+        this.startAnimation('prev');
       } else if (diff < -50) {
-        this.releaseOffset = diff;
-        this.nextMonth();
-        setTimeout(() => this.releaseOffset = null, 300);
+        this.startAnimation('next');
+      } else {
+        this.startAnimation(null);
       }
-      this.dragOffset = 0;
       this.dragging = false;
+      this.dragOffset = 0;
       this.touchStartX = null;
     },
-    onBeforeLeave(el) {
-      if (this.releaseOffset !== null) {
-        el.style.transform = `translateX(${this.releaseOffset}px)`;
+    onTransitionEnd() {
+      if (this.slideTarget === 'next') {
+        this.nextMonthInternal();
+      } else if (this.slideTarget === 'prev') {
+        this.prevMonthInternal();
       }
+      this.animating = false;
+      this.slideTarget = null;
+      this.$nextTick(() => {
+        this.currentTranslate = -this.containerWidth;
+      });
     },
-    onBeforeEnter(el) {
-      if (this.releaseOffset !== null) {
-        el.style.transform = '';
-      }
+    firstDayOf(y, m) {
+      const day = new Date(y, m, 1).getDay();
+      return (day + 6) % 7;
+    },
+    daysInMonthOf(y, m) {
+      return new Date(y, m + 1, 0).getDate();
     }
   }
 };
@@ -197,22 +261,12 @@ export default {
   touch-action: pan-x;
 }
 
-.slide-left-enter-active,
-.slide-left-leave-active,
-.slide-right-enter-active,
-.slide-right-leave-active {
-  transition: transform 0.25s cubic-bezier(0.33, 1, 0.68, 1);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+#calendarWrapper {
+  display: flex;
+  width: 300%;
 }
-.slide-left-enter-from { transform: translateX(100%); }
-.slide-left-leave-to   { transform: translateX(-100%); }
-.slide-right-enter-from { transform: translateX(-100%); }
-.slide-right-leave-to   { transform: translateX(100%); }
 
-#calendar {
-  transition: transform 0.25s cubic-bezier(0.33, 1, 0.68, 1);
+.month {
+  width: 100%;
 }
 </style>
