@@ -2,7 +2,10 @@
   <div v-if="state.visible" class="modal-overlay" @click.self="close">
     <div class="modal">
       <header>
-        <h3>{{ header }}</h3>
+        <h3>
+          {{ state.lift }}
+          <small v-if="extras">({{ extras }})</small>
+        </h3>
         <button class="close-btn" @click="close">×</button>
       </header>
       <div v-for="(s, i) in state.sessions" :key="i" class="session">
@@ -49,14 +52,13 @@ export default {
       hideLiftModal()
       router.push({ path: '/calendar', query: { date } })
     }
-    const header = computed(() => {
-      if (state.maxWeight == null && state.max1RM == null) return state.lift
+    const extras = computed(() => {
       const parts = []
       if (state.maxWeight != null) parts.push(`Max重量:${state.maxWeight}kg`)
       if (state.max1RM != null) parts.push(`Max1RM:${state.max1RM}kg`)
-      return `${state.lift}(${parts.join('  ')})`
+      return parts.join('  ')
     })
-    return { state, close, goDate, header, isAccessoryType }
+    return { state, close, goDate, extras, isAccessoryType }
   }
 }
 </script>
@@ -93,6 +95,9 @@ export default {
 .modal header h3 {
   margin: 0;
   font-size: 1rem;
+}
+.modal header h3 small {
+  font-size: 0.8rem;
 }
 .close-btn {
   background: none;
