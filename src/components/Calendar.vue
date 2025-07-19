@@ -167,6 +167,10 @@ export default {
       }
     }
   },
+  mounted() {
+    this.containerWidth = this.$refs.container.clientWidth;
+    this.currentTranslate = -this.containerWidth;
+  },
   methods: {
     formatYMD(y, m, d) {
       return `${y}-${String(m + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
