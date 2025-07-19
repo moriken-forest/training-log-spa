@@ -33,3 +33,18 @@ describe('Calendar firstDay (Monday start)', () => {
     expect(wrapper.vm.firstDay).toBe(3);
   });
 });
+
+describe('Schedule icon rendering', () => {
+  it('shows event icon when a schedule exists', async () => {
+    const wrapper = mount(Calendar, {
+      props: {
+        scheduleDates: ['2024-01-10'],
+        logDates: [],
+      },
+    });
+    wrapper.vm.viewYear = 2024;
+    wrapper.vm.viewMonth = 0; // January
+    await wrapper.vm.$nextTick();
+    expect(wrapper.html()).toContain('schedule-icon');
+  });
+});

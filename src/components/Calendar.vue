@@ -31,6 +31,10 @@
           >
             <span class="day-number">{{ day }}</span>
             <span v-if="isLogOf(prevYear, prevMonthIndex, day)" class="material-icons barbell">fitness_center</span>
+            <span
+              v-else-if="isScheduleOf(prevYear, prevMonthIndex, day)"
+              class="material-icons schedule-icon"
+            >event</span>
           </div>
         </div>
         <div class="month" :key="viewYear + '-' + viewMonth">
@@ -48,6 +52,10 @@
           >
             <span class="day-number">{{ day }}</span>
             <span v-if="isLog(day)" class="material-icons barbell">fitness_center</span>
+            <span
+              v-else-if="isSchedule(day)"
+              class="material-icons schedule-icon"
+            >event</span>
           </div>
         </div>
         <div class="month" :key="nextYear + '-' + nextMonthIndex">
@@ -64,6 +72,10 @@
           >
             <span class="day-number">{{ day }}</span>
             <span v-if="isLogOf(nextYear, nextMonthIndex, day)" class="material-icons barbell">fitness_center</span>
+            <span
+              v-else-if="isScheduleOf(nextYear, nextMonthIndex, day)"
+              class="material-icons schedule-icon"
+            >event</span>
           </div>
         </div>
       </div>
