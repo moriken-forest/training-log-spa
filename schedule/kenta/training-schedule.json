@@ -60,7 +60,7 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 70,
                       "percent": 60
                     }
                   ]
@@ -72,7 +72,7 @@
                     {
                       "reps": 6,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 70,
                       "percent": 60
                     }
                   ]
@@ -84,7 +84,7 @@
                     {
                       "reps": 3,
                       "sets": 5,
-                      "weight": null,
+                      "weight": 95,
                       "percent": 50
                     }
                   ]
@@ -168,7 +168,7 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 92.5,
                       "percent": 80
                     }
                   ]
@@ -180,7 +180,7 @@
                     {
                       "reps": 5,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 85,
                       "percent": 72.5
                     }
                   ]
@@ -192,7 +192,7 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 82.5,
                       "percent": 45
                     }
                   ]
@@ -204,7 +204,7 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 72.5,
                       "percent": 40
                     }
                   ]
@@ -281,7 +281,7 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 75,
                       "percent": 64
                     }
                   ]
@@ -293,7 +293,7 @@
                     {
                       "reps": 6,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 75,
                       "percent": 64
                     }
                   ]
@@ -305,7 +305,7 @@
                     {
                       "reps": 3,
                       "sets": 5,
-                      "weight": null,
+                      "weight": 105,
                       "percent": 54
                     }
                   ]
@@ -389,7 +389,7 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 95,
                       "percent": 82.5
                     }
                   ]
@@ -401,7 +401,7 @@
                     {
                       "reps": 5,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 87.5,
                       "percent": 75
                     }
                   ]
@@ -413,7 +413,7 @@
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 90,
                       "percent": 50
                     }
                   ]
@@ -425,7 +425,7 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 72.5,
                       "percent": 40
                     }
                   ]
@@ -502,7 +502,7 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 80,
                       "percent": 68
                     }
                   ]
@@ -514,7 +514,7 @@
                     {
                       "reps": 6,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 80,
                       "percent": 68
                     }
                   ]
@@ -526,7 +526,7 @@
                     {
                       "reps": 3,
                       "sets": 5,
-                      "weight": null,
+                      "weight": 112.5,
                       "percent": 58
                     }
                   ]
@@ -568,7 +568,7 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 105,
                       "percent": 55
                     }
                   ]
@@ -610,7 +610,7 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 100,
                       "percent": 85
                     }
                   ]
@@ -622,7 +622,7 @@
                     {
                       "reps": 5,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 90,
                       "percent": 77.5
                     }
                   ]
@@ -634,7 +634,7 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 90,
                       "percent": 50
                     }
                   ]
@@ -646,7 +646,7 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 82.5,
                       "percent": 45
                     }
                   ]
@@ -723,7 +723,7 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 85,
                       "percent": 72
                     }
                   ]
@@ -735,7 +735,7 @@
                     {
                       "reps": 6,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 85,
                       "percent": 72
                     }
                   ]
@@ -747,7 +747,7 @@
                     {
                       "reps": 3,
                       "sets": 5,
-                      "weight": null,
+                      "weight": 120,
                       "percent": 62
                     }
                   ]
@@ -831,7 +831,7 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 102.5,
                       "percent": 87.5
                     }
                   ]
@@ -843,7 +843,7 @@
                     {
                       "reps": 5,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 92.5,
                       "percent": 80
                     }
                   ]
@@ -855,7 +855,7 @@
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 100,
                       "percent": 55
                     }
                   ]
@@ -867,7 +867,7 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 82.5,
                       "percent": 45
                     }
                   ]
@@ -944,7 +944,7 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 87.5,
                       "percent": 76
                     }
                   ]
@@ -956,7 +956,7 @@
                     {
                       "reps": 6,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 87.5,
                       "percent": 76
                     }
                   ]
@@ -968,7 +968,7 @@
                     {
                       "reps": 3,
                       "sets": 5,
-                      "weight": null,
+                      "weight": 127.5,
                       "percent": 66
                     }
                   ]
@@ -1052,7 +1052,7 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 105,
                       "percent": 90
                     }
                   ]
@@ -1064,7 +1064,7 @@
                     {
                       "reps": 5,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 95,
                       "percent": 82.5
                     }
                   ]
@@ -1076,7 +1076,7 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 100,
                       "percent": 55
                     }
                   ]
@@ -1088,7 +1088,7 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 90,
                       "percent": 50
                     }
                   ]
@@ -1165,7 +1165,7 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 92.5,
                       "percent": 80
                     }
                   ]
@@ -1177,7 +1177,7 @@
                     {
                       "reps": 6,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 92.5,
                       "percent": 80
                     }
                   ]
@@ -1189,7 +1189,7 @@
                     {
                       "reps": 3,
                       "sets": 5,
-                      "weight": null,
+                      "weight": 135,
                       "percent": 70
                     }
                   ]
@@ -1231,7 +1231,7 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 115,
                       "percent": 60
                     }
                   ]
@@ -1273,7 +1273,7 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 107.5,
                       "percent": 92.5
                     }
                   ]
@@ -1285,7 +1285,7 @@
                     {
                       "reps": 5,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 100,
                       "percent": 85
                     }
                   ]
@@ -1297,7 +1297,7 @@
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 110,
                       "percent": 60
                     }
                   ]
@@ -1309,7 +1309,7 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 90,
                       "percent": 50
                     }
                   ]
@@ -1392,7 +1392,7 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 82.5,
                       "percent": 70
                     }
                   ]
@@ -1404,7 +1404,7 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 135,
                       "percent": 70
                     }
                   ]
@@ -1488,7 +1488,7 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 105,
                       "percent": 90
                     }
                   ]
@@ -1500,7 +1500,7 @@
                     {
                       "reps": 4,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 92.5,
                       "percent": 80
                     }
                   ]
@@ -1512,7 +1512,7 @@
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 162.5,
                       "percent": 90
                     }
                   ]
@@ -1524,7 +1524,7 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 100,
                       "percent": 55
                     }
                   ]
@@ -1601,7 +1601,7 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 87.5,
                       "percent": 74
                     }
                   ]
@@ -1613,7 +1613,7 @@
                     {
                       "reps": 4,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 182.5,
                       "percent": 95
                     }
                   ]
@@ -1697,7 +1697,7 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 107.5,
                       "percent": 92.5
                     }
                   ]
@@ -1709,7 +1709,7 @@
                     {
                       "reps": 5,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 92.5,
                       "percent": 80
                     }
                   ]
@@ -1721,7 +1721,7 @@
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 117.5,
                       "percent": 65
                     }
                   ]
@@ -1733,7 +1733,7 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 100,
                       "percent": 55
                     }
                   ]
@@ -1810,7 +1810,7 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 90,
                       "percent": 78
                     }
                   ]
@@ -1822,7 +1822,7 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 140,
                       "percent": 72.5
                     }
                   ]
@@ -1864,7 +1864,7 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 125,
                       "percent": 65
                     }
                   ]
@@ -1906,7 +1906,7 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 110,
                       "percent": 95
                     }
                   ]
@@ -1918,7 +1918,7 @@
                     {
                       "reps": 4,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 95,
                       "percent": 82.5
                     }
                   ]
@@ -1930,7 +1930,7 @@
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 167.5,
                       "percent": 92.5
                     }
                   ]
@@ -2031,7 +2031,7 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 95,
                       "percent": 82
                     }
                   ]
@@ -2043,7 +2043,7 @@
                     {
                       "reps": 4,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 187.5,
                       "percent": 97.5
                     }
                   ]
@@ -2139,7 +2139,7 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 112.5,
                       "percent": 97.5
                     }
                   ]
@@ -2151,7 +2151,7 @@
                     {
                       "reps": 5,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 95,
                       "percent": 82.5
                     }
                   ]
@@ -2163,7 +2163,7 @@
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 127.5,
                       "percent": 70
                     }
                   ]
@@ -2175,7 +2175,7 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 100,
                       "percent": 55
                     }
                   ]
@@ -2276,7 +2276,7 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 100,
                       "percent": 86
                     }
                   ]
@@ -2288,7 +2288,7 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 142.5,
                       "percent": 75
                     }
                   ]
@@ -2384,7 +2384,7 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 115,
                       "percent": 100
                     }
                   ]
@@ -2396,7 +2396,7 @@
                     {
                       "reps": 4,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 100,
                       "percent": 85
                     }
                   ]
@@ -2408,7 +2408,7 @@
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 172.5,
                       "percent": 95
                     }
                   ]
@@ -2420,7 +2420,7 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 100,
                       "percent": 55
                     }
                   ]
@@ -2521,7 +2521,7 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 105,
                       "percent": 90
                     }
                   ]
@@ -2533,7 +2533,7 @@
                     {
                       "reps": 4,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 190,
                       "percent": 100
                     }
                   ]
@@ -2587,7 +2587,7 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": null,
+                      "weight": 135,
                       "percent": 70
                     }
                   ]
@@ -2629,7 +2629,7 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 120,
                       "percent": 102.5
                     }
                   ]
@@ -2641,7 +2641,7 @@
                     {
                       "reps": 5,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 100,
                       "percent": 85
                     }
                   ]
@@ -2653,7 +2653,7 @@
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": null,
+                      "weight": 135,
                       "percent": 75
                     }
                   ]
