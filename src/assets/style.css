@@ -630,6 +630,38 @@ main {
   transform: translateY(1px);
 }
 
+/* 使い方ガイド */
+#usage-section {
+  max-width: 600px;
+  margin: 0 auto;
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: var(--spacing);
+  box-shadow: 0 2px 6px var(--shadow);
+}
+
+#usage-section h2 {
+  margin-bottom: var(--spacing);
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--primary-dark);
+}
+
+#usage-section h3 {
+  margin-top: var(--spacing);
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+}
+
+#usage-section ul {
+  margin-left: 1em;
+  padding-left: 1em;
+  margin-bottom: var(--spacing);
+}
+#usage-section li {
+  margin-bottom: 4px;
+}
+
 /* トグルスイッチ */
 .toggle-wrapper {
   display: flex;
