@@ -1,7 +1,7 @@
 <template>
   <section id="guide-section">
     <h2>ChatGPT連携ガイド</h2>
-    <p>以下の手順でChatGPTとやり取りし、最終的にJSONを生成して登録します。</p>
+    <p>ChatGPTを利用してトレーニングログ用JSONを作成する手順です。</p>
     <ol>
       <li>プロンプトと全体のメニューをChatGPTに渡します。</li>
       <li>その日のメニュー内容と日付を伝えます。</li>
@@ -10,8 +10,8 @@
       <li>生成されたJSONを登録画面に貼り付けて保存してください。</li>
     </ol>
     <p class="prompt-note">下記テキストをコピーしてChatGPTに入力します。</p>
-    <button class="copy-btn" @click="copyPrompt">コピー</button>
-    <button class="copy-btn" @click="copyTodayPrompt">今日のプロンプトを作る</button>
+    <button aria-label="プロンプトをコピー" class="copy-btn" @click="copyPrompt">コピー</button>
+    <button aria-label="今日のプロンプトを作成してコピー" class="copy-btn" @click="copyTodayPrompt">今日のプロンプトを作る</button>
     <pre ref="promptText">
 あなたはパワーリフティング競技者のトレーニング記録を支援するAIコーチです。
 
@@ -111,6 +111,9 @@
 
 上記ルールに従って、ユーザーとの会話から毎回正確なトレーニング記録JSONを出力してください。
     </pre>
+    <p class="prompt-note">JSONテンプレートのみをコピーする場合はこちら。</p>
+    <button aria-label="JSONテンプレートをコピー" class="copy-btn" @click="copyJsonTemplate">テンプレートをコピー</button>
+    <pre ref="jsonTemplate">{{ jsonTemplate }}</pre>
   </section>
 </template>
 
@@ -121,7 +124,30 @@ import { addScheduleCalcFields } from '../utils/schedule'
 export default {
   data() {
     return {
-      todayPlan: null
+      todayPlan: null,
+      jsonTemplate: `{
+  "date": "YYYY-MM-DD",
+  "block": "○○",
+  "week": 1,
+  "day": 2,
+  "notes": "○○",
+  "sessions": [
+    {
+      "type": "○○",
+      "lift": "○○",
+      "sets": [
+        {
+          "weight": 〇〇,
+          "reps": 〇〇,
+          "rpe": 〇〇,
+          "comment": "○○",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}`
     }
   },
   created() {
@@ -139,6 +165,10 @@ export default {
       const text = this.$refs.promptText.textContent
       navigator.clipboard.writeText(text)
       alert('プロンプトをコピーしました')
+    },
+    copyJsonTemplate() {
+      navigator.clipboard.writeText(this.jsonTemplate)
+      alert('JSONテンプレートをコピーしました')
     },
     findTodayPlan(sched) {
       const today = new Date().toISOString().slice(0, 10)
