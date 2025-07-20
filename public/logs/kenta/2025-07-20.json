@@ -1,0 +1,197 @@
+{
+  "date": "2025-07-20",
+  "block": "Accumulation",
+  "week": 1,
+  "day": 4,
+  "notes": "ブロック1 Week1 Day4のトレーニング",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ブロックベンチ",
+      "sets": [
+        {
+          "weight": 92.5,
+          "reps": 3,
+          "rpe": 3,
+          "comment": "まあ92.5くらいなら余裕。背中で受ける意識",
+          "1RM": 99,
+          "e1RM": 115
+        },
+        {
+          "weight": 92.5,
+          "reps": 3,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 99,
+          "e1RM": 115
+        },
+        {
+          "weight": 92.5,
+          "reps": 3,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 99,
+          "e1RM": 115
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ナローベンチ",
+      "sets": [
+        {
+          "weight": 85,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 95,
+          "e1RM": 106
+        },
+        {
+          "weight": 85,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 95,
+          "e1RM": 106
+        },
+        {
+          "weight": 85,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 95,
+          "e1RM": 106
+        },
+        {
+          "weight": 85,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 95,
+          "e1RM": 106
+        }
+      ]
+    },
+    {
+      "type": "スクワット（サブ）",
+      "lift": "フロントスクワット",
+      "sets": [
+        {
+          "weight": 82.5,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 102,
+          "e1RM": 109
+        },
+        {
+          "weight": 82.5,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 102,
+          "e1RM": 109
+        },
+        {
+          "weight": 82.5,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 102,
+          "e1RM": 109
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "ヒップスラスト",
+      "sets": [
+        {
+          "weight": 100,
+          "reps": 12,
+          "rpe": 6,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 130,
+          "reps": 10,
+          "rpe": 7.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 160,
+          "reps": 10,
+          "rpe": 7.5,
+          "comment": "結構この種目いいね",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "バーベルアームカール",
+      "sets": [
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "ミリタリープレス",
+      "sets": [
+        {
+          "weight": 40,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "久しぶりにやったけど、まあまあいいね。もうやらんけど",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
