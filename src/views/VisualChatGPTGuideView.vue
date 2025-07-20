@@ -21,11 +21,15 @@ export default {
     return {
       observer: null,
       steps: [
-        { icon: 'file_copy', title: 'プロンプトをコピー', text: 'まずは既存のガイドからプロンプトをコピーします。' },
-        { icon: 'send', title: 'メニューを送信', text: '今日の種目や重量をChatGPTに伝えましょう。' },
-        { icon: 'chat', title: 'セット毎に報告', text: 'RPEや所感を送って会話を続けます。' },
-        { icon: 'code', title: 'JSON化を依頼', text: 'トレーニング終了後、ログをJSONで出力してもらいます。' },
-        { icon: 'save_alt', title: 'アプリに貼り付け', text: '生成されたJSONを登録ページに貼り付けて保存します。' }
+        { icon: 'file_copy', title: 'プロンプトを豪快にコピー', text: 'ガイドのプロンプトをまるごとコピーし、準備万端の気持ちでスタート。' },
+        { icon: 'send', title: 'メニューを丁寧に送信', text: '今日の種目や重量はもちろん、狙いまで細かくChatGPTに届けます。' },
+        { icon: 'edit', title: '目的をしっかり共有', text: '各セットの意図やポイントを付け加え、理解を深めてもらいます。' },
+        { icon: 'chat', title: 'セット毎に熱く報告', text: '感触やRPEを逐一伝え、ChatGPTとの会話を盛り上げていきます。' },
+        { icon: 'check_circle', title: '記録内容を再確認', text: '抜けや誤記がないか、もったいないほど念入りにチェックします。' },
+        { icon: 'code', title: 'JSON化を依頼', text: 'トレーニング終了後、まとめとしてログをJSON形式で出力してもらいます。' },
+        { icon: 'search', title: 'JSONをじっくり確認', text: '項目や値の漏れがないか、細部までくどいくらい見直します。' },
+        { icon: 'save_alt', title: 'アプリに貼り付け', text: '完璧なJSONを登録画面へコピペし、あなたのデータとして保存。' },
+        { icon: 'rocket_launch', title: '次のステップへ', text: '蓄積したログをもとに、さらなる成長へ向けて走り出しましょう。' }
       ]
     }
   },
@@ -34,11 +38,15 @@ export default {
       entries.forEach(e => {
         if (e.isIntersecting) {
           e.target.classList.add('show')
+          this.observer.unobserve(e.target)
         }
       })
     }, { threshold: 0.1 })
 
-    this.$refs.stepEls.forEach(el => this.observer.observe(el))
+    this.$refs.stepEls.forEach((el, i) => {
+      el.style.transitionDelay = `${i * 0.2}s`
+      this.observer.observe(el)
+    })
   },
   beforeUnmount() {
     this.observer && this.observer.disconnect()
@@ -55,19 +63,39 @@ export default {
   margin-bottom: var(--spacing);
 }
 .step {
+  position: relative;
+  overflow: hidden;
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s, transform 0.6s;
+  transform: translateY(40px) scale(0.95);
+  transition: opacity 0.8s ease, transform 0.8s ease;
   background: var(--card-bg);
   padding: var(--spacing);
   margin-bottom: var(--spacing);
   border-radius: var(--radius);
-  box-shadow: 0 4px 8px var(--shadow);
+  box-shadow: 0 4px 12px var(--shadow);
   text-align: center;
+}
+.step::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255,255,255,0.1), transparent);
+  transform: skewX(-20deg);
 }
 .step.show {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(0) scale(1);
+}
+.step.show::before {
+  animation: shine 1s forwards;
+}
+
+@keyframes shine {
+  0% { left: -100%; }
+  100% { left: 100%; }
 }
 .step .icon {
   font-size: 3rem;
