@@ -6,6 +6,7 @@
           <router-link to="/calendar"><span class="material-icons">calendar_month</span></router-link>
           <router-link to="/list"><span class="material-icons">list</span></router-link>
           <router-link to="/guide"><span class="material-icons">help</span></router-link>
+          <router-link to="/visual-guide"><span class="material-icons">auto_awesome</span></router-link>
           <a href="#" @click.prevent="toggleUserMenu">
             <span class="material-icons">person</span>
           </a>
