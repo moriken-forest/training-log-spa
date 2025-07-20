@@ -3,6 +3,7 @@ import CalendarView    from '../views/CalendarView.vue'
 import ListView        from '../views/ListView.vue'
 import RegisterView    from '../views/RegisterView.vue'
 import ChatGPTGuideView from '../views/ChatGPTGuideView.vue'
+import VisualChatGPTGuideView from '../views/VisualChatGPTGuideView.vue'
 
 const routes = [
   { path: '/',        redirect: '/calendar' },
@@ -10,6 +11,7 @@ const routes = [
   { path: '/list/:base?', component: ListView },
   { path: '/register', component: RegisterView },
   { path: '/guide', component: ChatGPTGuideView },
+  { path: '/visual-guide', component: VisualChatGPTGuideView },
 ]
 
 export default createRouter({
