@@ -1,18 +1,17 @@
 <template>
   <section class="apple-guide">
-    <div class="hero">
-      <h1 class="logo">Training Log</h1>
-      <p class="catch">すべてのワークアウトを、一つに。</p>
-      <div class="hero-img"></div>
+    <div class="hero" v-scroll-animation>
+      <h1 class="logo">JSONガイド</h1>
+      <p class="catch">ChatGPTで記録する手順をまとめました</p>
     </div>
     <div class="features">
-      <div class="feature" v-for="(f, i) in features" :key="i">
+      <div class="feature" v-for="(f, i) in features" :key="i" v-scroll-animation>
         <span class="material-icons icon">{{ f.icon }}</span>
         <h2>{{ f.title }}</h2>
         <p>{{ f.text }}</p>
       </div>
     </div>
-    <div class="cta">
+    <div class="cta" v-scroll-animation>
       <router-link to="/guide" class="btn">今すぐ始める</router-link>
     </div>
   </section>
@@ -39,7 +38,7 @@ export default {
   color: var(--text);
 }
 .hero {
-  padding: 80px 16px 60px;
+  padding: 60px 16px;
   background: linear-gradient(135deg, #111, #333);
 }
 .hero .logo {
@@ -51,13 +50,6 @@ export default {
   font-size: 1.25rem;
   margin-bottom: 40px;
   color: var(--primary-light);
-}
-.hero-img {
-  width: 100%;
-  height: 300px;
-  background: radial-gradient(circle at center, #444, #111);
-  border-radius: var(--radius);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
 }
 .features {
   display: flex;
@@ -94,5 +86,14 @@ export default {
 }
 .btn:hover {
   background: var(--primary-dark);
+}
+.before-enter {
+  opacity: 0;
+  transform: translateY(40px);
+}
+.enter {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.6s ease, transform 0.6s ease;
 }
 </style>
