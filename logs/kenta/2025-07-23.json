@@ -1,0 +1,115 @@
+{
+  "date": "2025-07-23",
+  "block": "Accumulation",
+  "week": 2,
+  "day": 1,
+  "notes": "Accumulationブロック Week2 Day1のトレーニング",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 80,
+          "reps": 10,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 100,
+          "e1RM": 114
+        },
+        {
+          "weight": 80,
+          "reps": 10,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 100,
+          "e1RM": 114
+        },
+        {
+          "weight": 80,
+          "reps": 10,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 100,
+          "e1RM": 114
+        },
+        {
+          "weight": 80,
+          "reps": 10,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 100,
+          "e1RM": 114
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 117.5,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "いうてきついね",
+          "1RM": 152,
+          "e1RM": 166
+        },
+        {
+          "weight": 117.5,
+          "reps": 10,
+          "rpe": 6.5,
+          "comment": "いきあがるわ",
+          "1RM": 152,
+          "e1RM": 165
+        },
+        {
+          "weight": 117.5,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 152,
+          "e1RM": 166
+        },
+        {
+          "weight": 117.5,
+          "reps": 10,
+          "rpe": 6.5,
+          "comment": "",
+          "1RM": 152,
+          "e1RM": 165
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 9,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
