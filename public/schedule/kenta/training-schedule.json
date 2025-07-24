@@ -18,8 +18,8 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 72.5,
-                      "percent": 62.5
+                      "weight": 85,
+                      "percent": 72.5
                     }
                   ]
                 },
@@ -51,7 +51,7 @@
             },
             {
               "day": "Day2",
-              "date": "2025-07-17",
+              "date": "2025-07-18",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -60,7 +60,7 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 70,
+                      "weight": 72.5,
                       "percent": 60
                     }
                   ]
@@ -72,20 +72,8 @@
                     {
                       "reps": 6,
                       "sets": 3,
-                      "weight": 70,
+                      "weight": 72.5,
                       "percent": 60
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 5,
-                      "weight": 95,
-                      "percent": 50
                     }
                   ]
                 },
@@ -105,7 +93,7 @@
             },
             {
               "day": "Day3",
-              "date": "2025-07-19",
+              "date": "2025-07-20",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -114,8 +102,8 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 72.5,
-                      "percent": 62.5
+                      "weight": 87.5,
+                      "percent": 74.1
                     }
                   ]
                 },
@@ -126,7 +114,7 @@
                     {
                       "reps": 6,
                       "sets": 4,
-                      "weight": 142.5,
+                      "weight": 147.5,
                       "percent": 75
                     }
                   ]
@@ -159,7 +147,7 @@
             },
             {
               "day": "Day4",
-              "date": "2025-07-20",
+              "date": "2025-07-21",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -168,7 +156,7 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": 92.5,
+                      "weight": 95,
                       "percent": 80
                     }
                   ]
@@ -204,7 +192,7 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 72.5,
+                      "weight": 75,
                       "percent": 40
                     }
                   ]
@@ -239,8 +227,8 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 80,
-                      "percent": 67.5
+                      "weight": 90,
+                      "percent": 75.7
                     }
                   ]
                 },
@@ -251,7 +239,7 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 117.5,
+                      "weight": 120,
                       "percent": 65
                     }
                   ]
@@ -272,7 +260,7 @@
             },
             {
               "day": "Day2",
-              "date": "2025-07-24",
+              "date": "2025-07-25",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -281,8 +269,8 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 75,
-                      "percent": 64
+                      "weight": 77.5,
+                      "percent": 65
                     }
                   ]
                 },
@@ -293,20 +281,8 @@
                     {
                       "reps": 6,
                       "sets": 3,
-                      "weight": 75,
-                      "percent": 64
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 5,
-                      "weight": 105,
-                      "percent": 54
+                      "weight": 77.5,
+                      "percent": 65
                     }
                   ]
                 },
@@ -326,7 +302,7 @@
             },
             {
               "day": "Day3",
-              "date": "2025-07-26",
+              "date": "2025-07-27",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -335,8 +311,8 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 80,
-                      "percent": 67.5
+                      "weight": 92.5,
+                      "percent": 77.3
                     }
                   ]
                 },
@@ -347,8 +323,8 @@
                     {
                       "reps": 6,
                       "sets": 4,
-                      "weight": 147.5,
-                      "percent": 77.5
+                      "weight": 157.5,
+                      "percent": 80
                     }
                   ]
                 },
@@ -380,7 +356,7 @@
             },
             {
               "day": "Day4",
-              "date": "2025-07-27",
+              "date": "2025-07-28",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -389,7 +365,7 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": 95,
+                      "weight": 97.5,
                       "percent": 82.5
                     }
                   ]
@@ -413,8 +389,8 @@
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 90,
-                      "percent": 50
+                      "weight": 97.5,
+                      "percent": 52.5
                     }
                   ]
                 },
@@ -425,8 +401,8 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 72.5,
-                      "percent": 40
+                      "weight": 80,
+                      "percent": 42.5
                     }
                   ]
                 },
@@ -460,8 +436,8 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 85,
-                      "percent": 72.5
+                      "weight": 92.5,
+                      "percent": 78.9
                     }
                   ]
                 },
@@ -493,7 +469,7 @@
             },
             {
               "day": "Day2",
-              "date": "2025-07-31",
+              "date": "2025-08-01",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -502,8 +478,8 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 80,
-                      "percent": 68
+                      "weight": 82.5,
+                      "percent": 70
                     }
                   ]
                 },
@@ -514,20 +490,8 @@
                     {
                       "reps": 6,
                       "sets": 3,
-                      "weight": 80,
-                      "percent": 68
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 5,
-                      "weight": 112.5,
-                      "percent": 58
+                      "weight": 82.5,
+                      "percent": 70
                     }
                   ]
                 },
@@ -547,7 +511,7 @@
             },
             {
               "day": "Day3",
-              "date": "2025-08-02",
+              "date": "2025-08-03",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -556,8 +520,8 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 85,
-                      "percent": 72.5
+                      "weight": 95,
+                      "percent": 80.5
                     }
                   ]
                 },
@@ -568,7 +532,7 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 105,
+                      "weight": 110,
                       "percent": 55
                     }
                   ]
@@ -601,7 +565,7 @@
             },
             {
               "day": "Day4",
-              "date": "2025-08-03",
+              "date": "2025-08-04",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -622,7 +586,7 @@
                     {
                       "reps": 5,
                       "sets": 4,
-                      "weight": 90,
+                      "weight": 92.5,
                       "percent": 77.5
                     }
                   ]
@@ -634,7 +598,7 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 90,
+                      "weight": 92.5,
                       "percent": 50
                     }
                   ]
@@ -681,8 +645,8 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 80,
-                      "percent": 67.5
+                      "weight": 97.5,
+                      "percent": 82
                     }
                   ]
                 },
@@ -693,8 +657,8 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 117.5,
-                      "percent": 65
+                      "weight": 137.5,
+                      "percent": 75
                     }
                   ]
                 },
@@ -714,7 +678,7 @@
             },
             {
               "day": "Day2",
-              "date": "2025-08-07",
+              "date": "2025-08-08",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -723,8 +687,8 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 85,
-                      "percent": 72
+                      "weight": 87.5,
+                      "percent": 75
                     }
                   ]
                 },
@@ -735,20 +699,8 @@
                     {
                       "reps": 6,
                       "sets": 3,
-                      "weight": 85,
-                      "percent": 72
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 5,
-                      "weight": 120,
-                      "percent": 62
+                      "weight": 87.5,
+                      "percent": 75
                     }
                   ]
                 },
@@ -768,7 +720,7 @@
             },
             {
               "day": "Day3",
-              "date": "2025-08-09",
+              "date": "2025-08-10",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -777,8 +729,8 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 80,
-                      "percent": 67.5
+                      "weight": 97.5,
+                      "percent": 83.6
                     }
                   ]
                 },
@@ -789,8 +741,8 @@
                     {
                       "reps": 6,
                       "sets": 4,
-                      "weight": 152.5,
-                      "percent": 80
+                      "weight": 177.5,
+                      "percent": 90
                     }
                   ]
                 },
@@ -822,7 +774,7 @@
             },
             {
               "day": "Day4",
-              "date": "2025-08-10",
+              "date": "2025-08-11",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -843,7 +795,7 @@
                     {
                       "reps": 5,
                       "sets": 4,
-                      "weight": 92.5,
+                      "weight": 95,
                       "percent": 80
                     }
                   ]
@@ -855,8 +807,8 @@
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 100,
-                      "percent": 55
+                      "weight": 105,
+                      "percent": 57.5
                     }
                   ]
                 },
@@ -867,8 +819,8 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 82.5,
-                      "percent": 45
+                      "weight": 87.5,
+                      "percent": 47.5
                     }
                   ]
                 },
@@ -902,8 +854,8 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 82.5,
-                      "percent": 70
+                      "weight": 100,
+                      "percent": 85.2
                     }
                   ]
                 },
@@ -914,8 +866,8 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 122.5,
-                      "percent": 67.5
+                      "weight": 147.5,
+                      "percent": 80
                     }
                   ]
                 },
@@ -935,7 +887,7 @@
             },
             {
               "day": "Day2",
-              "date": "2025-08-14",
+              "date": "2025-08-15",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -944,8 +896,8 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 87.5,
-                      "percent": 76
+                      "weight": 95,
+                      "percent": 80
                     }
                   ]
                 },
@@ -956,20 +908,8 @@
                     {
                       "reps": 6,
                       "sets": 3,
-                      "weight": 87.5,
-                      "percent": 76
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 5,
-                      "weight": 127.5,
-                      "percent": 66
+                      "weight": 95,
+                      "percent": 80
                     }
                   ]
                 },
@@ -989,7 +929,7 @@
             },
             {
               "day": "Day3",
-              "date": "2025-08-16",
+              "date": "2025-08-17",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -998,8 +938,8 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 82.5,
-                      "percent": 70
+                      "weight": 102.5,
+                      "percent": 86.8
                     }
                   ]
                 },
@@ -1010,8 +950,8 @@
                     {
                       "reps": 6,
                       "sets": 4,
-                      "weight": 157.5,
-                      "percent": 82.5
+                      "weight": 187.5,
+                      "percent": 95
                     }
                   ]
                 },
@@ -1043,7 +983,7 @@
             },
             {
               "day": "Day4",
-              "date": "2025-08-17",
+              "date": "2025-08-18",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -1064,7 +1004,7 @@
                     {
                       "reps": 5,
                       "sets": 4,
-                      "weight": 95,
+                      "weight": 97.5,
                       "percent": 82.5
                     }
                   ]
@@ -1076,7 +1016,7 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 100,
+                      "weight": 102.5,
                       "percent": 55
                     }
                   ]
@@ -1088,7 +1028,7 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 90,
+                      "weight": 92.5,
                       "percent": 50
                     }
                   ]
@@ -1123,8 +1063,8 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 85,
-                      "percent": 72.5
+                      "weight": 105,
+                      "percent": 88.4
                     }
                   ]
                 },
@@ -1135,8 +1075,8 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 127.5,
-                      "percent": 70
+                      "weight": 155,
+                      "percent": 85
                     }
                   ]
                 },
@@ -1156,7 +1096,7 @@
             },
             {
               "day": "Day2",
-              "date": "2025-08-21",
+              "date": "2025-08-22",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -1165,8 +1105,8 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 92.5,
-                      "percent": 80
+                      "weight": 100,
+                      "percent": 85
                     }
                   ]
                 },
@@ -1177,20 +1117,8 @@
                     {
                       "reps": 6,
                       "sets": 3,
-                      "weight": 92.5,
-                      "percent": 80
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 5,
-                      "weight": 135,
-                      "percent": 70
+                      "weight": 100,
+                      "percent": 85
                     }
                   ]
                 },
@@ -1210,7 +1138,7 @@
             },
             {
               "day": "Day3",
-              "date": "2025-08-23",
+              "date": "2025-08-24",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -1219,8 +1147,8 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 85,
-                      "percent": 72.5
+                      "weight": 105,
+                      "percent": 90
                     }
                   ]
                 },
@@ -1231,7 +1159,7 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 115,
+                      "weight": 120,
                       "percent": 60
                     }
                   ]
@@ -1264,7 +1192,7 @@
             },
             {
               "day": "Day4",
-              "date": "2025-08-24",
+              "date": "2025-08-25",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -1273,7 +1201,7 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": 107.5,
+                      "weight": 110,
                       "percent": 92.5
                     }
                   ]
@@ -1297,8 +1225,8 @@
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 110,
-                      "percent": 60
+                      "weight": 115,
+                      "percent": 62.5
                     }
                   ]
                 },
@@ -1309,8 +1237,8 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 90,
-                      "percent": 50
+                      "weight": 97.5,
+                      "percent": 52.5
                     }
                   ]
                 },
@@ -1350,8 +1278,8 @@
                     {
                       "reps": 6,
                       "sets": 4,
-                      "weight": 90,
-                      "percent": 77.5
+                      "weight": 95,
+                      "percent": 80
                     }
                   ]
                 },
@@ -1362,8 +1290,8 @@
                     {
                       "reps": 6,
                       "sets": 4,
-                      "weight": 135,
-                      "percent": 75
+                      "weight": 150,
+                      "percent": 82.5
                     }
                   ]
                 },
@@ -1383,7 +1311,7 @@
             },
             {
               "day": "Day2",
-              "date": "2025-08-28",
+              "date": "2025-08-29",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -1399,13 +1327,13 @@
                 },
                 {
                   "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
+                  "lift": "ラックプル",
                   "sets": [
                     {
-                      "reps": 3,
+                      "reps": 4,
                       "sets": 4,
-                      "weight": 135,
-                      "percent": 70
+                      "weight": 187.5,
+                      "percent": 95
                     }
                   ]
                 },
@@ -1425,20 +1353,8 @@
             },
             {
               "day": "Day3",
-              "date": "2025-08-30",
+              "date": "2025-08-31",
               "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 6,
-                      "sets": 4,
-                      "weight": 90,
-                      "percent": 77.5
-                    }
-                  ]
-                },
                 {
                   "type": "デッドリフト（メイン）",
                   "lift": "デッドリフト",
@@ -1446,7 +1362,7 @@
                     {
                       "reps": 4,
                       "sets": 4,
-                      "weight": 162.5,
+                      "weight": 167.5,
                       "percent": 85
                     }
                   ]
@@ -1474,12 +1390,24 @@
                       "percent": null
                     }
                   ]
+                },
+                {
+                  "type": "ベンチプレス（メイン）",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 6,
+                      "sets": 4,
+                      "weight": 95,
+                      "percent": 81.4
+                    }
+                  ]
                 }
               ]
             },
             {
               "day": "Day4",
-              "date": "2025-08-31",
+              "date": "2025-09-01",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -1495,25 +1423,25 @@
                 },
                 {
                   "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
+                  "lift": "足あげベンチ",
                   "sets": [
                     {
-                      "reps": 4,
-                      "sets": 4,
-                      "weight": 92.5,
+                      "reps": 5,
+                      "sets": 3,
+                      "weight": 95,
                       "percent": 80
                     }
                   ]
                 },
                 {
                   "type": "スクワット（サブ）",
-                  "lift": "ブロックスクワット",
+                  "lift": "ポーズスクワット",
                   "sets": [
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 162.5,
-                      "percent": 90
+                      "weight": 120,
+                      "percent": 65
                     }
                   ]
                 },
@@ -1524,7 +1452,7 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 100,
+                      "weight": 102.5,
                       "percent": 55
                     }
                   ]
@@ -1559,8 +1487,8 @@
                     {
                       "reps": 6,
                       "sets": 4,
-                      "weight": 95,
-                      "percent": 82.5
+                      "weight": 97.5,
+                      "percent": 82.7
                     }
                   ]
                 },
@@ -1571,8 +1499,8 @@
                     {
                       "reps": 6,
                       "sets": 4,
-                      "weight": 145,
-                      "percent": 80
+                      "weight": 155,
+                      "percent": 85
                     }
                   ]
                 },
@@ -1592,7 +1520,7 @@
             },
             {
               "day": "Day2",
-              "date": "2025-09-04",
+              "date": "2025-09-05",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -1601,20 +1529,20 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 87.5,
-                      "percent": 74
+                      "weight": 85,
+                      "percent": 72.5
                     }
                   ]
                 },
                 {
                   "type": "デッドリフト（サブ）",
-                  "lift": "ラックプル",
+                  "lift": "ポーズデッド",
                   "sets": [
                     {
-                      "reps": 4,
+                      "reps": 3,
                       "sets": 4,
-                      "weight": 182.5,
-                      "percent": 95
+                      "weight": 145,
+                      "percent": 72.5
                     }
                   ]
                 },
@@ -1634,20 +1562,8 @@
             },
             {
               "day": "Day3",
-              "date": "2025-09-06",
+              "date": "2025-09-07",
               "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 6,
-                      "sets": 4,
-                      "weight": 95,
-                      "percent": 82.5
-                    }
-                  ]
-                },
                 {
                   "type": "デッドリフト（メイン）",
                   "lift": "デッドリフト",
@@ -1655,8 +1571,8 @@
                     {
                       "reps": 4,
                       "sets": 4,
-                      "weight": 167.5,
-                      "percent": 87.5
+                      "weight": 177.5,
+                      "percent": 90
                     }
                   ]
                 },
@@ -1683,12 +1599,24 @@
                       "percent": null
                     }
                   ]
+                },
+                {
+                  "type": "ベンチプレス（メイン）",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 6,
+                      "sets": 4,
+                      "weight": 100,
+                      "percent": 84.1
+                    }
+                  ]
                 }
               ]
             },
             {
               "day": "Day4",
-              "date": "2025-09-07",
+              "date": "2025-09-08",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -1697,32 +1625,32 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": 107.5,
+                      "weight": 110,
                       "percent": 92.5
                     }
                   ]
                 },
                 {
                   "type": "ベンチプレス（サブ）",
-                  "lift": "足あげベンチ",
+                  "lift": "ナローベンチ",
                   "sets": [
                     {
-                      "reps": 5,
-                      "sets": 3,
-                      "weight": 92.5,
-                      "percent": 80
+                      "reps": 4,
+                      "sets": 4,
+                      "weight": 97.5,
+                      "percent": 82.5
                     }
                   ]
                 },
                 {
                   "type": "スクワット（サブ）",
-                  "lift": "ポーズスクワット",
+                  "lift": "ブロックスクワット",
                   "sets": [
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 117.5,
-                      "percent": 65
+                      "weight": 170,
+                      "percent": 92.5
                     }
                   ]
                 },
@@ -1733,7 +1661,7 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 100,
+                      "weight": 102.5,
                       "percent": 55
                     }
                   ]
@@ -1768,8 +1696,8 @@
                     {
                       "reps": 6,
                       "sets": 4,
-                      "weight": 102.5,
-                      "percent": 87.5
+                      "weight": 100,
+                      "percent": 85.5
                     }
                   ]
                 },
@@ -1780,8 +1708,8 @@
                     {
                       "reps": 6,
                       "sets": 4,
-                      "weight": 155,
-                      "percent": 85
+                      "weight": 160,
+                      "percent": 87.5
                     }
                   ]
                 },
@@ -1801,7 +1729,7 @@
             },
             {
               "day": "Day2",
-              "date": "2025-09-11",
+              "date": "2025-09-12",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -1810,20 +1738,20 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 90,
-                      "percent": 78
+                      "weight": 87.5,
+                      "percent": 75
                     }
                   ]
                 },
                 {
                   "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
+                  "lift": "ラックプル",
                   "sets": [
                     {
-                      "reps": 3,
+                      "reps": 4,
                       "sets": 4,
-                      "weight": 140,
-                      "percent": 72.5
+                      "weight": 197.5,
+                      "percent": 100
                     }
                   ]
                 },
@@ -1843,20 +1771,8 @@
             },
             {
               "day": "Day3",
-              "date": "2025-09-13",
+              "date": "2025-09-14",
               "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 6,
-                      "sets": 4,
-                      "weight": 102.5,
-                      "percent": 87.5
-                    }
-                  ]
-                },
                 {
                   "type": "デッドリフト（メイン）",
                   "lift": "ルーマニアンデッド",
@@ -1864,8 +1780,8 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 125,
-                      "percent": 65
+                      "weight": 120,
+                      "percent": 60
                     }
                   ]
                 },
@@ -1892,12 +1808,24 @@
                       "percent": null
                     }
                   ]
+                },
+                {
+                  "type": "ベンチプレス（メイン）",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 6,
+                      "sets": 4,
+                      "weight": 102.5,
+                      "percent": 86.8
+                    }
+                  ]
                 }
               ]
             },
             {
               "day": "Day4",
-              "date": "2025-09-14",
+              "date": "2025-09-15",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -1906,32 +1834,44 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": 110,
+                      "weight": 112.5,
                       "percent": 95
                     }
                   ]
                 },
                 {
                   "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
+                  "lift": "足あげベンチ",
                   "sets": [
                     {
-                      "reps": 4,
-                      "sets": 4,
-                      "weight": 95,
-                      "percent": 82.5
+                      "reps": 5,
+                      "sets": 3,
+                      "weight": 100,
+                      "percent": 85
                     }
                   ]
                 },
                 {
                   "type": "スクワット（サブ）",
-                  "lift": "ブロックスクワット",
+                  "lift": "ポーズスクワット",
                   "sets": [
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 167.5,
-                      "percent": 92.5
+                      "weight": 127.5,
+                      "percent": 70
+                    }
+                  ]
+                },
+                {
+                  "type": "スクワット（サブ）",
+                  "lift": "ブルガリアンスクワット",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 3,
+                      "weight": 102.5,
+                      "percent": 55
                     }
                   ]
                 },
@@ -1965,20 +1905,14 @@
                     {
                       "reps": 1,
                       "sets": 2,
-                      "weight": 95,
-                      "percent": 82.5
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
+                      "weight": 105,
+                      "percent": 88.2
+                    },
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 95,
-                      "percent": 82.5
+                      "weight": 105,
+                      "percent": 88.2
                     }
                   ]
                 },
@@ -1989,20 +1923,14 @@
                     {
                       "reps": 1,
                       "sets": 2,
-                      "weight": 155,
-                      "percent": 85
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（メイン）",
-                  "lift": "スクワット",
-                  "sets": [
+                      "weight": 165,
+                      "percent": 90
+                    },
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 155,
-                      "percent": 85
+                      "weight": 165,
+                      "percent": 90
                     }
                   ]
                 },
@@ -2022,7 +1950,7 @@
             },
             {
               "day": "Day2",
-              "date": "2025-09-18",
+              "date": "2025-09-19",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -2031,20 +1959,20 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 95,
-                      "percent": 82
+                      "weight": 92.5,
+                      "percent": 77.5
                     }
                   ]
                 },
                 {
                   "type": "デッドリフト（サブ）",
-                  "lift": "ラックプル",
+                  "lift": "ポーズデッド",
                   "sets": [
                     {
-                      "reps": 4,
+                      "reps": 3,
                       "sets": 4,
-                      "weight": 187.5,
-                      "percent": 97.5
+                      "weight": 152.5,
+                      "percent": 77.5
                     }
                   ]
                 },
@@ -2064,32 +1992,8 @@
             },
             {
               "day": "Day3",
-              "date": "2025-09-20",
+              "date": "2025-09-21",
               "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 95,
-                      "percent": 82.5
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 95,
-                      "percent": 82.5
-                    }
-                  ]
-                },
                 {
                   "type": "デッドリフト（メイン）",
                   "lift": "デッドリフト",
@@ -2097,8 +2001,8 @@
                     {
                       "reps": 4,
                       "sets": 4,
-                      "weight": 172.5,
-                      "percent": 90
+                      "weight": 197.5,
+                      "percent": 100
                     }
                   ]
                 },
@@ -2125,12 +2029,30 @@
                       "percent": null
                     }
                   ]
+                },
+                {
+                  "type": "ベンチプレス（メイン）",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 2,
+                      "weight": 105,
+                      "percent": 89.5
+                    },
+                    {
+                      "reps": 4,
+                      "sets": 3,
+                      "weight": 105,
+                      "percent": 89.5
+                    }
+                  ]
                 }
               ]
             },
             {
               "day": "Day4",
-              "date": "2025-09-21",
+              "date": "2025-09-22",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -2139,32 +2061,32 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": 112.5,
+                      "weight": 115,
                       "percent": 97.5
                     }
                   ]
                 },
                 {
                   "type": "ベンチプレス（サブ）",
-                  "lift": "足あげベンチ",
+                  "lift": "ナローベンチ",
                   "sets": [
                     {
-                      "reps": 5,
-                      "sets": 3,
-                      "weight": 95,
-                      "percent": 82.5
+                      "reps": 4,
+                      "sets": 4,
+                      "weight": 102.5,
+                      "percent": 87.5
                     }
                   ]
                 },
                 {
                   "type": "スクワット（サブ）",
-                  "lift": "ポーズスクワット",
+                  "lift": "ブロックスクワット",
                   "sets": [
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 127.5,
-                      "percent": 70
+                      "weight": 177.5,
+                      "percent": 97.5
                     }
                   ]
                 },
@@ -2175,7 +2097,7 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 100,
+                      "weight": 102.5,
                       "percent": 55
                     }
                   ]
@@ -2210,20 +2132,14 @@
                     {
                       "reps": 1,
                       "sets": 2,
-                      "weight": 102.5,
-                      "percent": 87.5
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
+                      "weight": 107.5,
+                      "percent": 90.9
+                    },
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 102.5,
-                      "percent": 87.5
+                      "weight": 107.5,
+                      "percent": 90.9
                     }
                   ]
                 },
@@ -2234,20 +2150,14 @@
                     {
                       "reps": 1,
                       "sets": 2,
-                      "weight": 162.5,
-                      "percent": 90
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（メイン）",
-                  "lift": "スクワット",
-                  "sets": [
+                      "weight": 170,
+                      "percent": 92.5
+                    },
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 162.5,
-                      "percent": 90
+                      "weight": 170,
+                      "percent": 92.5
                     }
                   ]
                 },
@@ -2267,7 +2177,7 @@
             },
             {
               "day": "Day2",
-              "date": "2025-09-25",
+              "date": "2025-09-26",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -2276,20 +2186,20 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 100,
-                      "percent": 86
+                      "weight": 95,
+                      "percent": 80
                     }
                   ]
                 },
                 {
                   "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
+                  "lift": "ラックプル",
                   "sets": [
                     {
-                      "reps": 3,
+                      "reps": 4,
                       "sets": 4,
-                      "weight": 142.5,
-                      "percent": 75
+                      "weight": 207.5,
+                      "percent": 105
                     }
                   ]
                 },
@@ -2309,32 +2219,8 @@
             },
             {
               "day": "Day3",
-              "date": "2025-09-27",
+              "date": "2025-09-28",
               "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 102.5,
-                      "percent": 87.5
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 102.5,
-                      "percent": 87.5
-                    }
-                  ]
-                },
                 {
                   "type": "デッドリフト（メイン）",
                   "lift": "デッドリフト",
@@ -2342,8 +2228,8 @@
                     {
                       "reps": 4,
                       "sets": 4,
-                      "weight": 177.5,
-                      "percent": 92.5
+                      "weight": 207.5,
+                      "percent": 105
                     }
                   ]
                 },
@@ -2370,12 +2256,30 @@
                       "percent": null
                     }
                   ]
+                },
+                {
+                  "type": "ベンチプレス（メイン）",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 2,
+                      "weight": 107.5,
+                      "percent": 92.3
+                    },
+                    {
+                      "reps": 4,
+                      "sets": 3,
+                      "weight": 107.5,
+                      "percent": 92.3
+                    }
+                  ]
                 }
               ]
             },
             {
               "day": "Day4",
-              "date": "2025-09-28",
+              "date": "2025-09-29",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -2384,32 +2288,32 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": 115,
+                      "weight": 117.5,
                       "percent": 100
                     }
                   ]
                 },
                 {
                   "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
+                  "lift": "足あげベンチ",
                   "sets": [
                     {
-                      "reps": 4,
-                      "sets": 4,
-                      "weight": 100,
-                      "percent": 85
+                      "reps": 5,
+                      "sets": 3,
+                      "weight": 105,
+                      "percent": 90
                     }
                   ]
                 },
                 {
                   "type": "スクワット（サブ）",
-                  "lift": "ブロックスクワット",
+                  "lift": "ポーズスクワット",
                   "sets": [
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 172.5,
-                      "percent": 95
+                      "weight": 137.5,
+                      "percent": 75
                     }
                   ]
                 },
@@ -2420,7 +2324,7 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 100,
+                      "weight": 102.5,
                       "percent": 55
                     }
                   ]
@@ -2455,20 +2359,14 @@
                     {
                       "reps": 1,
                       "sets": 2,
-                      "weight": 107.5,
-                      "percent": 92.5
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
+                      "weight": 110,
+                      "percent": 93.6
+                    },
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 107.5,
-                      "percent": 92.5
+                      "weight": 110,
+                      "percent": 93.6
                     }
                   ]
                 },
@@ -2481,13 +2379,7 @@
                       "sets": 2,
                       "weight": 172.5,
                       "percent": 95
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（メイン）",
-                  "lift": "スクワット",
-                  "sets": [
+                    },
                     {
                       "reps": 4,
                       "sets": 3,
@@ -2512,7 +2404,7 @@
             },
             {
               "day": "Day2",
-              "date": "2025-10-02",
+              "date": "2025-10-03",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -2521,20 +2413,20 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 105,
-                      "percent": 90
+                      "weight": 97.5,
+                      "percent": 82.5
                     }
                   ]
                 },
                 {
                   "type": "デッドリフト（サブ）",
-                  "lift": "ラックプル",
+                  "lift": "ポーズデッド",
                   "sets": [
                     {
-                      "reps": 4,
+                      "reps": 3,
                       "sets": 4,
-                      "weight": 190,
-                      "percent": 100
+                      "weight": 162.5,
+                      "percent": 82.5
                     }
                   ]
                 },
@@ -2554,32 +2446,8 @@
             },
             {
               "day": "Day3",
-              "date": "2025-10-04",
+              "date": "2025-10-05",
               "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 107.5,
-                      "percent": 92.5
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 107.5,
-                      "percent": 92.5
-                    }
-                  ]
-                },
                 {
                   "type": "デッドリフト（メイン）",
                   "lift": "ルーマニアンデッド",
@@ -2587,8 +2455,8 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 135,
-                      "percent": 70
+                      "weight": 130,
+                      "percent": 65
                     }
                   ]
                 },
@@ -2615,12 +2483,30 @@
                       "percent": null
                     }
                   ]
+                },
+                {
+                  "type": "ベンチプレス（メイン）",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 2,
+                      "weight": 112.5,
+                      "percent": 95
+                    },
+                    {
+                      "reps": 4,
+                      "sets": 3,
+                      "weight": 112.5,
+                      "percent": 95
+                    }
+                  ]
                 }
               ]
             },
             {
               "day": "Day4",
-              "date": "2025-10-05",
+              "date": "2025-10-06",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -2636,25 +2522,37 @@
                 },
                 {
                   "type": "ベンチプレス（サブ）",
-                  "lift": "足あげベンチ",
+                  "lift": "ナローベンチ",
                   "sets": [
                     {
-                      "reps": 5,
-                      "sets": 3,
-                      "weight": 100,
-                      "percent": 85
+                      "reps": 4,
+                      "sets": 4,
+                      "weight": 110,
+                      "percent": 92.5
                     }
                   ]
                 },
                 {
                   "type": "スクワット（サブ）",
-                  "lift": "ポーズスクワット",
+                  "lift": "ブロックスクワット",
                   "sets": [
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 135,
-                      "percent": 75
+                      "weight": 187.5,
+                      "percent": 102.5
+                    }
+                  ]
+                },
+                {
+                  "type": "スクワット（サブ）",
+                  "lift": "ブルガリアンスクワット",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 3,
+                      "weight": 102.5,
+                      "percent": 55
                     }
                   ]
                 },
