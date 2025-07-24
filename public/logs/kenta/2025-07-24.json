@@ -1,0 +1,153 @@
+{
+  "date": "2025-07-24",
+  "block": "Accumulation",
+  "week": 2,
+  "day": 2,
+  "notes": "ブロックAccumulation Week2 Day2のトレーニング",
+  "sessions": [
+    {
+      "type": "デッドリフト（サブ）",
+      "lift": "ポーズデッド",
+      "sets": [
+        {
+          "weight": 105,
+          "reps": 3,
+          "rpe": 4,
+          "comment": "ちょいケツ高めのイメージでやったら良き感じ",
+          "1RM": 114,
+          "e1RM": 133
+        },
+        {
+          "weight": 105,
+          "reps": 3,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 114,
+          "e1RM": 133
+        },
+        {
+          "weight": 105,
+          "reps": 3,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 114,
+          "e1RM": 133
+        },
+        {
+          "weight": 105,
+          "reps": 3,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 114,
+          "e1RM": 133
+        },
+        {
+          "weight": 105,
+          "reps": 3,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 114,
+          "e1RM": 133
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチ",
+      "sets": [
+        {
+          "weight": 75,
+          "reps": 5,
+          "rpe": 3,
+          "comment": "リストラップなし。しっかり背中で受けられてる気がする",
+          "1RM": 84,
+          "e1RM": 97
+        },
+        {
+          "weight": 75,
+          "reps": 5,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 84,
+          "e1RM": 97
+        },
+        {
+          "weight": 75,
+          "reps": 5,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 84,
+          "e1RM": 97
+        },
+        {
+          "weight": 75,
+          "reps": 5,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 84,
+          "e1RM": 97
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足あげベンチ",
+      "sets": [
+        {
+          "weight": 75,
+          "reps": 6,
+          "rpe": 4,
+          "comment": "背中や胸で上げ下ろしできてる気がする",
+          "1RM": 86,
+          "e1RM": 97
+        },
+        {
+          "weight": 75,
+          "reps": 6,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 86,
+          "e1RM": 97
+        },
+        {
+          "weight": 75,
+          "reps": 6,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 86,
+          "e1RM": 97
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "ダンベルシールロー",
+      "sets": [
+        {
+          "weight": 30,
+          "reps": 10,
+          "rpe": 7.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 30,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 30,
+          "reps": 10,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
