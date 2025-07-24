@@ -1,0 +1,175 @@
+{
+  "date": "2025-07-24",
+  "block": "Accumulateブロック",
+  "week": 1,
+  "day": 2,
+  "notes": "ブロックAccumulate Week1 Day2のトレーニング",
+  "sessions": [
+    {
+      "type": "デッドリフト（メイン）",
+      "lift": "デッドリフト（コンベンショナル）",
+      "sets": [
+        {
+          "weight": 80,
+          "reps": 3,
+          "rpe": null,
+          "comment": "",
+          "1RM": 87,
+          "e1RM": 111
+        },
+        {
+          "weight": 90,
+          "reps": 3,
+          "rpe": null,
+          "comment": "",
+          "1RM": 98,
+          "e1RM": 125
+        },
+        {
+          "weight": 100,
+          "reps": 3,
+          "rpe": null,
+          "comment": "",
+          "1RM": 109,
+          "e1RM": 139
+        },
+        {
+          "weight": 110,
+          "reps": 3,
+          "rpe": 9,
+          "comment": "背中で支えてる感じはまだ薄い",
+          "1RM": 119,
+          "e1RM": 123
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチ",
+      "sets": [
+        {
+          "weight": 45,
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": 50,
+          "e1RM": 61
+        },
+        {
+          "weight": 45,
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": 50,
+          "e1RM": 61
+        },
+        {
+          "weight": 45,
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": 50,
+          "e1RM": 61
+        },
+        {
+          "weight": 45,
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": 50,
+          "e1RM": 61
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足上げベンチ",
+      "sets": [
+        {
+          "weight": 45,
+          "reps": 5,
+          "rpe": null,
+          "comment": "やりきった",
+          "1RM": 50,
+          "e1RM": 61
+        },
+        {
+          "weight": 45,
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": 50,
+          "e1RM": 61
+        },
+        {
+          "weight": 45,
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": 50,
+          "e1RM": 61
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "シールロー",
+      "sets": [
+        {
+          "weight": 16,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 20,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 20,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "バーベルアームカール",
+      "sets": [
+        {
+          "weight": 25,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 25,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 25,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
