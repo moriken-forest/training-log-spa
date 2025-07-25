@@ -18,8 +18,8 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 85,
-                      "percent": 72.5
+                      "weight": 80,
+                      "percent": null
                     }
                   ]
                 },
@@ -30,8 +30,8 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 110,
-                      "percent": 60
+                      "weight": 112.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -58,10 +58,10 @@
                   "lift": "ポーズベンチ",
                   "sets": [
                     {
-                      "reps": 3,
+                      "reps": 5,
                       "sets": 4,
                       "weight": 72.5,
-                      "percent": 60
+                      "percent": null
                     }
                   ]
                 },
@@ -73,7 +73,7 @@
                       "reps": 6,
                       "sets": 3,
                       "weight": 72.5,
-                      "percent": 60
+                      "percent": null
                     }
                   ]
                 },
@@ -96,18 +96,6 @@
               "date": "2025-07-19",
               "sessions": [
                 {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 4,
-                      "weight": 87.5,
-                      "percent": 74.1
-                    }
-                  ]
-                },
-                {
                   "type": "デッドリフト（メイン）",
                   "lift": "デッドリフト",
                   "sets": [
@@ -115,7 +103,7 @@
                       "reps": 6,
                       "sets": 4,
                       "weight": 147.5,
-                      "percent": 75
+                      "percent": null
                     }
                   ]
                 },
@@ -150,54 +138,6 @@
               "date": "2025-07-20",
               "sessions": [
                 {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": 95,
-                      "percent": 80
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 4,
-                      "weight": 85,
-                      "percent": 72.5
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "フロントスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 82.5,
-                      "percent": 45
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 75,
-                      "percent": 40
-                    }
-                  ]
-                },
-                {
                   "type": "アクセサリー",
                   "lift": "ワンハンドダンベルロー",
                   "sets": [
@@ -227,8 +167,8 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 90,
-                      "percent": 75.7
+                      "weight": 82.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -239,8 +179,8 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 120,
-                      "percent": 65
+                      "weight": 127.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -267,10 +207,10 @@
                   "lift": "ポーズベンチ",
                   "sets": [
                     {
-                      "reps": 3,
+                      "reps": 5,
                       "sets": 4,
                       "weight": 77.5,
-                      "percent": 65
+                      "percent": null
                     }
                   ]
                 },
@@ -282,7 +222,7 @@
                       "reps": 6,
                       "sets": 3,
                       "weight": 77.5,
-                      "percent": 65
+                      "percent": null
                     }
                   ]
                 },
@@ -305,26 +245,14 @@
               "date": "2025-07-26",
               "sessions": [
                 {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 4,
-                      "weight": 92.5,
-                      "percent": 77.3
-                    }
-                  ]
-                },
-                {
                   "type": "デッドリフト（メイン）",
                   "lift": "デッドリフト",
                   "sets": [
                     {
                       "reps": 6,
                       "sets": 4,
-                      "weight": 157.5,
-                      "percent": 80
+                      "weight": 162.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -359,54 +287,6 @@
               "date": "2025-07-27",
               "sessions": [
                 {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": 97.5,
-                      "percent": 82.5
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 4,
-                      "weight": 87.5,
-                      "percent": 75
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ポーズスクワット",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 97.5,
-                      "percent": 52.5
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 80,
-                      "percent": 42.5
-                    }
-                  ]
-                },
-                {
                   "type": "アクセサリー",
                   "lift": "ワンハンドダンベルロー",
                   "sets": [
@@ -436,8 +316,8 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 92.5,
-                      "percent": 78.9
+                      "weight": 85,
+                      "percent": null
                     }
                   ]
                 },
@@ -448,8 +328,8 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 127.5,
-                      "percent": 70
+                      "weight": 142.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -476,10 +356,10 @@
                   "lift": "ポーズベンチ",
                   "sets": [
                     {
-                      "reps": 3,
+                      "reps": 5,
                       "sets": 4,
                       "weight": 82.5,
-                      "percent": 70
+                      "percent": null
                     }
                   ]
                 },
@@ -491,7 +371,7 @@
                       "reps": 6,
                       "sets": 3,
                       "weight": 82.5,
-                      "percent": 70
+                      "percent": null
                     }
                   ]
                 },
@@ -514,26 +394,14 @@
               "date": "2025-08-02",
               "sessions": [
                 {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 4,
-                      "weight": 95,
-                      "percent": 80.5
-                    }
-                  ]
-                },
-                {
                   "type": "デッドリフト（メイン）",
                   "lift": "ルーマニアンデッド",
                   "sets": [
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 110,
-                      "percent": 55
+                      "weight": 120,
+                      "percent": null
                     }
                   ]
                 },
@@ -568,54 +436,6 @@
               "date": "2025-08-03",
               "sessions": [
                 {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": 100,
-                      "percent": 85
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 4,
-                      "weight": 92.5,
-                      "percent": 77.5
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "フロントスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 92.5,
-                      "percent": 50
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 82.5,
-                      "percent": 45
-                    }
-                  ]
-                },
-                {
                   "type": "アクセサリー",
                   "lift": "ワンハンドダンベルロー",
                   "sets": [
@@ -645,8 +465,8 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 97.5,
-                      "percent": 82
+                      "weight": 87.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -657,8 +477,8 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 137.5,
-                      "percent": 75
+                      "weight": 152.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -685,10 +505,10 @@
                   "lift": "ポーズベンチ",
                   "sets": [
                     {
-                      "reps": 3,
+                      "reps": 5,
                       "sets": 4,
                       "weight": 87.5,
-                      "percent": 75
+                      "percent": null
                     }
                   ]
                 },
@@ -700,7 +520,7 @@
                       "reps": 6,
                       "sets": 3,
                       "weight": 87.5,
-                      "percent": 75
+                      "percent": null
                     }
                   ]
                 },
@@ -723,26 +543,14 @@
               "date": "2025-08-09",
               "sessions": [
                 {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 4,
-                      "weight": 97.5,
-                      "percent": 83.6
-                    }
-                  ]
-                },
-                {
                   "type": "デッドリフト（メイン）",
                   "lift": "デッドリフト",
                   "sets": [
                     {
-                      "reps": 6,
-                      "sets": 4,
-                      "weight": 177.5,
-                      "percent": 90
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 182.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -777,54 +585,6 @@
               "date": "2025-08-10",
               "sessions": [
                 {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": 102.5,
-                      "percent": 87.5
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 4,
-                      "weight": 95,
-                      "percent": 80
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ポーズスクワット",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 105,
-                      "percent": 57.5
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 87.5,
-                      "percent": 47.5
-                    }
-                  ]
-                },
-                {
                   "type": "アクセサリー",
                   "lift": "ワンハンドダンベルロー",
                   "sets": [
@@ -854,8 +614,8 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 100,
-                      "percent": 85.2
+                      "weight": 90,
+                      "percent": null
                     }
                   ]
                 },
@@ -866,8 +626,8 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 147.5,
-                      "percent": 80
+                      "weight": 157.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -894,10 +654,10 @@
                   "lift": "ポーズベンチ",
                   "sets": [
                     {
-                      "reps": 3,
+                      "reps": 5,
                       "sets": 4,
                       "weight": 95,
-                      "percent": 80
+                      "percent": null
                     }
                   ]
                 },
@@ -909,7 +669,7 @@
                       "reps": 6,
                       "sets": 3,
                       "weight": 95,
-                      "percent": 80
+                      "percent": null
                     }
                   ]
                 },
@@ -932,26 +692,14 @@
               "date": "2025-08-16",
               "sessions": [
                 {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 4,
-                      "weight": 102.5,
-                      "percent": 86.8
-                    }
-                  ]
-                },
-                {
                   "type": "デッドリフト（メイン）",
                   "lift": "デッドリフト",
                   "sets": [
                     {
-                      "reps": 6,
-                      "sets": 4,
-                      "weight": 187.5,
-                      "percent": 95
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 152.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -986,54 +734,6 @@
               "date": "2025-08-17",
               "sessions": [
                 {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": 105,
-                      "percent": 90
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 4,
-                      "weight": 97.5,
-                      "percent": 82.5
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "フロントスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 102.5,
-                      "percent": 55
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 92.5,
-                      "percent": 50
-                    }
-                  ]
-                },
-                {
                   "type": "アクセサリー",
                   "lift": "ワンハンドダンベルロー",
                   "sets": [
@@ -1063,8 +763,8 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 105,
-                      "percent": 88.4
+                      "weight": 92.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -1075,8 +775,8 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 155,
-                      "percent": 85
+                      "weight": 162.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -1103,10 +803,10 @@
                   "lift": "ポーズベンチ",
                   "sets": [
                     {
-                      "reps": 3,
+                      "reps": 5,
                       "sets": 4,
                       "weight": 100,
-                      "percent": 85
+                      "percent": null
                     }
                   ]
                 },
@@ -1118,7 +818,7 @@
                       "reps": 6,
                       "sets": 3,
                       "weight": 100,
-                      "percent": 85
+                      "percent": null
                     }
                   ]
                 },
@@ -1141,26 +841,14 @@
               "date": "2025-08-23",
               "sessions": [
                 {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 4,
-                      "weight": 105,
-                      "percent": 90
-                    }
-                  ]
-                },
-                {
                   "type": "デッドリフト（メイン）",
                   "lift": "ルーマニアンデッド",
                   "sets": [
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 120,
-                      "percent": 60
+                      "weight": 147.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -1194,54 +882,6 @@
               "day": "Day4",
               "date": "2025-08-24",
               "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": 110,
-                      "percent": 92.5
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 4,
-                      "weight": 100,
-                      "percent": 85
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ポーズスクワット",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 115,
-                      "percent": 62.5
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 97.5,
-                      "percent": 52.5
-                    }
-                  ]
-                },
                 {
                   "type": "アクセサリー",
                   "lift": "ワンハンドダンベルロー",
@@ -1278,8 +918,8 @@
                     {
                       "reps": 6,
                       "sets": 4,
-                      "weight": 95,
-                      "percent": 80
+                      "weight": 102.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -1290,8 +930,8 @@
                     {
                       "reps": 6,
                       "sets": 4,
-                      "weight": 150,
-                      "percent": 82.5
+                      "weight": 152.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -1321,19 +961,19 @@
                       "reps": 3,
                       "sets": 4,
                       "weight": 82.5,
-                      "percent": 70
+                      "percent": null
                     }
                   ]
                 },
                 {
                   "type": "デッドリフト（サブ）",
-                  "lift": "ラックプル",
+                  "lift": "ポーズデッド",
                   "sets": [
                     {
-                      "reps": 4,
+                      "reps": 3,
                       "sets": 4,
-                      "weight": 187.5,
-                      "percent": 95
+                      "weight": 140,
+                      "percent": null
                     }
                   ]
                 },
@@ -1362,8 +1002,8 @@
                     {
                       "reps": 4,
                       "sets": 4,
-                      "weight": 167.5,
-                      "percent": 85
+                      "weight": 172.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -1398,8 +1038,8 @@
                     {
                       "reps": 6,
                       "sets": 4,
-                      "weight": 95,
-                      "percent": 81.4
+                      "weight": 102.5,
+                      "percent": null
                     }
                   ]
                 }
@@ -1409,54 +1049,6 @@
               "day": "Day4",
               "date": "2025-08-31",
               "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": 105,
-                      "percent": 90
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "足あげベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 3,
-                      "weight": 95,
-                      "percent": 80
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ポーズスクワット",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 120,
-                      "percent": 65
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 102.5,
-                      "percent": 55
-                    }
-                  ]
-                },
                 {
                   "type": "アクセサリー",
                   "lift": "ワンハンドダンベルロー",
@@ -1487,8 +1079,8 @@
                     {
                       "reps": 6,
                       "sets": 4,
-                      "weight": 97.5,
-                      "percent": 82.7
+                      "weight": 105,
+                      "percent": null
                     }
                   ]
                 },
@@ -1499,8 +1091,8 @@
                     {
                       "reps": 6,
                       "sets": 4,
-                      "weight": 155,
-                      "percent": 85
+                      "weight": 162.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -1529,20 +1121,20 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 85,
-                      "percent": 72.5
+                      "weight": 87.5,
+                      "percent": null
                     }
                   ]
                 },
                 {
                   "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
+                  "lift": "ラックプル",
                   "sets": [
                     {
-                      "reps": 3,
+                      "reps": 4,
                       "sets": 4,
                       "weight": 145,
-                      "percent": 72.5
+                      "percent": null
                     }
                   ]
                 },
@@ -1571,8 +1163,8 @@
                     {
                       "reps": 4,
                       "sets": 4,
-                      "weight": 177.5,
-                      "percent": 90
+                      "weight": 182.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -1607,8 +1199,8 @@
                     {
                       "reps": 6,
                       "sets": 4,
-                      "weight": 100,
-                      "percent": 84.1
+                      "weight": 105,
+                      "percent": null
                     }
                   ]
                 }
@@ -1618,54 +1210,6 @@
               "day": "Day4",
               "date": "2025-09-07",
               "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": 110,
-                      "percent": 92.5
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 4,
-                      "weight": 97.5,
-                      "percent": 82.5
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブロックスクワット",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 170,
-                      "percent": 92.5
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 102.5,
-                      "percent": 55
-                    }
-                  ]
-                },
                 {
                   "type": "アクセサリー",
                   "lift": "ワンハンドダンベルロー",
@@ -1696,8 +1240,8 @@
                     {
                       "reps": 6,
                       "sets": 4,
-                      "weight": 100,
-                      "percent": 85.5
+                      "weight": 107.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -1708,8 +1252,8 @@
                     {
                       "reps": 6,
                       "sets": 4,
-                      "weight": 160,
-                      "percent": 87.5
+                      "weight": 172.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -1738,20 +1282,20 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 87.5,
-                      "percent": 75
+                      "weight": 95,
+                      "percent": null
                     }
                   ]
                 },
                 {
                   "type": "デッドリフト（サブ）",
-                  "lift": "ラックプル",
+                  "lift": "ポーズデッド",
                   "sets": [
                     {
-                      "reps": 4,
+                      "reps": 3,
                       "sets": 4,
-                      "weight": 197.5,
-                      "percent": 100
+                      "weight": 147.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -1781,7 +1325,7 @@
                       "reps": 8,
                       "sets": 4,
                       "weight": 120,
-                      "percent": 60
+                      "percent": null
                     }
                   ]
                 },
@@ -1816,8 +1360,8 @@
                     {
                       "reps": 6,
                       "sets": 4,
-                      "weight": 102.5,
-                      "percent": 86.8
+                      "weight": 107.5,
+                      "percent": null
                     }
                   ]
                 }
@@ -1827,54 +1371,6 @@
               "day": "Day4",
               "date": "2025-09-14",
               "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": 112.5,
-                      "percent": 95
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "足あげベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 3,
-                      "weight": 100,
-                      "percent": 85
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ポーズスクワット",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 127.5,
-                      "percent": 70
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 102.5,
-                      "percent": 55
-                    }
-                  ]
-                },
                 {
                   "type": "アクセサリー",
                   "lift": "ワンハンドダンベルロー",
@@ -1905,14 +1401,14 @@
                     {
                       "reps": 1,
                       "sets": 2,
-                      "weight": 105,
-                      "percent": 88.2
+                      "weight": 107.5,
+                      "percent": null
                     },
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 105,
-                      "percent": 88.2
+                      "weight": 107.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -1923,14 +1419,14 @@
                     {
                       "reps": 1,
                       "sets": 2,
-                      "weight": 165,
-                      "percent": 90
+                      "weight": 172.5,
+                      "percent": null
                     },
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 165,
-                      "percent": 90
+                      "weight": 172.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -1959,20 +1455,20 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 92.5,
-                      "percent": 77.5
+                      "weight": 100,
+                      "percent": null
                     }
                   ]
                 },
                 {
                   "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
+                  "lift": "ラックプル",
                   "sets": [
                     {
-                      "reps": 3,
+                      "reps": 4,
                       "sets": 4,
                       "weight": 152.5,
-                      "percent": 77.5
+                      "percent": null
                     }
                   ]
                 },
@@ -2000,9 +1496,9 @@
                   "sets": [
                     {
                       "reps": 4,
-                      "sets": 4,
-                      "weight": 197.5,
-                      "percent": 100
+                      "sets": 3,
+                      "weight": 187.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -2035,16 +1531,10 @@
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 105,
-                      "percent": 89.5
-                    },
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 105,
-                      "percent": 89.5
+                      "reps": 6,
+                      "sets": 4,
+                      "weight": 107.5,
+                      "percent": null
                     }
                   ]
                 }
@@ -2054,54 +1544,6 @@
               "day": "Day4",
               "date": "2025-09-21",
               "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": 115,
-                      "percent": 97.5
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 4,
-                      "weight": 102.5,
-                      "percent": 87.5
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブロックスクワット",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 177.5,
-                      "percent": 97.5
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 102.5,
-                      "percent": 55
-                    }
-                  ]
-                },
                 {
                   "type": "アクセサリー",
                   "lift": "ワンハンドダンベルロー",
@@ -2132,14 +1574,14 @@
                     {
                       "reps": 1,
                       "sets": 2,
-                      "weight": 107.5,
-                      "percent": 90.9
+                      "weight": 110,
+                      "percent": null
                     },
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 107.5,
-                      "percent": 90.9
+                      "weight": 110,
+                      "percent": null
                     }
                   ]
                 },
@@ -2150,14 +1592,14 @@
                     {
                       "reps": 1,
                       "sets": 2,
-                      "weight": 170,
-                      "percent": 92.5
+                      "weight": 182.5,
+                      "percent": null
                     },
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 170,
-                      "percent": 92.5
+                      "weight": 182.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -2186,20 +1628,20 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 95,
-                      "percent": 80
+                      "weight": 105,
+                      "percent": null
                     }
                   ]
                 },
                 {
                   "type": "デッドリフト（サブ）",
-                  "lift": "ラックプル",
+                  "lift": "ポーズデッド",
                   "sets": [
                     {
-                      "reps": 4,
+                      "reps": 3,
                       "sets": 4,
-                      "weight": 207.5,
-                      "percent": 105
+                      "weight": 157.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -2227,9 +1669,9 @@
                   "sets": [
                     {
                       "reps": 4,
-                      "sets": 4,
-                      "weight": 207.5,
-                      "percent": 105
+                      "sets": 3,
+                      "weight": 197.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -2262,16 +1704,10 @@
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 107.5,
-                      "percent": 92.3
-                    },
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 107.5,
-                      "percent": 92.3
+                      "reps": 6,
+                      "sets": 4,
+                      "weight": 110,
+                      "percent": null
                     }
                   ]
                 }
@@ -2281,54 +1717,6 @@
               "day": "Day4",
               "date": "2025-09-28",
               "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": 117.5,
-                      "percent": 100
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "足あげベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 3,
-                      "weight": 105,
-                      "percent": 90
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ポーズスクワット",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 137.5,
-                      "percent": 75
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 102.5,
-                      "percent": 55
-                    }
-                  ]
-                },
                 {
                   "type": "アクセサリー",
                   "lift": "ワンハンドダンベルロー",
@@ -2359,14 +1747,14 @@
                     {
                       "reps": 1,
                       "sets": 2,
-                      "weight": 110,
-                      "percent": 93.6
+                      "weight": 112.5,
+                      "percent": null
                     },
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 110,
-                      "percent": 93.6
+                      "weight": 112.5,
+                      "percent": null
                     }
                   ]
                 },
@@ -2377,14 +1765,14 @@
                     {
                       "reps": 1,
                       "sets": 2,
-                      "weight": 172.5,
-                      "percent": 95
+                      "weight": 190,
+                      "percent": null
                     },
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 172.5,
-                      "percent": 95
+                      "weight": 190,
+                      "percent": null
                     }
                   ]
                 },
@@ -2413,20 +1801,20 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 97.5,
-                      "percent": 82.5
+                      "weight": 112.5,
+                      "percent": null
                     }
                   ]
                 },
                 {
                   "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
+                  "lift": "ラックプル",
                   "sets": [
                     {
-                      "reps": 3,
+                      "reps": 4,
                       "sets": 4,
                       "weight": 162.5,
-                      "percent": 82.5
+                      "percent": null
                     }
                   ]
                 },
@@ -2456,7 +1844,7 @@
                       "reps": 8,
                       "sets": 4,
                       "weight": 130,
-                      "percent": 65
+                      "percent": null
                     }
                   ]
                 },
@@ -2489,16 +1877,10 @@
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "reps": 1,
-                      "sets": 2,
+                      "reps": 6,
+                      "sets": 4,
                       "weight": 112.5,
-                      "percent": 95
-                    },
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 112.5,
-                      "percent": 95
+                      "percent": null
                     }
                   ]
                 }
@@ -2508,54 +1890,6 @@
               "day": "Day4",
               "date": "2025-10-05",
               "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": 120,
-                      "percent": 102.5
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 4,
-                      "weight": 110,
-                      "percent": 92.5
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブロックスクワット",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 187.5,
-                      "percent": 102.5
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 102.5,
-                      "percent": 55
-                    }
-                  ]
-                },
                 {
                   "type": "アクセサリー",
                   "lift": "ワンハンドダンベルロー",
