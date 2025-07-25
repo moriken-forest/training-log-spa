@@ -60,8 +60,8 @@
                     {
                       "reps": 5,
                       "sets": 4,
-                      "weight": 70,
-                      "percent": 60
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -72,8 +72,8 @@
                     {
                       "reps": 6,
                       "sets": 3,
-                      "weight": 70,
-                      "percent": 60
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -84,8 +84,8 @@
                     {
                       "reps": 3,
                       "sets": 5,
-                      "weight": 97.5,
-                      "percent": 50
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -114,7 +114,7 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 78,
+                      "weight": 80,
                       "percent": null
                     }
                   ]
@@ -168,8 +168,8 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": 92.5,
-                      "percent": 80
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -180,8 +180,8 @@
                     {
                       "reps": 5,
                       "sets": 4,
-                      "weight": 82.5,
-                      "percent": 72.5
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -192,8 +192,8 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 80,
-                      "percent": 45
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -204,8 +204,8 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 72.5,
-                      "percent": 40
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -239,7 +239,7 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 80,
+                      "weight": 85,
                       "percent": null
                     }
                   ]
@@ -281,8 +281,8 @@
                     {
                       "reps": 5,
                       "sets": 4,
-                      "weight": 72.5,
-                      "percent": 64
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -293,8 +293,8 @@
                     {
                       "reps": 6,
                       "sets": 3,
-                      "weight": 72.5,
-                      "percent": 64
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -305,8 +305,8 @@
                     {
                       "reps": 3,
                       "sets": 5,
-                      "weight": 105,
-                      "percent": 54
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -335,7 +335,7 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 82,
+                      "weight": 90,
                       "percent": null
                     }
                   ]
@@ -389,20 +389,20 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": 95,
-                      "percent": 82
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
                 {
                   "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
+                  "lift": "足あげベンチ",
                   "sets": [
                     {
-                      "reps": 5,
-                      "sets": 4,
-                      "weight": 87.5,
-                      "percent": 75
+                      "reps": 6,
+                      "sets": 3,
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -413,8 +413,8 @@
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 92.5,
-                      "percent": 52
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -425,8 +425,8 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 75,
-                      "percent": 42
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -460,7 +460,7 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 85,
+                      "weight": 95,
                       "percent": null
                     }
                   ]
@@ -502,8 +502,8 @@
                     {
                       "reps": 5,
                       "sets": 4,
-                      "weight": 77.5,
-                      "percent": 68
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -514,8 +514,8 @@
                     {
                       "reps": 6,
                       "sets": 3,
-                      "weight": 77.5,
-                      "percent": 68
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -526,8 +526,8 @@
                     {
                       "reps": 3,
                       "sets": 5,
-                      "weight": 112.5,
-                      "percent": 58
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -556,19 +556,19 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 88,
+                      "weight": 100,
                       "percent": null
                     }
                   ]
                 },
                 {
                   "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
+                  "lift": "ルーマニアンデッド",
                   "sets": [
                     {
-                      "reps": 6,
-                      "sets": 3,
-                      "weight": 170,
+                      "reps": 8,
+                      "sets": 4,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -610,8 +610,8 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": 97.5,
-                      "percent": 84
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -622,8 +622,8 @@
                     {
                       "reps": 5,
                       "sets": 4,
-                      "weight": 90,
-                      "percent": 77.5
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -634,8 +634,8 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 87.5,
-                      "percent": 49
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -646,8 +646,8 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 80,
-                      "percent": 44
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -681,7 +681,7 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 90,
+                      "weight": 80,
                       "percent": null
                     }
                   ]
@@ -723,8 +723,8 @@
                     {
                       "reps": 5,
                       "sets": 4,
-                      "weight": 82.5,
-                      "percent": 72
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -735,8 +735,8 @@
                     {
                       "reps": 6,
                       "sets": 3,
-                      "weight": 82.5,
-                      "percent": 72
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -747,8 +747,8 @@
                     {
                       "reps": 3,
                       "sets": 5,
-                      "weight": 120,
-                      "percent": 62
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -777,7 +777,7 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 92,
+                      "weight": 85,
                       "percent": null
                     }
                   ]
@@ -789,7 +789,7 @@
                     {
                       "reps": 6,
                       "sets": 3,
-                      "weight": 180,
+                      "weight": 185,
                       "percent": null
                     }
                   ]
@@ -831,20 +831,20 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": 100,
-                      "percent": 86
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
                 {
                   "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
+                  "lift": "足あげベンチ",
                   "sets": [
                     {
-                      "reps": 5,
-                      "sets": 4,
-                      "weight": 92.5,
-                      "percent": 80
+                      "reps": 6,
+                      "sets": 3,
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -855,8 +855,8 @@
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 100,
-                      "percent": 56
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -867,8 +867,8 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 82.5,
-                      "percent": 46
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -902,7 +902,7 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 95,
+                      "weight": 90,
                       "percent": null
                     }
                   ]
@@ -914,7 +914,7 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 155,
+                      "weight": 157.5,
                       "percent": null
                     }
                   ]
@@ -944,8 +944,8 @@
                     {
                       "reps": 5,
                       "sets": 4,
-                      "weight": 87.5,
-                      "percent": 76
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -956,8 +956,8 @@
                     {
                       "reps": 6,
                       "sets": 3,
-                      "weight": 87.5,
-                      "percent": 76
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -968,8 +968,8 @@
                     {
                       "reps": 3,
                       "sets": 5,
-                      "weight": 127.5,
-                      "percent": 66
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -998,20 +998,20 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 98,
+                      "weight": 95,
                       "percent": null
                     }
                   ]
                 },
                 {
                   "type": "デッドリフト（メイン）",
-                  "lift": "ルーマニアンデッド",
+                  "lift": "デッドリフト",
                   "sets": [
                     {
-                      "reps": 8,
-                      "sets": 4,
-                      "weight": 112.5,
-                      "percent": 58
+                      "reps": 6,
+                      "sets": 3,
+                      "weight": 195,
+                      "percent": null
                     }
                   ]
                 },
@@ -1052,8 +1052,8 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": 100,
-                      "percent": 88
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1064,8 +1064,8 @@
                     {
                       "reps": 5,
                       "sets": 4,
-                      "weight": 95,
-                      "percent": 82.5
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1076,8 +1076,8 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 95,
-                      "percent": 53
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1088,8 +1088,8 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 87.5,
-                      "percent": 48
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1135,7 +1135,7 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 160,
+                      "weight": 165,
                       "percent": null
                     }
                   ]
@@ -1165,8 +1165,8 @@
                     {
                       "reps": 5,
                       "sets": 4,
-                      "weight": 92.5,
-                      "percent": 80
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1177,8 +1177,8 @@
                     {
                       "reps": 6,
                       "sets": 3,
-                      "weight": 92.5,
-                      "percent": 80
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1189,8 +1189,8 @@
                     {
                       "reps": 3,
                       "sets": 5,
-                      "weight": 137.5,
-                      "percent": 70
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1219,7 +1219,7 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 102,
+                      "weight": 105,
                       "percent": null
                     }
                   ]
@@ -1231,8 +1231,8 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 117.5,
-                      "percent": 60
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1273,20 +1273,20 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": 102.5,
-                      "percent": 90
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
                 {
                   "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
+                  "lift": "足あげベンチ",
                   "sets": [
                     {
-                      "reps": 5,
-                      "sets": 4,
-                      "weight": 97.5,
-                      "percent": 85
+                      "reps": 6,
+                      "sets": 3,
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1297,20 +1297,8 @@
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 107.5,
-                      "percent": 60
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 90,
-                      "percent": 50
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1337,11 +1325,11 @@
       "notes": null,
       "weeks": [
         {
-          "week": 7,
+          "week": 1,
           "days": [
             {
               "day": "Day1",
-              "date": "2025-08-27",
+              "date": "2025-07-16",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -1378,12 +1366,24 @@
                       "percent": null
                     }
                   ]
+                },
+                {
+                  "type": "アクセサリー",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
                 }
               ]
             },
             {
               "day": "Day2",
-              "date": "2025-08-28",
+              "date": "2025-07-17",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -1392,8 +1392,8 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 80,
-                      "percent": 70
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1404,8 +1404,20 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 137.5,
-                      "percent": 70
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "アクセサリー",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1425,7 +1437,7 @@
             },
             {
               "day": "Day3",
-              "date": "2025-08-30",
+              "date": "2025-07-19",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -1479,7 +1491,7 @@
             },
             {
               "day": "Day4",
-              "date": "2025-08-31",
+              "date": "2025-07-20",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -1488,8 +1500,8 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": 102.5,
-                      "percent": 90
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1500,8 +1512,8 @@
                     {
                       "reps": 4,
                       "sets": 4,
-                      "weight": 92.5,
-                      "percent": 80
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1512,8 +1524,8 @@
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 162.5,
-                      "percent": 90
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1524,8 +1536,8 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 100,
-                      "percent": 55
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1546,11 +1558,11 @@
           ]
         },
         {
-          "week": 8,
+          "week": 2,
           "days": [
             {
               "day": "Day1",
-              "date": "2025-09-03",
+              "date": "2025-07-23",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -1587,12 +1599,24 @@
                       "percent": null
                     }
                   ]
+                },
+                {
+                  "type": "アクセサリー",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
                 }
               ]
             },
             {
               "day": "Day2",
-              "date": "2025-09-04",
+              "date": "2025-07-24",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -1601,8 +1625,8 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 85,
-                      "percent": 74
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1613,8 +1637,20 @@
                     {
                       "reps": 4,
                       "sets": 4,
-                      "weight": 190,
-                      "percent": 97
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "アクセサリー",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1634,7 +1670,7 @@
             },
             {
               "day": "Day3",
-              "date": "2025-09-06",
+              "date": "2025-07-26",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -1688,7 +1724,7 @@
             },
             {
               "day": "Day4",
-              "date": "2025-09-07",
+              "date": "2025-07-27",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -1697,8 +1733,8 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": 105,
-                      "percent": 92
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1709,8 +1745,8 @@
                     {
                       "reps": 5,
                       "sets": 3,
-                      "weight": 95,
-                      "percent": 82
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1721,8 +1757,8 @@
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 120,
-                      "percent": 67
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1733,8 +1769,8 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 100,
-                      "percent": 55
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1755,11 +1791,11 @@
           ]
         },
         {
-          "week": 9,
+          "week": 3,
           "days": [
             {
               "day": "Day1",
-              "date": "2025-09-10",
+              "date": "2025-07-30",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -1796,12 +1832,24 @@
                       "percent": null
                     }
                   ]
+                },
+                {
+                  "type": "アクセサリー",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
                 }
               ]
             },
             {
               "day": "Day2",
-              "date": "2025-09-11",
+              "date": "2025-07-31",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -1810,8 +1858,8 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 90,
-                      "percent": 78
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1822,8 +1870,20 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 140,
-                      "percent": 72
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "アクセサリー",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1843,7 +1903,7 @@
             },
             {
               "day": "Day3",
-              "date": "2025-09-13",
+              "date": "2025-08-02",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -1859,12 +1919,12 @@
                 },
                 {
                   "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
+                  "lift": "ルーマニアンデッド",
                   "sets": [
                     {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 195,
+                      "reps": 8,
+                      "sets": 4,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1897,7 +1957,7 @@
             },
             {
               "day": "Day4",
-              "date": "2025-09-14",
+              "date": "2025-08-03",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -1906,8 +1966,8 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": 107.5,
-                      "percent": 94
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1918,8 +1978,8 @@
                     {
                       "reps": 4,
                       "sets": 4,
-                      "weight": 97.5,
-                      "percent": 84
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1930,20 +1990,8 @@
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 170,
-                      "percent": 94
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 100,
-                      "percent": 55
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -1964,11 +2012,11 @@
           ]
         },
         {
-          "week": 10,
+          "week": 4,
           "days": [
             {
               "day": "Day1",
-              "date": "2025-09-17",
+              "date": "2025-08-06",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -2029,12 +2077,24 @@
                       "percent": null
                     }
                   ]
+                },
+                {
+                  "type": "アクセサリー",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
                 }
               ]
             },
             {
               "day": "Day2",
-              "date": "2025-09-18",
+              "date": "2025-08-07",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -2043,8 +2103,8 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 95,
-                      "percent": 82
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -2055,8 +2115,20 @@
                     {
                       "reps": 4,
                       "sets": 4,
-                      "weight": 197.5,
-                      "percent": 101
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "アクセサリー",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -2076,7 +2148,7 @@
             },
             {
               "day": "Day3",
-              "date": "2025-09-20",
+              "date": "2025-08-09",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -2142,7 +2214,7 @@
             },
             {
               "day": "Day4",
-              "date": "2025-09-21",
+              "date": "2025-08-10",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -2151,8 +2223,8 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": 110,
-                      "percent": 96
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -2163,8 +2235,8 @@
                     {
                       "reps": 5,
                       "sets": 3,
-                      "weight": 100,
-                      "percent": 86
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -2175,8 +2247,8 @@
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 127.5,
-                      "percent": 71
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -2187,8 +2259,8 @@
                     {
                       "reps": 8,
                       "sets": 3,
-                      "weight": 100,
-                      "percent": 55
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -2209,11 +2281,11 @@
           ]
         },
         {
-          "week": 11,
+          "week": 5,
           "days": [
             {
               "day": "Day1",
-              "date": "2025-09-24",
+              "date": "2025-08-13",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -2274,12 +2346,24 @@
                       "percent": null
                     }
                   ]
+                },
+                {
+                  "type": "アクセサリー",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
                 }
               ]
             },
             {
               "day": "Day2",
-              "date": "2025-09-25",
+              "date": "2025-08-14",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -2288,8 +2372,8 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 100,
-                      "percent": 86
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -2300,8 +2384,20 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 145,
-                      "percent": 74
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "アクセサリー",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -2321,7 +2417,7 @@
             },
             {
               "day": "Day3",
-              "date": "2025-09-27",
+              "date": "2025-08-16",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -2349,13 +2445,13 @@
                 },
                 {
                   "type": "デッドリフト（メイン）",
-                  "lift": "ルーマニアンデッド",
+                  "lift": "デッドリフト",
                   "sets": [
                     {
-                      "reps": 8,
-                      "sets": 4,
-                      "weight": 132.5,
-                      "percent": 68
+                      "reps": 4,
+                      "sets": 3,
+                      "weight": 195,
+                      "percent": null
                     }
                   ]
                 },
@@ -2387,7 +2483,7 @@
             },
             {
               "day": "Day4",
-              "date": "2025-09-28",
+              "date": "2025-08-17",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -2396,8 +2492,8 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": 112.5,
-                      "percent": 98
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -2408,8 +2504,32 @@
                     {
                       "reps": 4,
                       "sets": 4,
-                      "weight": 100,
-                      "percent": 88
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "スクワット（サブ）",
+                  "lift": "ブロックスクワット",
+                  "sets": [
+                    {
+                      "reps": 4,
+                      "sets": 3,
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "スクワット（サブ）",
+                  "lift": "ブルガリアンスクワット",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 3,
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -2430,11 +2550,11 @@
           ]
         },
         {
-          "week": 12,
+          "week": 6,
           "days": [
             {
               "day": "Day1",
-              "date": "2025-10-01",
+              "date": "2025-08-20",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -2495,12 +2615,24 @@
                       "percent": null
                     }
                   ]
+                },
+                {
+                  "type": "アクセサリー",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
                 }
               ]
             },
             {
               "day": "Day2",
-              "date": "2025-10-02",
+              "date": "2025-08-21",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -2509,8 +2641,8 @@
                     {
                       "reps": 3,
                       "sets": 4,
-                      "weight": 102.5,
-                      "percent": 90
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -2521,8 +2653,20 @@
                     {
                       "reps": 4,
                       "sets": 4,
-                      "weight": 205,
-                      "percent": 105
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "アクセサリー",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -2542,7 +2686,7 @@
             },
             {
               "day": "Day3",
-              "date": "2025-10-04",
+              "date": "2025-08-23",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
@@ -2575,8 +2719,8 @@
                     {
                       "reps": 8,
                       "sets": 4,
-                      "weight": 137.5,
-                      "percent": 70
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -2608,7 +2752,7 @@
             },
             {
               "day": "Day4",
-              "date": "2025-10-05",
+              "date": "2025-08-24",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
@@ -2617,8 +2761,8 @@
                     {
                       "reps": 3,
                       "sets": 3,
-                      "weight": 115,
-                      "percent": 100
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -2629,8 +2773,8 @@
                     {
                       "reps": 5,
                       "sets": 3,
-                      "weight": 102.5,
-                      "percent": 90
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
@@ -2641,8 +2785,8 @@
                     {
                       "reps": 4,
                       "sets": 3,
-                      "weight": 135,
-                      "percent": 75
+                      "weight": null,
+                      "percent": null
                     }
                   ]
                 },
