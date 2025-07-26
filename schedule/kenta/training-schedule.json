@@ -16,9 +16,9 @@
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 75,
                       "reps": 10,
                       "sets": 4,
+                      "weight": 75,
                       "percent": null
                     }
                   ]
@@ -28,9 +28,9 @@
                   "lift": "スクワット",
                   "sets": [
                     {
-                      "weight": 110,
                       "reps": 10,
                       "sets": 4,
+                      "weight": 110,
                       "percent": null
                     }
                   ]
@@ -40,9 +40,9 @@
                   "lift": "懸垂",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -58,10 +58,10 @@
                   "lift": "ポーズベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 5,
                       "sets": 4,
-                      "percent": null
+                      "weight": 70,
+                      "percent": 60
                     }
                   ]
                 },
@@ -70,22 +70,10 @@
                   "lift": "足あげベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 6,
                       "sets": 3,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
-                  "sets": [
-                    {
-                      "weight": null,
-                      "reps": 3,
-                      "sets": 5,
-                      "percent": null
+                      "weight": 70,
+                      "percent": 60
                     }
                   ]
                 },
@@ -94,9 +82,9 @@
                   "lift": "ダンベルシールロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -112,9 +100,9 @@
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 80,
                       "reps": 10,
                       "sets": 4,
+                      "weight": 80,
                       "percent": null
                     }
                   ]
@@ -124,9 +112,15 @@
                   "lift": "デッドリフト",
                   "sets": [
                     {
+                      "reps": 5,
+                      "sets": 1,
                       "weight": 145,
-                      "reps": 6,
-                      "sets": 4,
+                      "percent": null
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 5,
+                      "weight": 145,
                       "percent": null
                     }
                   ]
@@ -136,9 +130,9 @@
                   "lift": "ライイングエクステンション",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -148,9 +142,9 @@
                   "lift": "バーベルアームカール",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -166,10 +160,10 @@
                   "lift": "ブロックベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 3,
                       "sets": 3,
-                      "percent": null
+                      "weight": 92.5,
+                      "percent": 80
                     }
                   ]
                 },
@@ -178,10 +172,10 @@
                   "lift": "ナローベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 5,
                       "sets": 4,
-                      "percent": null
+                      "weight": 82.5,
+                      "percent": 72.5
                     }
                   ]
                 },
@@ -190,10 +184,10 @@
                   "lift": "フロントスクワット",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 8,
                       "sets": 3,
-                      "percent": null
+                      "weight": 80,
+                      "percent": 45
                     }
                   ]
                 },
@@ -202,10 +196,10 @@
                   "lift": "ブルガリアンスクワット",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 8,
                       "sets": 3,
-                      "percent": null
+                      "weight": 72.5,
+                      "percent": 40
                     }
                   ]
                 },
@@ -214,9 +208,9 @@
                   "lift": "ワンハンドダンベルロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -237,9 +231,9 @@
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 85,
                       "reps": 10,
                       "sets": 4,
+                      "weight": 85,
                       "percent": null
                     }
                   ]
@@ -249,9 +243,9 @@
                   "lift": "スクワット",
                   "sets": [
                     {
-                      "weight": 125,
                       "reps": 10,
                       "sets": 4,
+                      "weight": 125,
                       "percent": null
                     }
                   ]
@@ -261,9 +255,9 @@
                   "lift": "懸垂",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -279,10 +273,10 @@
                   "lift": "ポーズベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 5,
                       "sets": 4,
-                      "percent": null
+                      "weight": 75,
+                      "percent": 65
                     }
                   ]
                 },
@@ -291,22 +285,10 @@
                   "lift": "足あげベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 6,
                       "sets": 3,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
-                  "sets": [
-                    {
-                      "weight": null,
-                      "reps": 3,
-                      "sets": 5,
-                      "percent": null
+                      "weight": 75,
+                      "percent": 65
                     }
                   ]
                 },
@@ -315,9 +297,9 @@
                   "lift": "ダンベルシールロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -333,9 +315,9 @@
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 90,
                       "reps": 10,
                       "sets": 4,
+                      "weight": 90,
                       "percent": null
                     }
                   ]
@@ -345,9 +327,15 @@
                   "lift": "デッドリフト",
                   "sets": [
                     {
+                      "reps": 5,
+                      "sets": 1,
                       "weight": 160,
-                      "reps": 6,
-                      "sets": 4,
+                      "percent": null
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 5,
+                      "weight": 160,
                       "percent": null
                     }
                   ]
@@ -357,9 +345,9 @@
                   "lift": "ライイングエクステンション",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -369,9 +357,9 @@
                   "lift": "バーベルアームカール",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -387,10 +375,10 @@
                   "lift": "ブロックベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 3,
                       "sets": 3,
-                      "percent": null
+                      "weight": 95,
+                      "percent": 82.5
                     }
                   ]
                 },
@@ -399,10 +387,10 @@
                   "lift": "ナローベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 5,
                       "sets": 4,
-                      "percent": null
+                      "weight": 85,
+                      "percent": 75
                     }
                   ]
                 },
@@ -411,10 +399,10 @@
                   "lift": "ポーズスクワット",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 4,
                       "sets": 3,
-                      "percent": null
+                      "weight": 90,
+                      "percent": 50
                     }
                   ]
                 },
@@ -423,10 +411,10 @@
                   "lift": "ブルガリアンスクワット",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 8,
                       "sets": 3,
-                      "percent": null
+                      "weight": 72.5,
+                      "percent": 40
                     }
                   ]
                 },
@@ -435,9 +423,9 @@
                   "lift": "ワンハンドダンベルロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -458,9 +446,9 @@
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 95,
                       "reps": 10,
                       "sets": 4,
+                      "weight": 95,
                       "percent": null
                     }
                   ]
@@ -470,9 +458,9 @@
                   "lift": "スクワット",
                   "sets": [
                     {
-                      "weight": 140,
                       "reps": 10,
                       "sets": 4,
+                      "weight": 140,
                       "percent": null
                     }
                   ]
@@ -482,9 +470,9 @@
                   "lift": "懸垂",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -500,10 +488,10 @@
                   "lift": "ポーズベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 5,
                       "sets": 4,
-                      "percent": null
+                      "weight": 80,
+                      "percent": 70
                     }
                   ]
                 },
@@ -512,22 +500,10 @@
                   "lift": "足あげベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 6,
                       "sets": 3,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
-                  "sets": [
-                    {
-                      "weight": null,
-                      "reps": 3,
-                      "sets": 5,
-                      "percent": null
+                      "weight": 80,
+                      "percent": 70
                     }
                   ]
                 },
@@ -536,9 +512,9 @@
                   "lift": "ダンベルシールロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -554,34 +530,22 @@
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 100,
                       "reps": 10,
                       "sets": 4,
+                      "weight": 100,
                       "percent": null
                     }
                   ]
                 },
                 {
                   "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
+                  "lift": "ルーマニアンデッドリフト",
                   "sets": [
                     {
-                      "weight": 170,
-                      "reps": 3,
-                      "sets": 3,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ルーマニアンデッド",
-                  "sets": [
-                    {
-                      "weight": null,
                       "reps": 8,
                       "sets": 4,
-                      "percent": null
+                      "weight": 97.5,
+                      "percent": 50
                     }
                   ]
                 },
@@ -590,9 +554,9 @@
                   "lift": "ライイングエクステンション",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -602,9 +566,9 @@
                   "lift": "バーベルアームカール",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -620,10 +584,10 @@
                   "lift": "ブロックベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 3,
                       "sets": 3,
-                      "percent": null
+                      "weight": 97.5,
+                      "percent": 85
                     }
                   ]
                 },
@@ -632,10 +596,10 @@
                   "lift": "ナローベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 5,
                       "sets": 4,
-                      "percent": null
+                      "weight": 90,
+                      "percent": 77.5
                     }
                   ]
                 },
@@ -644,10 +608,10 @@
                   "lift": "フロントスクワット",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 8,
                       "sets": 3,
-                      "percent": null
+                      "weight": 90,
+                      "percent": 50
                     }
                   ]
                 },
@@ -656,10 +620,10 @@
                   "lift": "ブルガリアンスクワット",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 8,
                       "sets": 3,
-                      "percent": null
+                      "weight": 80,
+                      "percent": 45
                     }
                   ]
                 },
@@ -668,9 +632,9 @@
                   "lift": "ワンハンドダンベルロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -691,9 +655,9 @@
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 80,
                       "reps": 8,
                       "sets": 4,
+                      "weight": 80,
                       "percent": null
                     }
                   ]
@@ -703,9 +667,9 @@
                   "lift": "スクワット",
                   "sets": [
                     {
-                      "weight": 150,
-                      "reps": 10,
+                      "reps": 8,
                       "sets": 4,
+                      "weight": 150,
                       "percent": null
                     }
                   ]
@@ -715,9 +679,9 @@
                   "lift": "懸垂",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -733,10 +697,10 @@
                   "lift": "ポーズベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 5,
                       "sets": 4,
-                      "percent": null
+                      "weight": 85,
+                      "percent": 75
                     }
                   ]
                 },
@@ -745,22 +709,10 @@
                   "lift": "足あげベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 6,
                       "sets": 3,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
-                  "sets": [
-                    {
-                      "weight": null,
-                      "reps": 3,
-                      "sets": 5,
-                      "percent": null
+                      "weight": 85,
+                      "percent": 75
                     }
                   ]
                 },
@@ -769,9 +721,9 @@
                   "lift": "ダンベルシールロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -787,9 +739,9 @@
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 85,
                       "reps": 8,
                       "sets": 4,
+                      "weight": 85,
                       "percent": null
                     }
                   ]
@@ -799,9 +751,15 @@
                   "lift": "デッドリフト",
                   "sets": [
                     {
-                      "weight": 180,
-                      "reps": 3,
-                      "sets": 3,
+                      "reps": 5,
+                      "sets": 1,
+                      "weight": 167.5,
+                      "percent": null
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 5,
+                      "weight": 167.5,
                       "percent": null
                     }
                   ]
@@ -811,9 +769,9 @@
                   "lift": "ライイングエクステンション",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -823,9 +781,9 @@
                   "lift": "バーベルアームカール",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -841,10 +799,10 @@
                   "lift": "ブロックベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 3,
                       "sets": 3,
-                      "percent": null
+                      "weight": 100,
+                      "percent": 87.5
                     }
                   ]
                 },
@@ -853,10 +811,10 @@
                   "lift": "ナローベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 5,
                       "sets": 4,
-                      "percent": null
+                      "weight": 92.5,
+                      "percent": 80
                     }
                   ]
                 },
@@ -865,10 +823,10 @@
                   "lift": "ポーズスクワット",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 4,
                       "sets": 3,
-                      "percent": null
+                      "weight": 100,
+                      "percent": 55
                     }
                   ]
                 },
@@ -877,10 +835,10 @@
                   "lift": "ブルガリアンスクワット",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 8,
                       "sets": 3,
-                      "percent": null
+                      "weight": 80,
+                      "percent": 45
                     }
                   ]
                 },
@@ -889,9 +847,9 @@
                   "lift": "ワンハンドダンベルロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -912,9 +870,9 @@
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 90,
                       "reps": 8,
                       "sets": 4,
+                      "weight": 90,
                       "percent": null
                     }
                   ]
@@ -924,9 +882,9 @@
                   "lift": "スクワット",
                   "sets": [
                     {
-                      "weight": 157.5,
-                      "reps": 10,
+                      "reps": 8,
                       "sets": 4,
+                      "weight": 157.5,
                       "percent": null
                     }
                   ]
@@ -936,9 +894,9 @@
                   "lift": "懸垂",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -954,10 +912,10 @@
                   "lift": "ポーズベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 5,
                       "sets": 4,
-                      "percent": null
+                      "weight": 90,
+                      "percent": 77.5
                     }
                   ]
                 },
@@ -966,22 +924,10 @@
                   "lift": "足あげベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 6,
                       "sets": 3,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
-                  "sets": [
-                    {
-                      "weight": null,
-                      "reps": 3,
-                      "sets": 5,
-                      "percent": null
+                      "weight": 90,
+                      "percent": 77.5
                     }
                   ]
                 },
@@ -990,9 +936,9 @@
                   "lift": "ダンベルシールロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1008,9 +954,27 @@
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 95,
                       "reps": 8,
                       "sets": 4,
+                      "weight": 95,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "デッドリフト（メイン）",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 1,
+                      "weight": 175,
+                      "percent": null
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 5,
+                      "weight": 175,
                       "percent": null
                     }
                   ]
@@ -1020,9 +984,9 @@
                   "lift": "ライイングエクステンション",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1032,9 +996,9 @@
                   "lift": "バーベルアームカール",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1050,10 +1014,10 @@
                   "lift": "ブロックベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 3,
                       "sets": 3,
-                      "percent": null
+                      "weight": 102.5,
+                      "percent": 90
                     }
                   ]
                 },
@@ -1062,10 +1026,10 @@
                   "lift": "ナローベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 5,
                       "sets": 4,
-                      "percent": null
+                      "weight": 95,
+                      "percent": 82.5
                     }
                   ]
                 },
@@ -1074,10 +1038,10 @@
                   "lift": "フロントスクワット",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 8,
                       "sets": 3,
-                      "percent": null
+                      "weight": 100,
+                      "percent": 55
                     }
                   ]
                 },
@@ -1086,10 +1050,10 @@
                   "lift": "ブルガリアンスクワット",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 8,
                       "sets": 3,
-                      "percent": null
+                      "weight": 90,
+                      "percent": 50
                     }
                   ]
                 },
@@ -1098,9 +1062,9 @@
                   "lift": "ワンハンドダンベルロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1121,9 +1085,9 @@
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 100,
                       "reps": 8,
                       "sets": 4,
+                      "weight": 100,
                       "percent": null
                     }
                   ]
@@ -1133,9 +1097,9 @@
                   "lift": "スクワット",
                   "sets": [
                     {
-                      "weight": 165,
-                      "reps": 10,
+                      "reps": 8,
                       "sets": 4,
+                      "weight": 165,
                       "percent": null
                     }
                   ]
@@ -1145,9 +1109,9 @@
                   "lift": "懸垂",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1163,10 +1127,10 @@
                   "lift": "ポーズベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 5,
                       "sets": 4,
-                      "percent": null
+                      "weight": 92.5,
+                      "percent": 80
                     }
                   ]
                 },
@@ -1175,22 +1139,10 @@
                   "lift": "足あげベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 6,
                       "sets": 3,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
-                  "sets": [
-                    {
-                      "weight": null,
-                      "reps": 3,
-                      "sets": 5,
-                      "percent": null
+                      "weight": 92.5,
+                      "percent": 80
                     }
                   ]
                 },
@@ -1199,9 +1151,9 @@
                   "lift": "ダンベルシールロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1217,22 +1169,22 @@
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 105,
                       "reps": 8,
                       "sets": 4,
+                      "weight": 105,
                       "percent": null
                     }
                   ]
                 },
                 {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ルーマニアンデッド",
+                  "type": "デッドリフト（メイン）",
+                  "lift": "ルーマニアンデッドリフト",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 8,
                       "sets": 4,
-                      "percent": null
+                      "weight": 107.5,
+                      "percent": 55
                     }
                   ]
                 },
@@ -1241,9 +1193,9 @@
                   "lift": "ライイングエクステンション",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1253,9 +1205,9 @@
                   "lift": "バーベルアームカール",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1271,10 +1223,10 @@
                   "lift": "ブロックベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 3,
                       "sets": 3,
-                      "percent": null
+                      "weight": 102.5,
+                      "percent": 90
                     }
                   ]
                 },
@@ -1283,10 +1235,10 @@
                   "lift": "ナローベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 5,
                       "sets": 4,
-                      "percent": null
+                      "weight": 97.5,
+                      "percent": 85
                     }
                   ]
                 },
@@ -1295,10 +1247,10 @@
                   "lift": "ポーズスクワット",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 4,
                       "sets": 3,
-                      "percent": null
+                      "weight": 107.5,
+                      "percent": 60
                     }
                   ]
                 },
@@ -1307,10 +1259,10 @@
                   "lift": "ブルガリアンスクワット",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 8,
                       "sets": 3,
-                      "percent": null
+                      "weight": 90,
+                      "percent": 50
                     }
                   ]
                 },
@@ -1319,9 +1271,9 @@
                   "lift": "ワンハンドダンベルロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1341,16 +1293,16 @@
           "days": [
             {
               "day": "Day1",
-              "date": null,
+              "date": "2025-08-20",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 97.5,
                       "reps": 6,
                       "sets": 4,
+                      "weight": 97.5,
                       "percent": null
                     }
                   ]
@@ -1360,9 +1312,9 @@
                   "lift": "スクワット",
                   "sets": [
                     {
-                      "weight": 150,
                       "reps": 6,
                       "sets": 4,
+                      "weight": 150,
                       "percent": null
                     }
                   ]
@@ -1372,9 +1324,9 @@
                   "lift": "懸垂",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1383,28 +1335,16 @@
             },
             {
               "day": "Day2",
-              "date": null,
+              "date": "2025-08-21",
               "sessions": [
                 {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ポーズベンチ",
-                  "sets": [
-                    {
-                      "weight": null,
-                      "reps": 3,
-                      "sets": 4,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
                   "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
+                  "lift": "ラックプル",
                   "sets": [
                     {
-                      "weight": null,
-                      "reps": 3,
+                      "reps": 4,
                       "sets": 4,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1414,9 +1354,21 @@
                   "lift": "ダンベルシールロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "ベンチプレス（サブ）",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 4,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1425,16 +1377,16 @@
             },
             {
               "day": "Day3",
-              "date": null,
+              "date": "2025-08-23",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 100,
                       "reps": 6,
                       "sets": 4,
+                      "weight": 100,
                       "percent": null
                     }
                   ]
@@ -1444,9 +1396,57 @@
                   "lift": "デッドリフト",
                   "sets": [
                     {
-                      "weight": 170,
-                      "reps": 4,
-                      "sets": 4,
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 180,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "デッドリフト（メイン）",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 1,
+                      "weight": 180,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "デッドリフト（メイン）",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 1,
+                      "weight": 180,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "デッドリフト（メイン）",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 1,
+                      "weight": 180,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "デッドリフト（メイン）",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 180,
                       "percent": null
                     }
                   ]
@@ -1456,9 +1456,9 @@
                   "lift": "ライイングエクステンション",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1468,9 +1468,9 @@
                   "lift": "バーベルアームカール",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1479,52 +1479,40 @@
             },
             {
               "day": "Day4",
-              "date": null,
+              "date": "2025-08-24",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
                   "lift": "ブロックベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 3,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
                 },
                 {
                   "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
+                  "lift": "足あげベンチ",
                   "sets": [
                     {
+                      "reps": 5,
+                      "sets": 3,
                       "weight": null,
-                      "reps": 4,
-                      "sets": 4,
                       "percent": null
                     }
                   ]
                 },
                 {
                   "type": "スクワット（サブ）",
-                  "lift": "ブロックスクワット",
+                  "lift": "ポーズスクワット",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 4,
                       "sets": 3,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
                       "weight": null,
-                      "reps": 8,
-                      "sets": 3,
                       "percent": null
                     }
                   ]
@@ -1534,9 +1522,9 @@
                   "lift": "ワンハンドダンベルロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1550,16 +1538,16 @@
           "days": [
             {
               "day": "Day1",
-              "date": null,
+              "date": "2025-08-27",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 102.5,
                       "reps": 6,
                       "sets": 4,
+                      "weight": 102.5,
                       "percent": null
                     }
                   ]
@@ -1569,9 +1557,9 @@
                   "lift": "スクワット",
                   "sets": [
                     {
-                      "weight": 160,
                       "reps": 6,
                       "sets": 4,
+                      "weight": 160,
                       "percent": null
                     }
                   ]
@@ -1581,9 +1569,9 @@
                   "lift": "懸垂",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1592,29 +1580,17 @@
             },
             {
               "day": "Day2",
-              "date": null,
+              "date": "2025-08-28",
               "sessions": [
                 {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ポーズベンチ",
+                  "type": "デッドリフト（サブ）",
+                  "lift": "ポーズデッド",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 3,
                       "sets": 4,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ラックプル",
-                  "sets": [
-                    {
-                      "weight": null,
-                      "reps": 4,
-                      "sets": 4,
-                      "percent": null
+                      "weight": 97.5,
+                      "percent": 50
                     }
                   ]
                 },
@@ -1623,9 +1599,21 @@
                   "lift": "ダンベルシールロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "ベンチプレス（サブ）",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 4,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1634,16 +1622,16 @@
             },
             {
               "day": "Day3",
-              "date": null,
+              "date": "2025-08-30",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 105,
                       "reps": 6,
                       "sets": 4,
+                      "weight": 105,
                       "percent": null
                     }
                   ]
@@ -1653,9 +1641,57 @@
                   "lift": "デッドリフト",
                   "sets": [
                     {
-                      "weight": 180,
-                      "reps": 4,
-                      "sets": 4,
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 185,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "デッドリフト（メイン）",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 1,
+                      "weight": 185,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "デッドリフト（メイン）",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 1,
+                      "weight": 185,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "デッドリフト（メイン）",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 1,
+                      "weight": 185,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "デッドリフト（メイン）",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 185,
                       "percent": null
                     }
                   ]
@@ -1665,9 +1701,9 @@
                   "lift": "ライイングエクステンション",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1677,9 +1713,9 @@
                   "lift": "バーベルアームカール",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1688,40 +1724,28 @@
             },
             {
               "day": "Day4",
-              "date": null,
+              "date": "2025-08-31",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
                   "lift": "ブロックベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 3,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
                 },
                 {
                   "type": "ベンチプレス（サブ）",
-                  "lift": "足あげベンチ",
+                  "lift": "ナローベンチ",
                   "sets": [
                     {
-                      "weight": null,
-                      "reps": 5,
-                      "sets": 3,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ポーズスクワット",
-                  "sets": [
-                    {
-                      "weight": null,
                       "reps": 4,
-                      "sets": 3,
+                      "sets": 4,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1731,9 +1755,21 @@
                   "lift": "ブルガリアンスクワット",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 8,
                       "sets": 3,
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "スクワット（サブ）",
+                  "lift": "ブロックスクワット",
+                  "sets": [
+                    {
+                      "reps": 4,
+                      "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1743,9 +1779,9 @@
                   "lift": "ワンハンドダンベルロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1759,16 +1795,16 @@
           "days": [
             {
               "day": "Day1",
-              "date": null,
+              "date": "2025-09-03",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 107.5,
                       "reps": 6,
                       "sets": 4,
+                      "weight": 107.5,
                       "percent": null
                     }
                   ]
@@ -1778,9 +1814,9 @@
                   "lift": "スクワット",
                   "sets": [
                     {
-                      "weight": 170,
                       "reps": 6,
                       "sets": 4,
+                      "weight": 170,
                       "percent": null
                     }
                   ]
@@ -1790,9 +1826,9 @@
                   "lift": "懸垂",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1801,28 +1837,16 @@
             },
             {
               "day": "Day2",
-              "date": null,
+              "date": "2025-09-04",
               "sessions": [
                 {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ポーズベンチ",
-                  "sets": [
-                    {
-                      "weight": null,
-                      "reps": 3,
-                      "sets": 4,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
                   "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
+                  "lift": "ラックプル",
                   "sets": [
                     {
-                      "weight": null,
-                      "reps": 3,
+                      "reps": 4,
                       "sets": 4,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1832,9 +1856,21 @@
                   "lift": "ダンベルシールロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "ベンチプレス（サブ）",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 4,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1843,29 +1879,29 @@
             },
             {
               "day": "Day3",
-              "date": null,
+              "date": "2025-09-06",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 110,
                       "reps": 6,
                       "sets": 4,
+                      "weight": 110,
                       "percent": null
                     }
                   ]
                 },
                 {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ルーマニアンデッド",
+                  "type": "デッドリフト（メイン）",
+                  "lift": "ルーマニアンデッドリフト",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 8,
                       "sets": 4,
-                      "percent": null
+                      "weight": 97.5,
+                      "percent": 50
                     }
                   ]
                 },
@@ -1874,9 +1910,9 @@
                   "lift": "ライイングエクステンション",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1886,9 +1922,9 @@
                   "lift": "バーベルアームカール",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1897,40 +1933,40 @@
             },
             {
               "day": "Day4",
-              "date": null,
+              "date": "2025-09-07",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
                   "lift": "ブロックベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 3,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
                 },
                 {
                   "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
+                  "lift": "足あげベンチ",
                   "sets": [
                     {
+                      "reps": 5,
+                      "sets": 3,
                       "weight": null,
-                      "reps": 4,
-                      "sets": 4,
                       "percent": null
                     }
                   ]
                 },
                 {
                   "type": "スクワット（サブ）",
-                  "lift": "ブロックスクワット",
+                  "lift": "ポーズスクワット",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 4,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1940,9 +1976,9 @@
                   "lift": "ワンハンドダンベルロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -1956,22 +1992,22 @@
           "days": [
             {
               "day": "Day1",
-              "date": null,
+              "date": "2025-09-10",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 102.5,
                       "reps": 1,
                       "sets": 2,
+                      "weight": 102.5,
                       "percent": null
                     },
                     {
-                      "weight": 102.5,
                       "reps": 4,
                       "sets": 3,
+                      "weight": 102.5,
                       "percent": null
                     }
                   ]
@@ -1981,15 +2017,15 @@
                   "lift": "スクワット",
                   "sets": [
                     {
-                      "weight": 170,
                       "reps": 1,
                       "sets": 2,
+                      "weight": 170,
                       "percent": null
                     },
                     {
-                      "weight": 170,
                       "reps": 4,
                       "sets": 3,
+                      "weight": 170,
                       "percent": null
                     }
                   ]
@@ -1999,9 +2035,9 @@
                   "lift": "懸垂",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -2010,29 +2046,17 @@
             },
             {
               "day": "Day2",
-              "date": null,
+              "date": "2025-09-11",
               "sessions": [
                 {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ポーズベンチ",
+                  "type": "デッドリフト（サブ）",
+                  "lift": "ポーズデッド",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 3,
                       "sets": 4,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ラックプル",
-                  "sets": [
-                    {
-                      "weight": null,
-                      "reps": 4,
-                      "sets": 4,
-                      "percent": null
+                      "weight": 117.5,
+                      "percent": 60
                     }
                   ]
                 },
@@ -2041,9 +2065,21 @@
                   "lift": "ダンベルシールロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "ベンチプレス（サブ）",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 4,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -2052,22 +2088,22 @@
             },
             {
               "day": "Day3",
-              "date": null,
+              "date": "2025-09-13",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 105,
                       "reps": 1,
                       "sets": 2,
+                      "weight": 105,
                       "percent": null
                     },
                     {
-                      "weight": 105,
                       "reps": 4,
                       "sets": 3,
+                      "weight": 105,
                       "percent": null
                     }
                   ]
@@ -2077,9 +2113,57 @@
                   "lift": "デッドリフト",
                   "sets": [
                     {
-                      "weight": 185,
-                      "reps": 4,
-                      "sets": 3,
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 190,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "デッドリフト（メイン）",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 1,
+                      "weight": 190,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "デッドリフト（メイン）",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 1,
+                      "weight": 190,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "デッドリフト（メイン）",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 1,
+                      "weight": 190,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "デッドリフト（メイン）",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 190,
                       "percent": null
                     }
                   ]
@@ -2089,9 +2173,9 @@
                   "lift": "ライイングエクステンション",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -2101,9 +2185,9 @@
                   "lift": "バーベルアームカール",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -2112,40 +2196,28 @@
             },
             {
               "day": "Day4",
-              "date": null,
+              "date": "2025-09-14",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
                   "lift": "ブロックベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 3,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
                 },
                 {
                   "type": "ベンチプレス（サブ）",
-                  "lift": "足あげベンチ",
+                  "lift": "ナローベンチ",
                   "sets": [
                     {
-                      "weight": null,
-                      "reps": 5,
-                      "sets": 3,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ポーズスクワット",
-                  "sets": [
-                    {
-                      "weight": null,
                       "reps": 4,
-                      "sets": 3,
+                      "sets": 4,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -2155,9 +2227,21 @@
                   "lift": "ブルガリアンスクワット",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 8,
                       "sets": 3,
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "スクワット（サブ）",
+                  "lift": "ブロックスクワット",
+                  "sets": [
+                    {
+                      "reps": 4,
+                      "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -2167,9 +2251,9 @@
                   "lift": "ワンハンドダンベルロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -2183,22 +2267,22 @@
           "days": [
             {
               "day": "Day1",
-              "date": null,
+              "date": "2025-09-17",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 107.5,
                       "reps": 1,
                       "sets": 2,
+                      "weight": 107.5,
                       "percent": null
                     },
                     {
-                      "weight": 107.5,
                       "reps": 4,
                       "sets": 3,
+                      "weight": 107.5,
                       "percent": null
                     }
                   ]
@@ -2208,15 +2292,15 @@
                   "lift": "スクワット",
                   "sets": [
                     {
-                      "weight": 180,
                       "reps": 1,
                       "sets": 2,
+                      "weight": 180,
                       "percent": null
                     },
                     {
-                      "weight": 180,
                       "reps": 4,
                       "sets": 3,
+                      "weight": 180,
                       "percent": null
                     }
                   ]
@@ -2226,9 +2310,9 @@
                   "lift": "懸垂",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -2237,28 +2321,16 @@
             },
             {
               "day": "Day2",
-              "date": null,
+              "date": "2025-09-18",
               "sessions": [
                 {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ポーズベンチ",
-                  "sets": [
-                    {
-                      "weight": null,
-                      "reps": 3,
-                      "sets": 4,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
                   "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
+                  "lift": "ラックプル",
                   "sets": [
                     {
-                      "weight": null,
-                      "reps": 3,
+                      "reps": 4,
                       "sets": 4,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -2268,9 +2340,21 @@
                   "lift": "ダンベルシールロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "ベンチプレス（サブ）",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 4,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -2279,22 +2363,22 @@
             },
             {
               "day": "Day3",
-              "date": null,
+              "date": "2025-09-20",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 112.5,
                       "reps": 1,
                       "sets": 2,
+                      "weight": 110,
                       "percent": null
                     },
                     {
-                      "weight": 112.5,
                       "reps": 4,
                       "sets": 3,
+                      "weight": 110,
                       "percent": null
                     }
                   ]
@@ -2304,9 +2388,57 @@
                   "lift": "デッドリフト",
                   "sets": [
                     {
+                      "reps": 1,
+                      "sets": 1,
                       "weight": 195,
-                      "reps": 4,
-                      "sets": 3,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "デッドリフト（メイン）",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 1,
+                      "weight": 195,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "デッドリフト（メイン）",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 1,
+                      "weight": 195,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "デッドリフト（メイン）",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 1,
+                      "weight": 195,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "デッドリフト（メイン）",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 195,
                       "percent": null
                     }
                   ]
@@ -2316,9 +2448,9 @@
                   "lift": "ライイングエクステンション",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -2328,9 +2460,9 @@
                   "lift": "バーベルアームカール",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -2339,52 +2471,40 @@
             },
             {
               "day": "Day4",
-              "date": null,
+              "date": "2025-09-21",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
                   "lift": "ブロックベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 3,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
                 },
                 {
                   "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
+                  "lift": "足あげベンチ",
                   "sets": [
                     {
+                      "reps": 5,
+                      "sets": 3,
                       "weight": null,
-                      "reps": 4,
-                      "sets": 4,
                       "percent": null
                     }
                   ]
                 },
                 {
                   "type": "スクワット（サブ）",
-                  "lift": "ブロックスクワット",
+                  "lift": "ポーズスクワット",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 4,
                       "sets": 3,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
                       "weight": null,
-                      "reps": 8,
-                      "sets": 3,
                       "percent": null
                     }
                   ]
@@ -2394,9 +2514,9 @@
                   "lift": "ワンハンドダンベルロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -2410,22 +2530,22 @@
           "days": [
             {
               "day": "Day1",
-              "date": null,
+              "date": "2025-09-24",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 115,
                       "reps": 1,
                       "sets": 2,
+                      "weight": 112.5,
                       "percent": null
                     },
                     {
-                      "weight": 115,
                       "reps": 4,
                       "sets": 3,
+                      "weight": 112.5,
                       "percent": null
                     }
                   ]
@@ -2435,15 +2555,15 @@
                   "lift": "スクワット",
                   "sets": [
                     {
-                      "weight": 187.5,
                       "reps": 1,
                       "sets": 2,
+                      "weight": 187.5,
                       "percent": null
                     },
                     {
-                      "weight": 187.5,
                       "reps": 4,
                       "sets": 3,
+                      "weight": 187.5,
                       "percent": null
                     }
                   ]
@@ -2453,9 +2573,9 @@
                   "lift": "懸垂",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -2464,29 +2584,17 @@
             },
             {
               "day": "Day2",
-              "date": null,
+              "date": "2025-09-25",
               "sessions": [
                 {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ポーズベンチ",
+                  "type": "デッドリフト（サブ）",
+                  "lift": "ポーズデッド",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 3,
                       "sets": 4,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ラックプル",
-                  "sets": [
-                    {
-                      "weight": null,
-                      "reps": 4,
-                      "sets": 4,
-                      "percent": null
+                      "weight": 137.5,
+                      "percent": 70
                     }
                   ]
                 },
@@ -2495,9 +2603,21 @@
                   "lift": "ダンベルシールロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "ベンチプレス（サブ）",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 4,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -2506,35 +2626,35 @@
             },
             {
               "day": "Day3",
-              "date": null,
+              "date": "2025-09-27",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "weight": 115,
                       "reps": 1,
                       "sets": 2,
+                      "weight": 115,
                       "percent": null
                     },
                     {
-                      "weight": 115,
                       "reps": 4,
                       "sets": 3,
+                      "weight": 115,
                       "percent": null
                     }
                   ]
                 },
                 {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ルーマニアンデッド",
+                  "type": "デッドリフト（メイン）",
+                  "lift": "ルーマニアンデッドリフト",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 8,
                       "sets": 4,
-                      "percent": null
+                      "weight": 117.5,
+                      "percent": 60
                     }
                   ]
                 },
@@ -2543,9 +2663,9 @@
                   "lift": "ライイングエクステンション",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -2555,9 +2675,9 @@
                   "lift": "バーベルアームカール",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -2566,40 +2686,52 @@
             },
             {
               "day": "Day4",
-              "date": null,
+              "date": "2025-09-28",
               "sessions": [
                 {
                   "type": "ベンチプレス（サブ）",
                   "lift": "ブロックベンチ",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 3,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
                 },
                 {
                   "type": "ベンチプレス（サブ）",
-                  "lift": "足あげベンチ",
+                  "lift": "ナローベンチ",
                   "sets": [
                     {
+                      "reps": 4,
+                      "sets": 4,
                       "weight": null,
-                      "reps": 5,
-                      "sets": 3,
                       "percent": null
                     }
                   ]
                 },
                 {
                   "type": "スクワット（サブ）",
-                  "lift": "ポーズスクワット",
+                  "lift": "ブルガリアンスクワット",
                   "sets": [
                     {
+                      "reps": 8,
+                      "sets": 3,
                       "weight": null,
+                      "percent": null
+                    }
+                  ]
+                },
+                {
+                  "type": "スクワット（サブ）",
+                  "lift": "ブロックスクワット",
+                  "sets": [
+                    {
                       "reps": 4,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
@@ -2609,9 +2741,9 @@
                   "lift": "ワンハンドダンベルロー",
                   "sets": [
                     {
-                      "weight": null,
                       "reps": 10,
                       "sets": 3,
+                      "weight": null,
                       "percent": null
                     }
                   ]
