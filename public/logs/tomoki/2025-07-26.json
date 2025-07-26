@@ -1,0 +1,107 @@
+{
+  "date": "2025-07-26",
+  "block": "Accumulation",
+  "week": 1,
+  "day": 3,
+  "notes": "ブロックAccumulation Week1 Day3のトレーニング",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 52.5,
+          "reps": 10,
+          "rpe": null,
+          "comment": "フォームが定まらんかったらまぁまぁ全部きつい",
+          "1RM": 65,
+          "e1RM": 78
+        },
+        {
+          "weight": 52.5,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": 65,
+          "e1RM": 78
+        },
+        {
+          "weight": 52.5,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": 65,
+          "e1RM": 78
+        },
+        {
+          "weight": 52.5,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": 65,
+          "e1RM": 78
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（メイン）",
+      "lift": "デッドリフト",
+      "sets": [
+        {
+          "weight": 90,
+          "reps": 3,
+          "rpe": null,
+          "comment": "",
+          "1RM": 98,
+          "e1RM": 125
+        },
+        {
+          "weight": 100,
+          "reps": 1,
+          "rpe": null,
+          "comment": "",
+          "1RM": 103,
+          "e1RM": 133
+        },
+        {
+          "weight": 110,
+          "reps": 1,
+          "rpe": null,
+          "comment": "110キロ超えてからはグリップきつめ",
+          "1RM": 113,
+          "e1RM": 146
+        },
+        {
+          "weight": 120,
+          "reps": 1,
+          "rpe": null,
+          "comment": "120キロ自体は2回くらいはできそうな印象",
+          "1RM": 123,
+          "e1RM": 159
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "ラットプルダウン",
+      "sets": [
+        {
+          "weight": 56.5,
+          "reps": 8,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 56.5,
+          "reps": 8,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
