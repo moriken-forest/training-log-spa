@@ -1,0 +1,137 @@
+{
+  "date": "2025-07-26",
+  "block": "Accumulation",
+  "week": 2,
+  "day": 3,
+  "notes": "ブロックAccumulation Week2 Day3のトレーニング",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 90,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "しっかり胸背中で押す意識。あとは体の圧をパンパンに。",
+          "1RM": 112,
+          "e1RM": 121
+        },
+        {
+          "weight": 90,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 112,
+          "e1RM": 121
+        },
+        {
+          "weight": 90,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "胸郭を開くように吸うのが肝心。まあまあ良い感覚。とはいえ疲れてきてる",
+          "1RM": 112,
+          "e1RM": 119
+        },
+        {
+          "weight": 90,
+          "reps": 10,
+          "rpe": 7.5,
+          "comment": "バッチリハマったかんじ。",
+          "1RM": 112,
+          "e1RM": 118
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（メイン）",
+      "lift": "デッドリフト",
+      "sets": [
+        {
+          "weight": 150,
+          "reps": 6,
+          "rpe": 7,
+          "comment": "ヒップヒンジ意識したけど後半疲れると腰であげてる",
+          "1RM": 177,
+          "e1RM": 190
+        },
+        {
+          "weight": 150,
+          "reps": 6,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 177,
+          "e1RM": 190
+        },
+        {
+          "weight": 160,
+          "reps": 6,
+          "rpe": 9,
+          "comment": "後半フォーム乱れすぎ",
+          "1RM": 188,
+          "e1RM": 193
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "ライイングエクステンション（ダンベル）",
+      "sets": [
+        {
+          "weight": 30,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "ダンベルやと胸にくるね。まあこれはこれで良い",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 30,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "すこし肘閉じ気味にすると三頭筋で挙げれた気がする",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 30,
+          "reps": 10,
+          "rpe": 9.5,
+          "comment": "しっかり肩関節の動きを意識すると三頭筋を使ってる感じあるわ",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "ケーブルアームカール",
+      "sets": [
+        {
+          "weight": 26.25,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 28.75,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 28.75,
+          "reps": 10,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
