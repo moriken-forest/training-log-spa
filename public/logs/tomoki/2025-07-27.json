@@ -1,0 +1,159 @@
+{
+  "date": "2025-07-27",
+  "block": "Accumulation",
+  "week": 1,
+  "day": 4,
+  "notes": "ブロックAccumulation Week1 Day4のトレーニング",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ナローベンチ",
+      "sets": [
+        {
+          "weight": 40,
+          "reps": 5,
+          "rpe": null,
+          "comment": "全くキツくはないが、背筋を使えてる感覚が薄かった",
+          "1RM": 45,
+          "e1RM": 55
+        },
+        {
+          "weight": 50,
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": 56,
+          "e1RM": 68
+        },
+        {
+          "weight": 50,
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": 56,
+          "e1RM": 68
+        },
+        {
+          "weight": 50,
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": 56,
+          "e1RM": 68
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ブロックベンチ",
+      "sets": [
+        {
+          "weight": 70,
+          "reps": 3,
+          "rpe": null,
+          "comment": "背中使えてる感覚が薄め",
+          "1RM": 75,
+          "e1RM": 92
+        },
+        {
+          "weight": 70,
+          "reps": 3,
+          "rpe": null,
+          "comment": "",
+          "1RM": 75,
+          "e1RM": 92
+        },
+        {
+          "weight": 70,
+          "reps": 3,
+          "rpe": null,
+          "comment": "",
+          "1RM": 75,
+          "e1RM": 92
+        }
+      ]
+    },
+    {
+      "type": "スクワット（サブ）",
+      "lift": "ポーズスクワット",
+      "sets": [
+        {
+          "weight": 70,
+          "reps": 3,
+          "rpe": null,
+          "comment": "足幅を狭めでもやりやすかった。キツさはなかった",
+          "1RM": 76,
+          "e1RM": 97
+        },
+        {
+          "weight": 70,
+          "reps": 3,
+          "rpe": null,
+          "comment": "",
+          "1RM": 76,
+          "e1RM": 97
+        },
+        {
+          "weight": 70,
+          "reps": 3,
+          "rpe": null,
+          "comment": "",
+          "1RM": 76,
+          "e1RM": 97
+        }
+      ]
+    },
+    {
+      "type": "スクワット（サブ）",
+      "lift": "ブルガリアンスクワット(ダンベルorスミス)",
+      "sets": [
+        {
+          "weight": 36,
+          "reps": 10,
+          "rpe": null,
+          "comment": "足を痛めたため2セットで終了",
+          "1RM": 46,
+          "e1RM": 57
+        },
+        {
+          "weight": 36,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": 46,
+          "e1RM": 57
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "ライイングエクステンション",
+      "sets": [
+        {
+          "weight": 30,
+          "reps": 8,
+          "rpe": null,
+          "comment": "死ぬ死ぬ（8回が限界）",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 20,
+          "reps": 8,
+          "rpe": null,
+          "comment": "丁寧にやって限界は10回くらい",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 20,
+          "reps": 8,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
