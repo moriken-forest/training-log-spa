@@ -1,0 +1,167 @@
+{
+  "date": "2025-07-27",
+  "block": "Accumulation",
+  "week": 1,
+  "day": 4,
+  "notes": "ブロックAccumulation Week1 Day4のトレーニング",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ブロックベンチ",
+      "sets": [
+        {
+          "weight": 100,
+          "reps": 3,
+          "rpe": 4,
+          "comment": "背中で受ける感覚を意識。まずまず",
+          "1RM": 107,
+          "e1RM": 122
+        },
+        {
+          "weight": 100,
+          "reps": 3,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 107,
+          "e1RM": 122
+        },
+        {
+          "weight": 100,
+          "reps": 3,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 107,
+          "e1RM": 122
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ナローベンチ",
+      "sets": [
+        {
+          "weight": 85,
+          "reps": 5,
+          "rpe": 6,
+          "comment": "そこそこきつい",
+          "1RM": 95,
+          "e1RM": 104
+        },
+        {
+          "weight": 85,
+          "reps": 5,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 95,
+          "e1RM": 104
+        },
+        {
+          "weight": 85,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "ポジが良くてサクサク上がった",
+          "1RM": 95,
+          "e1RM": 106
+        },
+        {
+          "weight": 85,
+          "reps": 5,
+          "rpe": 4,
+          "comment": "よき",
+          "1RM": 95,
+          "e1RM": 108
+        }
+      ]
+    },
+    {
+      "type": "スクワット（サブ）",
+      "lift": "ポーズスクワット",
+      "sets": [
+        {
+          "weight": 100,
+          "reps": 4,
+          "rpe": 2,
+          "comment": "",
+          "1RM": 112,
+          "e1RM": 136
+        },
+        {
+          "weight": 100,
+          "reps": 4,
+          "rpe": 2,
+          "comment": "",
+          "1RM": 112,
+          "e1RM": 136
+        },
+        {
+          "weight": 100,
+          "reps": 4,
+          "rpe": 2,
+          "comment": "足幅狭めにしたら軽く上がる感じ。ただし動画見ると浅い気がする",
+          "1RM": 112,
+          "e1RM": 136
+        }
+      ]
+    },
+    {
+      "type": "スクワット（サブ）",
+      "lift": "ブルガリアンスクワット(ダンベルorスミス)",
+      "sets": [
+        {
+          "weight": 26,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 33,
+          "e1RM": 36
+        },
+        {
+          "weight": 26,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": 33,
+          "e1RM": 35
+        },
+        {
+          "weight": 26,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": 33,
+          "e1RM": 35
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "ワンハンドダンベルロー",
+      "sets": [
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
