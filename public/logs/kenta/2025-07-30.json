@@ -1,0 +1,115 @@
+{
+  "date": "2025-07-30",
+  "block": "Accumulation",
+  "week": 3,
+  "day": 1,
+  "notes": "ブロックAccumulation Week3 Day1のトレーニング",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 95,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "しっかり胸の圧を高めるのが大事や",
+          "1RM": 118,
+          "e1RM": 123
+        },
+        {
+          "weight": 95,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "良き感覚。",
+          "1RM": 118,
+          "e1RM": 123
+        },
+        {
+          "weight": 95,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "ここからきつくなる。フォーム崩さない",
+          "1RM": 118,
+          "e1RM": 121
+        },
+        {
+          "weight": 95,
+          "reps": 9,
+          "rpe": 10,
+          "comment": "9回しかできんかった",
+          "1RM": 116,
+          "e1RM": 116
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 140,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "サクサクあげた",
+          "1RM": 182,
+          "e1RM": 194
+        },
+        {
+          "weight": 140,
+          "reps": 10,
+          "rpe": 7.5,
+          "comment": "ちょいきつい。ハムケツがつかれ始めてる",
+          "1RM": 182,
+          "e1RM": 192
+        },
+        {
+          "weight": 140,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "まあまあきつなってきた",
+          "1RM": 182,
+          "e1RM": 190
+        },
+        {
+          "weight": 140,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "きっつい",
+          "1RM": 182,
+          "e1RM": 190
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": null,
+          "reps": 9,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 8,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 8,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
