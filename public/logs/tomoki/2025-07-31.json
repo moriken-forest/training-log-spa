@@ -1,0 +1,137 @@
+{
+  "date": "2025-07-31",
+  "block": "Accumulation",
+  "week": 2,
+  "day": 2,
+  "notes": "ブロックAccumulation Week2 Day2のトレーニング",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチ",
+      "sets": [
+        {
+          "weight": 50,
+          "reps": 5,
+          "rpe": null,
+          "comment": "60キロでもいけそうな余裕あり",
+          "1RM": 56,
+          "e1RM": 68
+        },
+        {
+          "weight": 50,
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": 56,
+          "e1RM": 68
+        },
+        {
+          "weight": 50,
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": 56,
+          "e1RM": 68
+        },
+        {
+          "weight": 50,
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": 56,
+          "e1RM": 68
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足あげベンチ",
+      "sets": [
+        {
+          "weight": 50,
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": 56,
+          "e1RM": 68
+        },
+        {
+          "weight": 50,
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": 56,
+          "e1RM": 68
+        },
+        {
+          "weight": 50,
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": 56,
+          "e1RM": 68
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（メイン）",
+      "lift": "デッドリフト",
+      "sets": [
+        {
+          "weight": 115,
+          "reps": 1,
+          "rpe": null,
+          "comment": "",
+          "1RM": 118,
+          "e1RM": 152
+        },
+        {
+          "weight": 125,
+          "reps": 1,
+          "rpe": null,
+          "comment": "",
+          "1RM": 128,
+          "e1RM": 166
+        },
+        {
+          "weight": 130,
+          "reps": 1,
+          "rpe": null,
+          "comment": "130キロ成功。140キロは失敗",
+          "1RM": 133,
+          "e1RM": 172
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "シールロー",
+      "sets": [
+        {
+          "weight": 20,
+          "reps": 10,
+          "rpe": null,
+          "comment": "やり切った",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 20,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 20,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
