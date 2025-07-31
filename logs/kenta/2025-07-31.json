@@ -1,0 +1,153 @@
+{
+  "date": "2025-07-31",
+  "block": "Accumulation",
+  "week": 3,
+  "day": 2,
+  "notes": "ブロックAccumulation Week3 Day2のトレーニング",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチ",
+      "sets": [
+        {
+          "weight": 80,
+          "reps": 5,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 90,
+          "e1RM": 102
+        },
+        {
+          "weight": 80,
+          "reps": 5,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 90,
+          "e1RM": 102
+        },
+        {
+          "weight": 80,
+          "reps": 5,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 90,
+          "e1RM": 102
+        },
+        {
+          "weight": 80,
+          "reps": 5,
+          "rpe": 4,
+          "comment": "かなり感覚良くできた",
+          "1RM": 90,
+          "e1RM": 102
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足あげベンチ",
+      "sets": [
+        {
+          "weight": 80,
+          "reps": 6,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 92,
+          "e1RM": 106
+        },
+        {
+          "weight": 80,
+          "reps": 6,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 92,
+          "e1RM": 106
+        },
+        {
+          "weight": 80,
+          "reps": 6,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 92,
+          "e1RM": 106
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "ダンベルシールロー",
+      "sets": [
+        {
+          "weight": 30,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 30,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 30,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（サブ）",
+      "lift": "ポーズデッドリフト",
+      "sets": [
+        {
+          "weight": 115,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "股関節で受けるイメージ",
+          "1RM": 125,
+          "e1RM": 142
+        },
+        {
+          "weight": 115,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 125,
+          "e1RM": 142
+        },
+        {
+          "weight": 115,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 125,
+          "e1RM": 142
+        },
+        {
+          "weight": 115,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "あんまつかんでからダラダラやるんじゃなくて、さっとあげる方がええね",
+          "1RM": 125,
+          "e1RM": 142
+        },
+        {
+          "weight": 115,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 125,
+          "e1RM": 142
+        }
+      ]
+    }
+  ]
+}
