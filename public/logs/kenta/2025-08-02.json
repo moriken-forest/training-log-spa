@@ -1,0 +1,145 @@
+{
+  "date": "2025-08-02",
+  "block": "Accumulation",
+  "week": 3,
+  "day": 3,
+  "notes": "ブロックAccumulation Week3 Day3のトレーニング",
+  "sessions": [
+    {
+      "type": "ベンチ（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 100,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "気合い入れてやった。キツめ",
+          "1RM": 125,
+          "e1RM": 128
+        },
+        {
+          "weight": 100,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "スパスパやることがコツ。しっかり体圧パンパンで",
+          "1RM": 125,
+          "e1RM": 128
+        },
+        {
+          "weight": 100,
+          "reps": 10,
+          "rpe": 9.5,
+          "comment": "かなりキツくなってきた",
+          "1RM": 125,
+          "e1RM": 126
+        },
+        {
+          "weight": 100,
+          "reps": 7,
+          "rpe": 9,
+          "comment": "さすがに4セット目はむりか",
+          "1RM": 117,
+          "e1RM": 120
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（メイン）",
+      "lift": "ルーマニアンデッドリフト",
+      "sets": [
+        {
+          "weight": 100,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "まだ腰にちょい負荷あるね",
+          "1RM": 130,
+          "e1RM": 136
+        },
+        {
+          "weight": 100,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "床スタートが感覚いいね",
+          "1RM": 124,
+          "e1RM": 136
+        },
+        {
+          "weight": 110,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "けつで受ける感じがきたね",
+          "1RM": 136,
+          "e1RM": 146
+        },
+        {
+          "weight": 110,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "まだけつで受ける感覚がモノにしきれてない。4，5rep目からくる。ケツハムをとにかく意識",
+          "1RM": 136,
+          "e1RM": 146
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "ライイングエクステンション",
+      "sets": [
+        {
+          "weight": 40,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "久々やったけど、リストストラップやと感覚悪い気がする",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "リストラップなら感覚よし",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "バーベルアームカール",
+      "sets": [
+        {
+          "weight": 40,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "さすがにおもい",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
