@@ -1,0 +1,215 @@
+{
+  "date": "2025-08-03",
+  "block": "Accumulation",
+  "week": 3,
+  "day": 4,
+  "notes": "ブロックAccumulation Week3 Day4のトレーニング",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ブロックベンチ",
+      "sets": [
+        {
+          "weight": 110,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "背中で受ける感覚弱め",
+          "1RM": 118,
+          "e1RM": 129
+        },
+        {
+          "weight": 110,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 118,
+          "e1RM": 129
+        },
+        {
+          "weight": 110,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 118,
+          "e1RM": 129
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ナローベンチ",
+      "sets": [
+        {
+          "weight": 75,
+          "reps": 5,
+          "rpe": 3,
+          "comment": "きょうは疲労感あるから軽めで",
+          "1RM": 84,
+          "e1RM": 97
+        },
+        {
+          "weight": 75,
+          "reps": 5,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 84,
+          "e1RM": 97
+        },
+        {
+          "weight": 80,
+          "reps": 5,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 90,
+          "e1RM": 104
+        },
+        {
+          "weight": 85,
+          "reps": 5,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 95,
+          "e1RM": 110
+        }
+      ]
+    },
+    {
+      "type": "スクワット（サブ）",
+      "lift": "フロントスクワット",
+      "sets": [
+        {
+          "weight": 90,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "指が外れて集中切れた",
+          "1RM": 111,
+          "e1RM": 119
+        },
+        {
+          "weight": 90,
+          "reps": 8,
+          "rpe": 7.5,
+          "comment": "",
+          "1RM": 111,
+          "e1RM": 118
+        },
+        {
+          "weight": 90,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 111,
+          "e1RM": 119
+        }
+      ]
+    },
+    {
+      "type": "スクワット（サブ）",
+      "lift": "ブルガリアンスクワット",
+      "sets": [
+        {
+          "weight": 70,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "久しぶりやから余裕もって（右脚）",
+          "1RM": 86,
+          "e1RM": 95
+        },
+        {
+          "weight": 70,
+          "reps": 8,
+          "rpe": 6.5,
+          "comment": "安定感がない（左脚）",
+          "1RM": 86,
+          "e1RM": 94
+        },
+        {
+          "weight": 70,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "こっちは安定感ある（右脚）",
+          "1RM": 86,
+          "e1RM": 95
+        },
+        {
+          "weight": 70,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "なんか感覚悪いね左は（左脚）",
+          "1RM": 86,
+          "e1RM": 95
+        },
+        {
+          "weight": 70,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "こっちは安定感あるんよねえ（右脚）",
+          "1RM": 86,
+          "e1RM": 95
+        },
+        {
+          "weight": 70,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "なんか内転筋使ってる感じ。あんまけつ使えてない気がする（左脚）",
+          "1RM": 86,
+          "e1RM": 95
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "ワンハンドダンベルロー",
+      "sets": [
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "右",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "左",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "右",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "左",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "右",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 9.5,
+          "comment": "左",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
