@@ -1,0 +1,115 @@
+{
+  "date": "2025-08-06",
+  "block": "Accumulation",
+  "week": 4,
+  "day": 1,
+  "notes": "ブロックAccumulation Week4 Day1のトレーニング",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 4,
+          "comment": "リストラップなし",
+          "1RM": 96,
+          "e1RM": 108
+        },
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 4,
+          "comment": "リストラップなしだと手首痛いのは載せる位置が悪いから",
+          "1RM": 96,
+          "e1RM": 108
+        },
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 4,
+          "comment": "痛いからよくない",
+          "1RM": 96,
+          "e1RM": 108
+        },
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 96,
+          "e1RM": 108
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 150,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "靴忘れたからランシュー。感覚悪し",
+          "1RM": 186,
+          "e1RM": 195
+        },
+        {
+          "weight": 150,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "しっかり3点意識するとマシ。前によりがち",
+          "1RM": 186,
+          "e1RM": 195
+        },
+        {
+          "weight": 150,
+          "reps": 8,
+          "rpe": 8.5,
+          "comment": "押したいポジションに下ろしてくるのが肝心",
+          "1RM": 186,
+          "e1RM": 192
+        },
+        {
+          "weight": 150,
+          "reps": 8,
+          "rpe": 9,
+          "comment": "まだ探り探り",
+          "1RM": 186,
+          "e1RM": 190
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": null,
+          "reps": 8,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "スパスパやる",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 8,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
