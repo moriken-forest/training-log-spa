@@ -1,0 +1,159 @@
+{
+  "date": "2025-08-07",
+  "block": "Accumulation",
+  "week": 3,
+  "day": 2,
+  "notes": "ブロックAccumulation Week3 Day2のトレーニング",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチ",
+      "sets": [
+        {
+          "weight": 50,
+          "reps": 5,
+          "rpe": 6,
+          "comment": "キツくはない",
+          "1RM": 56,
+          "e1RM": 61
+        },
+        {
+          "weight": 52.5,
+          "reps": 5,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 59,
+          "e1RM": 64
+        },
+        {
+          "weight": 55,
+          "reps": 5,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 61,
+          "e1RM": 67
+        },
+        {
+          "weight": 55,
+          "reps": 5,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 61,
+          "e1RM": 67
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足あげベンチ",
+      "sets": [
+        {
+          "weight": 55,
+          "reps": 5,
+          "rpe": 6,
+          "comment": "キツくはない",
+          "1RM": 61,
+          "e1RM": 67
+        },
+        {
+          "weight": 55,
+          "reps": 5,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 61,
+          "e1RM": 67
+        },
+        {
+          "weight": 55,
+          "reps": 5,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 61,
+          "e1RM": 67
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "ラットプル",
+      "sets": [
+        {
+          "weight": 47,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "めっちゃ軽く感じた",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 47,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "全然重たくない",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 47,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "シールロー",
+      "sets": [
+        {
+          "weight": 20,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 20,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 20,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "後半はかなりキツい",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "ライイングエクステンション",
+      "sets": [
+        {
+          "weight": 20,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 20,
+          "reps": 10,
+          "rpe": 10,
+          "comment": "最後上がらないほどキツい",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
