@@ -1,0 +1,153 @@
+{
+  "date": "2025-08-07",
+  "block": "Accumulation",
+  "week": 4,
+  "day": 2,
+  "notes": "ブロックAccumulation Week4 Day2のトレーニング",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチ",
+      "sets": [
+        {
+          "weight": 85,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "しっかり受けられてる",
+          "1RM": 95,
+          "e1RM": 106
+        },
+        {
+          "weight": 87.5,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "乳首ちょい下におろすと感覚良し",
+          "1RM": 98,
+          "e1RM": 109
+        },
+        {
+          "weight": 90,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "しっかり感覚よし",
+          "1RM": 101,
+          "e1RM": 112
+        },
+        {
+          "weight": 90,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 101,
+          "e1RM": 112
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足あげベンチ",
+      "sets": [
+        {
+          "weight": 90,
+          "reps": 6,
+          "rpe": 5,
+          "comment": "余裕",
+          "1RM": 103,
+          "e1RM": 114
+        },
+        {
+          "weight": 90,
+          "reps": 6,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 103,
+          "e1RM": 114
+        },
+        {
+          "weight": 90,
+          "reps": 6,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 103,
+          "e1RM": 114
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "ダンベルシールロー",
+      "sets": [
+        {
+          "weight": 30,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "余裕やな",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 30,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 30,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（サブ）",
+      "lift": "ポーズデッドリフト",
+      "sets": [
+        {
+          "weight": 120,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "腰ちょっと使ってる気がする",
+          "1RM": 130,
+          "e1RM": 148
+        },
+        {
+          "weight": 120,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "ハム使ってる気がする",
+          "1RM": 130,
+          "e1RM": 148
+        },
+        {
+          "weight": 120,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "かなり前傾を使うとはむけつにくる",
+          "1RM": 130,
+          "e1RM": 148
+        },
+        {
+          "weight": 120,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "腕を長く使う意識。握りが浅すぎると指痛い",
+          "1RM": 130,
+          "e1RM": 145
+        },
+        {
+          "weight": 120,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "完全にピラめいた。スタートが膝曲がりすぎてた。ラストの姿勢の脚の形を作ってからとりに行くんだ",
+          "1RM": 130,
+          "e1RM": 148
+        }
+      ]
+    }
+  ]
+}
