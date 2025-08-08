@@ -9,221 +9,6 @@
           "days": [
             {
               "day": "Day1",
-              "date": "2025-07-16",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 4,
-                      "weight": 75,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（メイン）",
-                  "lift": "スクワット",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 4,
-                      "weight": 110,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "懸垂",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day2",
-              "date": "2025-07-17",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ポーズベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 4,
-                      "weight": 70,
-                      "percent": 60
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "足あげベンチ",
-                  "sets": [
-                    {
-                      "reps": 6,
-                      "sets": 3,
-                      "weight": 70,
-                      "percent": 60
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ダンベルシールロー",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day3",
-              "date": "2025-07-19",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 4,
-                      "weight": 80,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 1,
-                      "weight": 145,
-                      "percent": null
-                    },
-                    {
-                      "reps": 2,
-                      "sets": 5,
-                      "weight": 145,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ライイングエクステンション",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "バーベルアームカール",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day4",
-              "date": "2025-07-20",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": 92.5,
-                      "percent": 80
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 4,
-                      "weight": 82.5,
-                      "percent": 72.5
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "フロントスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 80,
-                      "percent": 45
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 72.5,
-                      "percent": 40
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ワンハンドダンベルロー",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "week": 2,
-          "days": [
-            {
-              "day": "Day1",
               "date": "2025-07-23",
               "sessions": [
                 {
@@ -233,32 +18,32 @@
                     {
                       "reps": 10,
                       "sets": 4,
-                      "weight": 85,
-                      "percent": null
+                      "weight": 72.5,
+                      "1RM": 90,
+                      "percent": 62.5
                     }
                   ]
                 },
                 {
-                  "type": "スクワット（メイン）",
-                  "lift": "スクワット",
+                  "type": "スクワット（サブ）",
+                  "lift": "ハイバースクワット",
                   "sets": [
                     {
                       "reps": 10,
-                      "sets": 4,
-                      "weight": 125,
-                      "percent": null
+                      "sets": 3,
+                      "weight": 70,
+                      "1RM": 140,
+                      "percent": 50
                     }
                   ]
                 },
                 {
                   "type": "アクセサリー",
-                  "lift": "懸垂",
+                  "lift": "プルオーバー",
                   "sets": [
                     {
-                      "reps": 10,
                       "sets": 3,
-                      "weight": null,
-                      "percent": null
+                      "reps": 15
                     }
                   ]
                 }
@@ -269,38 +54,36 @@
               "date": "2025-07-24",
               "sessions": [
                 {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ポーズベンチ",
+                  "type": "スクワット（メイン）",
+                  "lift": "スクワット",
                   "sets": [
                     {
-                      "reps": 5,
+                      "reps": 10,
                       "sets": 4,
-                      "weight": 75,
-                      "percent": 65
+                      "weight": 105,
+                      "1RM": 168,
+                      "percent": 62.5
                     }
                   ]
                 },
                 {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "足あげベンチ",
+                  "type": "デッドリフト（サブ）",
+                  "lift": "ルーマニアンデッドリフト",
                   "sets": [
                     {
-                      "reps": 6,
                       "sets": 3,
-                      "weight": 75,
-                      "percent": 65
+                      "reps": 10,
+                      "weight": 70
                     }
                   ]
                 },
                 {
                   "type": "アクセサリー",
-                  "lift": "ダンベルシールロー",
+                  "lift": "ブルガリアンスクワット",
                   "sets": [
                     {
-                      "reps": 10,
                       "sets": 3,
-                      "weight": null,
-                      "percent": null
+                      "reps": 12
                     }
                   ]
                 }
@@ -311,14 +94,13 @@
               "date": "2025-07-26",
               "sessions": [
                 {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
+                  "type": "ベンチプレス（サブ）",
+                  "lift": "ポーズベンチ",
                   "sets": [
                     {
+                      "sets": 3,
                       "reps": 10,
-                      "sets": 4,
-                      "weight": 90,
-                      "percent": null
+                      "weight": 67.5
                     }
                   ]
                 },
@@ -327,40 +109,21 @@
                   "lift": "デッドリフト",
                   "sets": [
                     {
-                      "reps": 5,
-                      "sets": 1,
-                      "weight": 160,
-                      "percent": null
-                    },
-                    {
-                      "reps": 2,
-                      "sets": 5,
-                      "weight": 160,
-                      "percent": null
+                      "reps": 10,
+                      "sets": 4,
+                      "weight": 120,
+                      "1RM": 192,
+                      "percent": 62.5
                     }
                   ]
                 },
                 {
                   "type": "アクセサリー",
-                  "lift": "ライイングエクステンション",
+                  "lift": "ベントオーバーロウ",
                   "sets": [
                     {
-                      "reps": 10,
                       "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "バーベルアームカール",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
+                      "reps": 12
                     }
                   ]
                 }
@@ -371,235 +134,15 @@
               "date": "2025-07-27",
               "sessions": [
                 {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
+                  "type": "ベンチプレス（メイン）",
+                  "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": 95,
-                      "percent": 82.5
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
+                      "reps": 10,
                       "sets": 4,
-                      "weight": 85,
-                      "percent": 75
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ポーズスクワット",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 90,
-                      "percent": 50
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
                       "weight": 72.5,
-                      "percent": 40
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ワンハンドダンベルロー",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "week": 3,
-          "days": [
-            {
-              "day": "Day1",
-              "date": "2025-07-30",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 4,
-                      "weight": 95,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（メイン）",
-                  "lift": "スクワット",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 4,
-                      "weight": 140,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "懸垂",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day2",
-              "date": "2025-07-31",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ポーズベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 4,
-                      "weight": 80,
-                      "percent": 70
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "足あげベンチ",
-                  "sets": [
-                    {
-                      "reps": 6,
-                      "sets": 3,
-                      "weight": 80,
-                      "percent": 70
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ダンベルシールロー",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day3",
-              "date": "2025-08-02",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 4,
-                      "weight": 100,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "ルーマニアンデッドリフト",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 4,
-                      "weight": 97.5,
-                      "percent": 50
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ライイングエクステンション",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "バーベルアームカール",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day4",
-              "date": "2025-08-03",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": 97.5,
-                      "percent": 85
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 4,
-                      "weight": 90,
-                      "percent": 77.5
+                      "1RM": 90,
+                      "percent": 62.5
                     }
                   ]
                 },
@@ -608,69 +151,9 @@
                   "lift": "フロントスクワット",
                   "sets": [
                     {
-                      "reps": 8,
                       "sets": 3,
-                      "weight": 90,
-                      "percent": 50
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 80,
-                      "percent": 45
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ワンハンドダンベルロー",
-                  "sets": [
-                    {
                       "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "week": 4,
-          "days": [
-            {
-              "day": "Day1",
-              "date": "2025-08-06",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 4,
-                      "weight": 80,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（メイン）",
-                  "lift": "スクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 4,
-                      "weight": 150,
-                      "percent": null
+                      "weight": 60
                     }
                   ]
                 },
@@ -679,602 +162,8 @@
                   "lift": "懸垂",
                   "sets": [
                     {
-                      "reps": 10,
                       "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day2",
-              "date": "2025-08-07",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ポーズベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 4,
-                      "weight": 85,
-                      "percent": 75
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "足あげベンチ",
-                  "sets": [
-                    {
-                      "reps": 6,
-                      "sets": 3,
-                      "weight": 85,
-                      "percent": 75
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ダンベルシールロー",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day3",
-              "date": "2025-08-09",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 4,
-                      "weight": 85,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 1,
-                      "weight": 167.5,
-                      "percent": null
-                    },
-                    {
-                      "reps": 2,
-                      "sets": 5,
-                      "weight": 167.5,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ライイングエクステンション",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "バーベルアームカール",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day4",
-              "date": "2025-08-10",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": 100,
-                      "percent": 87.5
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 4,
-                      "weight": 92.5,
-                      "percent": 80
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ポーズスクワット",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 100,
-                      "percent": 55
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 80,
-                      "percent": 45
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ワンハンドダンベルロー",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "week": 5,
-          "days": [
-            {
-              "day": "Day1",
-              "date": "2025-08-13",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 4,
-                      "weight": 90,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（メイン）",
-                  "lift": "スクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 4,
-                      "weight": 157.5,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "懸垂",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day2",
-              "date": "2025-08-14",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ポーズベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 4,
-                      "weight": 90,
-                      "percent": 77.5
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "足あげベンチ",
-                  "sets": [
-                    {
-                      "reps": 6,
-                      "sets": 3,
-                      "weight": 90,
-                      "percent": 77.5
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ダンベルシールロー",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day3",
-              "date": "2025-08-16",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 4,
-                      "weight": 95,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 1,
-                      "weight": 175,
-                      "percent": null
-                    },
-                    {
-                      "reps": 2,
-                      "sets": 5,
-                      "weight": 175,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ライイングエクステンション",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "バーベルアームカール",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day4",
-              "date": "2025-08-17",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": 102.5,
-                      "percent": 90
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 4,
-                      "weight": 95,
-                      "percent": 82.5
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "フロントスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 100,
-                      "percent": 55
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 90,
-                      "percent": 50
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ワンハンドダンベルロー",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "week": 6,
-          "days": [
-            {
-              "day": "Day1",
-              "date": "2025-08-20",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 4,
-                      "weight": 100,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（メイン）",
-                  "lift": "スクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 4,
-                      "weight": 165,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "懸垂",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day2",
-              "date": "2025-08-21",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ポーズベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 4,
-                      "weight": 92.5,
-                      "percent": 80
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "足あげベンチ",
-                  "sets": [
-                    {
-                      "reps": 6,
-                      "sets": 3,
-                      "weight": 92.5,
-                      "percent": 80
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ダンベルシールロー",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day3",
-              "date": "2025-08-23",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 4,
-                      "weight": 105,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "ルーマニアンデッドリフト",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 4,
-                      "weight": 107.5,
-                      "percent": 55
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ライイングエクステンション",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "バーベルアームカール",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day4",
-              "date": "2025-08-24",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": 102.5,
-                      "percent": 90
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 4,
-                      "weight": 97.5,
-                      "percent": 85
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ポーズスクワット",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 107.5,
-                      "percent": 60
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": 90,
-                      "percent": 50
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ワンハンドダンベルロー",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
+                      "reps": 10
                     }
                   ]
                 }
@@ -1293,23 +182,18 @@
           "days": [
             {
               "day": "Day1",
-              "date": "2025-08-27",
+              "date": "2025-07-16",
               "sessions": [
                 {
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 97.5,
-                      "percent": null
-                    },
-                    {
-                      "reps": 6,
-                      "sets": 3,
-                      "weight": 97.5,
-                      "percent": null
+                      "reps": 10,
+                      "sets": 4,
+                      "weight": 72.5,
+                      "1RM": 90,
+                      "percent": 62.5
                     }
                   ]
                 },
@@ -1318,28 +202,21 @@
                   "lift": "スクワット",
                   "sets": [
                     {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 150,
-                      "percent": null
-                    },
-                    {
-                      "reps": 6,
-                      "sets": 3,
-                      "weight": 150,
-                      "percent": null
+                      "reps": 10,
+                      "sets": 4,
+                      "weight": 105,
+                      "1RM": 168,
+                      "percent": 62.5
                     }
                   ]
                 },
                 {
                   "type": "アクセサリー",
-                  "lift": "懸垂",
+                  "lift": "レッグレイズ",
                   "sets": [
                     {
-                      "reps": 10,
                       "sets": 3,
-                      "weight": null,
-                      "percent": null
+                      "reps": 15
                     }
                   ]
                 }
@@ -1347,17 +224,18 @@
             },
             {
               "day": "Day2",
-              "date": "2025-08-28",
+              "date": "2025-07-17",
               "sessions": [
                 {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ラックプル",
+                  "type": "デッドリフト（メイン）",
+                  "lift": "デッドリフト",
                   "sets": [
                     {
-                      "reps": 4,
+                      "reps": 10,
                       "sets": 4,
-                      "weight": null,
-                      "percent": null
+                      "weight": 120,
+                      "1RM": 192,
+                      "percent": 62.5
                     }
                   ]
                 },
@@ -1366,22 +244,19 @@
                   "lift": "ポーズベンチ",
                   "sets": [
                     {
-                      "reps": 3,
-                      "sets": 4,
-                      "weight": null,
-                      "percent": null
+                      "sets": 3,
+                      "reps": 10,
+                      "weight": 67.5
                     }
                   ]
                 },
                 {
                   "type": "アクセサリー",
-                  "lift": "ダンベルシールロー",
+                  "lift": "リバースランジ",
                   "sets": [
                     {
-                      "reps": 10,
                       "sets": 3,
-                      "weight": null,
-                      "percent": null
+                      "reps": 12
                     }
                   ]
                 }
@@ -1389,107 +264,39 @@
             },
             {
               "day": "Day3",
-              "date": "2025-08-30",
+              "date": "2025-07-19",
               "sessions": [
+                {
+                  "type": "スクワット（サブ）",
+                  "lift": "フロントスクワット",
+                  "sets": [
+                    {
+                      "sets": 3,
+                      "reps": 10,
+                      "weight": 60
+                    }
+                  ]
+                },
                 {
                   "type": "ベンチプレス（メイン）",
                   "lift": "ベンチプレス",
                   "sets": [
                     {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 100,
-                      "percent": null
-                    },
-                    {
-                      "reps": 6,
-                      "sets": 3,
-                      "weight": 100,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 1,
-                      "weight": 180,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 2,
-                      "sets": 1,
-                      "weight": 180,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 1,
-                      "weight": 180,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 2,
-                      "sets": 1,
-                      "weight": 180,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 1,
-                      "weight": 180,
-                      "percent": null
+                      "reps": 10,
+                      "sets": 4,
+                      "weight": 72.5,
+                      "1RM": 90,
+                      "percent": 62.5
                     }
                   ]
                 },
                 {
                   "type": "アクセサリー",
-                  "lift": "ライイングエクステンション",
+                  "lift": "ワンハンドロー",
                   "sets": [
                     {
-                      "reps": 10,
                       "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "バーベルアームカール",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
+                      "reps": 12
                     }
                   ]
                 }
@@ -1497,596 +304,16 @@
             },
             {
               "day": "Day4",
-              "date": "2025-08-31",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "足あげベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ポーズスクワット",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ワンハンドダンベルロー",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "week": 2,
-          "days": [
-            {
-              "day": "Day1",
-              "date": "2025-09-03",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 102.5,
-                      "percent": null
-                    },
-                    {
-                      "reps": 6,
-                      "sets": 3,
-                      "weight": 102.5,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（メイン）",
-                  "lift": "スクワット",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 160,
-                      "percent": null
-                    },
-                    {
-                      "reps": 6,
-                      "sets": 3,
-                      "weight": 160,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "懸垂",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day2",
-              "date": "2025-09-04",
+              "date": "2025-07-20",
               "sessions": [
                 {
                   "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 4,
-                      "weight": 97.5,
-                      "percent": 50
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ポーズベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 4,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ダンベルシールロー",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day3",
-              "date": "2025-09-06",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 105,
-                      "percent": null
-                    },
-                    {
-                      "reps": 6,
-                      "sets": 3,
-                      "weight": 105,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 1,
-                      "weight": 185,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 2,
-                      "sets": 1,
-                      "weight": 185,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 1,
-                      "weight": 185,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 2,
-                      "sets": 1,
-                      "weight": 185,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 1,
-                      "weight": 185,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ライイングエクステンション",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "バーベルアームカール",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day4",
-              "date": "2025-09-07",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 4,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブロックスクワット",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ワンハンドダンベルロー",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "week": 3,
-          "days": [
-            {
-              "day": "Day1",
-              "date": "2025-09-10",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 107.5,
-                      "percent": null
-                    },
-                    {
-                      "reps": 6,
-                      "sets": 3,
-                      "weight": 107.5,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（メイン）",
-                  "lift": "スクワット",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 170,
-                      "percent": null
-                    },
-                    {
-                      "reps": 6,
-                      "sets": 3,
-                      "weight": 170,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "懸垂",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day2",
-              "date": "2025-09-11",
-              "sessions": [
-                {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ラックプル",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 4,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ポーズベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 4,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ダンベルシールロー",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day3",
-              "date": "2025-09-13",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 110,
-                      "percent": null
-                    },
-                    {
-                      "reps": 6,
-                      "sets": 3,
-                      "weight": 110,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
                   "lift": "ルーマニアンデッドリフト",
                   "sets": [
                     {
-                      "reps": 8,
-                      "sets": 4,
-                      "weight": 97.5,
-                      "percent": 50
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ライイングエクステンション",
-                  "sets": [
-                    {
+                      "sets": 3,
                       "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "バーベルアームカール",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day4",
-              "date": "2025-09-14",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "足あげベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ポーズスクワット",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ワンハンドダンベルロー",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "week": 4,
-          "days": [
-            {
-              "day": "Day1",
-              "date": "2025-09-17",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 112.5,
-                      "percent": null
-                    },
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 112.5,
-                      "percent": null
+                      "weight": 70
                     }
                   ]
                 },
@@ -2095,746 +322,21 @@
                   "lift": "スクワット",
                   "sets": [
                     {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 170,
-                      "percent": null
-                    },
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 170,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "懸垂",
-                  "sets": [
-                    {
                       "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day2",
-              "date": "2025-09-18",
-              "sessions": [
-                {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
-                  "sets": [
-                    {
-                      "reps": 3,
                       "sets": 4,
-                      "weight": 117.5,
-                      "percent": 60
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ポーズベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 4,
-                      "weight": null,
-                      "percent": null
+                      "weight": 105,
+                      "1RM": 168,
+                      "percent": 62.5
                     }
                   ]
                 },
                 {
                   "type": "アクセサリー",
-                  "lift": "ダンベルシールロー",
+                  "lift": "アブローラー",
                   "sets": [
                     {
-                      "reps": 10,
                       "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day3",
-              "date": "2025-09-20",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 115,
-                      "percent": null
-                    },
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 115,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 1,
-                      "weight": 190,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 2,
-                      "sets": 1,
-                      "weight": 190,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 1,
-                      "weight": 190,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 2,
-                      "sets": 1,
-                      "weight": 190,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 1,
-                      "weight": 190,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ライイングエクステンション",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "バーベルアームカール",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day4",
-              "date": "2025-09-21",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 4,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブロックスクワット",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ワンハンドダンベルロー",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "week": 5,
-          "days": [
-            {
-              "day": "Day1",
-              "date": "2025-09-24",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 117.5,
-                      "percent": null
-                    },
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 117.5,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（メイン）",
-                  "lift": "スクワット",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 180,
-                      "percent": null
-                    },
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 180,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "懸垂",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day2",
-              "date": "2025-09-25",
-              "sessions": [
-                {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ラックプル",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 4,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ポーズベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 4,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ダンベルシールロー",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day3",
-              "date": "2025-09-27",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 120,
-                      "percent": null
-                    },
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 120,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 1,
-                      "weight": 195,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 2,
-                      "sets": 1,
-                      "weight": 195,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 1,
-                      "weight": 195,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 2,
-                      "sets": 1,
-                      "weight": 195,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "デッドリフト",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 1,
-                      "weight": 195,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ライイングエクステンション",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "バーベルアームカール",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day4",
-              "date": "2025-09-28",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "足あげベンチ",
-                  "sets": [
-                    {
-                      "reps": 5,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ポーズスクワット",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ワンハンドダンベルロー",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "week": 6,
-          "days": [
-            {
-              "day": "Day1",
-              "date": "2025-10-01",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 122.5,
-                      "percent": null
-                    },
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 122.5,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（メイン）",
-                  "lift": "スクワット",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 187.5,
-                      "percent": null
-                    },
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 187.5,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "懸垂",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day2",
-              "date": "2025-10-02",
-              "sessions": [
-                {
-                  "type": "デッドリフト（サブ）",
-                  "lift": "ポーズデッド",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 4,
-                      "weight": 137.5,
-                      "percent": 70
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ポーズベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 4,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ダンベルシールロー",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day3",
-              "date": "2025-10-04",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（メイン）",
-                  "lift": "ベンチプレス",
-                  "sets": [
-                    {
-                      "reps": 1,
-                      "sets": 2,
-                      "weight": 125,
-                      "percent": null
-                    },
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": 125,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "デッドリフト（メイン）",
-                  "lift": "ルーマニアンデッドリフト",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 4,
-                      "weight": 117.5,
-                      "percent": 60
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ライイングエクステンション",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "バーベルアームカール",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "day": "Day4",
-              "date": "2025-10-05",
-              "sessions": [
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ブロックベンチ",
-                  "sets": [
-                    {
-                      "reps": 3,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "ベンチプレス（サブ）",
-                  "lift": "ナローベンチ",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 4,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブルガリアンスクワット",
-                  "sets": [
-                    {
-                      "reps": 8,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "スクワット（サブ）",
-                  "lift": "ブロックスクワット",
-                  "sets": [
-                    {
-                      "reps": 4,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
-                    }
-                  ]
-                },
-                {
-                  "type": "アクセサリー",
-                  "lift": "ワンハンドダンベルロー",
-                  "sets": [
-                    {
-                      "reps": 10,
-                      "sets": 3,
-                      "weight": null,
-                      "percent": null
+                      "reps": 15
                     }
                   ]
                 }
