@@ -20,6 +20,7 @@ When adding a log, prefix the JSON with the username like `kenta{...}` in the de
 
 The automation workflow extracts the username and JSON block and saves it under `public/logs/<user>/`.
 Training schedules are organized the same way and live under `public/schedule/<user>/`.
+Google スプレッドシートからスケジュールを取り込むアーキテクチャ案については [`docs/google-sheets-architecture.md`](docs/google-sheets-architecture.md) を参照してください。
 
 Computed `1RM` and `e1RM` values are rounded down to the nearest whole number when the log is processed.
 
