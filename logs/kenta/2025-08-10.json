@@ -1,0 +1,207 @@
+{
+  "date": "2025-08-10",
+  "block": "Accumulation",
+  "week": 4,
+  "day": 4,
+  "notes": "ブロックAccumulation Week4 Day4のトレーニング",
+  "sessions": [
+    {
+      "type": "ベンチ（サブ）",
+      "lift": "ブロックベンチ",
+      "sets": [
+        {
+          "weight": 115,
+          "reps": 1,
+          "rpe": 5,
+          "comment": "余裕あり。",
+          "1RM": 117,
+          "e1RM": 132
+        },
+        {
+          "weight": 115,
+          "reps": 1,
+          "rpe": 5,
+          "comment": "いちど胸にとめるとプッシュ感あり。これもよき",
+          "1RM": 117,
+          "e1RM": 132
+        },
+        {
+          "weight": 115,
+          "reps": 1,
+          "rpe": 6,
+          "comment": "プッシュ感あるね。さんとうにきてる",
+          "1RM": 117,
+          "e1RM": 129
+        }
+      ]
+    },
+    {
+      "type": "ベンチ（サブ）",
+      "lift": "ナローベンチ",
+      "sets": [
+        {
+          "weight": 85,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "昨日のライイングエクステンションのピキり感は若干残り気味。あまり追い込まずいく",
+          "1RM": 95,
+          "e1RM": 106
+        },
+        {
+          "weight": 85,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "軽くスパスパ",
+          "1RM": 95,
+          "e1RM": 106
+        },
+        {
+          "weight": 85,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "ここで念の為やめとこう",
+          "1RM": 95,
+          "e1RM": 106
+        }
+      ]
+    },
+    {
+      "type": "スクワット（サブ）",
+      "lift": "ポーズスクワット",
+      "sets": [
+        {
+          "weight": 100,
+          "reps": 4,
+          "rpe": 4,
+          "comment": "かかとよりの方が力出しやすいのかな",
+          "1RM": 112,
+          "e1RM": 130
+        },
+        {
+          "weight": 105,
+          "reps": 4,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 117,
+          "e1RM": 133
+        },
+        {
+          "weight": 110,
+          "reps": 4,
+          "rpe": 5,
+          "comment": "ボトムの位置、若干バーベルを前めにすると足で押してる感覚はあるけど、腰や背中が耐えられるか",
+          "1RM": 123,
+          "e1RM": 139
+        }
+      ]
+    },
+    {
+      "type": "スクワット（サブ）",
+      "lift": "ブルガリアンスクワット",
+      "sets": [
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "バーベルでやる奇数は左、偶数右。",
+          "1RM": 99,
+          "e1RM": 106
+        },
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "ローバーで担ぐ方が楽",
+          "1RM": 99,
+          "e1RM": 106
+        },
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 99,
+          "e1RM": 106
+        },
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 99,
+          "e1RM": 106
+        },
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 99,
+          "e1RM": 106
+        },
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 99,
+          "e1RM": 106
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー種目",
+      "lift": "ワンハンドダンベルロー",
+      "sets": [
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "右から",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
