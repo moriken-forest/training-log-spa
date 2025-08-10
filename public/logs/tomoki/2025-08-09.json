@@ -1,0 +1,89 @@
+{
+  "week": 3,
+  "day": 3,
+  "date": "2025-08-09",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": "メニュー通り",
+          "reps": "規定通り",
+          "RPE": "余裕あり（+3回可能）",
+          "1RM": null,
+          "e1RM": null
+        }
+      ],
+      "notes": "全セットあと3回くらいはできた"
+    },
+    {
+      "type": "デッドリフト（サブ）",
+      "lift": "デッドリフト",
+      "sets": [
+        {
+          "weight": 90,
+          "reps": 3,
+          "1RM": 98,
+          "e1RM": null
+        },
+        {
+          "weight": 100,
+          "reps": 3,
+          "1RM": 109,
+          "e1RM": null
+        },
+        {
+          "weight": 100,
+          "reps": 3,
+          "1RM": 109,
+          "e1RM": null
+        }
+      ],
+      "notes": "規定は5回×3セットだが重量を上げて実施"
+    },
+    {
+      "type": "補助種目",
+      "lift": "ルーマニアンデッドリフト",
+      "sets": [
+        {
+          "weight": 60,
+          "reps": 5,
+          "1RM": 69,
+          "e1RM": null
+        },
+        {
+          "weight": 60,
+          "reps": 5,
+          "1RM": 69,
+          "e1RM": null
+        }
+      ],
+      "notes": "全セットやり切った"
+    },
+    {
+      "type": "補助種目",
+      "lift": "バーベルアームカール",
+      "sets": [
+        {
+          "weight": 25,
+          "reps": 10,
+          "1RM": 32,
+          "e1RM": null
+        },
+        {
+          "weight": 25,
+          "reps": 10,
+          "1RM": 32,
+          "e1RM": null
+        },
+        {
+          "weight": 25,
+          "reps": 10,
+          "1RM": 32,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
