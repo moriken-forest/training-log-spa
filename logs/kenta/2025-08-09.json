@@ -1,99 +1,3948 @@
 {
-  "date": "2025-08-09",
-  "block": "Accumulation",
-  "week": 4,
-  "day": 3,
-  "notes": "ブロックAccumulation Week4 Day3のトレーニング。ライイングエクステンション中に肘に変な痛みがあり中断、バーベルアームカールも未実施。",
-  "sessions": [
+  "blocks": [
     {
-      "type": "ベンチプレス（メイン）",
-      "lift": "ベンチプレス",
-      "sets": [
+      "block": "Accumulation",
+      "notes": null,
+      "weeks": [
         {
-          "weight": 85,
-          "reps": 8,
-          "rpe": 7,
-          "comment": "重い気がする",
-          "1RM": 102,
-          "e1RM": 108
+          "week": 1,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-07-09",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 4,
+                      "weight": 75,
+                      "percent": 80,
+                      "1RM": 93.75
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "スクワット",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 4,
+                      "weight": 120,
+                      "percent": 76.9,
+                      "1RM": 156.003600360036
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day2",
+              "date": "2025-07-10",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 4,
+                      "weight": 75,
+                      "percent": 88.9,
+                      "1RM": 84.375
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "足上げベンチ",
+                  "sets": [
+                    {
+                      "reps": 6,
+                      "sets": 3,
+                      "weight": 75,
+                      "percent": 87,
+                      "1RM": 86.25
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズデッド",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 5,
+                      "weight": 90,
+                      "percent": 91.7,
+                      "1RM": 98.1008100810081
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-07-12",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 4,
+                      "weight": 80,
+                      "percent": 80,
+                      "1RM": 100
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 1,
+                      "weight": 150,
+                      "percent": 94.3,
+                      "1RM": 159.000900090009
+                    },
+                    {
+                      "reps": 5,
+                      "sets": 1,
+                      "weight": 150,
+                      "percent": 87,
+                      "1RM": 172.5022502250225
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 4,
+                      "weight": 150,
+                      "percent": 94.3,
+                      "1RM": 159.000900090009
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ライイングエクステンション",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "バーベルアームカール",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day4",
+              "date": "2025-07-13",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ブロックベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 100,
+                      "percent": 93,
+                      "1RM": 107.5
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ナローベンチ",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 4,
+                      "weight": 70,
+                      "percent": 88.9,
+                      "1RM": 78.75
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズスクワット",
+                  "sets": [
+                    {
+                      "reps": 4,
+                      "sets": 3,
+                      "weight": 100,
+                      "percent": 89.3,
+                      "1RM": 112.001200120012
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ブルガリアンスクワット",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 3,
+                      "weight": 70,
+                      "percent": 80.6,
+                      "1RM": 86.8016801680168
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ワンハンドダンベルロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "weight": 85,
-          "reps": 8,
-          "rpe": 7,
-          "comment": "",
-          "1RM": 102,
-          "e1RM": 108
+          "week": 2,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-07-16",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 4,
+                      "weight": 85,
+                      "percent": 80,
+                      "1RM": 106.25
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "スクワット",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 4,
+                      "weight": 130,
+                      "percent": 76.9,
+                      "1RM": 169.003900390039
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day2",
+              "date": "2025-07-17",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 4,
+                      "weight": 80,
+                      "percent": 88.9,
+                      "1RM": 90
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "足上げベンチ",
+                  "sets": [
+                    {
+                      "reps": 6,
+                      "sets": 3,
+                      "weight": 80,
+                      "percent": 87,
+                      "1RM": 92
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズデッド",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 5,
+                      "weight": 100,
+                      "percent": 91.7,
+                      "1RM": 109.000900090009
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-07-19",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 4,
+                      "weight": 90,
+                      "percent": 80,
+                      "1RM": 112.5
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 1,
+                      "weight": 160,
+                      "percent": 94.3,
+                      "1RM": 169.6009600960096
+                    },
+                    {
+                      "reps": 5,
+                      "sets": 1,
+                      "weight": 160,
+                      "percent": 87,
+                      "1RM": 184.002400240024
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 4,
+                      "weight": 160,
+                      "percent": 94.3,
+                      "1RM": 169.6009600960096
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ライイングエクステンション",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "バーベルアームカール",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day4",
+              "date": "2025-07-20",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ブロックベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 105,
+                      "percent": 93,
+                      "1RM": 112.875
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ナローベンチ",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 4,
+                      "weight": 75,
+                      "percent": 88.9,
+                      "1RM": 84.375
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "フロントスクワット",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 3,
+                      "weight": 80,
+                      "percent": 80.6,
+                      "1RM": 99.2019201920192
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ブルガリアンスクワット",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 3,
+                      "weight": 70,
+                      "percent": 80.6,
+                      "1RM": 86.8016801680168
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ワンハンドダンベルロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "weight": 85,
-          "reps": 8,
-          "rpe": 5,
-          "comment": "しっかり圧を意識したらよかった",
-          "1RM": 102,
-          "e1RM": 112
+          "week": 3,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-07-23",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 4,
+                      "weight": 95,
+                      "percent": 80,
+                      "1RM": 118.75
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "スクワット",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 4,
+                      "weight": 140,
+                      "percent": 76.9,
+                      "1RM": 182.004200420042
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day2",
+              "date": "2025-07-24",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 4,
+                      "weight": 85,
+                      "percent": 88.9,
+                      "1RM": 95.625
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "足上げベンチ",
+                  "sets": [
+                    {
+                      "reps": 6,
+                      "sets": 3,
+                      "weight": 85,
+                      "percent": 87,
+                      "1RM": 97.75
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズデッド",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 5,
+                      "weight": 110,
+                      "percent": 91.7,
+                      "1RM": 119.9009900990099
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-07-26",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 4,
+                      "weight": 100,
+                      "percent": 80,
+                      "1RM": 125
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "ルーマニアンデッドリフト",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 4,
+                      "weight": 110,
+                      "percent": 80.6,
+                      "1RM": 136.4026402640264
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ライイングエクステンション",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "バーベルアームカール",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day4",
+              "date": "2025-07-27",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ブロックベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 110,
+                      "percent": 93,
+                      "1RM": 118.25
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ナローベンチ",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 4,
+                      "weight": 80,
+                      "percent": 88.9,
+                      "1RM": 90
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズスクワット",
+                  "sets": [
+                    {
+                      "reps": 4,
+                      "sets": 3,
+                      "weight": 110,
+                      "percent": 89.3,
+                      "1RM": 123.2013201320132
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ブルガリアンスクワット",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 3,
+                      "weight": 80,
+                      "percent": 80.6,
+                      "1RM": 99.2019201920192
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ワンハンドダンベルロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "weight": 85,
-          "reps": 8,
-          "rpe": 5,
-          "comment": "",
-          "1RM": 102,
-          "e1RM": 112
+          "week": 4,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-07-30",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 4,
+                      "weight": 80,
+                      "percent": 83.3,
+                      "1RM": 96
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "スクワット",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 4,
+                      "weight": 150,
+                      "percent": 80.6,
+                      "1RM": 186.003600360036
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day2",
+              "date": "2025-07-31",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 4,
+                      "weight": 90,
+                      "percent": 88.9,
+                      "1RM": 101.25
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "足上げベンチ",
+                  "sets": [
+                    {
+                      "reps": 6,
+                      "sets": 3,
+                      "weight": 90,
+                      "percent": 87,
+                      "1RM": 103.5
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズデッド",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 5,
+                      "weight": 120,
+                      "percent": 91.7,
+                      "1RM": 130.8010801080108
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-08-02",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 4,
+                      "weight": 85,
+                      "percent": 83.3,
+                      "1RM": 102
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 1,
+                      "weight": 167.5,
+                      "percent": 94.3,
+                      "1RM": 177.55100510051005
+                    },
+                    {
+                      "reps": 5,
+                      "sets": 1,
+                      "weight": 167.5,
+                      "percent": 87,
+                      "1RM": 192.62751275127513
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 4,
+                      "weight": 167.5,
+                      "percent": 94.3,
+                      "1RM": 177.55100510051005
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ライイングエクステンション",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "バーベルアームカール",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day4",
+              "date": "2025-08-03",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ブロックベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 115,
+                      "percent": 93,
+                      "1RM": 123.625
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ナローベンチ",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 4,
+                      "weight": 85,
+                      "percent": 88.9,
+                      "1RM": 95.625
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "フロントスクワット",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 3,
+                      "weight": 90,
+                      "percent": 80.6,
+                      "1RM": 111.6021602160216
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ブルガリアンスクワット",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 3,
+                      "weight": 80,
+                      "percent": 80.6,
+                      "1RM": 99.2019201920192
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ワンハンドダンベルロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 5,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-08-06",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 4,
+                      "weight": 90,
+                      "percent": 83.3,
+                      "1RM": 108
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "スクワット",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 4,
+                      "weight": 157.5,
+                      "percent": 80.6,
+                      "1RM": 195.3037803780378
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day2",
+              "date": "2025-08-07",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 4,
+                      "weight": 95,
+                      "percent": 88.9,
+                      "1RM": 106.875
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "足上げベンチ",
+                  "sets": [
+                    {
+                      "reps": 6,
+                      "sets": 3,
+                      "weight": 95,
+                      "percent": 87,
+                      "1RM": 109.25
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズデッド",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 5,
+                      "weight": 130,
+                      "percent": 91.7,
+                      "1RM": 141.7011701170117
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-08-09",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 4,
+                      "weight": 95,
+                      "percent": 83.3,
+                      "1RM": 114
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 1,
+                      "weight": 170,
+                      "percent": 94.3,
+                      "1RM": 180.2010201020102
+                    },
+                    {
+                      "reps": 5,
+                      "sets": 1,
+                      "weight": 170,
+                      "percent": 87,
+                      "1RM": 195.5025502550255
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 4,
+                      "weight": 170,
+                      "percent": 94.3,
+                      "1RM": 180.2010201020102
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ライイングエクステンション",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "バーベルアームカール",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day4",
+              "date": "2025-08-10",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ブロックベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 120,
+                      "percent": 93,
+                      "1RM": 129
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ナローベンチ",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 4,
+                      "weight": 90,
+                      "percent": 88.9,
+                      "1RM": 101.25
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズスクワット",
+                  "sets": [
+                    {
+                      "reps": 4,
+                      "sets": 3,
+                      "weight": 120,
+                      "percent": 89.3,
+                      "1RM": 134.4014401440144
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ブルガリアンスクワット",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 3,
+                      "weight": 90,
+                      "percent": 80.6,
+                      "1RM": 111.6021602160216
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ワンハンドダンベルロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 6,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-08-13",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 4,
+                      "weight": 100,
+                      "percent": 83.3,
+                      "1RM": 120
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "スクワット",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 4,
+                      "weight": 165,
+                      "percent": 80.6,
+                      "1RM": 204.6039603960396
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day2",
+              "date": "2025-08-14",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 4,
+                      "weight": 100,
+                      "percent": 88.9,
+                      "1RM": 112.5
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "足上げベンチ",
+                  "sets": [
+                    {
+                      "reps": 6,
+                      "sets": 3,
+                      "weight": 100,
+                      "percent": 87,
+                      "1RM": 115
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズデッド",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 5,
+                      "weight": 140,
+                      "percent": 91.7,
+                      "1RM": 152.6012601260126
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-08-16",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 4,
+                      "weight": 105,
+                      "percent": 83.3,
+                      "1RM": 126
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "ルーマニアンデッドリフト",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 4,
+                      "weight": 120,
+                      "percent": 80.6,
+                      "1RM": 148.8028802880288
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ライイングエクステンション",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "バーベルアームカール",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day4",
+              "date": "2025-08-17",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ブロックベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 125,
+                      "percent": 93,
+                      "1RM": 134.375
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ナローベンチ",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 4,
+                      "weight": 95,
+                      "percent": 88.9,
+                      "1RM": 106.875
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "フロントスクワット",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 3,
+                      "weight": 100,
+                      "percent": 80.6,
+                      "1RM": 124.002400240024
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ブルガリアンスクワット",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 3,
+                      "weight": 90,
+                      "percent": 80.6,
+                      "1RM": 111.6021602160216
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ワンハンドダンベルロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "type": "デッドリフト（メイン）",
-      "lift": "デッドリフト",
-      "sets": [
+      "block": "Transmutation",
+      "notes": null,
+      "weeks": [
         {
-          "weight": 167.5,
-          "reps": 2,
-          "rpe": 7,
-          "comment": "前回のポーズデッドの意識を。素手でやった",
-          "1RM": 177,
-          "e1RM": 192
+          "week": 1,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-08-20",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 2,
+                      "weight": 95,
+                      "percent": 100,
+                      "1RM": 95
+                    },
+                    {
+                      "reps": 6,
+                      "sets": 3,
+                      "weight": 85,
+                      "percent": 87,
+                      "1RM": 97.75
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "スクワット",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 170,
+                      "percent": 100,
+                      "1RM": 170
+                    },
+                    {
+                      "reps": 6,
+                      "sets": 3,
+                      "weight": 165,
+                      "percent": 84.7,
+                      "1RM": 194.7029702970297
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day2",
+              "date": "2025-08-21",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 3,
+                      "weight": 80,
+                      "percent": 88.9,
+                      "1RM": 90
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "足上げベンチ",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 3,
+                      "weight": 80,
+                      "percent": 88.9,
+                      "1RM": 90
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズデッド",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 4,
+                      "weight": 140,
+                      "percent": 91.7,
+                      "1RM": 152.6012601260126
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-08-23",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 2,
+                      "weight": 100,
+                      "percent": 100,
+                      "1RM": 100
+                    },
+                    {
+                      "reps": 6,
+                      "sets": 3,
+                      "weight": 90,
+                      "percent": 87,
+                      "1RM": 103.5
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 1,
+                      "weight": 180,
+                      "percent": 94.3,
+                      "1RM": 190.8010801080108
+                    },
+                    {
+                      "reps": 3,
+                      "sets": 1,
+                      "weight": 180,
+                      "percent": 91.7,
+                      "1RM": 196.2016201620162
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 3,
+                      "weight": 180,
+                      "percent": 94.3,
+                      "1RM": 190.8010801080108
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ライイングエクステンション",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "バーベルアームカール",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day4",
+              "date": "2025-08-24",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ブロックベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 110,
+                      "percent": 93,
+                      "1RM": 118.25
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズスクワット",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 110,
+                      "percent": 91.7,
+                      "1RM": 119.9009900990099
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ワンハンドダンベルロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "weight": 167.5,
-          "reps": 5,
-          "rpe": 7,
-          "comment": "滑る。とにかく滑るわ。後半そのせいで返しきれんかった",
-          "1RM": 192,
-          "e1RM": 207
+          "week": 2,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-08-27",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 105,
+                      "percent": 100,
+                      "1RM": 105
+                    },
+                    {
+                      "reps": 6,
+                      "sets": 3,
+                      "weight": 95,
+                      "percent": 87,
+                      "1RM": 109.25
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "スクワット",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 175,
+                      "percent": 100,
+                      "1RM": 175
+                    },
+                    {
+                      "reps": 6,
+                      "sets": 3,
+                      "weight": 170,
+                      "percent": 84.7,
+                      "1RM": 200.6030603060306
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day2",
+              "date": "2025-08-28",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 3,
+                      "weight": 85,
+                      "percent": 88.9,
+                      "1RM": 95.625
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "足上げベンチ",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 3,
+                      "weight": 85,
+                      "percent": 88.9,
+                      "1RM": 95.625
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ラックプル",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 4,
+                      "weight": 200,
+                      "percent": 91.7,
+                      "1RM": 218.001800180018
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-08-30",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 110,
+                      "percent": 100,
+                      "1RM": 110
+                    },
+                    {
+                      "reps": 6,
+                      "sets": 3,
+                      "weight": 100,
+                      "percent": 87,
+                      "1RM": 115
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 1,
+                      "weight": 185,
+                      "percent": 94.3,
+                      "1RM": 196.1011101110111
+                    },
+                    {
+                      "reps": 3,
+                      "sets": 1,
+                      "weight": 185,
+                      "percent": 91.7,
+                      "1RM": 201.65166516651666
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 3,
+                      "weight": 185,
+                      "percent": 94.3,
+                      "1RM": 196.1011101110111
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ライイングエクステンション",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "バーベルアームカール",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day4",
+              "date": "2025-08-31",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ブロックベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 115,
+                      "percent": 93,
+                      "1RM": 123.625
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ブロックスクワット",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 180,
+                      "percent": 91.7,
+                      "1RM": 196.2016201620162
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ワンハンドダンベルロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "weight": 167.5,
-          "reps": 2,
-          "rpe": 6,
-          "comment": "パワーグリップありなら余裕あり",
-          "1RM": 177,
-          "e1RM": 197
+          "week": 3,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-09-03",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 115,
+                      "percent": 100,
+                      "1RM": 115
+                    },
+                    {
+                      "reps": 6,
+                      "sets": 3,
+                      "weight": 105,
+                      "percent": 87,
+                      "1RM": 120.75
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "スクワット",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 180,
+                      "percent": 100,
+                      "1RM": 180
+                    },
+                    {
+                      "reps": 6,
+                      "sets": 2,
+                      "weight": 175,
+                      "percent": 84.7,
+                      "1RM": 206.50315031503152
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day2",
+              "date": "2025-09-04",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 3,
+                      "weight": 90,
+                      "percent": 88.9,
+                      "1RM": 101.25
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "足上げベンチ",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 3,
+                      "weight": 90,
+                      "percent": 88.9,
+                      "1RM": 101.25
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズデッド",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 4,
+                      "weight": 140,
+                      "percent": 91.7,
+                      "1RM": 152.6012601260126
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-09-06",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 120,
+                      "percent": 100,
+                      "1RM": 120
+                    },
+                    {
+                      "reps": 6,
+                      "sets": 2,
+                      "weight": 110,
+                      "percent": 87,
+                      "1RM": 126.5
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "ルーマニアンデッドリフト",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 4,
+                      "weight": 130,
+                      "percent": 80.6,
+                      "1RM": 161.20312031203122
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ライイングエクステンション",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "バーベルアームカール",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day4",
+              "date": "2025-09-07",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ブロックベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 120,
+                      "percent": 93,
+                      "1RM": 129
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズスクワット",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 120,
+                      "percent": 91.7,
+                      "1RM": 130.8010801080108
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ワンハンドダンベルロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "weight": 167.5,
-          "reps": 2,
-          "rpe": 7,
-          "comment": "最後に返せるくらいの余裕を",
-          "1RM": 177,
-          "e1RM": 192
+          "week": 4,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-09-10",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 100,
+                      "percent": 100,
+                      "1RM": 100
+                    },
+                    {
+                      "reps": 4,
+                      "sets": 3,
+                      "weight": 90,
+                      "percent": 90.9,
+                      "1RM": 99
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "スクワット",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 180,
+                      "percent": 100,
+                      "1RM": 180
+                    },
+                    {
+                      "reps": 4,
+                      "sets": 3,
+                      "weight": 175,
+                      "percent": 89.3,
+                      "1RM": 196.002100210021
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day2",
+              "date": "2025-09-11",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 3,
+                      "weight": 95,
+                      "percent": 88.9,
+                      "1RM": 106.875
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "足上げベンチ",
+                  "sets": [
+                    {
+                      "reps": 4,
+                      "sets": 3,
+                      "weight": 95,
+                      "percent": 90.9,
+                      "1RM": 104.5
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ラックプル",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 4,
+                      "weight": 210,
+                      "percent": 91.7,
+                      "1RM": 228.9018901890189
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-09-13",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 105,
+                      "percent": 100,
+                      "1RM": 105
+                    },
+                    {
+                      "reps": 4,
+                      "sets": 3,
+                      "weight": 95,
+                      "percent": 90.9,
+                      "1RM": 104.5
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 1,
+                      "weight": 190,
+                      "percent": 94.3,
+                      "1RM": 201.4011401140114
+                    },
+                    {
+                      "reps": 3,
+                      "sets": 1,
+                      "weight": 190,
+                      "percent": 91.7,
+                      "1RM": 207.1017101710171
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 2,
+                      "weight": 190,
+                      "percent": 94.3,
+                      "1RM": 201.4011401140114
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ライイングエクステンション",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "バーベルアームカール",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day4",
+              "date": "2025-09-14",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ブロックベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 125,
+                      "percent": 93,
+                      "1RM": 134.375
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ブロックスクワット",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 190,
+                      "percent": 91.7,
+                      "1RM": 207.1017101710171
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ワンハンドダンベルロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "weight": 167.5,
-          "reps": 2,
-          "rpe": 8,
-          "comment": "1rep目がすごいよかった。しっかりヒップヒンジを意識",
-          "1RM": 177,
-          "e1RM": 187
+          "week": 5,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-09-17",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 110,
+                      "percent": 100,
+                      "1RM": 110
+                    },
+                    {
+                      "reps": 4,
+                      "sets": 3,
+                      "weight": 100,
+                      "percent": 90.9,
+                      "1RM": 110
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "スクワット",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 185,
+                      "percent": 100,
+                      "1RM": 185
+                    },
+                    {
+                      "reps": 4,
+                      "sets": 3,
+                      "weight": 180,
+                      "percent": 89.3,
+                      "1RM": 201.60216021602162
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day2",
+              "date": "2025-09-18",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 3,
+                      "weight": 100,
+                      "percent": 88.9,
+                      "1RM": 112.5
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "足上げベンチ",
+                  "sets": [
+                    {
+                      "reps": 4,
+                      "sets": 3,
+                      "weight": 100,
+                      "percent": 90.9,
+                      "1RM": 110
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズデッド",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 4,
+                      "weight": 140,
+                      "percent": 91.7,
+                      "1RM": 152.6012601260126
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-09-20",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 115,
+                      "percent": 100,
+                      "1RM": 115
+                    },
+                    {
+                      "reps": 4,
+                      "sets": 3,
+                      "weight": 105,
+                      "percent": 90.9,
+                      "1RM": 115.5
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 1,
+                      "weight": 195,
+                      "percent": 94.3,
+                      "1RM": 206.7011701170117
+                    },
+                    {
+                      "reps": 3,
+                      "sets": 1,
+                      "weight": 195,
+                      "percent": 91.7,
+                      "1RM": 212.55175517551754
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 2,
+                      "weight": 195,
+                      "percent": 94.3,
+                      "1RM": 206.7011701170117
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ライイングエクステンション",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "バーベルアームカール",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day4",
+              "date": "2025-09-21",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ブロックベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 130,
+                      "percent": 93,
+                      "1RM": 139.75
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズスクワット",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 130,
+                      "percent": 91.7,
+                      "1RM": 141.7011701170117
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ワンハンドダンベルロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "weight": 167.5,
-          "reps": 1,
-          "rpe": 10,
-          "comment": "2rep目上がらず。スタートポジ悪い",
-          "1RM": 172,
-          "e1RM": 172
+          "week": 6,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-09-24",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 120,
+                      "percent": 100,
+                      "1RM": 120
+                    },
+                    {
+                      "reps": 4,
+                      "sets": 3,
+                      "weight": 110,
+                      "percent": 90.9,
+                      "1RM": 121
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "スクワット",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 190,
+                      "percent": 100,
+                      "1RM": 190
+                    },
+                    {
+                      "reps": 4,
+                      "sets": 2,
+                      "weight": 185,
+                      "percent": 89.3,
+                      "1RM": 207.2022202220222
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day2",
+              "date": "2025-09-25",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 5,
+                      "sets": 3,
+                      "weight": 105,
+                      "percent": 88.9,
+                      "1RM": 118.125
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "足上げベンチ",
+                  "sets": [
+                    {
+                      "reps": 4,
+                      "sets": 3,
+                      "weight": 105,
+                      "percent": 90.9,
+                      "1RM": 115.5
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ラックプル",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 4,
+                      "weight": 220,
+                      "percent": 91.7,
+                      "1RM": 239.8019801980198
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-09-27",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 125,
+                      "percent": 100,
+                      "1RM": 125
+                    },
+                    {
+                      "reps": 4,
+                      "sets": 2,
+                      "weight": 115,
+                      "percent": 90.9,
+                      "1RM": 126.5
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "ルーマニアンデッドリフト",
+                  "sets": [
+                    {
+                      "reps": 8,
+                      "sets": 4,
+                      "weight": 130,
+                      "percent": 80.6,
+                      "1RM": 161.20312031203122
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ライイングエクステンション",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "バーベルアームカール",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day4",
+              "date": "2025-09-28",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ブロックベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 135,
+                      "percent": 93,
+                      "1RM": 145.125
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ブロックスクワット",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 200,
+                      "percent": 91.7,
+                      "1RM": 218.001800180018
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ワンハンドダンベルロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "Realization",
+      "notes": null,
+      "weeks": [
+        {
+          "week": 1,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-10-01",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 115,
+                      "percent": 100,
+                      "1RM": 115
+                    },
+                    {
+                      "reps": 3,
+                      "sets": 2,
+                      "weight": 112.5,
+                      "percent": 93,
+                      "1RM": 120.9375
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "スクワット",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 190,
+                      "percent": 100,
+                      "1RM": 190
+                    },
+                    {
+                      "reps": 3,
+                      "sets": 2,
+                      "weight": 185,
+                      "percent": 91.7,
+                      "1RM": 201.65166516651666
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day2",
+              "date": "2025-10-02",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 100,
+                      "percent": 93,
+                      "1RM": 107.5
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズデッド",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 140,
+                      "percent": 91.7,
+                      "1RM": 152.6012601260126
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-10-04",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 117.5,
+                      "percent": 100,
+                      "1RM": 117.5
+                    },
+                    {
+                      "reps": 3,
+                      "sets": 2,
+                      "weight": 115,
+                      "percent": 93,
+                      "1RM": 123.625
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 2,
+                      "weight": 202.5,
+                      "percent": 100,
+                      "1RM": 202.5
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 2,
+                      "weight": 197.5,
+                      "percent": 94.3,
+                      "1RM": 209.35118511851186
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day4",
+              "date": "2025-10-05",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ブロックベンチ",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 3,
+                      "weight": 125,
+                      "percent": 95.2,
+                      "1RM": 131.25
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズスクワット",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 110,
+                      "percent": 91.7,
+                      "1RM": 119.9009900990099
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-10-08",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 120,
+                      "percent": 100,
+                      "1RM": 120
+                    },
+                    {
+                      "reps": 3,
+                      "sets": 2,
+                      "weight": 117.5,
+                      "percent": 93,
+                      "1RM": 126.3125
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "スクワット",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 195,
+                      "percent": 100,
+                      "1RM": 195
+                    },
+                    {
+                      "reps": 3,
+                      "sets": 2,
+                      "weight": 190,
+                      "percent": 91.7,
+                      "1RM": 207.1017101710171
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day2",
+              "date": "2025-10-09",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 102.5,
+                      "percent": 93,
+                      "1RM": 110.1875
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズデッド",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 140,
+                      "percent": 91.7,
+                      "1RM": 152.6012601260126
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-10-11",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 122.5,
+                      "percent": 100,
+                      "1RM": 122.5
+                    },
+                    {
+                      "reps": 3,
+                      "sets": 1,
+                      "weight": 120,
+                      "percent": 93,
+                      "1RM": 129
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 2,
+                      "weight": 205,
+                      "percent": 100,
+                      "1RM": 205
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 2,
+                      "weight": 200,
+                      "percent": 94.3,
+                      "1RM": 212.00120012001202
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day4",
+              "date": "2025-10-12",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ブロックベンチ",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 3,
+                      "weight": 130,
+                      "percent": 95.2,
+                      "1RM": 136.5
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズスクワット",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 120,
+                      "percent": 91.7,
+                      "1RM": 130.8010801080108
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-10-15",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 120,
+                      "percent": 100,
+                      "1RM": 120
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 2,
+                      "weight": 117.5,
+                      "percent": 95.2,
+                      "1RM": 123.375
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "スクワット",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 200,
+                      "percent": 100,
+                      "1RM": 200
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 2,
+                      "weight": 195,
+                      "percent": 94.3,
+                      "1RM": 206.7011701170117
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day2",
+              "date": "2025-10-16",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 105,
+                      "percent": 93,
+                      "1RM": 112.875
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズデッド",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 140,
+                      "percent": 91.7,
+                      "1RM": 152.6012601260126
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-10-18",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 122.5,
+                      "percent": 100,
+                      "1RM": 122.5
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 2,
+                      "weight": 120,
+                      "percent": 95.2,
+                      "1RM": 126
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 2,
+                      "weight": 207.5,
+                      "percent": 100,
+                      "1RM": 207.5
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 2,
+                      "weight": 202.5,
+                      "percent": 94.3,
+                      "1RM": 214.65121512151217
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day4",
+              "date": "2025-10-19",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ブロックベンチ",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 3,
+                      "weight": 135,
+                      "percent": 95.2,
+                      "1RM": 141.75
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズスクワット",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 130,
+                      "percent": 91.7,
+                      "1RM": 141.7011701170117
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-10-22",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 125,
+                      "percent": 100,
+                      "1RM": 125
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 2,
+                      "weight": 122.5,
+                      "percent": 95.2,
+                      "1RM": 128.625
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "スクワット",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 205,
+                      "percent": 100,
+                      "1RM": 205
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 1,
+                      "weight": 200,
+                      "percent": 94.3,
+                      "1RM": 212.00120012001202
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "懸垂",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day2",
+              "date": "2025-10-23",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 107.5,
+                      "percent": 93,
+                      "1RM": 115.5625
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズデッド",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 140,
+                      "percent": 91.7,
+                      "1RM": 152.6012601260126
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-10-25",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 127.5,
+                      "percent": 100,
+                      "1RM": 127.5
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 1,
+                      "weight": 125,
+                      "percent": 95.2,
+                      "1RM": 131.25
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 2,
+                      "weight": 210,
+                      "percent": 100,
+                      "1RM": 210
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 2,
+                      "weight": 205,
+                      "percent": 94.3,
+                      "1RM": 217.3012301230123
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day4",
+              "date": "2025-10-26",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ブロックベンチ",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 3,
+                      "weight": 140,
+                      "percent": 95.2,
+                      "1RM": 147
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズスクワット",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 140,
+                      "percent": 91.7,
+                      "1RM": 152.6012601260126
+                    }
+                  ]
+                },
+                {
+                  "type": "",
+                  "lift": "ダンベルシールロー",
+                  "sets": [
+                    {
+                      "reps": 10,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "block": "Taper",
+      "notes": null,
+      "weeks": [
+        {
+          "week": 1,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-10-29",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 2,
+                      "weight": 110,
+                      "percent": 100,
+                      "1RM": 110
+                    },
+                    {
+                      "reps": 5,
+                      "sets": 3,
+                      "weight": 95,
+                      "percent": 88.9,
+                      "1RM": 106.875
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "スクワット",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 2,
+                      "weight": 180,
+                      "percent": 100,
+                      "1RM": 180
+                    },
+                    {
+                      "reps": 5,
+                      "sets": 2,
+                      "weight": 150,
+                      "percent": 87,
+                      "1RM": 172.5022502250225
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day2",
+              "date": "2025-10-30",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                },
+                {
+                  "type": "サブ",
+                  "lift": "ポーズデッド",
+                  "sets": [
+                    {
+                      "reps": 3,
+                      "sets": 3,
+                      "weight": 140,
+                      "percent": 91.7,
+                      "1RM": 152.6012601260126
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-11-01",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 2,
+                      "weight": 110,
+                      "percent": 100,
+                      "1RM": 110
+                    },
+                    {
+                      "reps": 3,
+                      "sets": 2,
+                      "weight": 100,
+                      "percent": 93,
+                      "1RM": 107.5
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 2,
+                      "weight": 190,
+                      "percent": 100,
+                      "1RM": 190
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 3,
+                      "weight": 180,
+                      "percent": 94.3,
+                      "1RM": 190.8010801080108
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day4",
+              "date": "2025-11-02",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ブロックベンチ",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 2,
+                      "weight": 120,
+                      "percent": 95.2,
+                      "1RM": 126
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "days": [
+            {
+              "day": "Day1",
+              "date": "2025-11-05",
+              "sessions": [
+                {
+                  "type": "メイン",
+                  "lift": "ベンチプレス",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 2,
+                      "weight": 110,
+                      "percent": 100,
+                      "1RM": 110
+                    },
+                    {
+                      "reps": 5,
+                      "sets": 3,
+                      "weight": 90,
+                      "percent": 88.9,
+                      "1RM": 101.25
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "スクワット",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 2,
+                      "weight": 180,
+                      "percent": 100,
+                      "1RM": 180
+                    },
+                    {
+                      "reps": 3,
+                      "sets": 2,
+                      "weight": 160,
+                      "percent": 91.7,
+                      "1RM": 174.4014401440144
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day2",
+              "date": "2025-11-06",
+              "sessions": [
+                {
+                  "type": "サブ",
+                  "lift": "ポーズベンチ",
+                  "sets": [
+                    {
+                      "reps": 2,
+                      "sets": 3,
+                      "weight": 0,
+                      "percent": null,
+                      "1RM": 0
+                    }
+                  ]
+                },
+                {
+                  "type": "メイン",
+                  "lift": "デッドリフト",
+                  "sets": [
+                    {
+                      "reps": 1,
+                      "sets": 1,
+                      "weight": 190,
+                      "percent": 100,
+                      "1RM": 190
+                    },
+                    {
+                      "reps": 2,
+                      "sets": 2,
+                      "weight": 170,
+                      "percent": 94.3,
+                      "1RM": 180.2010201020102
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "day": "Day3",
+              "date": "2025-11-08",
+              "sessions": []
+            },
+            {
+              "day": "Day4",
+              "date": "2025-11-09",
+              "sessions": []
+            }
+          ]
         }
       ]
     }
