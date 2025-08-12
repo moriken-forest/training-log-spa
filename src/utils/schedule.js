@@ -24,3 +24,10 @@ export function addScheduleCalcFields(sched) {
     }
   }
 }
+
+export function fetchSchedule(user, base = import.meta.env.BASE_URL) {
+  const ts = Date.now()
+  const url = `${base}schedule/${user}/training-schedule.json?ts=${ts}`
+  return fetch(url, { cache: 'no-store' }).then(r => r.json())
+}
+

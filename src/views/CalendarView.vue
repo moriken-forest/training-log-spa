@@ -19,7 +19,7 @@ import Calendar from '../components/Calendar.vue'
 import LogDetail from '../components/LogDetail.vue'
 import ScheduleDetail from '../components/ScheduleDetail.vue'
 import { getStoredDates, getStoredLog, deleteLog } from '../utils/logStorage'
-import { addScheduleCalcFields } from '../utils/schedule'
+import { addScheduleCalcFields, fetchSchedule } from '../utils/schedule'
 import { getUser } from '../utils/user'
 
 const user = getUser()
@@ -32,6 +32,7 @@ export default {
       scheduleDates: [],
       logs: [],
       scheduleMap: {},
+      scheduleTimer: null,
       selectedLog: null,
       selectedPlan: null,
       selectedDate: null
@@ -53,7 +54,7 @@ export default {
     const indexReq = fetch(`${base}logs/${user}/index.json`)
       .then(r => (r.ok ? r.json() : []))
       .catch(() => [])
-    const schedReq = fetch(`${base}schedule/${user}/training-schedule.json`).then(r => r.json())
+    const schedReq = fetchSchedule(user)
 
     indexReq
       .then(d => {
@@ -71,6 +72,7 @@ export default {
       })
       .then(sched => {
         this.processSchedule(sched)
+        this.startSchedulePolling()
       })
       .then(() => {
         const q = this.$route.query.date
@@ -80,7 +82,16 @@ export default {
         }
       })
   },
+  unmounted() {
+    if (this.scheduleTimer) clearInterval(this.scheduleTimer)
+  },
   methods: {
+    startSchedulePolling() {
+      if (this.scheduleTimer) clearInterval(this.scheduleTimer)
+      this.scheduleTimer = setInterval(() => {
+        fetchSchedule(user).then(sched => this.processSchedule(sched))
+      }, 60000)
+    },
     processSchedule(sched) {
       addScheduleCalcFields(sched)
       const plans = []
