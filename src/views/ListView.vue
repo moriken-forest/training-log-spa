@@ -76,7 +76,7 @@ import LogList from '../components/LogList.vue'
 import ScheduleList from '../components/ScheduleList.vue'
 import { getStoredDates, getStoredLog, deleteLog } from '../utils/logStorage'
 import { parseCategory } from '../utils/category'
-import { addScheduleCalcFields } from '../utils/schedule'
+import { addScheduleCalcFields, fetchSchedule } from '../utils/schedule'
 import { getUser } from '../utils/user'
 
 const user = getUser()
@@ -91,6 +91,7 @@ export default {
       view: 'logs',
       flatView: false,
       scheduleData: null,
+      scheduleTimer: null,
       scheduleUrl: import.meta.env.BASE_URL + `schedule/${user}/training-schedule.json`
     }
   },
@@ -168,7 +169,7 @@ export default {
     const indexReq = fetch(`${base}logs/${user}/index.json`)
       .then(r => (r.ok ? r.json() : []))
       .catch(() => [])
-    const schedReq = fetch(this.scheduleUrl).then(r => r.json())
+    const schedReq = fetchSchedule(user)
 
     indexReq
       .then(dates => {
@@ -190,9 +191,23 @@ export default {
         addScheduleCalcFields(sched)
         this.scheduleData = sched
         this.processSchedule(sched)
+        this.startSchedulePolling()
       })
   },
+  unmounted() {
+    if (this.scheduleTimer) clearInterval(this.scheduleTimer)
+  },
   methods: {
+    startSchedulePolling() {
+      if (this.scheduleTimer) clearInterval(this.scheduleTimer)
+      this.scheduleTimer = setInterval(() => {
+        fetchSchedule(user).then(sched => {
+          addScheduleCalcFields(sched)
+          this.scheduleData = sched
+          this.processSchedule(sched)
+        })
+      }, 60000)
+    },
     deleteLogEntry(date) {
       deleteLog(date)
       this.logs = this.logs.filter(l => l.date !== date)
