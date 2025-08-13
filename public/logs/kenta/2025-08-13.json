@@ -1,0 +1,107 @@
+{
+  "date": "2025-08-13",
+  "block": "Accumulation",
+  "week": 5,
+  "day": 1,
+  "notes": "全体的に高RPEで疲労感あり",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 90,
+          "reps": 8,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 108,
+          "e1RM": 119
+        },
+        {
+          "weight": 90,
+          "reps": 8,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 108,
+          "e1RM": 119
+        },
+        {
+          "weight": 90,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "疲れてきた",
+          "1RM": 108,
+          "e1RM": 114
+        },
+        {
+          "weight": 90,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 108,
+          "e1RM": 117
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 157.5,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": 195,
+          "e1RM": 204
+        },
+        {
+          "weight": 157.5,
+          "reps": 8,
+          "rpe": 8.5,
+          "comment": "前傾強い気がする",
+          "1RM": 195,
+          "e1RM": 202
+        },
+        {
+          "weight": 157.5,
+          "reps": 7,
+          "rpe": 9.5,
+          "comment": "背中が限界になった。7repでおわり",
+          "1RM": 190,
+          "e1RM": 192
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 9,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 9.5,
+          "comment": "スパスパ",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 9,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
