@@ -2,11 +2,6 @@
 
 https://moriken-forest.github.io/training-log-spa/#/calendar
 
-サイトの操作方法は以下のページにまとめています。
-
-https://moriken-forest.github.io/training-log-spa/#/usage
-
-
 This repository manages daily training logs using GitHub Issues.
 
 Open the **Issues** tab and click **New issue**. Choose **Training Log** to add or update a log.
