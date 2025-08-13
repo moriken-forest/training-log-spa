@@ -12,6 +12,20 @@
     <p class="prompt-note">下記テキストをコピーしてChatGPTに入力します。</p>
     <button aria-label="プロンプトをコピー" class="copy-btn" @click="copyPrompt">コピー</button>
     <button aria-label="今日のプロンプトを作成してコピー" class="copy-btn" @click="copyTodayPrompt">今日のプロンプトを作る</button>
+    <div class="custom-prompt">
+      <p>別日のメニューを行う場合はこちら。</p>
+      <label>
+        予定メニュー
+        <select v-model="selectedPlan">
+          <option v-for="p in plans" :key="p.key" :value="p">{{ p.label }}</option>
+        </select>
+      </label>
+      <label>
+        実施日
+        <input type="date" v-model="actualDate" />
+      </label>
+      <button class="copy-btn" @click="copyCustomPrompt">このプロンプトを作る</button>
+    </div>
     <pre ref="promptText">
 あなたはパワーリフティング競技者のトレーニング記録を支援するAIコーチです。
 
@@ -125,6 +139,9 @@ export default {
   data() {
     return {
       todayPlan: null,
+      plans: [],
+      selectedPlan: null,
+      actualDate: new Date().toISOString().slice(0, 10),
       jsonTemplate: `{
   "date": "YYYY-MM-DD",
   "block": "○○",
@@ -158,6 +175,9 @@ export default {
       .then(sched => {
         addScheduleCalcFields(sched)
         this.todayPlan = this.findTodayPlan(sched)
+        this.plans = this.buildPlanList(sched)
+        const today = new Date().toISOString().slice(0, 10)
+        this.selectedPlan = this.plans.find(p => p.plan.date === today) || this.plans[0] || null
       })
   },
   methods: {
@@ -189,12 +209,48 @@ export default {
       }
       return null
     },
+    buildPlanList(sched) {
+      const out = []
+      for (const block of sched.blocks || []) {
+        for (const week of block.weeks || []) {
+          for (const day of week.days || []) {
+            out.push({
+              key: `${block.block}-${week.week}-${day.day}`,
+              label: `ブロック${block.block} Week${week.week} Day${Number(String(day.day).replace('Day',''))} (${day.date})`,
+              plan: {
+                date: day.date,
+                block: block.block,
+                week: week.week,
+                day: Number(String(day.day).replace('Day', '')),
+                sessions: day.sessions
+              }
+            })
+          }
+        }
+      }
+      return out
+    },
     copyTodayPrompt() {
       const baseText = this.$refs.promptText.textContent
       const today = new Date().toISOString().slice(0, 10)
       let text = `${baseText}\n\n今日は${today}です。`
       if (this.todayPlan) {
         const menu = JSON.stringify(this.todayPlan, null, 2)
+        text += `\n本日のメニュー:\n${menu}`
+      }
+      navigator.clipboard.writeText(text)
+      alert('プロンプトをコピーしました')
+    },
+    copyCustomPrompt() {
+      const baseText = this.$refs.promptText.textContent
+      const actual = this.actualDate || new Date().toISOString().slice(0, 10)
+      let text = `${baseText}\n\n今日は${actual}です。`
+      if (this.selectedPlan) {
+        const plan = this.selectedPlan.plan
+        const menu = JSON.stringify(plan, null, 2)
+        if (actual !== plan.date) {
+          text += `\n本来は${plan.date}に予定されていたメニューです。`
+        }
         text += `\n本日のメニュー:\n${menu}`
       }
       navigator.clipboard.writeText(text)
