@@ -1,0 +1,129 @@
+{
+  "date": "2025-08-14",
+  "block": "Accumulation",
+  "week": 5,
+  "day": 2,
+  "notes": "疲労感あり一部セット短縮",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチ",
+      "sets": [
+        {
+          "weight": 95,
+          "reps": 5,
+          "rpe": 6.5,
+          "comment": "",
+          "1RM": 106,
+          "e1RM": 115
+        },
+        {
+          "weight": 95,
+          "reps": 5,
+          "rpe": 7,
+          "comment": "疲労感あるからここでおわり",
+          "1RM": 106,
+          "e1RM": 114
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足上げベンチ",
+      "sets": [
+        {
+          "weight": 95,
+          "reps": 6,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 109,
+          "e1RM": 116
+        },
+        {
+          "weight": 95,
+          "reps": 6,
+          "rpe": 7.5,
+          "comment": "まあまあしんどかった",
+          "1RM": 109,
+          "e1RM": 115
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（サブ）",
+      "lift": "ポーズデッド",
+      "sets": [
+        {
+          "weight": 130,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "背中しっかり肩甲骨下制が大事。アップで90のワイドやったけど、引きが重いね。",
+          "1RM": 141,
+          "e1RM": 157
+        },
+        {
+          "weight": 130,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "背中まじ大事。",
+          "1RM": 141,
+          "e1RM": 161
+        },
+        {
+          "weight": 130,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "フィニッシュのポジから背中の形は変えずに股関節に埋まっていく感じ",
+          "1RM": 141,
+          "e1RM": 157
+        },
+        {
+          "weight": 130,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 141,
+          "e1RM": 157
+        },
+        {
+          "weight": 130,
+          "reps": 3,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 141,
+          "e1RM": 153
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "ダンベルシールロー",
+      "sets": [
+        {
+          "weight": 30,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 35,
+          "reps": 10,
+          "rpe": 7.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 35,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
