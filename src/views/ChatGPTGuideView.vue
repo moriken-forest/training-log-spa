@@ -234,7 +234,8 @@ export default {
       const today = new Date().toISOString().slice(0, 10)
       let text = `${baseText}\n\n今日は${today}です。`
       if (this.todayPlan) {
-        const menu = JSON.stringify(this.todayPlan, null, 2)
+        const menuObj = { ...this.todayPlan, date: today }
+        const menu = JSON.stringify(menuObj, null, 2)
         text += `\n本日のメニュー:\n${menu}`
       }
       navigator.clipboard.writeText(text)
@@ -246,7 +247,8 @@ export default {
       let text = `${baseText}\n\n今日は${actual}です。`
       if (this.selectedPlan) {
         const plan = this.selectedPlan.plan
-        const menu = JSON.stringify(plan, null, 2)
+        const planForDate = { ...plan, date: actual }
+        const menu = JSON.stringify(planForDate, null, 2)
         if (actual !== plan.date) {
           text += `\n本来は${plan.date}に予定されていたメニューです。`
         }
