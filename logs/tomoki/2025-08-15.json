@@ -1,0 +1,129 @@
+{
+  "date": "2025-08-15",
+  "block": "Accumulation",
+  "week": 3,
+  "day": 3,
+  "notes": "フォーム確認重視で無理なく実施",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 65,
+          "reps": 8,
+          "rpe": null,
+          "comment": "やや体が硬く、思っているよりしんどかった。あと1回が限界",
+          "1RM": 78,
+          "e1RM": 94
+        },
+        {
+          "weight": 65,
+          "reps": 8,
+          "rpe": null,
+          "comment": "バチっとハマってあと2回はいけた",
+          "1RM": 78,
+          "e1RM": 94
+        },
+        {
+          "weight": 65,
+          "reps": 8,
+          "rpe": null,
+          "comment": "気合いで最後上げ切った、もう1回は無理",
+          "1RM": 78,
+          "e1RM": 94
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（サブ）",
+      "lift": "ルーマニアンデッドリフト",
+      "sets": [
+        {
+          "weight": 60,
+          "reps": 10,
+          "rpe": null,
+          "comment": "フォーム確認目的で高重量は扱わず",
+          "1RM": 78,
+          "e1RM": 96
+        },
+        {
+          "weight": 60,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": 78,
+          "e1RM": 96
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（メイン）",
+      "lift": "デッドリフト",
+      "sets": [
+        {
+          "weight": 100,
+          "reps": 5,
+          "rpe": null,
+          "comment": "正直100kgは軽い",
+          "1RM": 115,
+          "e1RM": 145
+        },
+        {
+          "weight": 100,
+          "reps": 2,
+          "rpe": null,
+          "comment": "フォーム確認目的で、きつさは全くなし。最後お尻を少し上げるとやりやすかった",
+          "1RM": 106,
+          "e1RM": 136
+        },
+        {
+          "weight": 100,
+          "reps": 2,
+          "rpe": null,
+          "comment": "",
+          "1RM": 106,
+          "e1RM": 136
+        },
+        {
+          "weight": 100,
+          "reps": 2,
+          "rpe": null,
+          "comment": "",
+          "1RM": 106,
+          "e1RM": 136
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "ライイングエクステンション",
+      "sets": [
+        {
+          "weight": 20,
+          "reps": 10,
+          "rpe": null,
+          "comment": "やっと慣れてきて次からちょっと重量上げれそう",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 20,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 20,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
