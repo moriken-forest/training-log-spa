@@ -1,0 +1,99 @@
+{
+  "date": "2025-08-27",
+  "block": "Transmutation",
+  "week": 2,
+  "day": 1,
+  "notes": "全メニュー完遂し高強度も安定",
+  "sessions": [
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 130,
+          "reps": 1,
+          "rpe": null,
+          "comment": "軽かった",
+          "1RM": 133,
+          "e1RM": 172
+        },
+        {
+          "weight": 120,
+          "reps": 6,
+          "rpe": null,
+          "comment": "ふらつきなしやけどきつかった",
+          "1RM": 141,
+          "e1RM": 177
+        },
+        {
+          "weight": 120,
+          "reps": 6,
+          "rpe": null,
+          "comment": "",
+          "1RM": 141,
+          "e1RM": 177
+        },
+        {
+          "weight": 120,
+          "reps": 6,
+          "rpe": null,
+          "comment": "",
+          "1RM": 141,
+          "e1RM": 177
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 70,
+          "reps": 1,
+          "rpe": null,
+          "comment": "",
+          "1RM": 71,
+          "e1RM": 89
+        },
+        {
+          "weight": 67.5,
+          "reps": 6,
+          "rpe": null,
+          "comment": "メニュー通り完遂",
+          "1RM": 77,
+          "e1RM": 94
+        },
+        {
+          "weight": 67.5,
+          "reps": 6,
+          "rpe": null,
+          "comment": "",
+          "1RM": 77,
+          "e1RM": 94
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "ラットプル",
+      "sets": [
+        {
+          "weight": 54,
+          "reps": 10,
+          "rpe": null,
+          "comment": "かんりょう",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 54,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
