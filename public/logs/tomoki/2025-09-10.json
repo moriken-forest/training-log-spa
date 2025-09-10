@@ -2,74 +2,66 @@
   "date": "2025-09-10",
   "block": "Transmutation",
   "week": 3,
-  "day": 1,
-  "notes": "スクワットで回数落ちたが全体完遂",
+  "day": 2,
+  "notes": "懸垂はきつすぎたが全体完遂",
   "sessions": [
     {
-      "type": "ベンチプレス（メイン）",
-      "lift": "ベンチプレス",
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチ",
       "sets": [
         {
-          "weight": 70,
-          "reps": 1,
+          "weight": 60,
+          "reps": 5,
           "rpe": null,
-          "comment": "メニュー通り完遂",
-          "1RM": 71,
-          "e1RM": 89
+          "comment": "メニュー通り完遂、正直きつくない",
+          "1RM": 67,
+          "e1RM": 82
         },
         {
-          "weight": 67.5,
-          "reps": 4,
+          "weight": 60,
+          "reps": 5,
           "rpe": null,
           "comment": "",
-          "1RM": 74,
-          "e1RM": 91
+          "1RM": 67,
+          "e1RM": 82
         },
         {
-          "weight": 67.5,
-          "reps": 4,
+          "weight": 60,
+          "reps": 5,
           "rpe": null,
           "comment": "",
-          "1RM": 74,
-          "e1RM": 91
+          "1RM": 67,
+          "e1RM": 82
         }
       ]
     },
     {
-      "type": "スクワット（メイン）",
-      "lift": "スクワット",
+      "type": "ベンチプレス（サブ）",
+      "lift": "足上げベンチ",
       "sets": [
         {
-          "weight": 140,
-          "reps": 1,
+          "weight": 60,
+          "reps": 5,
           "rpe": null,
-          "comment": "メニュー通り",
-          "1RM": 144,
-          "e1RM": 186
+          "comment": "メニュー通り完遂、正直きつくない",
+          "1RM": 67,
+          "e1RM": 82
         },
         {
-          "weight": 130,
-          "reps": 4,
+          "weight": 60,
+          "reps": 5,
           "rpe": null,
-          "comment": "メニュー通り",
-          "1RM": 145,
-          "e1RM": 184
+          "comment": "",
+          "1RM": 67,
+          "e1RM": 82
         },
         {
-          "weight": 130,
-          "reps": 1,
+          "weight": 60,
+          "reps": 5,
           "rpe": null,
-          "comment": "1回だけで終了",
-          "1RM": 133,
-          "e1RM": 172
-        },
-        {
-          "weight": 130,
-          "reps": 2,
-          "rpe": null,
-          "comment": "2回で終了",
-          "1RM": 137,
-          "e1RM": 176
+          "comment": "",
+          "1RM": 67,
+          "e1RM": 82
         }
       ]
     },
@@ -79,7 +71,15 @@
       "sets": [
         {
           "weight": "自重",
-          "reps": 5,
+          "reps": 10,
+          "rpe": null,
+          "comment": "きつすぎ",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": "自重",
+          "reps": 10,
           "rpe": null,
           "comment": "",
           "1RM": null,
@@ -87,15 +87,7 @@
         },
         {
           "weight": "自重",
-          "reps": 5,
-          "rpe": null,
-          "comment": "",
-          "1RM": null,
-          "e1RM": null
-        },
-        {
-          "weight": "自重",
-          "reps": 5,
+          "reps": 10,
           "rpe": null,
           "comment": "",
           "1RM": null,
