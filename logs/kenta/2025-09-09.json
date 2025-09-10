@@ -1,0 +1,107 @@
+{
+  "date": "2025-09-09",
+  "block": "Transmutation",
+  "week": 1,
+  "day": 1,
+  "notes": "背中に疲労を感じてスクワット短縮",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 105,
+          "reps": 1,
+          "rpe": 6,
+          "comment": "余裕あり",
+          "1RM": 107,
+          "e1RM": 118
+        },
+        {
+          "weight": 95,
+          "reps": 6,
+          "rpe": 7,
+          "comment": "おもめ",
+          "1RM": 109,
+          "e1RM": 116
+        },
+        {
+          "weight": 95,
+          "reps": 6,
+          "rpe": 7,
+          "comment": "感覚はイマイチ",
+          "1RM": 109,
+          "e1RM": 116
+        },
+        {
+          "weight": 95,
+          "reps": 6,
+          "rpe": 8,
+          "comment": "おもいわあ",
+          "1RM": 109,
+          "e1RM": 114
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 160,
+          "reps": 1,
+          "rpe": 8,
+          "comment": "背中が負けてる感じやな",
+          "1RM": 164,
+          "e1RM": 174
+        },
+        {
+          "weight": 150,
+          "reps": 3,
+          "rpe": 6.5,
+          "comment": "割と良かった。腹圧と背中真っ直ぐ",
+          "1RM": 163,
+          "e1RM": 179
+        },
+        {
+          "weight": 150,
+          "reps": 3,
+          "rpe": 8,
+          "comment": "まあ立てはするけど，背中に疲労あり。腰も張ってきたからここでやめる",
+          "1RM": 163,
+          "e1RM": 172
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 8,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 9,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
