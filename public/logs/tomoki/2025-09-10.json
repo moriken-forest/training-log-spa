@@ -1,0 +1,107 @@
+{
+  "date": "2025-09-10",
+  "block": "Transmutation",
+  "week": 3,
+  "day": 1,
+  "notes": "スクワットで回数落ちたが全体完遂",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 70,
+          "reps": 1,
+          "rpe": null,
+          "comment": "メニュー通り完遂",
+          "1RM": 71,
+          "e1RM": 89
+        },
+        {
+          "weight": 67.5,
+          "reps": 4,
+          "rpe": null,
+          "comment": "",
+          "1RM": 74,
+          "e1RM": 91
+        },
+        {
+          "weight": 67.5,
+          "reps": 4,
+          "rpe": null,
+          "comment": "",
+          "1RM": 74,
+          "e1RM": 91
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 140,
+          "reps": 1,
+          "rpe": null,
+          "comment": "メニュー通り",
+          "1RM": 144,
+          "e1RM": 186
+        },
+        {
+          "weight": 130,
+          "reps": 4,
+          "rpe": null,
+          "comment": "メニュー通り",
+          "1RM": 145,
+          "e1RM": 184
+        },
+        {
+          "weight": 130,
+          "reps": 1,
+          "rpe": null,
+          "comment": "1回だけで終了",
+          "1RM": 133,
+          "e1RM": 172
+        },
+        {
+          "weight": 130,
+          "reps": 2,
+          "rpe": null,
+          "comment": "2回で終了",
+          "1RM": 137,
+          "e1RM": 176
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": "自重",
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": "自重",
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": "自重",
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
