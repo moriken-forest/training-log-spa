@@ -1,0 +1,129 @@
+{
+  "date": "2025-09-10",
+  "block": "Transmutation",
+  "week": 1,
+  "day": 2,
+  "notes": "腰の違和感残るが動きは確認できた",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチ",
+      "sets": [
+        {
+          "weight": 90,
+          "reps": 5,
+          "rpe": 6,
+          "comment": "まあ余裕ありかな",
+          "1RM": 101,
+          "e1RM": 110
+        },
+        {
+          "weight": 90,
+          "reps": 5,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 101,
+          "e1RM": 110
+        },
+        {
+          "weight": 90,
+          "reps": 5,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 101,
+          "e1RM": 108
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足上げベンチ",
+      "sets": [
+        {
+          "weight": 90,
+          "reps": 5,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 101,
+          "e1RM": 108
+        },
+        {
+          "weight": 90,
+          "reps": 5,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 101,
+          "e1RM": 108
+        },
+        {
+          "weight": 90,
+          "reps": 5,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 101,
+          "e1RM": 108
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（サブ）",
+      "lift": "ポーズデッド",
+      "sets": [
+        {
+          "weight": 110,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "まだ腰に負担あり。足で上げれてない",
+          "1RM": 119,
+          "e1RM": 136
+        },
+        {
+          "weight": 110,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "足で押す感覚としっかり背中の張り",
+          "1RM": 119,
+          "e1RM": 136
+        },
+        {
+          "weight": 110,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "まだぎこちなさがある。",
+          "1RM": 119,
+          "e1RM": 133
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "ライイングエクステンション",
+      "sets": [
+        {
+          "weight": 46,
+          "reps": 6,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 46,
+          "reps": 6,
+          "rpe": 7,
+          "comment": "セーフティにのせてスタートしたらいい感じ(11の下の穴)",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 46,
+          "reps": 6,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
