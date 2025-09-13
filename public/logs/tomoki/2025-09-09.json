@@ -10,12 +10,12 @@
       "lift": "ベンチプレス",
       "sets": [
         {
-          "weight": 70,
+          "weight": 75,
           "reps": 1,
           "rpe": null,
           "comment": "メニュー通り完遂",
-          "1RM": 71,
-          "e1RM": 89
+          "1RM": 76,
+          "e1RM": 95
         },
         {
           "weight": 67.5,
