@@ -1,0 +1,77 @@
+{
+  "date": "2025-09-13",
+  "block": "Transmutation",
+  "week": 1,
+  "day": 3,
+  "notes": "腰違和感なく高重量に対応",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 110,
+          "reps": 1,
+          "rpe": 8,
+          "comment": "",
+          "1RM": 112,
+          "e1RM": 118
+        },
+        {
+          "weight": 100,
+          "reps": 6,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 115,
+          "e1RM": 122
+        },
+        {
+          "weight": 100,
+          "reps": 6,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 115,
+          "e1RM": 122
+        },
+        {
+          "weight": 100,
+          "reps": 6,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 115,
+          "e1RM": 122
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（メイン）",
+      "lift": "デッドリフト",
+      "sets": [
+        {
+          "weight": 165,
+          "reps": 3,
+          "rpe": 7,
+          "comment": "久しぶりの高重量やけど、まあ腰には違和感なし",
+          "1RM": 179,
+          "e1RM": 194
+        },
+        {
+          "weight": 165,
+          "reps": 2,
+          "rpe": 6,
+          "comment": "股関節で上げる感覚あり",
+          "1RM": 174,
+          "e1RM": 194
+        },
+        {
+          "weight": 165,
+          "reps": 2,
+          "rpe": 6,
+          "comment": "感覚悪くない",
+          "1RM": 174,
+          "e1RM": 194
+        }
+      ]
+    }
+  ]
+}
