@@ -1,0 +1,99 @@
+{
+  "date": "2025-09-14",
+  "block": "Transmutation",
+  "week": 1,
+  "day": 4,
+  "notes": "腰の負担確認しつつ感覚調整できた",
+  "sessions": [
+    {
+      "type": "スクワット（サブ）",
+      "lift": "ポーズスクワット",
+      "sets": [
+        {
+          "weight": 110,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 119,
+          "e1RM": 133
+        },
+        {
+          "weight": 110,
+          "reps": 3,
+          "rpe": 7,
+          "comment": "かなり下目に担ぐと腰に負担あり",
+          "1RM": 119,
+          "e1RM": 129
+        },
+        {
+          "weight": 110,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "少し上目に担ぐとまだ腰に負担なかった。ボトムの感覚をしっかり持ってスタートする",
+          "1RM": 119,
+          "e1RM": 133
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ブロックベンチ",
+      "sets": [
+        {
+          "weight": 115,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "1回ずつ胸に乗せる感覚でやってみた",
+          "1RM": 123,
+          "e1RM": 138
+        },
+        {
+          "weight": 115,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "胸にバコバコ入る",
+          "1RM": 123,
+          "e1RM": 135
+        },
+        {
+          "weight": 115,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 123,
+          "e1RM": 135
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルシールロー",
+      "sets": [
+        {
+          "weight": 50,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "アジャスタブルパッド初回。良き。腰に全く負荷なし",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 60,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 60,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
