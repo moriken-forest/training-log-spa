@@ -1,0 +1,107 @@
+{
+  "date": "2025-09-16",
+  "block": "Transmutation",
+  "week": 2,
+  "day": 1,
+  "notes": "余裕少ないが復帰感触あり",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 115,
+          "reps": 1,
+          "rpe": 8.5,
+          "comment": "余裕はあまりないけど上がった",
+          "1RM": 117,
+          "e1RM": 122
+        },
+        {
+          "weight": 105,
+          "reps": 6,
+          "rpe": 7.5,
+          "comment": "スパスパ無心",
+          "1RM": 120,
+          "e1RM": 127
+        },
+        {
+          "weight": 105,
+          "reps": 6,
+          "rpe": 8,
+          "comment": "少し重い",
+          "1RM": 120,
+          "e1RM": 126
+        },
+        {
+          "weight": 105,
+          "reps": 4,
+          "rpe": 8.5,
+          "comment": "追い込み切らずやめといた",
+          "1RM": 115,
+          "e1RM": 119
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 170,
+          "reps": 1,
+          "rpe": 9,
+          "comment": "どさくさに紛れてあげた感じ。余裕はない。",
+          "1RM": 175,
+          "e1RM": 180
+        },
+        {
+          "weight": 160,
+          "reps": 6,
+          "rpe": 8.5,
+          "comment": "バチバチに背中の張りを残しておく。みぞおちより上が重さに負けないように",
+          "1RM": 188,
+          "e1RM": 196
+        },
+        {
+          "weight": 160,
+          "reps": 6,
+          "rpe": 8,
+          "comment": "さっきより良い。少し重心前めのがええんかな？復帰してきてるからここでやめとく。",
+          "1RM": 188,
+          "e1RM": 198
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 8,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 8,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
