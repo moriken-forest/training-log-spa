@@ -1,0 +1,107 @@
+{
+  "date": "2025-09-17",
+  "block": "Realization",
+  "week": 1,
+  "day": 1,
+  "notes": "最後のベンチは余裕だがスクワットはきつい",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 80,
+          "reps": 1,
+          "rpe": null,
+          "comment": "",
+          "1RM": 82,
+          "e1RM": 102
+        },
+        {
+          "weight": 75,
+          "reps": 4,
+          "rpe": null,
+          "comment": "",
+          "1RM": 82,
+          "e1RM": 101
+        },
+        {
+          "weight": 75,
+          "reps": 4,
+          "rpe": null,
+          "comment": "",
+          "1RM": 82,
+          "e1RM": 101
+        },
+        {
+          "weight": 75,
+          "reps": 4,
+          "rpe": null,
+          "comment": "最後のセットはバチっと決まって一番余裕やった",
+          "1RM": 82,
+          "e1RM": 101
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 140,
+          "reps": 1,
+          "rpe": null,
+          "comment": "かなりきつかった",
+          "1RM": 144,
+          "e1RM": 186
+        },
+        {
+          "weight": 135,
+          "reps": 4,
+          "rpe": null,
+          "comment": "",
+          "1RM": 151,
+          "e1RM": 191
+        },
+        {
+          "weight": 135,
+          "reps": 4,
+          "rpe": null,
+          "comment": "",
+          "1RM": 151,
+          "e1RM": 191
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": "自重",
+          "reps": 6,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": "自重",
+          "reps": 6,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": "自重",
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
