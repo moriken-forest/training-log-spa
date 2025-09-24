@@ -1,0 +1,107 @@
+{
+  "date": "2025-09-24",
+  "block": "Transmutation",
+  "week": 3,
+  "day": 1,
+  "notes": "全体的に追い込み強めで完遂",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 100,
+          "reps": 1,
+          "rpe": 5,
+          "comment": "まあまあ",
+          "1RM": 102,
+          "e1RM": 115
+        },
+        {
+          "weight": 90,
+          "reps": 4,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 99,
+          "e1RM": 112
+        },
+        {
+          "weight": 90,
+          "reps": 4,
+          "rpe": 4,
+          "comment": "ボトムで脇が開きすぎないように",
+          "1RM": 99,
+          "e1RM": 112
+        },
+        {
+          "weight": 90,
+          "reps": 4,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 99,
+          "e1RM": 112
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 175,
+          "reps": 1,
+          "rpe": null,
+          "comment": "あがった",
+          "1RM": 180,
+          "e1RM": 232
+        },
+        {
+          "weight": 165,
+          "reps": 6,
+          "rpe": 8.5,
+          "comment": "かなりきつかったけどいけた",
+          "1RM": 194,
+          "e1RM": 202
+        },
+        {
+          "weight": 165,
+          "reps": 6,
+          "rpe": 8.5,
+          "comment": "さっきよりはよかった。呼吸ゲー。すこし背中後半負けてる気がするからここでやめとく",
+          "1RM": 194,
+          "e1RM": 202
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 8,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
