@@ -1,0 +1,137 @@
+{
+  "date": "2025-09-25",
+  "block": "Transmutation",
+  "week": 3,
+  "day": 2,
+  "notes": "全体的にRPE控えめで安定",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチ",
+      "sets": [
+        {
+          "weight": 95,
+          "reps": 5,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 106,
+          "e1RM": 116
+        },
+        {
+          "weight": 95,
+          "reps": 5,
+          "rpe": 8,
+          "comment": "",
+          "1RM": 106,
+          "e1RM": 111
+        },
+        {
+          "weight": 95,
+          "reps": 5,
+          "rpe": 9,
+          "comment": "",
+          "1RM": 106,
+          "e1RM": 109
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足上げベンチ",
+      "sets": [
+        {
+          "weight": 95,
+          "reps": 4,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 104,
+          "e1RM": 114
+        },
+        {
+          "weight": 95,
+          "reps": 4,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 104,
+          "e1RM": 116
+        },
+        {
+          "weight": 95,
+          "reps": 4,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 104,
+          "e1RM": 114
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（サブ）",
+      "lift": "ポーズデッド",
+      "sets": [
+        {
+          "weight": 130,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 141,
+          "e1RM": 157
+        },
+        {
+          "weight": 130,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 141,
+          "e1RM": 161
+        },
+        {
+          "weight": 130,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 141,
+          "e1RM": 161
+        },
+        {
+          "weight": 130,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 141,
+          "e1RM": 161
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルシールロー",
+      "sets": [
+        {
+          "weight": 65,
+          "reps": 8,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 65,
+          "reps": 8,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 65,
+          "reps": 9,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
