@@ -1,0 +1,99 @@
+{
+  "date": "2025-09-25",
+  "block": "Transmutation",
+  "week": 4,
+  "day": 2,
+  "notes": "全メニュー通り完遂",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチ",
+      "sets": [
+        {
+          "weight": 62.5,
+          "reps": 5,
+          "rpe": null,
+          "comment": "メニュー通り",
+          "1RM": 70,
+          "e1RM": 85
+        },
+        {
+          "weight": 62.5,
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": 70,
+          "e1RM": 85
+        },
+        {
+          "weight": 62.5,
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": 70,
+          "e1RM": 85
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足上げベンチ",
+      "sets": [
+        {
+          "weight": 62.5,
+          "reps": 4,
+          "rpe": null,
+          "comment": "メニュー通り",
+          "1RM": 68,
+          "e1RM": 84
+        },
+        {
+          "weight": 62.5,
+          "reps": 4,
+          "rpe": null,
+          "comment": "",
+          "1RM": 68,
+          "e1RM": 84
+        },
+        {
+          "weight": 62.5,
+          "reps": 4,
+          "rpe": null,
+          "comment": "",
+          "1RM": 68,
+          "e1RM": 84
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "ダンベルシールロー",
+      "sets": [
+        {
+          "weight": 7.5,
+          "reps": 10,
+          "rpe": null,
+          "comment": "7.5キロで10*3セット",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 7.5,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 7.5,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
