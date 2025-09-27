@@ -1,0 +1,80 @@
+{
+  "date": "2025-09-27",
+  "block": "Transmutation",
+  "week": 4,
+  "day": 3,
+  "notes": "全体的に重量重く予定を消化できず",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 85,
+          "reps": 1,
+          "rpe": null,
+          "comment": "85キロ1回完了",
+          "1RM": 87,
+          "e1RM": 108
+        },
+        {
+          "weight": 78,
+          "reps": 2,
+          "rpe": null,
+          "comment": "78キロ2回で潰れた",
+          "1RM": 81,
+          "e1RM": 101
+        },
+        {
+          "weight": 78,
+          "reps": 4,
+          "rpe": null,
+          "comment": "78キロ4回成功",
+          "1RM": 85,
+          "e1RM": 105
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（サブ）",
+      "lift": "ルーマニアンデッドリフト",
+      "sets": [
+        {
+          "weight": 75,
+          "reps": 5,
+          "rpe": null,
+          "comment": "メニュー通り",
+          "1RM": 86,
+          "e1RM": 108
+        },
+        {
+          "weight": 75,
+          "reps": 5,
+          "rpe": null,
+          "comment": "",
+          "1RM": 86,
+          "e1RM": 108
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（メイン）",
+      "lift": "デッドリフト",
+      "sets": [
+        {
+          "weight": 130,
+          "reps": 1,
+          "rpe": null,
+          "comment": "130キロ1回だけで終わり",
+          "1RM": 133,
+          "e1RM": 172
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "ライイングエクステンション",
+      "sets": []
+    }
+  ]
+}
