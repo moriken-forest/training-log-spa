@@ -1,0 +1,77 @@
+{
+  "date": "2025-09-28",
+  "block": "Transmutation",
+  "week": 3,
+  "day": 3,
+  "notes": "デッドの感覚悪く途中で打ち切り",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 105,
+          "reps": 1,
+          "rpe": 5,
+          "comment": "止めて上げれた",
+          "1RM": 107,
+          "e1RM": 120
+        },
+        {
+          "weight": 95,
+          "reps": 4,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 104,
+          "e1RM": 116
+        },
+        {
+          "weight": 95,
+          "reps": 4,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 104,
+          "e1RM": 114
+        },
+        {
+          "weight": 95,
+          "reps": 4,
+          "rpe": 4,
+          "comment": "足の力が抜けずによかった軽かった",
+          "1RM": 104,
+          "e1RM": 118
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（メイン）",
+      "lift": "デッドリフト",
+      "sets": [
+        {
+          "weight": 185,
+          "reps": 1,
+          "rpe": 8.5,
+          "comment": "肩が少し巻いてた",
+          "1RM": 190,
+          "e1RM": 198
+        },
+        {
+          "weight": 185,
+          "reps": 1,
+          "rpe": 9,
+          "comment": "滑ったから1rep",
+          "1RM": 190,
+          "e1RM": 196
+        },
+        {
+          "weight": 185,
+          "reps": 1,
+          "rpe": 10,
+          "comment": "2rep目上がらず。感覚悪すぎ。ここで打ち止め",
+          "1RM": 190,
+          "e1RM": 190
+        }
+      ]
+    }
+  ]
+}
