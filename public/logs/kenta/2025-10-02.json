@@ -1,0 +1,121 @@
+{
+  "date": "2025-10-02",
+  "block": "Transmutation",
+  "week": 4,
+  "day": 2,
+  "notes": "フォーム意識しつつも高重量に取り組めた",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチ",
+      "sets": [
+        {
+          "weight": 100,
+          "reps": 5,
+          "rpe": 8.5,
+          "comment": "普通に重い",
+          "1RM": 112,
+          "e1RM": 116
+        },
+        {
+          "weight": 100,
+          "reps": 5,
+          "rpe": 8,
+          "comment": "押しの感覚が良かった。",
+          "1RM": 112,
+          "e1RM": 117
+        },
+        {
+          "weight": 100,
+          "reps": 5,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": 112,
+          "e1RM": 116
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足上げベンチ",
+      "sets": [
+        {
+          "weight": 100,
+          "reps": 4,
+          "rpe": 9,
+          "comment": "フォーム崩れそうやったから4にしといた",
+          "1RM": 110,
+          "e1RM": 112
+        },
+        {
+          "weight": 100,
+          "reps": 3,
+          "rpe": 9,
+          "comment": "崩れてきたからここでやめる",
+          "1RM": 107,
+          "e1RM": 110
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（サブ）",
+      "lift": "ポーズデッド",
+      "sets": [
+        {
+          "weight": 140,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "良い感じ。なるべくフォームを入れ直さないように意識した",
+          "1RM": 152,
+          "e1RM": 169
+        },
+        {
+          "weight": 140,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "股関節に乗せる感覚",
+          "1RM": 152,
+          "e1RM": 169
+        },
+        {
+          "weight": 140,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "かんかくよし",
+          "1RM": 152,
+          "e1RM": 173
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルシールロー",
+      "sets": [
+        {
+          "weight": 75,
+          "reps": 8,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 75,
+          "reps": 8,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 75,
+          "reps": 9,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
