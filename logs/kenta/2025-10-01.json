@@ -1,0 +1,115 @@
+{
+  "date": "2025-10-01",
+  "block": "Transmutation",
+  "week": 4,
+  "day": 1,
+  "notes": "圧を意識しつつ良い感覚を得た",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 110,
+          "reps": 1,
+          "rpe": 8,
+          "comment": "止めあり。余裕ある。",
+          "1RM": 112,
+          "e1RM": 118
+        },
+        {
+          "weight": 100,
+          "reps": 4,
+          "rpe": 6,
+          "comment": "上がりは軽かった",
+          "1RM": 110,
+          "e1RM": 120
+        },
+        {
+          "weight": 100,
+          "reps": 4,
+          "rpe": 5.5,
+          "comment": "圧がいい感じ",
+          "1RM": 110,
+          "e1RM": 121
+        },
+        {
+          "weight": 100,
+          "reps": 4,
+          "rpe": 5.5,
+          "comment": "",
+          "1RM": 110,
+          "e1RM": 121
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 180,
+          "reps": 1,
+          "rpe": 7.5,
+          "comment": "わりと軽く上げられた。気持ち",
+          "1RM": 185,
+          "e1RM": 198
+        },
+        {
+          "weight": 170,
+          "reps": 4,
+          "rpe": 7.5,
+          "comment": "とにかく圧を大切に。",
+          "1RM": 190,
+          "e1RM": 203
+        },
+        {
+          "weight": 170,
+          "reps": 4,
+          "rpe": 8,
+          "comment": "ボトムが大切",
+          "1RM": 190,
+          "e1RM": 200
+        },
+        {
+          "weight": 170,
+          "reps": 4,
+          "rpe": 8,
+          "comment": "へんな持ち方やったのか左肩が痛い。でもボトムで股関節と足が一体になって骨格で支えられた感覚があった",
+          "1RM": 190,
+          "e1RM": 200
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 9,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 8,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
