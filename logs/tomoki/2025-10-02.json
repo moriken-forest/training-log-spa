@@ -1,0 +1,127 @@
+{
+  "date": "2025-10-02",
+  "block": "Realization",
+  "week": 1,
+  "day": 1,
+  "notes": "スクワットもベンチも予定以上に実施",
+  "sessions": [
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 145,
+          "reps": 1,
+          "rpe": null,
+          "comment": "",
+          "1RM": 149,
+          "e1RM": 192
+        },
+        {
+          "weight": 140,
+          "reps": 3,
+          "rpe": null,
+          "comment": "1セット目の方がきつかった",
+          "1RM": 152,
+          "e1RM": 194
+        },
+        {
+          "weight": 140,
+          "reps": 3,
+          "rpe": null,
+          "comment": "",
+          "1RM": 152,
+          "e1RM": 194
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 80,
+          "reps": 1,
+          "rpe": null,
+          "comment": "",
+          "1RM": 82,
+          "e1RM": 102
+        },
+        {
+          "weight": 75,
+          "reps": 3,
+          "rpe": null,
+          "comment": "",
+          "1RM": 80,
+          "e1RM": 99
+        },
+        {
+          "weight": 75,
+          "reps": 3,
+          "rpe": null,
+          "comment": "",
+          "1RM": 80,
+          "e1RM": 99
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチ",
+      "sets": [
+        {
+          "weight": 70,
+          "reps": 3,
+          "rpe": null,
+          "comment": "",
+          "1RM": 75,
+          "e1RM": 92
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足上げベンチ",
+      "sets": [
+        {
+          "weight": 70,
+          "reps": 3,
+          "rpe": null,
+          "comment": "",
+          "1RM": 75,
+          "e1RM": 92
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "シールロー",
+      "sets": [
+        {
+          "weight": 35,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 35,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 35,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
