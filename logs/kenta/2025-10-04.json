@@ -1,0 +1,115 @@
+{
+  "date": "2025-10-04",
+  "block": "Transmutation",
+  "week": 4,
+  "day": 3,
+  "notes": "ベンチ軽さありデッド粘り強さ重視",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 115,
+          "reps": 1,
+          "rpe": 8.5,
+          "comment": "まあまあ軽かった気がする。ケツが触れてるだけってくらいレッグドライブ意識するとよかった",
+          "1RM": 117,
+          "e1RM": 122
+        },
+        {
+          "weight": 105,
+          "reps": 4,
+          "rpe": 7.5,
+          "comment": "",
+          "1RM": 115,
+          "e1RM": 122
+        },
+        {
+          "weight": 105,
+          "reps": 4,
+          "rpe": 9,
+          "comment": "",
+          "1RM": 115,
+          "e1RM": 118
+        },
+        {
+          "weight": 105,
+          "reps": 4,
+          "rpe": 9,
+          "comment": "",
+          "1RM": 115,
+          "e1RM": 118
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（メイン）",
+      "lift": "デッドリフト",
+      "sets": [
+        {
+          "weight": 190,
+          "reps": 1,
+          "rpe": 9.5,
+          "comment": "2rep目は無理やった",
+          "1RM": 195,
+          "e1RM": 198
+        },
+        {
+          "weight": 170,
+          "reps": 3,
+          "rpe": 8.5,
+          "comment": "2、3repが調子良かった",
+          "1RM": 185,
+          "e1RM": 192
+        },
+        {
+          "weight": 170,
+          "reps": 3,
+          "rpe": 9,
+          "comment": "",
+          "1RM": 185,
+          "e1RM": 190
+        },
+        {
+          "weight": 170,
+          "reps": 3,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": 185,
+          "e1RM": 192
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルアームカール",
+      "sets": [
+        {
+          "weight": 45,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 45,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 45,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "デッドの豆が痛い",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
