@@ -1,0 +1,83 @@
+{
+  "date": "2025-10-04",
+  "block": "Realization",
+  "week": 1,
+  "day": 3,
+  "notes": "全種目重量を更新してやり切った",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 82,
+          "reps": 1,
+          "rpe": null,
+          "comment": "",
+          "1RM": 84,
+          "e1RM": 104
+        },
+        {
+          "weight": 77,
+          "reps": 3,
+          "rpe": null,
+          "comment": "",
+          "1RM": 82,
+          "e1RM": 102
+        },
+        {
+          "weight": 77,
+          "reps": 3,
+          "rpe": null,
+          "comment": "",
+          "1RM": 82,
+          "e1RM": 102
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（メイン）",
+      "lift": "ポーズデッドリフト",
+      "sets": [
+        {
+          "weight": 90,
+          "reps": 2,
+          "rpe": null,
+          "comment": "",
+          "1RM": 95,
+          "e1RM": 122
+        },
+        {
+          "weight": 90,
+          "reps": 2,
+          "rpe": null,
+          "comment": "",
+          "1RM": 95,
+          "e1RM": 122
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（メイン）",
+      "lift": "デッドリフト",
+      "sets": [
+        {
+          "weight": 120,
+          "reps": 2,
+          "rpe": null,
+          "comment": "",
+          "1RM": 127,
+          "e1RM": 163
+        },
+        {
+          "weight": 130,
+          "reps": 1,
+          "rpe": null,
+          "comment": "",
+          "1RM": 133,
+          "e1RM": 172
+        }
+      ]
+    }
+  ]
+}
