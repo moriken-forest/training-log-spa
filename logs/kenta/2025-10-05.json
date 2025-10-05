@@ -1,0 +1,107 @@
+{
+  "date": "2025-10-05",
+  "block": "Transmutation",
+  "week": 4,
+  "day": 4,
+  "notes": "動作意識を重視した調整日",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ブロックベンチ",
+      "sets": [
+        {
+          "weight": 130,
+          "reps": 3,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": 139,
+          "e1RM": 144
+        },
+        {
+          "weight": 130,
+          "reps": 3,
+          "rpe": 8.5,
+          "comment": "まあまあ重い",
+          "1RM": 139,
+          "e1RM": 144
+        },
+        {
+          "weight": 130,
+          "reps": 3,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": 139,
+          "e1RM": 144
+        }
+      ]
+    },
+    {
+      "type": "スクワット（サブ）",
+      "lift": "ポーズスクワット",
+      "sets": [
+        {
+          "weight": 120,
+          "reps": 3,
+          "rpe": 5.5,
+          "comment": "ボトムでの骨盤の前傾(後傾しないように)意識。",
+          "1RM": 130,
+          "e1RM": 147
+        },
+        {
+          "weight": 120,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "3repの後に1rep普通のスクワットした。あんまやらんでええ気がする。",
+          "1RM": 130,
+          "e1RM": 145
+        },
+        {
+          "weight": 120,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "挙上時のニーインを意識",
+          "1RM": 130,
+          "e1RM": 145
+        },
+        {
+          "weight": 130,
+          "reps": 2,
+          "rpe": 6,
+          "comment": "けつでおすいめーじ",
+          "1RM": 137,
+          "e1RM": 153
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルシールロー",
+      "sets": [
+        {
+          "weight": 70,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 70,
+          "reps": 8,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 70,
+          "reps": 7,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
