@@ -1,0 +1,107 @@
+{
+  "date": "2025-10-08",
+  "block": "Transmutation",
+  "week": 5,
+  "day": 1,
+  "notes": "足の付け根に痛みありつつも全体的に良好",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 120,
+          "reps": 1,
+          "rpe": 9.5,
+          "comment": "軽く止めれた",
+          "1RM": 123,
+          "e1RM": 124
+        },
+        {
+          "weight": 110,
+          "reps": 4,
+          "rpe": 9,
+          "comment": "ケツにも力を入れる",
+          "1RM": 121,
+          "e1RM": 123
+        },
+        {
+          "weight": 110,
+          "reps": 4,
+          "rpe": 8.5,
+          "comment": "4rep目がよかった",
+          "1RM": 121,
+          "e1RM": 125
+        },
+        {
+          "weight": 110,
+          "reps": 4,
+          "rpe": 9.5,
+          "comment": "キツめ",
+          "1RM": 121,
+          "e1RM": 122
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 185,
+          "reps": 1,
+          "rpe": 8,
+          "comment": "まあ上がった。足の付け根がまた痛いね",
+          "1RM": 190,
+          "e1RM": 201
+        },
+        {
+          "weight": 180,
+          "reps": 4,
+          "rpe": 8.5,
+          "comment": "ボトムの前傾具合の調整がむずい",
+          "1RM": 201,
+          "e1RM": 209
+        },
+        {
+          "weight": 180,
+          "reps": 3,
+          "rpe": 7.5,
+          "comment": "感覚悪くなかったけど、なんとなくやめといた",
+          "1RM": 196,
+          "e1RM": 209
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
