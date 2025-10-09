@@ -1,0 +1,129 @@
+{
+  "date": "2025-10-09",
+  "block": "Transmutation",
+  "week": 5,
+  "day": 2,
+  "notes": "疲労抜き目的で全体的に軽めに実施",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチ",
+      "sets": [
+        {
+          "weight": 85,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "疲労抜きのために軽めにしといた",
+          "1RM": 95,
+          "e1RM": 106
+        },
+        {
+          "weight": 85,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 95,
+          "e1RM": 106
+        },
+        {
+          "weight": 85,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 95,
+          "e1RM": 106
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足上げベンチ",
+      "sets": [
+        {
+          "weight": 85,
+          "reps": 4,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 93,
+          "e1RM": 108
+        },
+        {
+          "weight": 85,
+          "reps": 4,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 93,
+          "e1RM": 108
+        },
+        {
+          "weight": 85,
+          "reps": 4,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 93,
+          "e1RM": 108
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（サブ）",
+      "lift": "ポーズデッド",
+      "sets": [
+        {
+          "weight": 120,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 130,
+          "e1RM": 145
+        },
+        {
+          "weight": 120,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "一瞬前に重心を乗せてそこから後ろに倒れていく中でのるところ",
+          "1RM": 130,
+          "e1RM": 148
+        },
+        {
+          "weight": 120,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "背中の張り",
+          "1RM": 130,
+          "e1RM": 148
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "ライイングエクステンション",
+      "sets": [
+        {
+          "weight": 45,
+          "reps": 6,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 45,
+          "reps": 6,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 45,
+          "reps": 6,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
