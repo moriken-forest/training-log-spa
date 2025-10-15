@@ -10,6 +10,7 @@ body:
       description: "Choose one or more dates"
       multiple: true
       options:
+        - 2025-10-15
         - 2025-10-11
         - 2025-10-09
         - 2025-10-08
