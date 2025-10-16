@@ -1,0 +1,39 @@
+{
+  "date": "2025-10-16",
+  "block": "Realization",
+  "week": 1,
+  "day": 2,
+  "notes": "ベンチのみ実施。軽めで感覚調整",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチ",
+      "sets": [
+        {
+          "weight": 90,
+          "reps": 1,
+          "rpe": 5,
+          "comment": "余裕。しっかり背中に重さを落とせてた",
+          "1RM": 92,
+          "e1RM": 103
+        },
+        {
+          "weight": 95,
+          "reps": 1,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 97,
+          "e1RM": 109
+        },
+        {
+          "weight": 100,
+          "reps": 1,
+          "rpe": 6,
+          "comment": "パンパンに息入れとく",
+          "1RM": 102,
+          "e1RM": 112
+        }
+      ]
+    }
+  ]
+}
