@@ -1,0 +1,99 @@
+{
+  "date": "2025-10-22",
+  "block": "Realization",
+  "week": 2,
+  "day": 1,
+  "notes": "全体的に動作安定。スクワット軽め、ベンチで受け課題",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 120,
+          "reps": 0,
+          "rpe": 10,
+          "comment": "ウケが悪かったし、足が全然蹴れてなかった気がする",
+          "1RM": 120,
+          "e1RM": 120
+        },
+        {
+          "weight": 117,
+          "reps": 2,
+          "rpe": 9,
+          "comment": "止めなし。まだ悪くない受け方",
+          "1RM": 122,
+          "e1RM": 125
+        },
+        {
+          "weight": 117,
+          "reps": 2,
+          "rpe": 8,
+          "comment": "止めなし。悪くはないけど重い",
+          "1RM": 122,
+          "e1RM": 128
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 195,
+          "reps": 1,
+          "rpe": 8,
+          "comment": "結構軽かった",
+          "1RM": 200,
+          "e1RM": 212
+        },
+        {
+          "weight": 190,
+          "reps": 2,
+          "rpe": 8.5,
+          "comment": "感覚よし",
+          "1RM": 201,
+          "e1RM": 209
+        },
+        {
+          "weight": 190,
+          "reps": 1,
+          "rpe": 9,
+          "comment": "スタンスが良くなかったから1repでやめといた",
+          "1RM": 195,
+          "e1RM": 201
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
