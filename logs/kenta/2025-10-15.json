@@ -1,37 +1,37 @@
 {
   "date": "2025-10-15",
   "block": "Realization",
-  "week": 2,
+  "week": 1,
   "day": 1,
-  "notes": "スクワットでよろけたが全体的には完遂",
+  "notes": "初週として安定した動作確認を実施",
   "sessions": [
     {
       "type": "ベンチプレス（メイン）",
       "lift": "ベンチプレス",
       "sets": [
         {
-          "weight": 85,
+          "weight": 115,
           "reps": 1,
-          "rpe": 7,
-          "comment": "まだ余裕あり",
-          "1RM": 87,
-          "e1RM": 93
+          "rpe": 8.5,
+          "comment": "とめた。抜かないこと",
+          "1RM": 117,
+          "e1RM": 122
         },
         {
-          "weight": 80,
-          "reps": 2,
+          "weight": 112,
+          "reps": 3,
           "rpe": 7,
-          "comment": "",
-          "1RM": 84,
-          "e1RM": 90
+          "comment": "3rep目がよかった",
+          "1RM": 120,
+          "e1RM": 128
         },
         {
-          "weight": 80,
-          "reps": 2,
-          "rpe": 7,
+          "weight": 112,
+          "reps": 3,
+          "rpe": 8,
           "comment": "",
-          "1RM": 84,
-          "e1RM": 90
+          "1RM": 120,
+          "e1RM": 126
         }
       ]
     },
@@ -40,28 +40,28 @@
       "lift": "スクワット",
       "sets": [
         {
-          "weight": 150,
+          "weight": 190,
           "reps": 1,
-          "rpe": 9,
-          "comment": "成功",
-          "1RM": 154,
-          "e1RM": 159
+          "rpe": 8.5,
+          "comment": "プロニースリーブ着用。上がったけど、浅いような気もしなくもない。動画撮っとけ",
+          "1RM": 195,
+          "e1RM": 204
         },
         {
-          "weight": 145,
-          "reps": 2,
-          "rpe": 9,
-          "comment": "重すぎてよろけた",
-          "1RM": 153,
-          "e1RM": 158
+          "weight": 185,
+          "reps": 3,
+          "rpe": 8.5,
+          "comment": "比較的安定してあげられた",
+          "1RM": 201,
+          "e1RM": 210
         },
         {
-          "weight": 145,
+          "weight": 185,
           "reps": 2,
-          "rpe": 9,
-          "comment": "",
-          "1RM": 153,
-          "e1RM": 158
+          "rpe": 10,
+          "comment": "3rep目に集中切れた。あとスタンスがちょっと広かった",
+          "1RM": 196,
+          "e1RM": 196
         }
       ]
     },
@@ -72,7 +72,7 @@
         {
           "weight": 0,
           "reps": 10,
-          "rpe": 7,
+          "rpe": 8,
           "comment": "",
           "1RM": null,
           "e1RM": null
@@ -80,7 +80,7 @@
         {
           "weight": 0,
           "reps": 10,
-          "rpe": 7,
+          "rpe": 8,
           "comment": "",
           "1RM": null,
           "e1RM": null
@@ -88,7 +88,7 @@
         {
           "weight": 0,
           "reps": 10,
-          "rpe": 7,
+          "rpe": 8,
           "comment": "",
           "1RM": null,
           "e1RM": null
