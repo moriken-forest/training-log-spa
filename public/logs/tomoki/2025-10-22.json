@@ -1,0 +1,99 @@
+{
+  "date": "2025-10-22",
+  "block": "Realization",
+  "week": 3,
+  "day": 1,
+  "notes": "ベンチ不調もスクワット好調で全体良好",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 87,
+          "reps": 1,
+          "rpe": null,
+          "comment": "上がりきらなかった。惜しかった。",
+          "1RM": 89,
+          "e1RM": 110
+        },
+        {
+          "weight": 82,
+          "reps": 2,
+          "rpe": null,
+          "comment": "1セット目はいけた！2セット目は2回目で潰れた。今日はかなり調子悪い。",
+          "1RM": 86,
+          "e1RM": 106
+        },
+        {
+          "weight": 82,
+          "reps": 2,
+          "rpe": null,
+          "comment": "",
+          "1RM": 86,
+          "e1RM": 106
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 155,
+          "reps": 1,
+          "rpe": null,
+          "comment": "かなり調子良かった。",
+          "1RM": 159,
+          "e1RM": 206
+        },
+        {
+          "weight": 147,
+          "reps": 2,
+          "rpe": null,
+          "comment": "",
+          "1RM": 155,
+          "e1RM": 199
+        },
+        {
+          "weight": 147,
+          "reps": 2,
+          "rpe": null,
+          "comment": "",
+          "1RM": 155,
+          "e1RM": 199
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": null,
+          "comment": "懸垂に変更して10回3セットやり切った。",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": null,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
