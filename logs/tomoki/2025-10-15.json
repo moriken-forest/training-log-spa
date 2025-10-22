@@ -1,0 +1,99 @@
+{
+  "date": "2025-10-15",
+  "block": "Realization",
+  "week": 3,
+  "day": 1,
+  "notes": "スクワットでよろけたが全体的には完遂",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 85,
+          "reps": 1,
+          "rpe": 7,
+          "comment": "まだ余裕あり",
+          "1RM": 87,
+          "e1RM": 93
+        },
+        {
+          "weight": 80,
+          "reps": 2,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 84,
+          "e1RM": 90
+        },
+        {
+          "weight": 80,
+          "reps": 2,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 84,
+          "e1RM": 90
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 150,
+          "reps": 1,
+          "rpe": 9,
+          "comment": "成功",
+          "1RM": 154,
+          "e1RM": 159
+        },
+        {
+          "weight": 145,
+          "reps": 2,
+          "rpe": 9,
+          "comment": "重すぎてよろけた",
+          "1RM": 153,
+          "e1RM": 158
+        },
+        {
+          "weight": 145,
+          "reps": 2,
+          "rpe": 9,
+          "comment": "",
+          "1RM": 153,
+          "e1RM": 158
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
