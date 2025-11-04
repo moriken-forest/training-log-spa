@@ -1,0 +1,115 @@
+{
+  "date": "2025-11-04",
+  "block": "Taper",
+  "week": 1,
+  "day": 1,
+  "notes": "軽めで仕上がり良好",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 110,
+          "reps": 1,
+          "rpe": 7,
+          "comment": "比較的軽かったかな。久しぶりにしてはよき。止めあり",
+          "1RM": 112,
+          "e1RM": 121
+        },
+        {
+          "weight": 110,
+          "reps": 1,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 112,
+          "e1RM": 121
+        },
+        {
+          "weight": 100,
+          "reps": 5,
+          "rpe": 6,
+          "comment": "軽い。調子よき。これは2セットで十分",
+          "1RM": 112,
+          "e1RM": 122
+        },
+        {
+          "weight": 100,
+          "reps": 5,
+          "rpe": 6,
+          "comment": "なかなかによし",
+          "1RM": 112,
+          "e1RM": 122
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 170,
+          "reps": 1,
+          "rpe": 6,
+          "comment": "軽い",
+          "1RM": 175,
+          "e1RM": 195
+        },
+        {
+          "weight": 170,
+          "reps": 1,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 175,
+          "e1RM": 190
+        },
+        {
+          "weight": 150,
+          "reps": 5,
+          "rpe": 7,
+          "comment": "まあまあよい",
+          "1RM": 172,
+          "e1RM": 186
+        },
+        {
+          "weight": 150,
+          "reps": 5,
+          "rpe": 7,
+          "comment": "丁寧にしゃがめる",
+          "1RM": 172,
+          "e1RM": 186
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
