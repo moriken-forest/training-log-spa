@@ -1,0 +1,85 @@
+{
+  "date": "2025-11-09",
+  "block": "Taper",
+  "week": 1,
+  "day": 3,
+  "notes": "全体的に軽めで調整感あり",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 115,
+          "reps": 1,
+          "rpe": 9,
+          "comment": "ちょい重い",
+          "1RM": 117,
+          "e1RM": 120
+        },
+        {
+          "weight": 115,
+          "reps": 1,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": 117,
+          "e1RM": 122
+        },
+        {
+          "weight": 100,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "かるい",
+          "1RM": 107,
+          "e1RM": 117
+        },
+        {
+          "weight": 100,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 107,
+          "e1RM": 117
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（メイン）",
+      "lift": "デッドリフト",
+      "sets": [
+        {
+          "weight": 170,
+          "reps": 1,
+          "rpe": 6,
+          "comment": "つかみにいくときに、片腕ずついく。なるべく上の位置から",
+          "1RM": 175,
+          "e1RM": 195
+        },
+        {
+          "weight": 180,
+          "reps": 1,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 185,
+          "e1RM": 201
+        },
+        {
+          "weight": 160,
+          "reps": 2,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 169,
+          "e1RM": 198
+        },
+        {
+          "weight": 160,
+          "reps": 2,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 169,
+          "e1RM": 198
+        }
+      ]
+    }
+  ]
+}
