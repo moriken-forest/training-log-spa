@@ -1,0 +1,77 @@
+{
+  "date": "2025-11-12",
+  "block": "Taper",
+  "week": 2,
+  "day": 1,
+  "notes": "軽め調整で疲労抜き意識",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 100,
+          "reps": 3,
+          "rpe": 7,
+          "comment": "なんか重かった",
+          "1RM": 107,
+          "e1RM": 115
+        },
+        {
+          "weight": 100,
+          "reps": 4,
+          "rpe": 6,
+          "comment": "ちょいマシ",
+          "1RM": 110,
+          "e1RM": 120
+        },
+        {
+          "weight": 100,
+          "reps": 5,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 112,
+          "e1RM": 120
+        },
+        {
+          "weight": 100,
+          "reps": 5,
+          "rpe": 6.5,
+          "comment": "",
+          "1RM": 112,
+          "e1RM": 121
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": null,
+          "reps": 8,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
