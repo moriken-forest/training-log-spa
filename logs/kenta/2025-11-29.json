@@ -1,0 +1,199 @@
+{
+  "date": "2025-11-29",
+  "block": null,
+  "week": null,
+  "day": null,
+  "notes": "自由練習として実施",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足あげベンチ",
+      "sets": [
+        {
+          "weight": 80,
+          "reps": 6,
+          "rpe": 6,
+          "comment": "背中攣りかけた",
+          "1RM": 92,
+          "e1RM": 100
+        },
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 96,
+          "e1RM": 104
+        },
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 96,
+          "e1RM": 102
+        },
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 96,
+          "e1RM": 102
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "ミリタリープレス",
+      "sets": [
+        {
+          "weight": 40,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "まあまあきつい",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "なかなか良い。可動域",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "EZバーアームカール",
+      "sets": [
+        {
+          "weight": 36,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 36,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 36,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 36,
+          "reps": 10,
+          "rpe": 5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "ライイングエクステンション",
+      "sets": [
+        {
+          "weight": 36,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 36,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "ひろーく可動域とる",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 36,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 36,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": null,
+          "reps": 8,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 8,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
