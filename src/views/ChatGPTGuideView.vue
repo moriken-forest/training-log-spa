@@ -12,6 +12,16 @@
     <p class="prompt-note">下記テキストをコピーしてChatGPTに入力します。</p>
     <button aria-label="プロンプトをコピー" class="copy-btn" @click="copyPrompt">コピー</button>
     <button aria-label="今日のプロンプトを作成してコピー" class="copy-btn" @click="copyTodayPrompt">今日のプロンプトを作る</button>
+    <p class="prompt-note">
+      プログラム外の即興トレーニングを行う場合はこちらのプロンプトを使ってください。
+    </p>
+    <button
+      aria-label="プログラム外トレーニング用プロンプトを作成してコピー"
+      class="copy-btn"
+      @click="copyAdHocPrompt"
+    >
+      プログラム外のプロンプトを作る
+    </button>
     <div class="custom-prompt">
       <p>別日のメニューを行う場合はこちら。</p>
       <label>
@@ -254,6 +264,15 @@ export default {
         }
         text += `\n本日のメニュー:\n${menu}`
       }
+      navigator.clipboard.writeText(text)
+      alert('プロンプトをコピーしました')
+    },
+    copyAdHocPrompt() {
+      const baseText = this.$refs.promptText.textContent
+      const today = new Date().toISOString().slice(0, 10)
+      const guidance =
+        '今日は事前にプログラムされていない自由練習です。これから会話で実施した種目・セット・RPEなどを順番に伝えるので、受け取った情報のみでJSONをまとめてください。足りない情報は出力前に必ず質問してください。'
+      const text = `${baseText}\n\n今日は${today}です。\n${guidance}`
       navigator.clipboard.writeText(text)
       alert('プロンプトをコピーしました')
     }
