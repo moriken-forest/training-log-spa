@@ -1,0 +1,145 @@
+{
+  "date": "2025-11-30",
+  "block": null,
+  "week": null,
+  "day": null,
+  "notes": "自由練習で上半身中心に実施",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 90,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 108,
+          "e1RM": 114
+        },
+        {
+          "weight": 90,
+          "reps": 8,
+          "rpe": 7.5,
+          "comment": "",
+          "1RM": 108,
+          "e1RM": 113
+        },
+        {
+          "weight": 90,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": 108,
+          "e1RM": 112
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルシールロー",
+      "sets": [
+        {
+          "weight": 70,
+          "reps": 8,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 70,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 70,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 70,
+          "reps": 10,
+          "rpe": 7.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "リバースカール",
+      "sets": [
+        {
+          "weight": 36,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "ezバー",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 36,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 36,
+          "reps": 10,
+          "rpe": 6.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 36,
+          "reps": 10,
+          "rpe": 6.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "けんすい",
+      "sets": [
+        {
+          "weight": null,
+          "reps": 8,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "握力が負けたから、パラレルバー",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
