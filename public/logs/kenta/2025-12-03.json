@@ -1,0 +1,161 @@
+{
+  "date": "2025-12-03",
+  "block": null,
+  "week": null,
+  "day": null,
+  "notes": "全体的に高強度でよくこなした",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 90,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 108,
+          "e1RM": 114
+        },
+        {
+          "weight": 92,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 110,
+          "e1RM": 117
+        },
+        {
+          "weight": 94,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 112,
+          "e1RM": 119
+        },
+        {
+          "weight": 95,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": 114,
+          "e1RM": 118
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "ミリタリープレス",
+      "sets": [
+        {
+          "weight": 50,
+          "reps": 7,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 7,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 6,
+          "rpe": 10,
+          "comment": "7の途中で上がりきらず",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 7,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルアームカール",
+      "sets": [
+        {
+          "weight": 46,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 46,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "伸ばしきらない方がよいね",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 46,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 46,
+          "reps": 8,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルシールロー",
+      "sets": [
+        {
+          "weight": 66,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "ezバー",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 66,
+          "reps": 10,
+          "rpe": 7.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 66,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 66,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
