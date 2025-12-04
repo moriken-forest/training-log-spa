@@ -1,0 +1,161 @@
+{
+  "date": "2025-12-04",
+  "block": null,
+  "week": null,
+  "day": null,
+  "notes": "自由練習で全体的に安定して実施",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足あげナローベンチ",
+      "sets": [
+        {
+          "weight": 70,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 84,
+          "e1RM": 91
+        },
+        {
+          "weight": 70,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 84,
+          "e1RM": 91
+        },
+        {
+          "weight": 70,
+          "reps": 8,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 84,
+          "e1RM": 92
+        },
+        {
+          "weight": 70,
+          "reps": 8,
+          "rpe": 5.5,
+          "comment": "",
+          "1RM": 84,
+          "e1RM": 91
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "リバースアームカール",
+      "sets": [
+        {
+          "weight": 56,
+          "reps": 8,
+          "rpe": 9,
+          "comment": "ezバー",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 56,
+          "reps": 8,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 56,
+          "reps": 9,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 56,
+          "reps": 8,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "ライイングエクステンション",
+      "sets": [
+        {
+          "weight": 36,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 36,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "リストラップない方がやりやすい",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 41,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 41,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "けんすい",
+      "sets": [
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 7.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
