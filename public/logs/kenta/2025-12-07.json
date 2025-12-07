@@ -1,0 +1,99 @@
+{
+  "date": "2025-12-07",
+  "block": null,
+  "week": null,
+  "day": null,
+  "notes": "腕中心。グリップ不安定で懸垂中断",
+  "sessions": [
+    {
+      "type": "アクセサリー",
+      "lift": "リバースアームカール",
+      "sets": [
+        {
+          "weight": 46,
+          "reps": 10,
+          "rpe": 7.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 46,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 46,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "ライイングエクステンション",
+      "sets": [
+        {
+          "weight": 46,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 46,
+          "reps": 8,
+          "rpe": 7.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 46,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "グリップ広めかつ、うにょん寄り",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": null,
+          "reps": 9,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "滑る",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 4,
+          "rpe": 8,
+          "comment": "とにかく滑るからおわり",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
