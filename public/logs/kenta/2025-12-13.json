@@ -1,0 +1,199 @@
+{
+  "date": "2025-12-13",
+  "block": "自由練習",
+  "week": null,
+  "day": null,
+  "notes": "軽めでテンポ重視、サクサク動作を確認",
+  "sessions": [
+    {
+      "type": "アクセサリー",
+      "lift": "ミリタリープレス",
+      "sets": [
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 6.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 6.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 5.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 5,
+          "comment": "サクサクパンパンあげるのがええわ",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足あげナローベンチ",
+      "sets": [
+        {
+          "weight": 70,
+          "reps": 8,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 84,
+          "e1RM": 92
+        },
+        {
+          "weight": 72,
+          "reps": 8,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 86,
+          "e1RM": 95
+        },
+        {
+          "weight": 74,
+          "reps": 8,
+          "rpe": 4,
+          "comment": "さくさくあげるとよい",
+          "1RM": 88,
+          "e1RM": 99
+        },
+        {
+          "weight": 76,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 91,
+          "e1RM": 96
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "アームカール",
+      "sets": [
+        {
+          "weight": 41,
+          "reps": 10,
+          "rpe": 7.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 41,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 41,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 41,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルシールロー",
+      "sets": [
+        {
+          "weight": 81,
+          "reps": 8,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 81,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 81,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 81,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "レッグレイズ",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "パワーグリップつけるとよき",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 8,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 7,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 3,
+          "rpe": 10,
+          "comment": "これよいね",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
