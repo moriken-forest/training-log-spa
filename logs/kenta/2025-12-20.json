@@ -1,0 +1,183 @@
+{
+  "date": "2025-12-20",
+  "block": "Free",
+  "week": 0,
+  "day": 0,
+  "notes": "自由練習。フォーム意識とパンプ重視の上半身",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足あげナローベンチ",
+      "sets": [
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 96,
+          "e1RM": 102
+        },
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 96,
+          "e1RM": 104
+        },
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 5.5,
+          "comment": "胸郭結構大事",
+          "1RM": 96,
+          "e1RM": 105
+        },
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 5.5,
+          "comment": "",
+          "1RM": 96,
+          "e1RM": 105
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "ミリタリープレス",
+      "sets": [
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "サクサクパンパン",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 6.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 43,
+          "reps": 10,
+          "rpe": 7.5,
+          "comment": "ここになると急にサクサクできない",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 43,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "しっかり載せる",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルアームカール",
+      "sets": [
+        {
+          "weight": 43,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 43,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 43,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 43,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "けんすい",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 8,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "レッグレイズ",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 8,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 8,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 7,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
