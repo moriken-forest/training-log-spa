@@ -1,0 +1,123 @@
+{
+  "date": "2025-12-23",
+  "block": "自由練習",
+  "week": 0,
+  "day": 0,
+  "notes": "自由練習としてベンチと体幹中心に実施",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 92,
+          "reps": 8,
+          "rpe": 7.5,
+          "comment": "",
+          "1RM": 110,
+          "e1RM": 116
+        },
+        {
+          "weight": 94,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": 112,
+          "e1RM": 117
+        },
+        {
+          "weight": 96,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": 115,
+          "e1RM": 120
+        },
+        {
+          "weight": 98,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": 117,
+          "e1RM": 122
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "レッグレイズ",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 8,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 6,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
