@@ -1,0 +1,69 @@
+{
+  "date": "2025-12-24",
+  "block": "Free",
+  "week": 0,
+  "day": 0,
+  "notes": "立ちくらみでOHP中断、腕種目は実施",
+  "sessions": [
+    {
+      "type": "アクセサリー",
+      "lift": "ミリタリープレス",
+      "sets": [
+        {
+          "weight": 55,
+          "reps": 8,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 55,
+          "reps": 4,
+          "rpe": 5,
+          "comment": "立ちくらみしたからやめとく",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルアームカール",
+      "sets": [
+        {
+          "weight": 36,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "アームブラスターいい感じ",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 36,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
