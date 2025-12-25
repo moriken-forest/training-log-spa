@@ -1,0 +1,153 @@
+{
+  "date": "2025-12-25",
+  "block": "Free",
+  "week": 0,
+  "day": 0,
+  "notes": "狭めグリップと補助具使用の感触確認",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足あげナローベンチ",
+      "sets": [
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 96,
+          "e1RM": 106
+        },
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 96,
+          "e1RM": 106
+        },
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 96,
+          "e1RM": 108
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルプルオーバー",
+      "sets": [
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 6.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 6.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルリバースカール",
+      "sets": [
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "狭めにやると軽い",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルシールロー",
+      "sets": [
+        {
+          "weight": 80,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 80,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 80,
+          "reps": 10,
+          "rpe": 9.5,
+          "comment": "パワーグリップあり",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 80,
+          "reps": 10,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
