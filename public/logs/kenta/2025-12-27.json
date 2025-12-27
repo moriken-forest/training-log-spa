@@ -1,0 +1,85 @@
+{
+  "date": "2025-12-27",
+  "block": "Free",
+  "week": null,
+  "day": null,
+  "notes": "ベンチで指幅検証し余裕持って実施",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 80,
+          "reps": 10,
+          "rpe": 5,
+          "comment": "スパスパ",
+          "1RM": 100,
+          "e1RM": 110
+        },
+        {
+          "weight": 80,
+          "reps": 10,
+          "rpe": 5,
+          "comment": "薬指くらいでやるとよき",
+          "1RM": 100,
+          "e1RM": 110
+        },
+        {
+          "weight": 80,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "薬指と中指の間　こっちのが良い",
+          "1RM": 100,
+          "e1RM": 108
+        },
+        {
+          "weight": 80,
+          "reps": 10,
+          "rpe": 6.5,
+          "comment": "",
+          "1RM": 100,
+          "e1RM": 107
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "ミリタリープレス",
+      "sets": [
+        {
+          "weight": 43,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 43,
+          "reps": 10,
+          "rpe": 7.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 43,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 43,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
