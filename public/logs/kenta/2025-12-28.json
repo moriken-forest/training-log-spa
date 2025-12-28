@@ -1,0 +1,159 @@
+{
+  "date": "2025-12-28",
+  "block": "Free",
+  "week": null,
+  "day": null,
+  "notes": "ベンチの指位置と軌道を確認。全体に安定",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチプレス",
+      "sets": [
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "中指でちょうどよい。位置を上にすると良かった",
+          "1RM": 96,
+          "e1RM": 100
+        },
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 96,
+          "e1RM": 102
+        },
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 96,
+          "e1RM": 102
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルプルオーバー",
+      "sets": [
+        {
+          "weight": 46,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "おもし",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 46,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 46,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルリバースカール",
+      "sets": [
+        {
+          "weight": 46,
+          "reps": 8,
+          "rpe": 5,
+          "comment": "アームブラスター",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 46,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "リストラップいらないね",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 46,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルシールロー",
+      "sets": [
+        {
+          "weight": 90,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "パワーグリップあり",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 90,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 90,
+          "reps": 8,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "レッグレイズ",
+      "sets": [
+        {
+          "weight": null,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "なんかできるようになってきた",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
