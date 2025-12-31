@@ -1,0 +1,77 @@
+{
+  "date": "2025-12-31",
+  "block": "Free",
+  "week": null,
+  "day": null,
+  "notes": "ベンチは余裕を持って安定、補助種目も良好",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 94,
+          "reps": 8,
+          "rpe": 7.5,
+          "comment": "",
+          "1RM": 112,
+          "e1RM": 118
+        },
+        {
+          "weight": 96,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 115,
+          "e1RM": 122
+        },
+        {
+          "weight": 98,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 117,
+          "e1RM": 124
+        },
+        {
+          "weight": 100,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": 120,
+          "e1RM": 125
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "ミリタリープレス",
+      "sets": [
+        {
+          "weight": 55,
+          "reps": 8,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 55,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "ケツノアナヲシメル",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 55,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
