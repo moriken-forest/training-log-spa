@@ -1,0 +1,153 @@
+{
+  "date": "2026-01-01",
+  "block": "自由練習",
+  "week": 0,
+  "day": 0,
+  "notes": "スモウDLの立ち位置検証と補助種目",
+  "sessions": [
+    {
+      "type": "デッドリフト（メイン）",
+      "lift": "デッドリフト",
+      "sets": [
+        {
+          "weight": 100,
+          "reps": 6,
+          "rpe": 7,
+          "comment": "スモウデッドの慣らし。81cmらいんの内側",
+          "1RM": 118,
+          "e1RM": 127
+        },
+        {
+          "weight": 100,
+          "reps": 6,
+          "rpe": 7,
+          "comment": "三頭筋がすごくきつい。81cmライン上→あんま違いはわからん",
+          "1RM": 118,
+          "e1RM": 127
+        },
+        {
+          "weight": 120,
+          "reps": 6,
+          "rpe": 7,
+          "comment": "楽には上がるけど軽いからなだけな気もする。",
+          "1RM": 141,
+          "e1RM": 152
+        },
+        {
+          "weight": 120,
+          "reps": 6,
+          "rpe": 7,
+          "comment": "4repまで81cmラインから1足あけ。後者の方が挙上距離が小さい実感",
+          "1RM": 141,
+          "e1RM": 152
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルアームカール",
+      "sets": [
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "ストレートバーベル。アームブラスター。手首は痛くない",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "手首を伸ばさないことが大切",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 40,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "レッグレイズ",
+      "sets": [
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "よき",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
