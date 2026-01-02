@@ -1,0 +1,175 @@
+{
+  "date": "2026-01-02",
+  "block": "Free",
+  "week": 0,
+  "day": 0,
+  "notes": "右膝裏を確認しつつのリハビリ中心自由練習",
+  "sessions": [
+    {
+      "type": "スクワット（サブ）",
+      "lift": "フロントスクワット",
+      "sets": [
+        {
+          "weight": 60,
+          "reps": 8,
+          "rpe": 3,
+          "comment": "リハビリ。右膝裏はあんま気にならん。",
+          "1RM": 74,
+          "e1RM": 87
+        },
+        {
+          "weight": 60,
+          "reps": 8,
+          "rpe": 3,
+          "comment": "持ち手が定まらん。",
+          "1RM": 74,
+          "e1RM": 87
+        },
+        {
+          "weight": 60,
+          "reps": 8,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 74,
+          "e1RM": 87
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足あげナローベンチプレス",
+      "sets": [
+        {
+          "weight": 85,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "まあまあ重い",
+          "1RM": 102,
+          "e1RM": 110
+        },
+        {
+          "weight": 85,
+          "reps": 8,
+          "rpe": 7.5,
+          "comment": "",
+          "1RM": 102,
+          "e1RM": 107
+        },
+        {
+          "weight": 85,
+          "reps": 8,
+          "rpe": 6.5,
+          "comment": "",
+          "1RM": 102,
+          "e1RM": 109
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルプルオーバー",
+      "sets": [
+        {
+          "weight": 42,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 42,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "サクサクパンパン",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 42,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "ケツを落とすこと大切",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 42,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルシールロー",
+      "sets": [
+        {
+          "weight": 85,
+          "reps": 9,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 85,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "パワーグリップつけた",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 85,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 85,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "ワイパー腹筋",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 16,
+          "rpe": 7.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 16,
+          "rpe": 7.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 16,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
