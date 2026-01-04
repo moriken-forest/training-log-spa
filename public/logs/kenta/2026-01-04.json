@@ -1,0 +1,143 @@
+{
+  "date": "2026-01-04",
+  "block": "Free",
+  "week": 0,
+  "day": 0,
+  "notes": "自由練習で補助種目とサブ中心",
+  "sessions": [
+    {
+      "type": "アクセサリー",
+      "lift": "ルーマニアンデッドリフト",
+      "sets": [
+        {
+          "weight": 60,
+          "reps": 8,
+          "rpe": 4,
+          "comment": "ヒップヒンジ意識のリハビリ",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "若干腰が痛いなあ",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 4,
+          "comment": "ローレットにギリかかるくらいにスネがあるとええ感じ。しっかり股関節に載せる",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルシールロー",
+      "sets": [
+        {
+          "weight": 80,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "ストレートバーベル",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 80,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 80,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "レッグレイズ",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "ワイパー腹筋",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 13,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチプレス",
+      "sets": [
+        {
+          "weight": 82,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 98,
+          "e1RM": 104
+        },
+        {
+          "weight": 82,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": 98,
+          "e1RM": 102
+        },
+        {
+          "weight": 82,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 98,
+          "e1RM": 106
+        }
+      ]
+    }
+  ]
+}
