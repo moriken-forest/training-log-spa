@@ -1,0 +1,145 @@
+{
+  "date": "2026-01-07",
+  "block": "Free",
+  "week": 0,
+  "day": 0,
+  "notes": "スモウDLは全体的に軽く、腕と引きの感覚を確認",
+  "sessions": [
+    {
+      "type": "デッドリフト（メイン）",
+      "lift": "デッドリフト（スモウ）",
+      "sets": [
+        {
+          "weight": 100,
+          "reps": 6,
+          "rpe": 6,
+          "comment": "スモーデッド。なぜこんなにさんとうがきついのか。81cmラインにスネ",
+          "1RM": 118,
+          "e1RM": 130
+        },
+        {
+          "weight": 110,
+          "reps": 6,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 129,
+          "e1RM": 143
+        },
+        {
+          "weight": 120,
+          "reps": 6,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 141,
+          "e1RM": 156
+        },
+        {
+          "weight": 130,
+          "reps": 6,
+          "rpe": 6,
+          "comment": "軽いね",
+          "1RM": 153,
+          "e1RM": 169
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルアームカール",
+      "sets": [
+        {
+          "weight": 43,
+          "reps": 10,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 43,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 43,
+          "reps": 10,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルシールロー",
+      "sets": [
+        {
+          "weight": 88,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 88,
+          "reps": 10,
+          "rpe": 9.5,
+          "comment": "スコシフォームが悪い。腰が引けてる。",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 88,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "引切れてない気もする",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 88,
+          "reps": 10,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "レッグレイズ",
+      "sets": [
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
