@@ -1,0 +1,145 @@
+{
+  "date": "2026-01-08",
+  "block": "自由練習",
+  "week": null,
+  "day": null,
+  "notes": "自由練習。高RPEセットと補助種目調整",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 96,
+          "reps": 8,
+          "rpe": 6.5,
+          "comment": "",
+          "1RM": 115,
+          "e1RM": 123
+        },
+        {
+          "weight": 98,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": 117,
+          "e1RM": 122
+        },
+        {
+          "weight": 100,
+          "reps": 8,
+          "rpe": 8,
+          "comment": "",
+          "1RM": 120,
+          "e1RM": 125
+        },
+        {
+          "weight": 102,
+          "reps": 7,
+          "rpe": 10,
+          "comment": "",
+          "1RM": 119,
+          "e1RM": 119
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "ミリタリープレス",
+      "sets": [
+        {
+          "weight": 57,
+          "reps": 4,
+          "rpe": 9.5,
+          "comment": "重いわ",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "これなら楽。81cm小指内側",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 50,
+          "reps": 8,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 10,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "ワイパー腹筋",
+      "sets": [
+        {
+          "weight": null,
+          "reps": 20,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 20,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 20,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
