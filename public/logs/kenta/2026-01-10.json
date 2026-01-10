@@ -1,0 +1,153 @@
+{
+  "date": "2026-01-10",
+  "block": "自由練習",
+  "week": 0,
+  "day": 0,
+  "notes": "自由練習でベンチと背中を実施",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 87,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "ボトム寄りのレンジでスパスパ",
+          "1RM": 108,
+          "e1RM": 113
+        },
+        {
+          "weight": 87,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 108,
+          "e1RM": 117
+        },
+        {
+          "weight": 87,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 108,
+          "e1RM": 115
+        },
+        {
+          "weight": 87,
+          "reps": 10,
+          "rpe": 6.5,
+          "comment": "",
+          "1RM": 108,
+          "e1RM": 116
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルプルオーバー",
+      "sets": [
+        {
+          "weight": 43,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 43,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "しっかり肩を動かすことが大事",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 43,
+          "reps": 10,
+          "rpe": 6,
+          "comment": "大きく動かすと気持ちが良い",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 43,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "肘は曲げすぎないようにしよう",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルシールロー",
+      "sets": [
+        {
+          "weight": 87,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "パワーグリップあり。",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 87,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 87,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 87,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "レッグレイズ",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 8,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
