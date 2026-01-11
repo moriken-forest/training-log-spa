@@ -1,0 +1,107 @@
+{
+  "date": "2026-01-11",
+  "block": "Free",
+  "week": 0,
+  "day": 0,
+  "notes": "ポーズ精度と前鋸筋意識を確認した自由練習",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチプレス",
+      "sets": [
+        {
+          "weight": 84,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "背中にしっかり載せるようにする",
+          "1RM": 100,
+          "e1RM": 109
+        },
+        {
+          "weight": 84,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 100,
+          "e1RM": 109
+        },
+        {
+          "weight": 84,
+          "reps": 8,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 100,
+          "e1RM": 113
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（サブ）",
+      "lift": "ルーマニアンデッドリフト",
+      "sets": [
+        {
+          "weight": 80,
+          "reps": 8,
+          "rpe": 5,
+          "comment": "前と同じようにローレットにかかるくらいにスネ。パーグリップありで、床引きスタート",
+          "1RM": 99,
+          "e1RM": 111
+        },
+        {
+          "weight": 90,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "前鋸筋意識。肩甲骨を下げ広げる",
+          "1RM": 111,
+          "e1RM": 122
+        },
+        {
+          "weight": 100,
+          "reps": 8,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 124,
+          "e1RM": 136
+        },
+        {
+          "weight": 110,
+          "reps": 8,
+          "rpe": 7.5,
+          "comment": "前鋸筋かなり大切。安定する。",
+          "1RM": 136,
+          "e1RM": 144
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "ワイパー腹筋",
+      "sets": [
+        {
+          "weight": null,
+          "reps": 20,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 20,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": null,
+          "reps": 20,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
