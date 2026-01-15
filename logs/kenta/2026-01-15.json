@@ -1,0 +1,153 @@
+{
+  "date": "2026-01-15",
+  "block": "自由練習",
+  "week": 0,
+  "day": 0,
+  "notes": "自由練習",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 96,
+          "reps": 6,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 110,
+          "e1RM": 124
+        },
+        {
+          "weight": 98,
+          "reps": 6,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 112,
+          "e1RM": 122
+        },
+        {
+          "weight": 100,
+          "reps": 6,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 115,
+          "e1RM": 127
+        },
+        {
+          "weight": 102,
+          "reps": 6,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 117,
+          "e1RM": 124
+        }
+      ]
+    },
+    {
+      "type": "デッドリフト（メイン）",
+      "lift": "デッドリフト",
+      "sets": [
+        {
+          "weight": 110,
+          "reps": 6,
+          "rpe": 6,
+          "comment": "スモーデッド",
+          "1RM": 129,
+          "e1RM": 143
+        },
+        {
+          "weight": 120,
+          "reps": 6,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 141,
+          "e1RM": 156
+        },
+        {
+          "weight": 130,
+          "reps": 6,
+          "rpe": 5,
+          "comment": "楽やった",
+          "1RM": 153,
+          "e1RM": 172
+        },
+        {
+          "weight": 140,
+          "reps": 6,
+          "rpe": 6,
+          "comment": "楽やね",
+          "1RM": 165,
+          "e1RM": 182
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "懸垂",
+      "sets": [
+        {
+          "weight": 10,
+          "reps": 4,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 10,
+          "reps": 4,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 10,
+          "reps": 4,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 10,
+          "reps": 4,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "レッグレイズ",
+      "sets": [
+        {
+          "weight": 10,
+          "reps": 3,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 10,
+          "reps": 3,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 10,
+          "reps": 9,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
