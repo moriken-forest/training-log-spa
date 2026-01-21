@@ -1,0 +1,99 @@
+{
+  "date": "2026-01-21",
+  "block": "5-3-1",
+  "week": 1,
+  "day": 1,
+  "notes": "スクワットは高重量できつめ、ベンチは余裕",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチ",
+      "sets": [
+        {
+          "weight": 90,
+          "reps": 5,
+          "rpe": 7,
+          "comment": "背中でとにかく受ける。足も抜かない。",
+          "1RM": 101,
+          "e1RM": 108
+        },
+        {
+          "weight": 90,
+          "reps": 5,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 101,
+          "e1RM": 110
+        },
+        {
+          "weight": 90,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 101,
+          "e1RM": 112
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 120,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "余裕あり",
+          "1RM": 138,
+          "e1RM": 156
+        },
+        {
+          "weight": 140,
+          "reps": 5,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 161,
+          "e1RM": 173
+        },
+        {
+          "weight": 160,
+          "reps": 5,
+          "rpe": 9,
+          "comment": "初っ端まあまあきつかったぞ",
+          "1RM": 184,
+          "e1RM": 188
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "レッグレイズ",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
