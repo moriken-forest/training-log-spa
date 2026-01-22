@@ -1,0 +1,39 @@
+{
+  "date": "2026-01-22",
+  "block": "5-3-1",
+  "week": 1,
+  "day": 2,
+  "notes": "全セット低RPEで余裕をもって実施",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 80,
+          "reps": 5,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 90,
+          "e1RM": 104
+        },
+        {
+          "weight": 90,
+          "reps": 5,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 101,
+          "e1RM": 117
+        },
+        {
+          "weight": 100,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "余裕",
+          "1RM": 112,
+          "e1RM": 125
+        }
+      ]
+    }
+  ]
+}
