@@ -3,7 +3,7 @@
   "block": "5-3-1",
   "week": 1,
   "day": 4,
-  "notes": "全体に余裕あり。後半の前ズレに注意",
+  "notes": "デッドは余裕。後半の前ズレに注意",
   "sessions": [
     {
       "type": "デッドリフト（メイン）",
@@ -32,6 +32,36 @@
           "comment": "重いけどまだちゃんと浮きはする。後半前にズレてくるから注意",
           "1RM": 184,
           "e1RM": 198
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルシールロー",
+      "sets": [
+        {
+          "weight": 89,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 89,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 89,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
         }
       ]
     }
