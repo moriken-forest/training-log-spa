@@ -1,0 +1,69 @@
+{
+  "date": "2026-01-25",
+  "block": "5-3-1",
+  "week": 1,
+  "day": 5,
+  "notes": "ポーズSQは余裕、足上げナローは3セットで終了",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足上げナローベンチ",
+      "sets": [
+        {
+          "weight": 90,
+          "reps": 6,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 103,
+          "e1RM": 112
+        },
+        {
+          "weight": 90,
+          "reps": 6,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 103,
+          "e1RM": 112
+        },
+        {
+          "weight": 90,
+          "reps": 6,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 103,
+          "e1RM": 114
+        }
+      ]
+    },
+    {
+      "type": "スクワット（サブ）",
+      "lift": "ポーズスクワット",
+      "sets": [
+        {
+          "weight": 100,
+          "reps": 5,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 115,
+          "e1RM": 127
+        },
+        {
+          "weight": 100,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 115,
+          "e1RM": 130
+        },
+        {
+          "weight": 100,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 115,
+          "e1RM": 130
+        }
+      ]
+    }
+  ]
+}
