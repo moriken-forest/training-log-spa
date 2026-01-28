@@ -1,0 +1,99 @@
+{
+  "date": "2026-01-28",
+  "block": "5-3-1",
+  "week": 2,
+  "day": 1,
+  "notes": "スクワットは重いが深さは取れている感覚",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチ",
+      "sets": [
+        {
+          "weight": 92,
+          "reps": 5,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 103,
+          "e1RM": 117
+        },
+        {
+          "weight": 92,
+          "reps": 5,
+          "rpe": 4,
+          "comment": "",
+          "1RM": 103,
+          "e1RM": 117
+        },
+        {
+          "weight": 92,
+          "reps": 5,
+          "rpe": 3,
+          "comment": "",
+          "1RM": 103,
+          "e1RM": 119
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 130,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 141,
+          "e1RM": 157
+        },
+        {
+          "weight": 150,
+          "reps": 3,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 163,
+          "e1RM": 177
+        },
+        {
+          "weight": 170,
+          "reps": 3,
+          "rpe": 8,
+          "comment": "重い。多分深さはいけてる気がする",
+          "1RM": 185,
+          "e1RM": 195
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "レッグレイズ",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
