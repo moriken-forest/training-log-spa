@@ -1,0 +1,123 @@
+{
+  "date": "2026-02-01",
+  "block": "5-3-1",
+  "week": 2,
+  "day": 5,
+  "notes": "ベンチは肘違和感に配慮し丁寧に実施",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足上げナローベンチ",
+      "sets": [
+        {
+          "weight": 92,
+          "reps": 6,
+          "rpe": 8,
+          "comment": "結構重い。左肘に少し違和感あるから、様子見ながら",
+          "1RM": 105,
+          "e1RM": 110
+        },
+        {
+          "weight": 92,
+          "reps": 6,
+          "rpe": 7,
+          "comment": "しっかり背中を作ると痛くない。勢いに任せると痛いから気をつける",
+          "1RM": 105,
+          "e1RM": 112
+        },
+        {
+          "weight": 92,
+          "reps": 6,
+          "rpe": 7,
+          "comment": "丁寧丁寧丁寧に",
+          "1RM": 105,
+          "e1RM": 112
+        },
+        {
+          "weight": 92,
+          "reps": 6,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 105,
+          "e1RM": 112
+        },
+        {
+          "weight": 92,
+          "reps": 6,
+          "rpe": 8,
+          "comment": "",
+          "1RM": 105,
+          "e1RM": 110
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルシールロー",
+      "sets": [
+        {
+          "weight": 90,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 90,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 90,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 90,
+          "reps": 10,
+          "rpe": 9.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "レッグレイズ",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": null,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": null,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": null,
+          "rpe": 9,
+          "comment": "眼を瞑ると腹筋に集中意識できる",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
