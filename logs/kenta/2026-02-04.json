@@ -1,0 +1,99 @@
+{
+  "date": "2026-02-04",
+  "block": "5-3-1",
+  "week": 3,
+  "day": 1,
+  "notes": "スクワット安定、ベンチ効かせ意識",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチ",
+      "sets": [
+        {
+          "weight": 94,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "腕を全然使ってないわ",
+          "1RM": 105,
+          "e1RM": 117
+        },
+        {
+          "weight": 94,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "胸",
+          "1RM": 105,
+          "e1RM": 117
+        },
+        {
+          "weight": 94,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 105,
+          "e1RM": 117
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 140,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "動画撮った。深さはギリくらいかな。鬼スリーブ",
+          "1RM": 161,
+          "e1RM": 182
+        },
+        {
+          "weight": 160,
+          "reps": 3,
+          "rpe": 7,
+          "comment": "",
+          "1RM": 174,
+          "e1RM": 188
+        },
+        {
+          "weight": 180,
+          "reps": 6,
+          "rpe": 9,
+          "comment": "割と安定してた。持った時からそんなに重くなかった。",
+          "1RM": 212,
+          "e1RM": 217
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "レッグレイズ",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 9,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
