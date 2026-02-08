@@ -1,0 +1,93 @@
+{
+  "date": "2026-02-08",
+  "block": "5-3-1",
+  "week": 3,
+  "day": 5,
+  "notes": "足上げナローはフォーム意識で余裕あり",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "足上げナローベンチ",
+      "sets": [
+        {
+          "weight": 94,
+          "reps": 6,
+          "rpe": 7.5,
+          "comment": "外側に手を突っ張るのが良いな",
+          "1RM": 108,
+          "e1RM": 113
+        },
+        {
+          "weight": 94,
+          "reps": 6,
+          "rpe": 6.5,
+          "comment": "",
+          "1RM": 108,
+          "e1RM": 116
+        },
+        {
+          "weight": 94,
+          "reps": 6,
+          "rpe": 7.5,
+          "comment": "",
+          "1RM": 108,
+          "e1RM": 113
+        },
+        {
+          "weight": 94,
+          "reps": 6,
+          "rpe": 6.5,
+          "comment": "",
+          "1RM": 108,
+          "e1RM": 116
+        },
+        {
+          "weight": 94,
+          "reps": 6,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 108,
+          "e1RM": 117
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "バーベルシールロー",
+      "sets": [
+        {
+          "weight": 92,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "素手",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 92,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "ここからパワーグリップ",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 92,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 92,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
