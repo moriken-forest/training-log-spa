@@ -10,6 +10,7 @@ body:
       description: "Choose one or more dates"
       multiple: true
       options:
+        - 2026-02-11
         - 2026-02-08
         - 2026-02-07
         - 2026-02-05

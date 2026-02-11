@@ -1,0 +1,99 @@
+{
+  "date": "2026-02-11",
+  "block": "5-3-1",
+  "week": 4,
+  "day": 1,
+  "notes": "スクワット重くAMRAP止め",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチ",
+      "sets": [
+        {
+          "weight": 96,
+          "reps": 5,
+          "rpe": 7,
+          "comment": "なんか不安定",
+          "1RM": 108,
+          "e1RM": 115
+        },
+        {
+          "weight": 96,
+          "reps": 5,
+          "rpe": 8,
+          "comment": "さっきよりは安定してる",
+          "1RM": 108,
+          "e1RM": 112
+        },
+        {
+          "weight": 96,
+          "reps": 5,
+          "rpe": 6,
+          "comment": "足で支えてる感覚があった。良き",
+          "1RM": 108,
+          "e1RM": 117
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 130,
+          "reps": 5,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 149,
+          "e1RM": 165
+        },
+        {
+          "weight": 150,
+          "reps": 5,
+          "rpe": 7,
+          "comment": "なんか重い。調子悪い",
+          "1RM": 172,
+          "e1RM": 186
+        },
+        {
+          "weight": 170,
+          "reps": 4,
+          "rpe": 9.5,
+          "comment": "粘らずやめといた",
+          "1RM": 190,
+          "e1RM": 192
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "レッグレイズ",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 8,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 9,
+          "rpe": 10,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
