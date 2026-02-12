@@ -1,0 +1,39 @@
+{
+  "date": "2026-02-12",
+  "block": "5-3-1",
+  "week": 4,
+  "day": 2,
+  "notes": "調子良く+5kgで実施",
+  "sessions": [
+    {
+      "type": "ベンチプレス（メイン）",
+      "lift": "ベンチプレス",
+      "sets": [
+        {
+          "weight": 90,
+          "reps": 5,
+          "rpe": 5,
+          "comment": "",
+          "1RM": 101,
+          "e1RM": 112
+        },
+        {
+          "weight": 100,
+          "reps": 5,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 112,
+          "e1RM": 122
+        },
+        {
+          "weight": 110,
+          "reps": 5,
+          "rpe": 6.5,
+          "comment": "余裕さ",
+          "1RM": 123,
+          "e1RM": 133
+        }
+      ]
+    }
+  ]
+}
