@@ -1,0 +1,99 @@
+{
+  "date": "2026-02-18",
+  "block": "5-3-1",
+  "week": 5,
+  "day": 1,
+  "notes": "スクワットはプロニー使用感確認",
+  "sessions": [
+    {
+      "type": "ベンチプレス（サブ）",
+      "lift": "ポーズベンチ",
+      "sets": [
+        {
+          "weight": 98,
+          "reps": 5,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 110,
+          "e1RM": 120
+        },
+        {
+          "weight": 98,
+          "reps": 5,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 110,
+          "e1RM": 120
+        },
+        {
+          "weight": 98,
+          "reps": 5,
+          "rpe": 8,
+          "comment": "",
+          "1RM": 110,
+          "e1RM": 115
+        }
+      ]
+    },
+    {
+      "type": "スクワット（メイン）",
+      "lift": "スクワット",
+      "sets": [
+        {
+          "weight": 140,
+          "reps": 3,
+          "rpe": 5,
+          "comment": "しっかりプロニースリーブを上まで",
+          "1RM": 152,
+          "e1RM": 173
+        },
+        {
+          "weight": 160,
+          "reps": 3,
+          "rpe": 6,
+          "comment": "",
+          "1RM": 174,
+          "e1RM": 193
+        },
+        {
+          "weight": 180,
+          "reps": 3,
+          "rpe": 8,
+          "comment": "プロニーやと違うね",
+          "1RM": 196,
+          "e1RM": 207
+        }
+      ]
+    },
+    {
+      "type": "アクセサリー",
+      "lift": "レッグレイズ",
+      "sets": [
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 7,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        },
+        {
+          "weight": 0,
+          "reps": 10,
+          "rpe": 8.5,
+          "comment": "",
+          "1RM": null,
+          "e1RM": null
+        }
+      ]
+    }
+  ]
+}
